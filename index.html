@@ -49,45 +49,45 @@
     <div class="classJog2" style="text-align: right;;width:600px;justify-content: right;">
     
         <select onchange="pesquisaTabela(this.value)" class="selectbox" name="serieA" id="clasGeral_A">
-            <option value="rodadaAtual">Última</option>
-            <option value="clasgeral24r1">1ª rodada</option>
-            <option value="clasgeral24r2">2ª rodada</option>
-            <option value="clasgeral24r3">3ª rodada</option>
-            <option value="clasgeral24r4">4ª rodada</option>
-            <option value="clasgeral24r5">5ª rodada</option>
-            <option value="clasgeral24r6">6ª rodada</option>
-            <option value="clasgeral24r7">7ª rodada</option>
-            <option value="clasgeral24r8">8ª rodada</option>
-            <option value="clasgeral24r9">9ª rodada</option>
-            <option value="clasgeral24r10">10ª rodada</option>
-            <option value="clasgeral24r11">11ª rodada</option>
-            <option value="clasgeral24r12">12ª rodada</option>
-            <option value="clasgeral24r13">13ª rodada</option>
-            <option value="clasgeral24r14">14ª rodada</option>
-            <option value="clasgeral24r15" >15ª rodada</option>
-            <option value="clasgeral24r16">16ª rodada</option>
-            <option value="clasgeral24r17">17ª rodada</option>
-            <option value="clasgeral24r18">18ª rodada</option>
-            <option value="clasgeral24r19">19ª rodada</option>
-            <option value="clasgeral24r20">20ª rodada</option>
-            <option value="clasgeral24r21">21ª rodada</option>
-            <option value="clasgeral24r22">22ª rodada</option>
-            <option value="clasgeral24r23">23ª rodada</option>
-            <option value="clasgeral24r24">24ª rodada</option>
-            <option value="clasgeral24r25">25ª rodada</option>
-            <option value="clasgeral24r26">26ª rodada</option>
-            <option value="clasgeral24r27">27ª rodada</option>
-            <option value="clasgeral24r28">28ª rodada</option>
-            <option value="clasgeral24r29">29ª rodada</option>
-            <option value="clasgeral24r30">30ª rodada</option>
-            <option value="clasgeral24r31">31ª rodada</option>
-            <option value="clasgeral24r32">32ª rodada</option>
-            <option value="clasgeral24r33">33ª rodada</option>
-            <option value="clasgeral24r34">34ª rodada</option>
-            <option value="clasgeral24r35">35ª rodada</option>
-            <option value="clasgeral24r36">36ª rodada</option>
-            <option value="clasgeral24r37">37ª rodada</option>
-            <option value="clasgeral24r38">38ª rodada</option>
+            <option value="ultima">Última</option>
+            <option value="classf_A24_R1">1ª rodada</option>
+            <option value="classf_A24_R2">2ª rodada</option>
+            <option value="classf_A24_R3">3ª rodada</option>
+            <option value="classf_A24_R4">4ª rodada</option>
+            <option value="classf_A24_R5">5ª rodada</option>
+            <option value="classf_A24_R6">6ª rodada</option>
+            <option value="classf_A24_R7">7ª rodada</option>
+            <option value="classf_A24_R8">8ª rodada</option>
+            <option value="classf_A24_R9">9ª rodada</option>
+            <option value="classf_A24_R10">10ª rodada</option>
+            <option value="classf_A24_R11">11ª rodada</option>
+            <option value="classf_A24_R12">12ª rodada</option>
+            <option value="classf_A24_R13">13ª rodada</option>
+            <option value="classf_A24_R14">14ª rodada</option>
+            <option value="classf_A24_R15" >15ª rodada</option>
+            <option value="classf_A24_R16">16ª rodada</option>
+            <option value="classf_A24_R17">17ª rodada</option>
+            <option value="classf_A24_R18">18ª rodada</option>
+            <option value="classf_A24_R19">19ª rodada</option>
+            <option value="classf_A24_R20">20ª rodada</option>
+            <option value="classf_A24_R21">21ª rodada</option>
+            <option value="classf_A24_R22">22ª rodada</option>
+            <option value="classf_A24_R23">23ª rodada</option>
+            <option value="classf_A24_R24">24ª rodada</option>
+            <option value="classf_A24_R25">25ª rodada</option>
+            <option value="classf_A24_R26">26ª rodada</option>
+            <option value="classf_A24_R27">27ª rodada</option>
+            <option value="classf_A24_R28">28ª rodada</option>
+            <option value="classf_A24_R29">29ª rodada</option>
+            <option value="classf_A24_R30">30ª rodada</option>
+            <option value="classf_A24_R31">31ª rodada</option>
+            <option value="classf_A24_R32">32ª rodada</option>
+            <option value="classf_A24_R33">33ª rodada</option>
+            <option value="classf_A24_R34">34ª rodada</option>
+            <option value="classf_A24_R35">35ª rodada</option>
+            <option value="classf_A24_R36">36ª rodada</option>
+            <option value="classf_A24_R37">37ª rodada</option>
+            <option value="classf_A24_R0">38ª rodada</option>
     
         </select>
     </div>
@@ -106,6 +106,7 @@
         <th></th>
         <th>Clube Tec.</td>
         <th>Nível</th>
+        <th>var</th>
         <th>Obj</th>
         <th>Pt</th>
         <th>Vit</th>
@@ -115,7 +116,8 @@
         <th>G-</th>
         <th>Sg</th>
         <th>Ap%</th>
-        <th scope="col" scope="colgroup" colspan="5">Ultimas 5 do Tec.</tr>
+        <th scope="col" scope="colgroup" colspan="5">Ultimas 5 do Tec.</th>
+        <th>Mte%</th>
 
     
     </tr>
@@ -126,6 +128,7 @@
             <td id="logA1" class=""><img class="logoclubes" id="logA1" src="https://ssl.gstatic.com/onebox/media/sports/logos/Ku-73v_TW9kpex-IEGb0ZA_96x96.png" alt=""></td>
             <td><div style="display: inline-block;"><div class="nomeclube" id="clubA1" style="font-family:'Arial';">Princesa de Solimões</div><div class="nometecA1" id="tecA1">Anderson United</div></div></td>
             <td id="nlA1" class="nivel">citadino</td>
+            <td id="varA1" class="var"></td>
             <td id="objA1" class="obj">G16</td>
             <td id="ptA1" class="pt">89</td>
             <td id="vitA1" class="vit">12</td>
@@ -135,11 +138,12 @@
             <td id="gcA1" class="gc">109</td>
             <td id="sgA1" class="sg">24</td>
             <td id="apA1" class="ap">100%</td>
-            <td id="ultA1" class="ret">V</td>
-            <td id="penA1" class="ret">E</td>
-            <td id="antA1" class="ret">D</td>
-            <td id="qaA1" class="ret">V</td>
-            <td id="qiA1" class="ret">V</td>
+            <td id="ultA1" class="ret"></td>
+            <td id="penA1" class="ret"></td>
+            <td id="antA1" class="ret"></td>
+            <td id="qaA1" class="ret"></td>
+            <td id="qiA1" class="ret"></td>
+            <td id="MteA1" class="ret"></td>
         </tr>
 <!--LINHA 2-->
 <tr id="lintabA2">
@@ -147,6 +151,7 @@
     <td id="logA2" class=""><img class="logoclubes" id="logA2" src="https://ssl.gstatic.com/onebox/media/sports/logos/Ku-73v_TW9kpex-IEGb0ZA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA2" style="font-family:'Arial';">Grêmio</div><div class="nometecA2" id="tecA2"style="font-family:'Arial';color:black;">Anderson United</div></div></td>
     <td id="nlA2" class="nivel">citadino</td>
+    <td id="varA2" class="var"></td>
     <td id="objA2" class="obj">G16</td>
     <td id="ptA2" class="pt">89</td>
     <td id="vitA2" class="vit">12</td>
@@ -156,18 +161,20 @@
     <td id="gcA2" class="gc">109</td>
     <td id="sgA2" class="sg">24</td>
     <td id="apA2" class="ap">100%</td>
-    <td id="ultA2" class="ret">V</td>
-    <td id="penA2" class="ret">E</td>
-    <td id="antA2" class="ret">D</td>
-    <td id="qaA2" class="ret">V</td>
-    <td id="qiA2" class="ret">V</td>
+    <td id="ultA2" class="ret"></td>
+    <td id="penA2" class="ret"></td>
+    <td id="antA2" class="ret"></td>
+    <td id="qaA2" class="ret"></td>
+    <td id="qiA2" class="ret"></td>
+    <td id="MteA2" class="ret"></td>
 </tr>
 <!--LINHA 3-->
 <tr id="lintabA3">
     <td id="posA3" class="pos">3</td>
-    <td id="logA3" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
+    <td id="logA3" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" width="90px"></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA3" style="font-family:'Arial';">Internacional</div><div class="nometecA3" id="tecA3"style="font-family:'Arial';color:black;">Anderson United</div></div></td>
     <td id="nlA3" class="nivel">citadino</td>
+    <td id="varA3" class="var"></td>
     <td id="objA3" class="obj">G16</td>
     <td id="ptA3" class="pt">89</td>
     <td id="vitA3" class="vit">12</td>
@@ -177,11 +184,12 @@
     <td id="gcA3" class="gc">109</td>
     <td id="sgA3" class="sg">24</td>
     <td id="apA3" class="ap">100%</td>
-    <td id="ultA3" class="ret">V</td>
-    <td id="penA3" class="ret">E</td>
-    <td id="antA3" class="ret">D</td>
-    <td id="qaA3" class="ret">V</td>
-    <td id="qiA3" class="ret">V</td>
+    <td id="ultA3" class="ret"></td>
+    <td id="penA3" class="ret"></td>
+    <td id="antA3" class="ret"></td>
+    <td id="qaA3" class="ret"></td>
+    <td id="qiA3" class="ret"></td>
+    <td id="MteA3" class="ret"></td>
 </tr>
 <!--LINHA 4-->
 <tr id="lintabA4">
@@ -189,6 +197,7 @@
     <td id="logA4" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA4" style="font-family:'Arial';">Internacional</div><div class="nometecA4" id="tecA4"style="font-family:'Arial';color:black;">Anderson United</div></div></td>
     <td id="nlA4" class="nivel">citadino</td>
+    <td id="varA4" class="var"></td>
     <td id="objA4" class="obj">G16</td>
     <td id="ptA4" class="pt">89</td>
     <td id="vitA4" class="vit">12</td>
@@ -198,11 +207,12 @@
     <td id="gcA4" class="gc">109</td>
     <td id="sgA4" class="sg">24</td>
     <td id="apA4" class="ap">100%</td>
-    <td id="ultA4" class="ret">V</td>
-    <td id="penA4" class="ret">E</td>
-    <td id="antA4" class="ret">D</td>
-    <td id="qaA4" class="ret">V</td>
-    <td id="qiA4" class="ret">V</td>
+    <td id="ultA4" class="ret"></td>
+    <td id="penA4" class="ret"></td>
+    <td id="antA4" class="ret"></td>
+    <td id="qaA4" class="ret"></td>
+    <td id="qiA4" class="ret"></td>
+    <td id="MteA4" class="ret"></td>
 </tr>
 <!--LINHA 5-->
 <tr id="lintabA5">
@@ -210,6 +220,7 @@
     <td id="logA5" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA5" style="font-family:'Arial';">Internacional</div><div class="nometecA5" id="tecA5"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA5" class="nivel">citadino</td>
+    <td id="varA5" class="var"></td>
     <td id="objA5" class="obj">G16</td>
     <td id="ptA5" class="pt">89</td>
     <td id="vitA5" class="vit">12</td>
@@ -219,11 +230,12 @@
     <td id="gcA5" class="gc">109</td>
     <td id="sgA5" class="sg">24</td>
     <td id="apA5" class="ap">100%</td>
-    <td id="ultA5" class="ret">V</td>
-    <td id="penA5" class="ret">E</td>
-    <td id="antA5" class="ret">D</td>
-    <td id="qaA5" class="ret">V</td>
-    <td id="qiA5" class="ret">V</td>
+    <td id="ultA5" class="ret"></td>
+    <td id="penA5" class="ret"></td>
+    <td id="antA5" class="ret"></td>
+    <td id="qaA5" class="ret"></td>
+    <td id="qiA5" class="ret"></td>
+    <td id="MteA5" class="ret"></td>
 </tr>
 <!--LINHA 6-->
 <tr id="lintabA6">
@@ -231,6 +243,7 @@
     <td id="logA6" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA6" style="font-family:'Arial';">Internacional</div><div class="nometecA6" id="tecA6"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA6" class="nivel">citadino</td>
+    <td id="varA6" class="var"></td>
     <td id="objA6" class="obj">G16</td>
     <td id="ptA6" class="pt">89</td>
     <td id="vitA6" class="vit">12</td>
@@ -239,12 +252,13 @@
     <td id="gpA6" class="gp">123</td>
     <td id="gcA6" class="gc">109</td>
     <td id="sgA6" class="sg">24</td>
-    <td id="apA5" class="ap">100%</td>
-    <td id="ultA6" class="ret">V</td>
-    <td id="penA6" class="ret">E</td>
-    <td id="antA6" class="ret">D</td>
-    <td id="qaA6" class="ret">V</td>
-    <td id="qiA6" class="ret">V</td>
+    <td id="apA6" class="ap">100%</td>
+    <td id="ultA6" class="ret"></td>
+    <td id="penA6" class="ret"></td>
+    <td id="antA6" class="ret"></td>
+    <td id="qaA6" class="ret"></td>
+    <td id="qiA6" class="ret"></td>
+    <td id="MteA6" class="ret"></td>
 </tr>
 <!--LINHA 7-->
 <tr id="lintabA7">
@@ -252,6 +266,7 @@
     <td id="logA7" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA7" style="font-family:'Arial';">Internacional</div><div class="nometec" id="tecA7"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA7" class="nivel">citadino</td>
+    <td id="varA7" class="var"></td>
     <td id="objA7" class="obj">G16</td>
     <td id="ptA7" class="pt">89</td>
     <td id="vitA7" class="vit">12</td>
@@ -261,11 +276,12 @@
     <td id="gcA7" class="gc">109</td>
     <td id="sgA7" class="sg">24</td>
     <td id="apA7" class="ap">100%</td>
-    <td id="ultA7" class="ret">V</td>
-    <td id="penA7" class="ret">E</td>
-    <td id="antA7" class="ret">D</td>
-    <td id="qaA7" class="ret">V</td>
-    <td id="qiA7" class="ret">V</td>
+    <td id="ultA7" class="ret"></td>
+    <td id="penA7" class="ret"></td>
+    <td id="antA7" class="ret"></td>
+    <td id="qaA7" class="ret"></td>
+    <td id="qiA7" class="ret"></td>
+    <td id="MteA7" class="ret"></td>
 </tr>
 <!--LINHA 8-->
 <tr id="lintabA8">
@@ -273,6 +289,7 @@
     <td id="logA8" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA8" style="font-family:'Arial';">Internacional</div><div class="nometec" id="tecA8"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA8" class="nivel">citadino</td>
+    <td id="varA8" class="var"></td>
     <td id="objA8" class="obj">G16</td>
     <td id="ptA8" class="pt">89</td>
     <td id="vitA8" class="vit">12</td>
@@ -282,11 +299,12 @@
     <td id="gcA8" class="gc">109</td>
     <td id="sgA8" class="sg">24</td>
     <td id="apA8" class="ap">100%</td>
-    <td id="ultA8" class="ret">V</td>
-    <td id="penA8" class="ret">E</td>
-    <td id="antA8" class="ret">D</td>
-    <td id="qaA8" class="ret">V</td>
-    <td id="qiA8" class="ret">V</td>
+    <td id="ultA8" class="ret"></td>
+    <td id="penA8" class="ret"></td>
+    <td id="antA8" class="ret"></td>
+    <td id="qaA8" class="ret"></td>
+    <td id="qiA8" class="ret"></td>
+    <td id="MteA8" class="ret"></td>
 </tr>
 <!--LINHA 9-->
 <tr id="lintabA9">
@@ -294,6 +312,7 @@
     <td id="logA9" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA9" style="font-family:'Arial';">Internacional</div><div class="nometec" id="tecA9"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA9" class="nivel">citadino</td>
+    <td id="varA9" class="var"></td>
     <td id="objA9" class="obj">G16</td>
     <td id="ptA9" class="pt">89</td>
     <td id="vitA9" class="vit">12</td>
@@ -303,11 +322,12 @@
     <td id="gcA9" class="gc">109</td>
     <td id="sgA9" class="sg">24</td>
     <td id="apA9" class="ap">100%</td>
-    <td id="ultA9" class="ret">V</td>
-    <td id="penA9" class="ret">E</td>
-    <td id="antA9" class="ret">D</td>
-    <td id="qaA9" class="ret">V</td>
-    <td id="qiA9" class="ret">V</td>
+    <td id="ultA9" class="ret"></td>
+    <td id="penA9" class="ret"></td>
+    <td id="antA9" class="ret"></td>
+    <td id="qaA9" class="ret"></td>
+    <td id="qiA9" class="ret"></td>
+    <td id="MteA9" class="ret"></td>
 </tr>
 <!--LINHA 10-->
 <tr id="lintabA10">
@@ -315,6 +335,7 @@
     <td id="logA10" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA10" style="font-family:'Arial';">Internacional</div><div class="nometec" id="tecA10"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA10" class="nivel">citadino</td>
+    <td id="varA10" class="var"></td>
     <td id="objA10" class="obj">G16</td>
     <td id="ptA10" class="pt">89</td>
     <td id="vitA10" class="vit">12</td>
@@ -324,11 +345,12 @@
     <td id="gcA10" class="gc">109</td>
     <td id="sgA10" class="sg">24</td>
     <td id="apA10" class="ap">100%</td>
-    <td id="ultA10" class="ret">V</td>
-    <td id="penA10" class="ret">E</td>
-    <td id="antA10" class="ret">D</td>
-    <td id="qaA10" class="ret">V</td>
-    <td id="qiA10" class="ret">V</td>
+    <td id="ultA10" class="ret"></td>
+    <td id="penA10" class="ret"></td>
+    <td id="antA10" class="ret"></td>
+    <td id="qaA10" class="ret"></td>
+    <td id="qiA10" class="ret"></td>
+    <td id="MteA10" class="ret"></td>
 </tr>
 <!--LINHA 11-->
 <tr id="lintabA11">
@@ -336,8 +358,9 @@
     <td id="logA11" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA11" style="font-family:'Arial';">Internacional</div><div class="nometec" id="tecA11"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA11" class="nivel">citadino</td>
+    <td id="varA11" class="var"></td>
     <td id="objA11" class="obj">G16</td>
-    <td id="ptA1" class="pt">89</td>
+    <td id="ptA11" class="pt">89</td>
     <td id="vitA11" class="vit">12</td>
     <td id="empA11" class="emp">11</td>
     <td id="derA11" class="der">15</td>
@@ -345,11 +368,12 @@
     <td id="gcA11" class="gc">109</td>
     <td id="sgA11" class="sg">24</td>
     <td id="apA11" class="ap">100%</td>
-    <td id="ultA11" class="ret">V</td>
-    <td id="penA11" class="ret">E</td>
-    <td id="antA11" class="ret">D</td>
-    <td id="qaA11" class="ret">V</td>
-    <td id="qiA11" class="ret">V</td>
+    <td id="ultA11" class="ret"></td>
+    <td id="penA11" class="ret"></td>
+    <td id="antA11" class="ret"></td>
+    <td id="qaA11" class="ret"></td>
+    <td id="qiA11" class="ret"></td>
+    <td id="MteA11" class="ret"></td>
 </tr>
 <!--LINHA 12-->
 <tr id="lintabA12">
@@ -357,6 +381,7 @@
     <td id="logA12" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA12" style="font-family:'Arial';">Internacional</div><div class="nometec" id="tecA12"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA12" class="nivel">citadino</td>
+    <td id="varA12" class="var"></td>
     <td id="objA12" class="obj">G16</td>
     <td id="ptA12" class="pt">89</td>
     <td id="vitA12" class="vit">12</td>
@@ -366,11 +391,12 @@
     <td id="gcA12" class="gc">109</td>
     <td id="sgA12" class="sg">24</td>
     <td id="apA12" class="ap">100%</td>
-    <td id="ultA12" class="ret">V</td>
-    <td id="penA12" class="ret">E</td>
-    <td id="antA12" class="ret">D</td>
-    <td id="qaA12" class="ret">V</td>
-    <td id="qiA12" class="ret">V</td>
+    <td id="ultA12" class="ret"></td>
+    <td id="penA12" class="ret"></td>
+    <td id="antA12" class="ret"></td>
+    <td id="qaA12" class="ret"></td>
+    <td id="qiA12" class="ret"></td>
+    <td id="MteA12" class="ret"></td>
 </tr>
 <!--LINHA 13-->
 <tr id="lintabA13">
@@ -378,6 +404,7 @@
     <td id="logA13" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA13" style="font-family:'Arial';">Internacional</div><div class="nometec" id="tecA13"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA13" class="nivel">citadino</td>
+    <td id="varA13" class="var"></td>
     <td id="objA13" class="obj">G16</td>
     <td id="ptA13" class="pt">89</td>
     <td id="vitA13" class="vit">12</td>
@@ -387,11 +414,12 @@
     <td id="gcA13" class="gc">109</td>
     <td id="sgA13" class="sg">24</td>
     <td id="apA13" class="ap">100%</td>
-    <td id="ultA13" class="ret">V</td>
-    <td id="penA13" class="ret">E</td>
-    <td id="antA13" class="ret">D</td>
-    <td id="qaA13" class="ret">V</td>
-    <td id="qiA13" class="ret">V</td>
+    <td id="ultA13" class="ret"></td>
+    <td id="penA13" class="ret"></td>
+    <td id="antA13" class="ret"></td>
+    <td id="qaA13" class="ret"></td>
+    <td id="qiA13" class="ret"></td>
+    <td id="MteA13" class="ret"></td>
 </tr>
 <!--LINHA 14-->
 <tr id="lintabA14">
@@ -399,6 +427,7 @@
     <td id="logA14" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA14" style="font-family:'Arial';">Internacional</div><div class="nometec" id="tecA14"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA14" class="nivel">citadino</td>
+    <td id="varA14" class="var"></td>
     <td id="objA14" class="obj">G16</td>
     <td id="ptA14" class="pt">89</td>
     <td id="vitA14" class="vit">12</td>
@@ -408,11 +437,12 @@
     <td id="gcA14" class="gc">109</td>
     <td id="sgA14" class="sg">24</td>
     <td id="apA14" class="ap">100%</td>
-    <td id="ultA14" class="ret">V</td>
-    <td id="penA14" class="ret">E</td>
-    <td id="antA14" class="ret">D</td>
-    <td id="qaA14" class="ret">V</td>
-    <td id="qiA14" class="ret">V</td>
+    <td id="ultA14" class="ret"></td>
+    <td id="penA14" class="ret"></td>
+    <td id="antA14" class="ret"></td>
+    <td id="qaA14" class="ret"></td>
+    <td id="qiA14" class="ret"></td>
+    <td id="MteA14" class="ret"></td>
 </tr>
 <!--LINHA 15-->
 <tr id="lintabA15">
@@ -420,6 +450,7 @@
     <td id="logA15" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA15" style="font-family:'Arial';">Internacional</div><div class="nometec" id="tecA15"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA15" class="nivel">citadino</td>
+    <td id="varA15" class="var"></td>
     <td id="objA15" class="obj">G16</td>
     <td id="ptA15" class="pt">89</td>
     <td id="vitA15" class="vit">12</td>
@@ -429,11 +460,12 @@
     <td id="gcA15" class="gc">109</td>
     <td id="sgA15" class="sg">24</td>
     <td id="apA15" class="ap">100%</td>
-    <td id="ultA15" class="ret">V</td>
-    <td id="penA15" class="ret">E</td>
-    <td id="antA15" class="ret">D</td>
-    <td id="qaA15" class="ret">V</td>
-    <td id="qiA15" class="ret">V</td>
+    <td id="ultA15" class="ret"></td>
+    <td id="penA15" class="ret"></td>
+    <td id="antA15" class="ret"></td>
+    <td id="qaA15" class="ret"></td>
+    <td id="qiA15" class="ret"></td>
+    <td id="MteA15" class="ret"></td>
 </tr>
 <!--LINHA 16-->
 <tr id="lintabA16">
@@ -441,6 +473,7 @@
     <td id="logA16" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA16" style="font-family:'Arial';">Internacional</div><div class="nometec" id="tecA16"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA16" class="nivel">citadino</td>
+    <td id="varA16" class="var"></td>
     <td id="objA16" class="obj">G16</td>
     <td id="ptA16" class="pt">89</td>
     <td id="vitA16" class="vit">12</td>
@@ -450,11 +483,12 @@
     <td id="gcA16" class="gc">109</td>
     <td id="sgA16" class="sg">24</td>
     <td id="apA16" class="ap">100%</td>
-    <td id="ultA16" class="ret">V</td>
-    <td id="penA16" class="ret">E</td>
-    <td id="antA16" class="ret">D</td>
-    <td id="qaA16" class="ret">V</td>
-    <td id="qiA16" class="ret">V</td>
+    <td id="ultA16" class="ret"></td>
+    <td id="penA16" class="ret"></td>
+    <td id="antA16" class="ret"></td>
+    <td id="qaA16" class="ret"></td>
+    <td id="qiA16" class="ret"></td>
+    <td id="MteA16" class="ret"></td>
 </tr>
 <!--LINHA 17-->
 <tr id="lintabA17">
@@ -462,6 +496,7 @@
     <td id="logA17" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA17" style="font-family:'Arial';">Internacional</div><div class="nometec" id="tecA17"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA17" class="nivel">citadino</td>
+    <td id="varA17" class="var"></td>
     <td id="objA17" class="obj">G16</td>
     <td id="ptA17" class="pt">89</td>
     <td id="vitA17" class="vit">12</td>
@@ -471,11 +506,12 @@
     <td id="gcA17" class="gc">109</td>
     <td id="sgA17" class="sg">24</td>
     <td id="apA17" class="ap">100%</td>
-    <td id="ultA17" class="ret">V</td>
-    <td id="penA17" class="ret">E</td>
-    <td id="antA17" class="ret">D</td>
-    <td id="qaA17" class="ret">V</td>
-    <td id="qiA17" class="ret">V</td>
+    <td id="ultA17" class="ret"></td>
+    <td id="penA17" class="ret"></td>
+    <td id="antA17" class="ret"></td>
+    <td id="qaA17" class="ret"></td>
+    <td id="qiA17" class="ret"></td>
+    <td id="MteA17" class="ret"></td>
 </tr>
 <!--LINHA 18-->
 <tr id="lintabA18">
@@ -483,6 +519,7 @@
     <td id="logA18" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA18" style="font-family:'Arial';">Internacional</div><div class="nometec" id="tecA18"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA18" class="nivel">citadino</td>
+    <td id="varA18" class="var"></td>
     <td id="objA18" class="obj">G16</td>
     <td id="ptA18" class="pt">89</td>
     <td id="vitA18" class="vit">12</td>
@@ -492,11 +529,12 @@
     <td id="gcA18" class="gc">109</td>
     <td id="sgA18" class="sg">24</td>
     <td id="apA18" class="ap">100%</td>
-    <td id="ultA18" class="ret">V</td>
-    <td id="penA18" class="ret">E</td>
-    <td id="antA18" class="ret">D</td>
-    <td id="qaA18" class="ret">V</td>
-    <td id="qiA18" class="ret">V</td>
+    <td id="ultA18" class="ret"></td>
+    <td id="penA18" class="ret"></td>
+    <td id="antA18" class="ret"></td>
+    <td id="qaA18" class="ret"></td>
+    <td id="qiA18" class="ret"></td>
+    <td id="MteA18" class="ret"></td>
 </tr>
 <!--LINHA 19-->
 <tr id="lintabA19">
@@ -504,6 +542,7 @@
     <td id="logA19" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA19" style="font-family:'Arial';">Internacional</div><div class="nometec" id="tecA19"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA19" class="nivel">citadino</td>
+    <td id="varA19" class="var"></td>
     <td id="objA19" class="obj">G16</td>
     <td id="ptA19" class="pt">89</td>
     <td id="vitA19" class="vit">12</td>
@@ -513,11 +552,12 @@
     <td id="gcA19" class="gc">109</td>
     <td id="sgA19" class="sg">24</td>
     <td id="apA19" class="ap">100%</td>
-    <td id="ultA19" class="ret">V</td>
-    <td id="penA19" class="ret">E</td>
-    <td id="antA19" class="ret">D</td>
-    <td id="qaA19" class="ret">V</td>
-    <td id="qiA19" class="ret">V</td>
+    <td id="ultA19" class="ret"></td>
+    <td id="penA19" class="ret"></td>
+    <td id="antA19" class="ret"></td>
+    <td id="qaA19" class="ret"></td>
+    <td id="qiA19" class="ret"></td>
+    <td id="MteA19" class="ret"></td>
 </tr>
 <!--LINHA 20-->
 <tr id="lintabA20">
@@ -525,6 +565,7 @@
     <td id="logA20" class=""><img class="logoclubes" id="logclubA" src="https://ssl.gstatic.com/onebox/media/sports/logos/OWVFKuHrQuf4q2Wk0hEmSA_96x96.png" alt=""></td>
     <td><div style="display: inline-block;"><div class="nomeclube" id="clubA20" style="font-family:'Arial';">Internacional</div><div class="nometec" id="tecA20"style="font-family:'Arial';">Anderson United</div></div></td>
     <td id="nlA20" class="nivel">citadino</td>
+    <td id="varA20" class="var"></td>
     <td id="objA20" class="obj">G16</td>
     <td id="ptA20" class="pt">89</td>
     <td id="vitA20" class="vit">12</td>
@@ -534,11 +575,12 @@
     <td id="gcA20" class="gc">109</td>
     <td id="sgA20" class="sg">24</td>
     <td id="apA20" class="ap">100%</td>
-    <td id="ultA20" class="ret">V</td>
-    <td id="penA20" class="ret">E</td>
-    <td id="antA20" class="ret">D</td>
-    <td id="qaA20" class="ret">V</td>
-    <td id="qiA20" class="ret">V</td>
+    <td id="ultA20" class="ret"></td>
+    <td id="penA20" class="ret"></td>
+    <td id="antA20" class="ret"></td>
+    <td id="qaA20" class="ret"></td>
+    <td id="qiA20" class="ret"></td>
+    <td id="MteA20" class="ret"></td>
 </tr>
 </table>
 </div><!--DIV PAI DA TABELA-->
@@ -569,6 +611,6 @@
 
 
 
-<script src="js/script.js"></script>
+<script src="js/serie_a.js"></script>
 </body>
 </html>
