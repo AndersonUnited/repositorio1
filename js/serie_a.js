@@ -1,6 +1,6 @@
-function AbreTec(){
-    var efeito =document.getElementById("card1")
-    efeito.style.display="inline-block"
+function Abremenu(){
+    var efeito =document.getElementById("MENU")
+    efeito.style.display="flex"
 }
 
 
@@ -12,17 +12,15 @@ function FechaTec(){
 
 
 
-function Abremenu(){
-  var efeito =document.getElementById("card1")
-  efeito.style.display="inline-block"
+
+function Fechamenu(){
+  var efeito =document.getElementById("MENU")
+  efeito.style.display="none"
 }
 
 
 
-function Fechafechamenu(){
-  var efeito =document.getElementById("card1")
-  efeito.style.display="none";
-}
+
 
 /**LOGO DOS TECNICOS */
 
@@ -3768,9 +3766,8 @@ document.getElementById('logA1').innerHTML=classf_A24_R3.logA1;
 
 
  
-
-       
-
 }
+
+
 
 
