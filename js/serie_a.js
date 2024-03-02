@@ -10,6 +10,20 @@ function FechaTec(){
     efeito.style.display="none";
 }
 
+
+
+function Abremenu(){
+  var efeito =document.getElementById("card1")
+  efeito.style.display="inline-block"
+}
+
+
+
+function Fechafechamenu(){
+  var efeito =document.getElementById("card1")
+  efeito.style.display="none";
+}
+
 /**LOGO DOS TECNICOS */
 
 let logotec1="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='120'>;"
