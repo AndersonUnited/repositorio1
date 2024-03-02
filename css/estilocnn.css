@@ -209,35 +209,42 @@ body{
 }
 
 .nomeclube{
-    font-family:'Cambria';
+    font-family:'Arial';
     font-size:40px;
+    text-align: left;
     color: rgb(27, 35, 29);
     font-weight: bold;
     padding-top: 10px;
-    padding-left:80px;
+    padding-right:80px;
+    padding-left:20px;
+    
+}
+
+
+.nometecG4{
+    font-size: 30px;
+    justify-content: left;
+    font-style: italic;
+    color: gray;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+    border:2px dotted red;
 }
 
 .nometec{
     font-size: 30px;
-    justify-content: center;
+    justify-content: left;
     font-style: italic;
-    color: gray;
-    text-align: center;
+    color: rgb(149, 7, 7);
+    text-align: left;
     padding-bottom: 10px;
     padding-left:10px;
     padding-right: 10px;
 }
 
-.nometecA1, .nometecA2,.nometecA3, .nometecA4, .nometecA5, .nometecA6{
-    font-family: Arial;
-    font-size: 30px;
-    justify-content: center;
-    font-style: italic;
-    color: rgb(38, 38, 38);
-    text-align: center;
-    padding-bottom: 10px;
-    padding-left:10px;
-}
+
 
 
 .nivel{
@@ -248,7 +255,7 @@ body{
     padding:12px;
 }
 
-.obj, .pt, .vit, .emp, .der, .gp, .gc, .sg, .ap, .ret{
+.obj, .pt, .vit, .emp, .der, .gp, .gc, .sg, .ap, .ret, .var{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
     justify-content: center;
