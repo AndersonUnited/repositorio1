@@ -182,6 +182,12 @@ body{
 
 /* INÍCIO TABELA DE CLASSIFICAÇÃO*****************************************/ 
 
+
+
+tbody tr:nth-child(2n){
+    background: lightgray;
+}
+
 .tabpai{
  
     overflow: auto;
@@ -190,7 +196,7 @@ body{
 }
 
 .pos{
-    background: rgb(255, 255, 255);
+    background: lightgray;
     font-size:40px;
     text-align: center;
     padding-right:10px; 
@@ -212,7 +218,7 @@ body{
     font-family:'Arial';
     font-size:40px;
     text-align: left;
-    color: rgb(27, 35, 29);
+    color: rgb(61, 64, 62);
     font-weight: bold;
     padding-top: 10px;
     padding-right:80px;
@@ -229,19 +235,19 @@ body{
     text-align: left;
     padding-bottom: 10px;
     padding-left:10px;
-    padding-right: 10px;
-    border:2px dotted red;
+    padding-right: 20px;
+    
 }
 
 .nometec{
     font-size: 30px;
     justify-content: left;
     font-style: italic;
-    color: rgb(149, 7, 7);
+    color: rgb(73, 86, 70);
     text-align: left;
     padding-bottom: 10px;
     padding-left:10px;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 
@@ -267,24 +273,83 @@ body{
 .pt{
     font-family: "Cambria";
     font-size: 40px;
+    font-weight:bold;
     justify-content: center;
     color: rgb(9, 9, 9);
     padding:12px;
 }
 
 #lintabA1, #posA1{
-    background: rgba(242, 203, 103, 0.993);
+    background-image:linear-gradient(180deg, rgb(217, 166, 36),rgb(249, 249, 249));
 }
 
- #lintabA2, #posA2, #lintabA3, #lintabA4, #posA3, #posA4{ 
-    background:rgb(138, 156, 96);
+  #posA2, #posA4{ 
+    background-image:linear-gradient(90deg, rgb(42, 83, 32),rgb(249, 249, 249));
 }
 
-#lintabA5, #lintabA6{
+#posA3{ 
+    background-image:linear-gradient(90deg, rgb(42, 83, 32),rgb(211, 211, 211));
+}
+
+#posA5, #posA6{
     color: rgb(10, 10, 11);
-    background: rgb(30, 132, 210);
+    
+    background-image:linear-gradient(90deg, rgb(2, 112, 185),rgb(211, 211, 211));
+}
+
+
+#posA6{
+    color: rgb(10, 10, 11);
+    
+    background-image:linear-gradient(90deg, rgb(2, 112, 185),rgb(249, 249, 249));
+}
+
+.posA7, .posA9{
+    background-image:linear-gradient(90deg, rgba(213, 106, 0, 0.791),rgb(211, 211, 211));
+    font-size:40px;
+    text-align: center;
+    padding-right:10px; 
+
+}
+
+ .posA8, .posA10{
+    background-image:linear-gradient(90deg, rgba(213, 106, 0, 0.791),rgb(249, 249, 249));
+    font-size:40px;
+    text-align: center;
+    padding-right:10px; 
+}
+
+.posA12, .posA14, .posA16{
+    background-image:linear-gradient(90deg, rgba(85, 83, 81, 0.791),rgb(249, 249, 249));
+    font-size:40px;
+    text-align: center;
+    padding-right:10px; 
+}
+
+.posA11, .posA13, .posA15{
+    background-image:linear-gradient(90deg, rgba(85, 83, 81, 0.791),rgb(211, 211, 211));
+    font-size:40px;
+    text-align: center;
+    padding-right:10px; 
+}
+
+.posA17, .posA19{
+    background-image:linear-gradient(90deg, rgba(195, 6, 6, 0.703),lightgray);
+    font-size:40px;
+    text-align: center;
+    padding-right:10px; 
+}   
+   
+
+
+.posA18, .posA20{
+    background-image:linear-gradient(90deg, rgba(195, 6, 6, 0.703),rgb(249, 249, 249));
+    font-size:40px;
+    text-align: center;
+    padding-right:10px; 
 }
    
+
 .legentab1{
     display: inline-block;
     background: rgb(255, 255, 255);
