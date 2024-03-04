@@ -9,27 +9,22 @@
 <body   style="background: rgb(255, 255, 255)">
 
 
-<div id="barrapreta" > 
-
-    <div onclick="Abremenu()" id="sanduiche"><img id="pngsanduiche" src="imagens/menu.png"></div>
-
-    <div id="titutosite">
-        <div id="titutosite1">Campeonato de Cartola </div>
-        <div id="slogan">A vitória no cartola é o sucesso do seu time!</div>
-</div>
-
-<div id="logosite"><img  id="pnglogo" src="imagens/novologoesc.png"></div>
-</div>
-
-<div id="titulopag">
-    <p>Campeonato de Cartola</p>
-    <p>Divisão de elite</p>
-</div>
-<br><br>
-
-<a href="frontantiga.html">PAGINA PRINCIPAL</a>
-
-<div  id="MENU" class="menu">
+    <div id="barrapreta"> 
+        <div onclick="toggleMenu()" id="sanduiche"><img id="pngsanduiche" src="imagens/menu.png"></div>
+        <div id="titutosite">
+            <div id="titutosite1">Campeonato de Cartola </div>
+            <div id="slogan">A vitória no cartola é o sucesso do seu time!</div>
+        </div>
+        <div id="logosite"><img  id="pnglogo" src="imagens/novologoesc.png"></div>
+    </div>
+    
+    <div id="titulopag">
+        <p>Campeonato de Cartola</p>
+        <p>Divisão de elite</p>
+    </div>
+    <br><br>
+    
+    <div id="MENU" class="menu" style="display: none;">
     <div class="sub_menu"><a class="linksmenu" href="x">Como se joga isso?</a></div>
     <div class="sub_menu"><a class="linksmenu"  href="x">Regras de ascenção</a></div>
     <div class="sub_menu"><a class="linksmenu"  href="x">Premiações</a></div>
@@ -54,81 +49,86 @@
 
 
 
+<div>
+    <div class="tit_classif">Classificação</div
+        >
+    <div class="div_selectrod" id="teste333"> 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-<div class="classJog">
-    <div class="classJog1">Classificação</div>
-    <div class="classJog2" id="teste333">Jogos</div>
-    <div class="classJog2" style="text-align: right;;width:600px;justify-content: right;">
-    
         <select onchange="pesquisaTabela(this.value)" class="selectbox" name="serieA" id="clasGeral_A">
-            <option value="ultima">Última</option>
-            <option value="classf_A24_R1">1ª rodada</option>
-            <option value="classf_A24_R2">2ª rodada</option>
-            <option value="classf_A24_R3">3ª rodada</option>
-            <option value="classf_A24_R4">4ª rodada</option>
-            <option value="classf_A24_R5">5ª rodada</option>
-            <option value="classf_A24_R6">6ª rodada</option>
-            <option value="classf_A24_R7">7ª rodada</option>
-            <option value="classf_A24_R8">8ª rodada</option>
-            <option value="classf_A24_R9">9ª rodada</option>
-            <option value="classf_A24_R10">10ª rodada</option>
-            <option value="classf_A24_R11">11ª rodada</option>
-            <option value="classf_A24_R12">12ª rodada</option>
-            <option value="classf_A24_R13">13ª rodada</option>
-            <option value="classf_A24_R14">14ª rodada</option>
-            <option value="classf_A24_R15" >15ª rodada</option>
-            <option value="classf_A24_R16">16ª rodada</option>
-            <option value="classf_A24_R17">17ª rodada</option>
-            <option value="classf_A24_R18">18ª rodada</option>
-            <option value="classf_A24_R19">19ª rodada</option>
-            <option value="classf_A24_R20">20ª rodada</option>
-            <option value="classf_A24_R21">21ª rodada</option>
-            <option value="classf_A24_R22">22ª rodada</option>
-            <option value="classf_A24_R23">23ª rodada</option>
-            <option value="classf_A24_R24">24ª rodada</option>
-            <option value="classf_A24_R25">25ª rodada</option>
-            <option value="classf_A24_R26">26ª rodada</option>
-            <option value="classf_A24_R27">27ª rodada</option>
-            <option value="classf_A24_R28">28ª rodada</option>
-            <option value="classf_A24_R29">29ª rodada</option>
-            <option value="classf_A24_R30">30ª rodada</option>
-            <option value="classf_A24_R31">31ª rodada</option>
-            <option value="classf_A24_R32">32ª rodada</option>
-            <option value="classf_A24_R33">33ª rodada</option>
-            <option value="classf_A24_R34">34ª rodada</option>
-            <option value="classf_A24_R35">35ª rodada</option>
-            <option value="classf_A24_R36">36ª rodada</option>
-            <option value="classf_A24_R37">37ª rodada</option>
-            <option value="classf_A24_R0">38ª rodada</option>
-    
+        <option value="ultima">Última</option>
+        <option value="classf_A24_R1">1ª rodada</option>
+        <option value="classf_A24_R2">2ª rodada</option>
+        <option value="classf_A24_R3">3ª rodada</option>
+        <option value="classf_A24_R4">4ª rodada</option>
+        <option value="classf_A24_R5">5ª rodada</option>
+        <option value="classf_A24_R6">6ª rodada</option>
+        <option value="classf_A24_R7">7ª rodada</option>
+        <option value="classf_A24_R8">8ª rodada</option>
+        <option value="classf_A24_R9">9ª rodada</option>
+        <option value="classf_A24_R10">10ª rodada</option>
+        <option value="classf_A24_R11">11ª rodada</option>
+        <option value="classf_A24_R12">12ª rodada</option>
+        <option value="classf_A24_R13">13ª rodada</option>
+        <option value="classf_A24_R14">14ª rodada</option>
+        <option value="classf_A24_R15" >15ª rodada</option>
+        <option value="classf_A24_R16">16ª rodada</option>
+        <option value="classf_A24_R17">17ª rodada</option>
+        <option value="classf_A24_R18">18ª rodada</option>
+        <option value="classf_A24_R19">19ª rodada</option>
+        <option value="classf_A24_R20">20ª rodada</option>
+        <option value="classf_A24_R21">21ª rodada</option>
+        <option value="classf_A24_R22">22ª rodada</option>
+        <option value="classf_A24_R23">23ª rodada</option>
+        <option value="classf_A24_R24">24ª rodada</option>
+        <option value="classf_A24_R25">25ª rodada</option>
+        <option value="classf_A24_R26">26ª rodada</option>
+        <option value="classf_A24_R27">27ª rodada</option>
+        <option value="classf_A24_R28">28ª rodada</option>
+        <option value="classf_A24_R29">29ª rodada</option>
+        <option value="classf_A24_R30">30ª rodada</option>
+        <option value="classf_A24_R31">31ª rodada</option>
+        <option value="classf_A24_R32">32ª rodada</option>
+        <option value="classf_A24_R33">33ª rodada</option>
+        <option value="classf_A24_R34">34ª rodada</option>
+        <option value="classf_A24_R35">35ª rodada</option>
+        <option value="classf_A24_R36">36ª rodada</option>
+        <option value="classf_A24_R37">37ª rodada</option>
+        <option value="classf_A24_R0">38ª rodada</option>
         </select>
     </div>
+    <div class="div_divplacar"><a class="linkplacar"  href="#calendario">Placar da Rodada</a>
+    </div>
+    
 </div>
 
-<div class="sublinhados1"></div>
-<div class="sublinhados2"></div>
+<div class="sublin_cinza1"></div>
+<div class="sublin_verde1"></div>
+
+<div class="divCalPremEmpr">
+    <div class="div_linkcalend"><a class="linkcalend"  href="#calendario">Calendário</a>
+    </div>
+    <div class="div_premiacoes"><a class="linkpremiacoes"  href="#calendario">Premiações</a>
+    </div>
+    <div class="div_empregos"><a class="linkempregos"  href="#calendario">Ofertas de Emprego</a>
+    </div>
+        
+
+</div>
+
+
+<div>
+        <div class="sublin_cinza2"></div>
+        <div class="sublin_cinza3"></div>
+        <div class="sublin_cinza4"></div>
+</div>
+
 
 <div class="tabpai">
    
 
-    <table onclick="Fechamenu()" style="position:relative; border-collapse: collapse;border: 1px solid black;margin-left: 20px;margin-right:20px;margin-top: 10px;">
+    <table onclick="Fechamenu()"  style="position:relative; border-collapse: collapse;border: 1px solid black;margin-left: 20px;margin-right:20px;margin-top: 10px;">
        
-    <tr style="background: black;color:rgb(187, 184, 184);font-size:30px;font-family: 'Helvetica'; position: sticky;">
+    <tr class="cab_tabela">
         <th></th>
         <th></th>
         <th>Clube Tec.</td>
@@ -153,7 +153,7 @@
         <tr id="lintabA1">
             <td id="posA1" class="pos">1</td>
             <td id="logA1" class=""></td>
-            <td><div style="display: inline-block;white-space:nowrap;"><div class="nomeclube" id="clubA1" ></div><div class="nometecG4" id="tecA1" style="color: rgb(27, 37, 32);font-size: 30px;font-weight:bold;font-family: Arial, Helvetica, sans-serif;color:rgb(200, 119, 13)"></div></div></td>
+            <td><div style="display: inline-block;white-space:nowrap;"><div class="nomeclube" id="clubA1" ></div><div class="nometecG4" id="tecA1" onclick="AbreTec()" style="color: rgb(27, 37, 32);font-size: 30px;font-weight:bold;font-family: Arial, Helvetica, sans-serif;color:rgb(200, 119, 13)"></div></div></td>
             <td id="nlA1" class="nivel"></td>
             <td id="varA1" class="var"></td>
             <td id="objA1" class="obj"></td>
@@ -611,20 +611,56 @@
 </tr>
 </table>
 </div><!--DIV PAI DA TABELA-->
-
-<div style="display: inline-block;margin-left: 20px;margin-right: 20px; width: 100%;">
-<div class="legentab1"><b>G13:</b>Sulamericana 2025||</div>
-<div class="legentab1"><b>G7:</b> Libertadores 2025||</div>
-<div class="legentab1"><b>4º:</b>R$ 200,00||</div>
-<div class="legentab1"><b>3º:</b>R$ 400,00||</div>
-<div class="legentab1"><b>2º:</b>R$ 700,00||</div>
-<div class="legentab1"><b>Campeão:</b> R$ 1.000,00</div>
+<!----------------------CARD DO TÉCNICO----------------------------->
 
 
+<div id="cardTec" class="pai_cardTec">
+<div class="cardTecNome" id="cardTecNome">Missioneiro Tricolor dos Pampas</div>
+
+<div class="cardTeclogoEdados">
+            <div class="carTeclogo" id="logoCardTec"><img id="d" src="" alt=""></div>
+            <div class="divpai5">
+                        <div class="cardlogin" id="cardlogin" ></div>
+                        <div class="cardid" id="cardid" ></div>
+                        <div class="ptsGer" id="ptsGer" ></div>
+                        <div class="AnoInclu" id="AnoInclu" ></div>
+                        <div class="nocargo" id="rodingr" ></div>
+
+            </div>
+
+          
+
+</div>
+
+
+</div>
 
 
 
 
+
+
+
+
+
+
+
+</div>
+
+
+
+
+<!--------------------FIM DA DIV CARD------------------------------->
+
+
+<div class="painel_calend">
+    <div class="classJog1"><a name="calendario"></a>ção</div>
+    <div class="classJog2" id="teste333">Jogos</div>
+    <div class="classJog2" style="text-align: right;;width:600px;justify-content: right;"></div>
+
+
+
+</div>
 
 
 <script src="js/serie_a.js"></script>

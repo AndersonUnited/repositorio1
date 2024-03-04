@@ -3,24 +3,38 @@ function Abremenu(){
     efeito.style.display="flex"
 }
 
+function Fechamenu(){
+  var efeito =document.getElementById("MENU")
+  var efeito1 =document.getElementById("fechamenu")
+  efeito.style.display="none"
+  efeito1.style.display="none"
 
-
-function FechaTec(){
-    var efeito =document.getElementById("card1")
-    efeito.style.display="none";
 }
 
 
+function AbreTec(){
+  var efeito =document.getElementById("cardTec")
+  efeito.style.display="flex"
+}
 
-
-function Fechamenu(){
-  var efeito =document.getElementById("MENU")
+function FechaTec(){
+  var efeito =document.getElementById("cardTec")
   efeito.style.display="none"
 }
 
+function toggleMenu() {
+  var menu = document.getElementById('MENU');
+  menu.style.display = (menu.style.display === 'flex') ? 'none' : 'flex';
+}
 
-
-
+document.addEventListener('click', function(event) {
+  var targetElement = event.target;
+  var menu = document.getElementById('MENU');
+  var sanduiche = document.getElementById('sanduiche');
+  if (!targetElement.closest('#MENU') && !targetElement.closest('#sanduiche')) {
+      menu.style.display = 'none';
+  }
+});
 
 /**LOGO DOS TECNICOS */
 
@@ -2477,6 +2491,15 @@ document.getElementById('logA1').innerHTML=classf_A24_R0.logA1;
   document.getElementById('qaA1').innerHTML=classf_A24_R1.qaA1;
   document.getElementById('qiA1').innerHTML=classf_A24_R1.qiA1;
   document.getElementById('MteA1').innerHTML=classf_A24_R1.MteA1;
+  document.getElementById('cardTecNome').innerHTML=classf_A24_R1.tecA1.nome;
+  document.getElementById('logoCardTec').innerHTML=classf_A24_R1.tecA1.logo;
+  document.getElementById('cardlogin').innerHTML="Cartoleiro: "+classf_A24_R1.tecA1.nomeLogin;
+  document.getElementById('cardid').innerHTML="Id: "+classf_A24_R1.tecA1.idCart;
+  document.getElementById('ptsGer').innerHTML=" ";
+  document.getElementById('AnoInclu').innerHTML="Participante desde "+classf_A24_R1.tecA1.anoEnt;
+  document.getElementById('rodingr').innerHTML="No cargo desde a"+classf_A24_R1.tecA1.rodingr;
+  
+ 
 
   document.getElementById('logA2').innerHTML=classf_A24_R1.logA2;
   document.getElementById('clubA2').innerHTML=classf_A24_R1.clubA2.nome

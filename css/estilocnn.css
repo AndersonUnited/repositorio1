@@ -116,7 +116,23 @@ body{
     padding: 10px;
 }
 
-
+.fechamenu{
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    top: 4%;
+    left: 52%;
+    background: red;
+    width: 5%;
+    height:3% ;
+    z-index:2;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: solid yellow;
+}
 
 
 
@@ -176,45 +192,171 @@ body{
 /*TÍTULO E LINKS DA TABELA*****************************************/ 
 
 .classJog{
+    
     font-family: "Montserrat";
-    font-size:25px;
+    font-size:40px;
     margin-left: 20px;
     margin-right: 20px;
     align-items: end;
     justify-content: start;
+    border: 5px dotted rgb(8, 9, 8);
    
 }
 
-.classJog1{
-    width:40%;
-    padding-left:3%;
+.tit_classif{
+    margin-left: 3%;
+    width:30%;
     font-family: "Montserrat";
-    font-size:25px;
-    font-size: 30px;
-}
-.classJog2{
-    font-family: "Montserrat";
-    font-size:10%;
-    font-size: 30px;
+    font-size:40px;
+ 
+    
 }
 
+.div_selectrod{
+
+    width: auto;
+
+}
+
+
+.div_divplacar{
+    justify-content: center;
+    width: 40%;
+    
+}
 
 
 
-.sublinhados1{
+.linkplacar{
+    text-decoration:none;
+    font-family: "Montserrat";
+
+    font-size: 40px;
+}
+
+
+.sublin_verde1{
+    display: inline-block;
+    background:  rgb(198, 195, 195);
+    width: 40%;
+    height: 6px;
+    flex-direction: row; 
+    padding-top: 5px;
+    
+}
+
+.sublin_cinza1{
     display: inline-block;
     background: rgb(30, 185, 30);
-    width: 33%;
+    width: 56%;
     height: 6px;
     margin-left: 20px;
+    padding-top: 5px;  
 }
 
-.sublinhados2{
+
+.divCalPremEmpr{
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 5px;
+    justify-content:center;
+}
+
+.div_linkcalend{
+    width: 20%;
+    text-align: right;
+    padding-right: 5px;
+    justify-content:left;
+
+
+
+}
+
+.linkcalend{
+    text-decoration:none;
+    font-family: "Montserrat";
+    font-size: 40px;
+}
+
+.div_premiacoes{
+    text-align: right;
+    justify-content: left;
+    margin-right:2%;
+    margin-left:5%;
+    overflow: auto;
+    padding-right: 10px;
+
+}
+
+.linkpremiacoes{
+    text-decoration:none;
+    font-family: "Montserrat";
+    font-size: 40px;
+
+   
+}
+
+.div_empregos{
+    width: 43%;
+    text-align: center;
+    justify-content: left;
+
+}
+
+.linkempregos{
+    text-decoration:none;
+    font-family: "Montserrat";
+    font-size: 40px;
+
+}
+   
+.sublin_cinza1{
+    display: inline-block;
+    background: rgb(30, 185, 30);
+    width: 56%;
+    height: 6px;
+    margin-left: 20px;
+    padding-top: 5px;  
+}
+
+
+.divpaicinzas{
+    width: 100px;
+    height: 50px;
+}
+
+.sublin_cinza2{
+    background:  rgb(198, 195, 195);
+    width: 25%;
+    height: 6px;
+    margin-left: 20px;
+    padding-top: 5px;
+    margin-bottom: 20px;  
+}
+
+.sublin_cinza3{
+    background: rgb(198, 195, 195);
+    width: 27%;
+    height: 6px;
+    margin-left: 15px;
+    padding-top: 5px;  
+}
+
+.sublin_cinza4{
+    background: rgb(198, 195, 195);
+    width: 45%;
+    height: 6px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5px;  
+}
+
+.sublin_cinza{
     display: inline-block;
     background: rgb(198, 195, 195);
     width: 61%;
     height: 6px;
-    flex-direction: row;
+    flex-direction: row;   
 }
 
 
@@ -222,21 +364,20 @@ body{
 	cursor: pointer;
 	outline:0;
 	color: #282828fc;
-    font-family: Arial, Helvetica, sans-serif;
-	font-size: 25px;
-	padding: 8px 10px;
-	width: 37%;
-	font-weight: bold;
+    font-family: "Montserrat";
+	font-size: 40px;
+	width: 100%;
 	border-radius: 13px;
 	border: 2px solid #426B0CFF;
 	background-color: rgb(212, 206, 206);
 }
 .selectbox:hover, .selectbox:focus {
 	background-color: rgb(207, 224, 206);
-    font-size: 20px;
 	color: #000000B2;
 	border: 1px solid #6CB019FF;
 }
+
+
 
 /* INÍCIO TABELA DE CLASSIFICAÇÃO*****************************************/ 
 
@@ -249,9 +390,24 @@ tbody tr:nth-child(2n){
 .tabpai{
  
     overflow: auto;
-    height:955px ;
+    height:1280px ;
     position: relative;
+    margin-right:20px;
 }
+
+
+.cab_tabela{
+    background: black;color:rgb(187, 184, 184);
+    font-size:30px;
+    font-family: 'Helvetica'; 
+   
+}
+
+.cab_tabela th{
+    position: sticky;
+    padding: 20px;
+}
+
 
 .pos{
     background: lightgray;
@@ -276,7 +432,7 @@ tbody tr:nth-child(2n){
     font-family:'Arial';
     font-size:40px;
     text-align: left;
-    color: rgb(61, 64, 62);
+   
     font-weight: bold;
     padding-top: 10px;
     padding-right:80px;
@@ -314,9 +470,9 @@ tbody tr:nth-child(2n){
 .nivel{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
-    justify-content: center;
     color: rgb(35, 35, 35);
     padding:12px;
+    text-align: center;
 }
 
 .obj, .pt, .vit, .emp, .der, .gp, .gc, .sg, .ap, .ret, .var{
@@ -408,13 +564,6 @@ tbody tr:nth-child(2n){
 }
    
 
-.legentab1{
-    display: inline-block;
-    background: rgb(255, 255, 255);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 25px;
-}
 
 
 
@@ -430,4 +579,122 @@ p.teste{
     height: 1000px;
     width: 100%;
     background: greenyellow;
+}
+
+/* CARD DO TÉCNICO */
+
+.pai_cardTec{
+    display: none;
+    background: rgb(211,211,211);
+    flex-direction: column;
+    height: 50%;
+    width:70%;
+    position: fixed;
+    top:800px;
+    border-radius: 5%;
+}
+
+.cardTecNome{
+    background:rgb(236, 196, 51);
+    height: 10%;
+    width:100%;
+    border-radius: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(11, 10, 10);
+    font-weight: bold;
+    font-size:43px ;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.cardTeclogoEdados{
+    background:rgb(43, 156, 226);
+    flex-direction: row;
+    height:30%;
+    width:100%;
+
+}
+
+.carTeclogo{
+    background:rgb(241, 153, 2);
+    height:60%;
+    width:20%;
+    justify-content: center;
+}
+
+.divpai5{
+    background:rgb(58, 35, 6);
+    flex-direction: column;
+    height:100%;
+    width:100%;
+}
+
+.cardlogin{
+    background: rgb(255, 255, 255);
+    height:20%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    align-items: center;
+    font-style: italic;
+}
+
+.cardid{
+    background: rgb(211, 211, 211);
+    height:20%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    align-items: center;
+    font-style: italic;
+}
+
+.ptsGer{
+    background: rgb(255, 255, 255);
+    height:20%;
+    width: 100%;
+
+}
+
+.AnoInclu{
+    background: rgb(211, 211, 211);
+    height:20%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    align-items: center;
+    font-style: italic;
+
+}
+
+.nocargo{
+    background: rgb(254, 254, 254);
+    height:20%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    align-items: center;
+    font-style: italic;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*CALENDÁRIO*/
+
+.painel_calend{
+    background: grey;
+    margin-top: 270PX;
+    height: 1800px;
+    width: 100%;
 }
