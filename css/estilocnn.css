@@ -53,6 +53,7 @@ body{
             background: black;
             height: max(1px,20vw);
             width: 100%;
+            position:sticky;
             flex-flow: row wrap;
             align-items: center;
             justify-content: left;
