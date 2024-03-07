@@ -57,6 +57,7 @@ body{
             flex-flow: row wrap;
             align-items: center;
             justify-content: left;
+            z-index:2;
             background-image:linear-gradient(rgb(0, 0, 0) 70%,rgb(30, 112, 4)110%);
             
             
@@ -136,10 +137,11 @@ body{
 }
 
 .menusticky{
-
+   
     height: 30%;
     position: fixed;
     top: 75px;
+
 
 }
 
