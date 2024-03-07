@@ -135,7 +135,13 @@ body{
     border: solid yellow;
 }
 
+.menusticky{
 
+    height: 30%;
+    position: fixed;
+    top: 75px;
+
+}
 
 
 /*TÍTULO DO SITE*****************************************/ 
