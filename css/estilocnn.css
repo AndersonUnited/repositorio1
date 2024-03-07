@@ -100,8 +100,8 @@ body{
 
 .sub_menu:hover{
     display: flex;
-    background-image:linear-gradient(360deg, rgb(7, 7, 6),rgb(12, 15, 10));
-    color: rgb(3, 3, 3) ;
+    background-image:linear-gradient(360deg, rgb(17, 107, 22),rgb(12, 15, 10));
+    color: rgb(252, 219, 5) ;
     font-size: 50px;
     font-weight: bold;
     padding: 25px;
@@ -113,9 +113,16 @@ body{
 .linksmenu{
     text-decoration: none;
     font-family: Arial;
-    color: rgb(179, 175, 175);
+    color: rgb(179, 178, 175);
     font-size: 40px;
     padding: 10px;
+}
+
+
+.linksmenu:hover{
+
+    color: rgb(237, 178, 0);
+
 }
 
 .fechamenu{
