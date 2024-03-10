@@ -724,6 +724,7 @@ p.teste{
 /*CALENDÁRIO*/
 
 .painel_calend{
+    flex-direction: row;
     background: grey;
     margin-top: 270PX;
     height: 1800px;
