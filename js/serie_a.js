@@ -1,26 +1,4 @@
-function Abremenu(){
-    var efeito =document.getElementById("MENU")
-    efeito.style.display="flex"
-}
 
-function Fechamenu(){
-  var efeito =document.getElementById("MENU")
-  var efeito1 =document.getElementById("fechamenu")
-  efeito.style.display="none"
-  efeito1.style.display="none"
-
-}
-
-
-function AbreTec(){
-  var efeito =document.getElementById("pai_cardTec")
-  efeito.style.display="flex"
-}
-
-function FechaTec(){
-  var efeito =document.getElementById("cardTec1")
-  efeito.style.display="none"
-}
 
 function toggleMenu() {
   var menu = document.getElementById('MENU');

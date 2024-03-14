@@ -1,26 +1,4 @@
-function Abremenu(){
-    var efeito =document.getElementById("MENU")
-    efeito.style.display="flex"
-}
 
-function Fechamenu(){
-  var efeito =document.getElementById("MENU")
-  var efeito1 =document.getElementById("fechamenu")
-  efeito.style.display="none"
-  efeito1.style.display="none"
-
-}
-
-
-function AbreTec(){
-  var efeito =document.getElementById("cardTec")
-  efeito.style.display="flex"
-}
-
-function FechaTec(){
-  var efeito =document.getElementById("cardTec1")
-  efeito.style.display="none"
-}
 
 function toggleMenu() {
   var menu = document.getElementById('MENU');
@@ -35,6 +13,8 @@ document.addEventListener('click', function(event) {
       menu.style.display = 'none';
   }
 });
+
+
 
 /**LOGO DOS TECNICOS */
 
@@ -2063,23 +2043,18 @@ function pesquisaCalendario() {
 
   ///FUNCTION DO CARDTEC1*****************************************************************
 
-  document.addEventListener("DOMContentLoaded", function() {
-    var cardTec = document.getElementById("cardTec1");
 
-    // Adiciona um evento de clique na div
-    cardTec.addEventListener("click", function(event) {
-        event.stopPropagation(); // Impede que o clique na div seja propagado para fora dela
-    });
 
-    // Adiciona um evento de clique fora da div
-    document.addEventListener("click", function(event) {
-        var isClickedInside = cardTec.contains(event.target); // Verifica se o clique foi dentro da div
-        if (!isClickedInside) {
-            cardTec.style.display = "none"; // Oculta a div se o clique foi fora dela
-        }
-    });
-});
+// ABRE O CARDTEC1///////////////////////
 
+function AbreTec1() {
+  var divTec1 = document.getElementById("cardtec1");
+  if (divTec1.style.display === "none") {
+    divTec1.style.display = "flex";
+  } else {
+    divTec1.style.display = "none";
+  }
+}
 
 
 
