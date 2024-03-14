@@ -13,12 +13,12 @@ function Fechamenu(){
 
 
 function AbreTec(){
-  var efeito =document.getElementById("cardTec")
+  var efeito =document.getElementById("pai_cardTec")
   efeito.style.display="flex"
 }
 
 function FechaTec(){
-  var efeito =document.getElementById("cardTec")
+  var efeito =document.getElementById("cardTec1")
   efeito.style.display="none"
 }
 
