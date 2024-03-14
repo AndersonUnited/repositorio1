@@ -715,8 +715,8 @@ let aguianegra=['Águia Negra',logoaguianegra,'Citadino','MS','CO1','E',1,'',1,5
 let altos=['Altos',logoaltos,'Citadino','PI','NO2','E',1,'',0,0,5,2,1,3,3,2,4,2,3,3,0,1,5,5,0,0,2,5,2,4,3,0,2,0,1,2,3,1,4,4,2,5,1,4,3,4,'','','','','','','','','','','','','','','','','','','',''];
 let amazonas=['Amazonas',logoamazonas,'Citadino','AM','NN','D',1,'',0,4,1,3,3,4,2,1,1,0,4,1,1,5,0,3,0,2,4,1,2,0,3,1,4,5,1,4,4,4,4,3,0,0,2,3,5,3,'','','','','','','','','','','','','','','','','','','',''];
 let americamg=['América-MG',logoamericamg,'Pequeno','MG','MG','A',1,'',2,1,3,4,1,5,4,0,5,4,1,2,3,2,0,3,0,3,1,1,3,2,1,4,1,2,4,1,3,4,3,4,5,5,3,5,0,3,'','','','','','','','','','','','','','','','','','','',''];
-let americarj=['América-RJ',logoamericarj,'Regional','RJ','RJ1','B',1,'G16',0,2,4,1,0,3,1,2,3,0,0,1,4,3,0,3,5,3,3,5,4,0,2,5,0,3,1,1,1,3,0,1,4,5,0,3,4,5,'','','','','','','','','','','','','','','','','','','',''];
-let americarn=['América-RN',logoamericarn,'Estadual','RN','NO','B',1,'G16',1,3,3,0,0,0,4,2,3,2,5,2,0,0,3,3,1,3,0,2,3,2,4,5,3,5,4,1,4,1,1,1,5,1,0,2,5,2,'','','','','','','','','','','','','','','','','','','',''];
+let americarj=['América-RJ',logoamericarj,'Regional','RJ','RJ1','B',10,'G16',0,2,4,1,0,3,1,2,3,0,0,1,4,3,0,3,5,3,3,5,4,0,2,5,0,3,1,1,1,3,0,1,4,5,0,3,4,5,'','','','','','','','','','','','','','','','','','','','1960'];
+let americarn=['América-RN',logoamericarn,'Estadual','RN','NO','B',16,'G16',1,3,3,0,0,0,4,2,3,2,5,2,0,0,3,3,1,3,0,2,3,2,4,5,3,5,4,1,4,1,1,1,5,1,0,2,5,2,'','','','','','','','','','','','','','','','','','','','1966'];
 let anapolina=['Anapolina',logoanapolina,'Citadino','GO','GO','D',1,'G13',0,0,2,3,4,1,5,5,5,1,0,1,3,2,0,4,2,3,5,3,5,0,4,2,5,5,0,3,2,1,1,0,2,2,1,5,2,0,'','','','','','','','','','','','','','','','','','','',''];
 let anapolis=['Anápolis',logoanapolis,'Citadino','GO','GO','D',1,'',0,0,0,2,1,3,5,1,1,5,1,0,2,1,4,0,0,4,4,5,2,5,3,5,1,0,1,3,0,1,2,1,4,4,4,1,3,3,'','','','','','','','','','','','','','','','','','','',''];
 let andraus=['Andraus',logoandraus,'Citadino','PR','PR1','E',1,'',1,2,5,1,2,1,0,1,1,2,5,5,3,4,2,4,3,3,2,0,0,5,3,3,5,5,2,2,0,1,5,5,5,5,3,2,4,1,'','','','','','','','','','','','','','','','','','','',''];
@@ -745,7 +745,7 @@ let botafogopb=['Botafogo-PB',logobotafogopb,'Regional','PB','NO','C',1,'',0,1,0
 let botafogosp=['Botafogo-SP',logobotafogosp,'Regional','SP','SP','C',1,'G13',0,1,1,3,2,2,2,5,4,3,2,0,5,0,1,3,3,2,1,3,2,0,4,1,2,1,5,2,4,1,5,4,5,5,1,5,2,3,'','','','','','','','','','','','','','','','','','','',''];
 let bragantino=['Bragantino',logobragantino,'Pequeno','SP','SP','A',1,'G8',0,5,0,0,3,5,2,2,5,0,3,3,4,2,5,0,1,1,2,3,2,1,2,3,3,4,0,4,1,3,5,3,0,4,1,4,5,2,'','','','','','','','','','','','','','','','','','','',''];
 let brasiliense=['Brasiliense',logobrasiliense,'Regional','DF','CO','D',1,'',0,1,3,1,0,3,2,5,2,4,4,2,1,2,1,3,1,2,0,1,4,4,0,0,5,1,3,0,1,3,4,3,2,5,4,5,2,5,'','','','','','','','','','','','','','','','','','','',''];
-let brasilrs=['Brasil-RS',logobrasilrs,'Regional','RS','RS','B',1,'',2,3,3,1,3,2,2,5,3,4,2,3,5,3,2,1,1,2,1,2,5,1,0,1,5,1,1,5,0,1,2,3,1,3,4,5,5,4,'','','','','','','','','','','','','','','','','','','',''];
+let brasilrs=['Brasil-RS',logobrasilrs,'Regional','RS','RS','B',4,'',2,3,3,1,3,2,2,5,3,4,2,3,5,3,2,1,1,2,1,2,5,1,0,1,5,1,1,5,0,1,2,3,1,3,4,5,5,4,'','','','','','','','','','','','','','','','','','','','1954'];
 let brusque=['Brusque',logobrusque,'Regional','SC','SC1','C',1,'',0,4,1,4,4,1,0,0,2,2,3,4,0,0,5,2,2,4,4,4,0,1,2,1,4,2,4,2,3,2,4,5,1,1,2,0,4,2,'','','','','','','','','','','','','','','','','','','',''];
 let cabofriense=['Cabofriense',logocabofriense,'Citadino','RJ','RJ1','E',1,'G13',1,5,0,2,4,2,1,5,5,1,2,2,1,2,4,2,0,0,2,3,3,4,3,2,2,3,4,2,1,1,1,1,1,5,0,3,2,3,'','','','','','','','','','','','','','','','','','','',''];
 let caldense=['Caldense',logocaldense,'Regional','MG','MG1','E',1,'',2,1,3,5,3,2,1,4,5,0,0,3,5,5,3,5,4,1,5,0,0,5,1,4,2,0,4,1,0,1,3,1,4,3,4,0,0,4,'','','','','','','','','','','','','','','','','','','',''];
@@ -756,7 +756,7 @@ let caruarucity=['Caruaru City',logocaruarucity,'Citadino','PE','PE1','E',1,'G4'
 let castanhalpa=['Castanhal-PA',logocastanhalpa,'Citadino','PA','NN2','E',1,'',1,3,2,4,0,0,1,4,5,3,5,2,0,3,3,0,0,0,0,0,2,1,2,5,3,4,3,0,1,3,0,4,1,4,1,3,2,2,'','','','','','','','','','','','','','','','','','','',''];
 let caucaia=['Caucaia',logocaucaia,'Citadino','CE','CE1','E',1,'',0,3,3,4,4,3,1,2,1,4,4,2,0,2,1,5,0,0,3,4,1,3,3,5,0,2,5,4,1,5,3,4,3,1,5,0,4,4,'','','','','','','','','','','','','','','','','','','',''];
 let caxias=['Caxias',logocaxias,'Regional','RS','RS','C',1,'',1,1,5,1,4,4,3,2,3,2,5,4,2,0,3,4,1,1,2,3,0,4,4,4,0,5,4,0,3,3,4,2,0,1,1,5,2,5,'','','','','','','','','','','','','','','','','','','',''];
-let ceara=['Ceará',logoceara,'Pequeno','CE','CE','B',1,'G8',3,4,0,3,5,2,2,5,1,3,5,3,2,1,2,1,4,5,4,4,1,5,5,1,2,2,5,5,4,1,0,4,4,2,5,3,5,0,'','','','','','','','','','','','','','','','','','','',''];
+let ceara=['Ceará',logoceara,'Pequeno','CE','CE','B',18,'G8',3,4,0,3,5,2,2,5,1,3,5,3,2,1,2,1,4,5,4,4,1,5,5,1,2,2,5,5,4,1,0,4,4,2,5,3,5,0,'','','','','','','','','','','','','','','','','','','','1968'];
 let ceilandia=['Ceilândia',logoceilandia,'Citadino','DF','CO1','E',1,'G4',0,0,3,5,3,3,4,1,0,3,1,2,2,0,2,1,4,4,4,3,2,3,5,4,5,2,5,3,4,4,4,1,5,0,1,2,0,4,'','','','','','','','','','','','','','','','','','','',''];
 let central=['Central',logocentral,'Citadino','PE','PE','D',1,'G4',0,2,4,5,4,2,3,3,5,3,1,3,4,4,3,4,5,1,1,4,4,0,2,3,4,2,0,1,4,2,4,4,5,0,0,1,4,3,'','','','','','','','','','','','','','','','','','','',''];
 let ceov=['CEOV',logoceov,'Citadino','MT','CO1','E',1,'G8',0,1,1,5,2,0,1,1,4,1,3,3,5,3,0,5,2,5,5,1,4,0,3,4,2,4,3,0,2,3,1,5,4,0,4,2,1,5,'','','','','','','','','','','','','','','','','','','',''];
@@ -766,16 +766,16 @@ let comercialms=['Comercial-MS',logocomercialms,'Citadino','MS','CO1','E',1,'',1
 let concordia=['Concórdia',logoconcordia,'Citadino','SC','SC','D',1,'',1,1,4,2,5,1,4,5,0,3,1,2,0,4,1,1,3,5,2,4,0,3,1,3,5,3,4,1,1,4,2,3,1,2,4,2,2,0,'','','','','','','','','','','','','','','','','','','',''];
 let confianca=['Confiança',logoconfianca,'Citadino','SE','NO','D',1,'',0,3,5,5,0,1,0,5,0,1,2,2,3,1,0,5,5,3,0,0,0,5,3,5,5,2,0,1,0,2,0,5,5,0,5,3,2,4,'','','','','','','','','','','','','','','','','','','',''];
 let corinthians=['Corinthians',logocorinthians,'Grande','SP','SP','A',1,'',1,0,1,5,5,5,3,0,0,1,0,2,2,1,0,2,2,5,5,1,5,2,2,2,1,0,4,3,3,1,3,2,5,3,2,1,4,0,'','','','','','','','','','','','','','','','','','','',''];
-let coritiba=['Coritiba',logocoritiba,'Médio','PR','PR','B',1,'',1,2,5,5,3,5,0,2,0,3,1,1,5,0,5,3,4,1,2,0,4,3,2,5,0,2,5,2,0,0,1,4,5,2,4,2,2,0,'','','','','','','','','','','','','','','','','','','',''];
+let coritiba=['Coritiba',logocoritiba,'Médio','PR','PR','B',9,'',1,2,5,5,3,5,0,2,0,3,1,1,5,0,5,3,4,1,2,0,4,3,2,5,0,2,5,2,0,0,1,4,5,2,4,2,2,0,'','','','','','','','','','','','','','','','','','','','1959'];
 let costarica=['Costa Rica',logocostarica,'Citadino','MS','CO','D',1,'',0,2,1,2,0,4,5,3,0,3,2,1,2,4,1,3,3,4,0,5,5,5,1,4,2,4,4,1,2,5,5,0,2,5,3,3,3,3,'','','','','','','','','','','','','','','','','','','',''];
 let crac=['CRAC',logocrac,'Citadino','GO','GO','D',1,'G16',0,0,2,2,1,4,0,0,0,0,2,0,2,3,0,5,5,4,4,3,5,2,3,1,1,5,2,3,1,3,2,1,2,5,5,2,0,1,'','','','','','','','','','','','','','','','','','','',''];
 let crato=['Crato',logocrato,'Citadino','CE','CE1','E',1,'G16',0,3,2,4,2,3,1,1,4,3,1,4,5,4,2,0,2,2,2,4,1,2,0,0,5,5,4,2,3,0,5,1,4,4,2,0,5,2,'','','','','','','','','','','','','','','','','','','',''];
 let crb=['CRB',logocrb,'Estadual','AL','NO1','C',1,'G4',0,4,2,4,3,0,3,0,4,0,0,4,2,5,3,3,1,0,0,2,0,0,0,4,2,1,0,3,2,5,1,0,0,4,2,3,5,2,'','','','','','','','','','','','','','','','','','','',''];
-let criciuma=['Criciuma',logocriciuma,'Estadual','SC','SC','B',1,'G4',2,3,1,3,1,3,1,2,1,1,3,5,4,3,2,5,5,2,0,1,1,5,4,2,0,0,3,1,5,3,4,1,3,1,2,5,3,3,'','','','','','','','','','','','','','','','','','','',''];
-let cruzeiro=['Cruzeiro',logocruzeiro,'Grande','MG','MG','B',1,'',0,2,4,2,1,4,2,5,5,4,3,0,0,0,0,4,3,3,0,4,2,5,2,1,3,4,5,4,5,0,1,1,0,5,0,1,2,5,'','','','','','','','','','','','','','','','','','','',''];
+let criciuma=['Criciuma',logocriciuma,'Estadual','SC','SC','B',15,'G4',2,3,1,3,1,3,1,2,1,1,3,5,4,3,2,5,5,2,0,1,1,5,4,2,0,0,3,1,5,3,4,1,3,1,2,5,3,3,'','','','','','','','','','','','','','','','','','','','1965'];
+let cruzeiro=['Cruzeiro',logocruzeiro,'Grande','MG','MG','B',3,'',0,2,4,2,1,4,2,5,5,4,3,0,0,0,0,4,3,3,0,4,2,5,2,1,3,4,5,4,5,0,1,1,0,5,0,1,2,5,'','','','','','','','','','','','','','','','','','','','1953'];
 let csa=['CSA',logocsa,'Estadual','AL','NO','C',1,'G8',0,5,1,0,3,0,4,0,2,1,3,0,5,4,4,4,3,5,3,0,1,5,0,4,4,2,0,3,1,5,3,3,0,3,2,4,3,3,'','','','','','','','','','','','','','','','','','','',''];
 let cse=['CSE',logocse,'Citadino','AL','NO1','D',1,'',0,0,3,3,0,1,2,4,4,1,5,1,3,2,3,0,5,3,2,2,5,1,0,0,3,3,0,5,4,1,5,5,2,4,3,0,1,3,'','','','','','','','','','','','','','','','','','','',''];
-let cuiaba=['Cuiabá',logocuiaba,'Estadual','MT','CO','B',1,'G13',0,4,3,1,0,1,4,5,4,5,3,3,2,5,5,5,3,0,3,2,4,0,4,2,2,2,4,3,4,1,3,1,3,2,0,3,0,0,'','','','','','','','','','','','','','','','','','','',''];
+let cuiaba=['Cuiabá',logocuiaba,'Estadual','MT','CO','B',17,'G13',0,4,3,1,0,1,4,5,4,5,3,3,2,5,5,5,3,0,3,2,4,0,4,2,2,2,4,3,4,1,3,1,3,2,0,3,0,0,'','','','','','','','','','','','','','','','','','','','1967'];
 let decisaosertania=['Decisão Sertânia',logodecisaosertania,'Citadino','PE','PE1','E',1,'',1,1,3,3,2,1,2,1,3,5,0,0,3,5,1,2,3,3,2,1,0,0,5,4,4,0,0,5,5,3,5,1,2,4,3,2,2,3,'','','','','','','','','','','','','','','','','','','',''];
 let democrata=['Democrata',logodemocrata,'Citadino','MG','MG','D',1,'',0,5,4,0,0,5,3,2,2,5,4,4,2,1,1,5,1,2,1,5,3,5,5,4,0,2,5,1,4,4,3,3,1,4,4,4,0,1,'','','','','','','','','','','','','','','','','','','',''];
 let dombosco=['Dom Bosco',logodombosco,'Citadino','MT','CO1','E',1,'0',5,1,1,5,0,2,0,3,4,4,1,1,2,2,0,5,3,5,5,3,5,4,3,2,4,5,1,5,1,0,0,1,3,5,4,4,3,4,'','','','','','','','','','','','','','','','','','','',''];
@@ -801,7 +801,7 @@ let goiatuba=['Goiatuba',logogoiatuba,'Citadino','GO','GO1','E',1,'',0,5,2,1,2,1
 let gremio=['Grêmio',logogremio,'Grande','RS','RS','A',1,'',0,1,3,0,1,3,5,4,2,2,4,2,3,2,0,0,3,5,0,3,5,3,3,1,0,4,3,0,0,1,5,0,0,3,3,4,3,4,'','','','','','','','','','','','','','','','','','','',''];
 let gremioanapolis=['Grêmio Anápolis',logogremioanapolis,'Citadino','GO','GO1','E',1,'G4',2,0,1,3,1,0,2,1,3,0,2,3,4,1,5,3,3,4,1,2,1,1,0,3,1,4,2,1,4,5,3,0,2,3,0,3,4,3,'','','','','','','','','','','','','','','','','','','',''];
 let gremiomaringa=['Grêmio Maringá',logogremiomaringa,'Citadino','PR','PR1','E',1,'',0,0,5,5,0,2,1,5,3,0,3,2,1,5,0,1,3,3,1,3,4,5,5,2,4,1,4,1,3,1,4,0,4,2,1,1,0,4,'','','','','','','','','','','','','','','','','','','',''];
-let guarani=['Guarani',logoguarani,'Pequeno','SP','SP','B',1,'',0,3,4,0,1,2,0,0,1,0,3,5,1,3,3,4,4,2,4,4,1,2,5,4,5,4,5,1,0,1,2,5,2,1,4,5,5,3,'','','','','','','','','','','','','','','','','','','',''];
+let guarani=['Guarani',logoguarani,'Pequeno','SP','SP','B',14,'',0,3,4,0,1,2,0,0,1,0,3,5,1,3,3,4,4,2,4,4,1,2,5,4,5,4,5,1,0,1,2,5,2,1,4,5,5,3,'','','','','','','','','','','','','','','','','','','','1964'];
 let guaranidepalhoca=['Guarani de Palhoça',logoguaranidepalhoca,'Citadino','SC','SC1','E',1,'',0,5,2,2,5,0,3,5,5,0,2,4,3,4,1,0,0,2,3,1,4,3,3,4,5,5,2,1,2,3,0,3,5,0,3,2,0,0,'','','','','','','','','','','','','','','','','','','',''];
 let guaranydesobral=['Guarany de Sobral',logoguaranydesobral,'Citadino','CE','CE','D',1,'',3,0,0,2,4,1,2,2,5,5,5,2,0,4,2,1,3,3,3,2,0,2,4,5,2,3,3,1,4,4,1,3,5,3,3,4,4,3,'','','','','','','','','','','','','','','','','','','',''];
 let guaranyrs=['Guarany-RS',logoguaranyrs,'Citadino','RS','RS1','E',1,'',0,2,0,5,4,1,5,4,0,2,3,1,1,0,2,2,3,4,3,1,5,3,0,0,4,3,2,0,5,1,5,5,0,2,4,4,2,1,'','','','','','','','','','','','','','','','','','','',''];
@@ -813,7 +813,7 @@ let icasa=['Icasa',logoicasa,'Citadino','CE','CE','D',1,'',0,1,3,2,2,0,0,4,0,0,4
 let iguatu=['Iguatu',logoiguatu,'Citadino','CE','CE','D',1,'',0,5,3,4,2,1,1,4,2,3,1,0,4,1,3,1,3,2,1,2,0,4,2,0,5,2,5,0,2,3,0,3,3,3,0,3,2,3,'','','','','','','','','','','','','','','','','','','',''];
 let inhumas=['Inhumas',logoinhumas,'Citadino','GO','GO1','E',1,'',0,0,3,5,4,1,2,4,5,2,1,4,0,0,4,2,4,1,3,4,5,2,0,1,0,0,4,3,3,4,4,3,4,1,5,1,2,2,'','','','','','','','','','','','','','','','','','','',''];
 let interdelajes=['Inter de Lajes',logointerdelajes,'Citadino','SC','SC1','E',1,'G4',1,1,0,2,4,2,1,5,4,1,4,0,4,1,4,0,1,5,4,4,0,0,2,3,2,4,0,4,3,1,1,0,0,1,3,0,2,2,'','','','','','','','','','','','','','','','','','','',''];
-let internacional=['Internacional',logointernacional,'Grande','RS','RS','B',1,'',0,1,2,4,1,1,3,3,3,5,1,3,1,0,4,4,2,1,3,3,1,5,3,4,0,1,3,0,5,3,3,3,2,2,1,0,3,5,'','','','','','','','','','','','','','','','','','','',''];
+let internacional=['Internacional',logointernacional,'Grande','RS','RS','B',8,'',0,1,2,4,1,1,3,3,3,5,1,3,1,0,4,4,2,1,3,3,1,5,3,4,0,1,3,0,5,3,3,3,2,2,1,0,3,5,'','','','','','','','','','','','','','','','','','','','1958'];
 let internacionalsp=['Internacional-SP',logointernacionalsp,'Citadino','SP','SP1','D',1,'',0,5,3,1,0,3,1,0,3,1,2,3,4,5,0,3,2,5,2,4,3,3,1,4,4,2,0,5,5,0,5,2,0,5,2,4,3,2,'','','','','','','','','','','','','','','','','','','',''];
 let ipatinga=['Ipatinga',logoipatinga,'Regional','MG','MG','D',1,'G8',0,5,4,4,4,4,4,3,1,0,0,1,0,1,0,4,2,5,3,5,3,2,0,5,2,1,2,0,3,5,0,4,3,4,5,3,3,5,'','','','','','','','','','','','','','','','','','','',''];
 let ipora=['Iporá',logoipora,'Citadino','GO','GO','D',1,'',0,3,0,4,3,5,5,5,2,2,3,1,2,5,1,4,1,2,3,5,3,4,2,5,3,1,4,3,1,5,4,2,4,1,0,5,2,0,'','','','','','','','','','','','','','','','','','','',''];
@@ -847,29 +847,29 @@ let morrinhos=['Morrinhos',logomorrinhos,'Citadino','GO','GO1','E',1,'G4',2,5,4,
 let motoclub=['Moto Club',logomotoclub,'Citadino','MA','NO1','E',1,'',1,0,5,4,3,0,5,5,0,0,0,3,2,5,1,4,2,2,5,3,3,2,3,1,0,4,3,0,2,4,4,3,4,1,0,5,1,5,'','','','','','','','','','','','','','','','','','','',''];
 let nacao=['Nação',logonacao,'Citadino','SC','SC1','E',1,'',0,0,3,3,3,4,1,0,3,4,1,5,5,2,5,0,1,3,5,0,3,1,4,5,1,0,1,3,1,2,4,4,1,3,1,5,1,3,'','','','','','','','','','','','','','','','','','','',''];
 let nacionalam=['Nacional-AM',logonacionalam,'Regional','AM','NN','D',1,'',0,3,1,2,0,2,1,2,4,1,1,4,3,3,4,1,0,2,0,5,5,0,0,5,2,4,0,2,3,2,0,1,2,5,1,5,1,4,'','','','','','','','','','','','','','','','','','','',''];
-let nautico=['Náutico',logonautico,'Pequeno','PE','PE','B',1,'G16',0,2,1,5,2,5,2,5,2,1,5,0,0,0,1,5,3,5,2,2,0,1,0,4,0,1,0,1,4,5,5,4,3,0,4,1,0,0,'','','','','','','','','','','','','','','','','','','',''];
+let nautico=['Náutico',logonautico,'Pequeno','PE','PE','B',2,'G16',0,2,1,5,2,5,2,5,2,1,5,0,0,0,1,5,3,5,2,2,0,1,0,4,0,1,0,1,4,5,5,4,3,0,4,1,0,0,'','','','','','','','','','','','','','','','','','','','1952'];
 let nauticorr=['Náutico-RR',logonauticorr,'Citadino','RR','NN1','E',1,'G16',0,0,2,1,5,4,0,4,1,4,0,5,4,1,0,3,0,3,5,4,4,4,3,2,0,5,1,3,2,0,1,4,3,5,0,0,3,5,'','','','','','','','','','','','','','','','','','','',''];
 let novaiguacu=['Nova Iguaçu',logonovaiguacu,'Citadino','RJ','RJ','D',1,'',2,3,3,1,5,3,3,4,2,5,3,1,1,1,1,3,2,1,5,0,5,5,0,0,4,1,0,4,4,1,2,0,0,4,5,5,3,0,'','','','','','','','','','','','','','','','','','','',''];
 let novamutum=['Nova Mutum',logonovamutum,'Citadino','MT','CO1','E',1,'',0,2,2,5,0,4,0,2,2,3,2,3,2,0,5,5,1,0,0,0,1,1,0,2,0,2,3,1,3,3,3,3,2,1,1,2,4,5,'','','','','','','','','','','','','','','','','','','',''];
 let novohamburgo=['Novo Hamburgo',logonovohamburgo,'Citadino','RS','RS','D',1,'',0,5,4,1,4,2,4,2,5,0,4,1,2,3,3,3,1,1,4,4,5,3,3,3,1,5,5,5,0,3,5,4,0,3,5,4,5,2,'','','','','','','','','','','','','','','','','','','',''];
-let novorizontino=['Novorizontino',logonovorizontino,'Citadino','SP','SP','B',1,'G8',0,4,4,4,2,0,0,0,0,2,1,0,3,0,5,4,2,1,0,0,1,2,1,0,4,0,0,4,0,5,3,3,4,5,0,2,5,3,'','','','','','','','','','','','','','','','','','','',''];
+let novorizontino=['Novorizontino',logonovorizontino,'Citadino','SP','SP','B',20,'G8',0,4,4,4,2,0,0,0,0,2,1,0,3,0,5,4,2,1,0,0,1,2,1,0,4,0,0,4,0,5,3,3,4,5,0,2,5,3,'','','','','','','','','','','','','','','','','','','','1970'];
 let olaria=['Olaria',logoolaria,'Citadino','RJ','RJ1','E',1,'',2,1,0,4,4,0,5,5,3,3,2,1,2,2,0,4,5,2,3,5,2,2,0,0,5,2,5,1,4,0,2,3,5,3,0,3,4,0,'','','','','','','','','','','','','','','','','','','',''];
-let operarioms=['Operário-MS',logooperarioms,'Citadino','MS','CO','B',1,'',2,1,4,4,4,2,5,4,5,0,0,0,4,3,3,3,4,3,3,1,4,4,0,2,3,2,5,1,5,2,4,2,5,3,5,1,0,2,'','','','','','','','','','','','','','','','','','','',''];
+let operarioms=['Operário-MS',logooperarioms,'Citadino','MS','CO','B',13,'',2,1,4,4,4,2,5,4,5,0,0,0,4,3,3,3,4,3,3,1,4,4,0,2,3,2,5,1,5,2,4,2,5,3,5,1,0,2,'','','','','','','','','','','','','','','','','','','','1963'];
 let operariopr=['Operário-PR',logooperariopr,'Regional','PR','PR','D',1,'G8',0,4,0,3,4,3,5,3,2,4,2,0,4,0,2,4,5,0,5,1,2,4,2,2,3,3,3,1,4,0,3,3,0,0,0,2,4,3,'','','','','','','','','','','','','','','','','','','',''];
 let pacajus=['Pacajus ',logopacajus,'Citadino','CE','CE1','E',1,'',1,0,4,1,5,2,0,1,4,3,5,4,1,3,4,1,1,2,4,2,4,2,2,2,2,1,5,5,2,5,2,3,2,2,2,0,2,3,'','','','','','','','','','','','','','','','','','','',''];
 let palmeiras=['Palmeiras',logopalmeiras,'Grande','SP','SP1','A',1,'',1,5,3,1,3,0,3,1,1,0,2,5,3,3,5,4,3,2,4,1,3,4,2,3,5,0,2,1,0,0,3,2,3,4,5,2,0,5,'','','','','','','','','','','','','','','','','','','',''];
 let parana=['Paraná',logoparana,'Estadual','PR','PR','D',1,'',0,4,2,0,4,4,3,1,0,5,3,5,5,1,1,3,4,4,0,1,0,5,1,1,0,5,4,4,3,0,2,0,4,5,1,5,4,3,'','','','','','','','','','','','','','','','','','','',''];
 let passofundo=['Passo Fundo',logopassofundo,'Citadino','RS','RS2','E',1,'',0,3,5,0,5,1,3,3,0,0,1,2,1,2,5,3,1,0,4,5,4,5,2,0,4,1,0,3,3,5,2,1,2,2,0,4,0,5,'','','','','','','','','','','','','','','','','','','',''];
 let patrocinense=['Patrocinense',logopatrocinense,'Citadino','MG','MG1','E',1,'',0,1,2,2,2,0,1,5,4,5,4,3,5,0,2,5,1,3,1,5,1,3,3,1,4,4,1,1,3,0,2,3,3,0,0,3,2,1,'','','','','','','','','','','','','','','','','','','',''];
-let paulista=['Paulista',logopaulista,'Citadino','SP','SP1','B',1,'',3,0,1,2,1,3,2,3,4,0,0,1,4,0,1,1,3,2,4,4,0,0,0,0,1,1,2,3,1,2,3,2,4,0,2,4,4,2,'','','','','','','','','','','','','','','','','','','',''];
+let paulista=['Paulista',logopaulista,'Citadino','SP','SP1','B',7,'',3,0,1,2,1,3,2,3,4,0,0,1,4,0,1,1,3,2,4,4,0,0,0,0,1,1,2,3,1,2,3,2,4,0,2,4,4,2,'','','','','','','','','','','','','','','','','','','','1957'];
 let paysandu=['Paysandu',logopaysandu,'Pequeno','PA','NN','A',1,'',1,3,5,0,2,5,5,3,3,1,0,4,3,1,4,1,2,2,4,0,3,4,0,2,4,4,2,5,2,1,3,1,5,2,3,1,2,5,'','','','','','','','','','','','','','','','','','','',''];
 let pelotas=['Pelotas',logopelotas,'Regional','RS','RS1','E',1,'G4',2,4,5,1,4,3,3,2,5,3,1,3,1,2,4,3,0,3,4,4,1,2,5,0,3,1,4,3,5,0,4,5,3,5,3,0,0,2,'','','','','','','','','','','','','','','','','','','',''];
 let penarolam=['Penarol-AM',logopenarolam,'Citadino','AM','NN2','E',1,'',0,5,5,2,0,3,1,0,5,1,4,0,0,4,0,0,4,2,4,3,4,4,2,2,3,5,3,5,2,4,3,5,5,2,0,4,0,0,'','','','','','','','','','','','','','','','','','','',''];
 let petrolina=['Petrolina',logopetrolina,'Citadino','PE','PE','D',1,'',0,2,5,2,4,0,3,1,3,5,3,4,1,4,5,1,1,4,3,1,5,5,0,5,5,4,2,5,0,5,0,1,4,1,0,4,4,0,'','','','','','','','','','','','','','','','','','','',''];
-let pontepreta=['Ponte Preta',logopontepreta,'Pequeno','SP','SP','B',1,'',2,2,2,3,0,5,3,3,1,4,4,5,1,1,2,4,2,0,4,5,5,0,1,5,5,3,3,5,3,5,3,2,0,3,1,3,2,1,'','','','','','','','','','','','','','','','','','','',''];
+let pontepreta=['Ponte Preta',logopontepreta,'Pequeno','SP','SP','B',12,'',2,2,2,3,0,5,3,3,1,4,4,5,1,1,2,4,2,0,4,5,5,0,1,5,5,3,3,5,3,5,3,2,0,3,1,3,2,1,'','','','','','','','','','','','','','','','','','','','1962'];
 let porto=['Porto',logoporto,'Citadino','PE','PE','D',1,'',0,0,3,0,2,4,1,5,4,1,2,3,3,1,3,1,0,4,0,0,3,0,0,2,2,1,5,3,2,1,5,3,0,5,0,0,1,2,'','','','','','','','','','','','','','','','','','','',''];
 let portovelhoro=['Porto Velho-RO',logoportovelhoro,'Citadino','RO','NN1','D',1,'',1,3,3,3,2,2,5,4,1,1,0,0,4,2,0,5,3,3,2,1,5,3,3,0,4,1,1,2,1,0,4,2,3,1,5,5,5,3,'','','','','','','','','','','','','','','','','','','',''];
-let portuguesa=['Portuguesa',logoportuguesa,'Pequeno','SP','SP','B',1,'',0,5,5,1,5,4,1,1,3,0,5,5,1,2,4,5,3,0,0,3,3,0,3,1,5,2,5,0,3,4,2,0,0,0,3,3,2,2,'','','','','','','','','','','','','','','','','','','',''];
+let portuguesa=['Portuguesa',logoportuguesa,'Pequeno','SP','SP','B',6,'',0,5,5,1,5,4,1,1,3,0,5,5,1,2,4,5,3,0,0,3,3,0,3,1,5,2,5,0,3,4,2,0,0,0,3,3,2,2,'','','','','','','','','','','','','','','','','','','','1956'];
 let portuguesarj=['Portuguesa-RJ',logoportuguesarj,'Citadino','RJ','RJ','D',1,'G13',0,4,2,4,3,5,0,5,3,3,4,4,1,5,5,3,5,5,1,2,5,4,0,1,0,3,2,1,3,3,1,1,5,1,0,0,1,0,'','','','','','','','','','','','','','','','','','','',''];
 let potiguardemossoro=['Potiguar de Mossoró',logopotiguardemossoro,'Citadino','RN','NO2','E',1,'G8',0,0,3,5,0,0,1,4,3,0,4,3,3,5,3,1,2,2,2,0,4,3,4,3,3,1,4,5,5,2,3,0,4,4,0,1,4,0,'','','','','','','','','','','','','','','','','','','',''];
 let pousoalegre=['Pouso Alegre',logopousoalegre,'Citadino','MG','MG1','D',1,'',0,3,1,1,3,3,5,1,4,3,3,0,1,1,1,5,5,5,2,5,3,4,5,0,3,0,3,1,3,4,0,2,4,0,4,1,3,0,'','','','','','','','','','','','','','','','','','','',''];
@@ -884,11 +884,11 @@ let riobrancoac=['Rio Branco-AC',logoriobrancoac,'Regional','AC','NN1','D',1,'',
 let rionegroam=['Rio Negro-AM',logorionegroam,'Citadino','AM','NN2','E',1,'',0,4,5,1,4,1,3,0,5,4,2,4,5,1,0,2,3,2,4,2,2,3,0,0,3,5,5,5,3,5,1,5,0,0,1,0,2,3,'','','','','','','','','','','','','','','','','','','',''];
 let riverpi=['River-PI',logoriverpi,'Regional','PI','NO','D',1,'G4',2,5,0,5,4,3,4,1,4,4,5,4,2,0,2,3,0,3,2,2,2,4,4,4,3,4,2,2,5,0,1,4,1,2,2,4,5,2,'','','','','','','','','','','','','','','','','','','',''];
 let salgueiro=['Salgueiro',logosalgueiro,'Citadino','PE','PE','D',1,'',0,4,2,3,2,1,0,1,3,0,3,5,0,1,2,1,0,3,4,3,2,5,2,3,3,1,4,1,5,1,1,1,1,5,2,0,1,4,'','','','','','','','','','','','','','','','','','','',''];
-let sampaiocorrea=['Sampaio Correa',logosampaiocorrea,'Estadual','MA','NO','B',1,'',0,3,4,3,4,3,5,2,4,4,2,4,0,3,4,5,4,5,4,1,5,3,3,5,4,2,0,0,2,3,5,4,2,0,0,4,4,2,'','','','','','','','','','','','','','','','','','','',''];
-let santacruz=['Santa Cruz',logosantacruz,'Pequeno','PE','PE','B',1,'',1,2,3,1,0,0,2,5,4,5,2,2,2,2,2,2,5,2,2,0,0,1,2,4,2,2,4,2,3,5,3,1,0,5,1,4,1,4,'','','','','','','','','','','','','','','','','','','',''];
+let sampaiocorrea=['Sampaio Correa',logosampaiocorrea,'Estadual','MA','NO','B',1,'',0,3,4,3,4,3,5,2,4,4,2,4,0,3,4,5,4,5,4,1,5,3,3,5,4,2,0,0,2,3,5,4,2,0,0,4,4,2,'','','','','','','','','','','','','','','','','','','','1909'];
+let santacruz=['Santa Cruz',logosantacruz,'Pequeno','PE','PE','B',19,'',1,2,3,1,0,0,2,5,4,5,2,2,2,2,2,2,5,2,2,0,0,1,2,4,2,2,4,2,3,5,3,1,0,5,1,4,1,4,'','','','','','','','','','','','','','','','','','','','1969'];
 let santacruzdenatal=['Santa Cruz de Natal',logosantacruzdenatal,'Citadino','RN','NO2','E',1,'',0,4,2,3,2,3,0,4,3,0,2,1,5,3,1,3,0,0,0,5,1,2,4,4,1,3,2,0,5,0,1,1,4,2,2,4,0,2,'','','','','','','','','','','','','','','','','','','',''];
 let santoandre=['Santo André',logosantoandre,'Regional','SP','SP2','E',1,'',2,2,2,0,5,1,0,0,5,4,3,3,1,1,0,4,0,4,1,2,0,1,2,3,1,5,3,5,5,4,1,3,0,4,2,5,0,1,'','','','','','','','','','','','','','','','','','','',''];
-let santos=['Santos',logosantos,'Grande','SP','SP1','B',1,'',0,0,1,5,3,1,0,0,2,4,2,1,0,1,3,2,0,5,1,0,5,5,0,0,1,3,2,0,2,3,1,2,4,2,4,2,2,4,'','','','','','','','','','','','','','','','','','','',''];
+let santos=['Santos',logosantos,'Grande','SP','SP1','B',11,'',0,0,1,5,3,1,0,0,2,4,2,1,0,1,3,2,0,5,1,0,5,5,0,0,1,3,2,0,2,3,1,2,4,2,4,2,2,4,'','','','','','','','','','','','','','','','','','','','1961'];
 let saobernardo=['São Bernardo',logosaobernardo,'Citadino','SP','SP1','D',1,'G4',0,4,1,5,4,3,3,3,2,2,0,3,4,3,0,3,3,3,0,1,4,0,0,2,2,3,3,2,3,4,1,1,4,2,1,4,5,1,'','','','','','','','','','','','','','','','','','','',''];
 let saocaetano=['São Caetano',logosaocaetano,'Regional','SP','SP2','E',1,'',0,1,2,4,0,4,2,2,2,4,5,3,1,3,1,0,0,4,1,3,0,2,3,2,4,2,3,3,5,2,0,3,1,5,3,5,1,2,'','','','','','','','','','','','','','','','','','','',''];
 let saocristovao=['São Cristóvão',logosaocristovao,'Citadino','RJ','RJ1','E',1,'',0,3,4,0,5,2,2,0,2,3,5,2,3,3,3,5,2,0,1,5,3,5,4,2,2,4,0,3,4,1,2,3,1,1,0,5,0,2,'','','','','','','','','','','','','','','','','','','',''];
@@ -922,7 +922,7 @@ let vilanova=['Vila Nova',logovilanova,'Estadual','GO','GO','C',1,'',0,2,2,1,1,4
 let villanovamg=['Villa Nova-MG',logovillanovamg,'Regional','MG','MG','D',1,'',0,5,1,2,1,0,1,4,0,4,4,3,5,1,1,0,2,0,5,0,3,3,0,3,2,4,0,1,3,4,1,2,1,4,1,1,3,3,'','','','','','','','','','','','','','','','','','','',''];
 let vitoria=['Vitória',logovitoria,'Médio','BA','BA','A',1,'',0,1,0,2,2,5,2,2,0,3,4,5,5,3,2,4,2,3,4,0,3,3,1,4,0,2,0,5,3,1,2,3,1,5,4,0,1,0,'','','','','','','','','','','','','','','','','','','',''];
 let vitoriadastabocas=['Vitória das Tabocas',logovitoriadastabocas,'Citadino','PE','PE1','E',1,'',0,3,1,3,2,5,2,3,1,1,1,2,1,3,4,0,2,4,3,5,3,2,5,1,5,5,0,3,5,1,3,3,2,2,3,3,5,2,'','','','','','','','','','','','','','','','','','','',''];
-let voltaredonda=['Volta Redonda',logovoltaredonda,'Regional','RJ','RJ','B',1,'',1,1,0,2,4,0,0,5,4,1,2,5,4,0,0,1,1,5,2,1,4,4,4,1,1,0,5,2,2,5,3,0,0,4,0,0,4,3,'','','','','','','','','','','','','','','','','','','',''];
+let voltaredonda=['Volta Redonda',logovoltaredonda,'Regional','RJ','RJ','B',5,'',1,1,0,2,4,0,0,5,4,1,2,5,4,0,0,1,1,5,2,1,4,4,4,1,1,0,5,2,2,5,3,0,0,4,0,0,4,3,'','','','','','','','','','','','','','','','','','','','1955'];
 let xvpiracicaba=['XV Piracicaba',logoxvpiracicaba,'Regional','SP','SP2','E',1,'',0,4,0,2,2,0,0,4,0,5,4,3,5,0,1,0,1,4,3,5,0,0,3,5,5,4,3,5,4,1,2,3,2,4,3,5,4,1,'','','','','','','','','','','','','','','','','','','',''];
 let ypirangaap=['Ypiranga-AP',logoypirangaap,'Citadino','AP','NN2','E',1,'',0,5,1,3,5,4,2,0,0,3,0,2,1,0,0,4,3,4,0,4,1,1,4,4,4,0,1,3,5,3,5,4,0,5,3,5,4,4,'','','','','','','','','','','','','','','','','','','',''];
 let ypirangars=['Ypiranga-RS',logoypirangars,'Citadino','RS','RS','C',1,'',1,4,2,2,3,1,4,4,0,0,0,4,0,3,1,0,3,5,4,4,4,4,2,1,1,1,4,4,1,2,5,1,4,4,2,2,4,0,'','','','','','','','','','','','','','','','','','','',''];
@@ -1519,6 +1519,9 @@ document.getElementById("antB1").innerHTML=Rodadas[rodada][12];
 document.getElementById("qaB1").innerHTML=Rodadas[rodada][13];
 document.getElementById("qiB1").innerHTML=Rodadas[rodada][14];
 document.getElementById("MteB1").innerHTML=Rodadas[rodada][15]+"%";
+
+
+
 //SEGUNDO LUGAR
 document.getElementById("logB2").innerHTML=Rodadas[rodada][17][1];
 document.getElementById("clubB2").innerHTML=Rodadas[rodada][17][0];
@@ -1936,6 +1939,354 @@ document.getElementById("qaB20").innerHTML=Rodadas[rodada][336];
 document.getElementById("qiB20").innerHTML=Rodadas[rodada][337];
 document.getElementById("MteB20").innerHTML=Rodadas[rodada][338]+"%";
 
+//CARD DOS TÉCNICOS----------------------------------------------------------------
+
+document.getElementById("CardNomeTec1").innerHTML=Rodadas[rodada][16].nome;
+  document.getElementById("CardLogo1").innerHTML=Rodadas[rodada][16].logo;
+  document.getElementById("CardLogin1").innerHTML=Rodadas[rodada][16].nomeLogin;
+  document.getElementById("CardId1").innerHTML="ID: "+Rodadas[rodada][16].idCart;
+  document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Rodadas[rodada][16].anoEnt;
+  document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Rodadas[rodada][0][6]+"ªrod. de "+Rodadas[rodada][0][65];
+  document.getElementById("CardTitulos1_1").innerHTML=Rodadas[rodada][16].titulo1;
+  document.getElementById("CardTitulos1_2").innerHTML=Rodadas[rodada][16].titulo2;
+  document.getElementById("CardTitulos1_3").innerHTML=Rodadas[rodada][16].titulo3;
+  document.getElementById("CardTitulos1_4").innerHTML=Rodadas[rodada][16].titulo4;
+  document.getElementById("CardTitulos1_5").innerHTML=Rodadas[rodada][16].titulo5;
+  document.getElementById("CardTitulos1_6").innerHTML=Rodadas[rodada][16].titulo6;
+  document.getElementById("CardTitulos1_7").innerHTML=Rodadas[rodada][16].titulo7;
+  document.getElementById("CardTitulos1_8").innerHTML=Rodadas[rodada][16].titulo8;
+  document.getElementById("CardTitulos1_9").innerHTML=Rodadas[rodada][16].titulo9;
+  document.getElementById("CardTitulos1_10").innerHTML=Rodadas[rodada][16].titulo10;
+
+
+  document.getElementById("CardNomeTec2").innerHTML=Rodadas[rodada][33].nome;
+  document.getElementById("CardLogo2").innerHTML=Rodadas[rodada][33].logo;
+  document.getElementById("CardLogin2").innerHTML=Rodadas[rodada][33].nomeLogin;
+  document.getElementById("CardId2").innerHTML="ID: "+Rodadas[rodada][33].idCart;
+  document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Rodadas[rodada][33].anoEnt;
+  document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Rodadas[rodada][17][6]+"ªrod. de "+Rodadas[rodada][17][65];
+  document.getElementById("CardTitulos2_1").innerHTML=Rodadas[rodada][33].titulo1;
+  document.getElementById("CardTitulos2_2").innerHTML=Rodadas[rodada][33].titulo2;
+  document.getElementById("CardTitulos2_3").innerHTML=Rodadas[rodada][33].titulo3;
+  document.getElementById("CardTitulos2_4").innerHTML=Rodadas[rodada][33].titulo4;
+  document.getElementById("CardTitulos2_5").innerHTML=Rodadas[rodada][33].titulo5;
+  document.getElementById("CardTitulos2_6").innerHTML=Rodadas[rodada][33].titulo6;
+  document.getElementById("CardTitulos2_7").innerHTML=Rodadas[rodada][33].titulo7;
+  document.getElementById("CardTitulos2_8").innerHTML=Rodadas[rodada][33].titulo8;
+  document.getElementById("CardTitulos2_9").innerHTML=Rodadas[rodada][33].titulo9;
+  document.getElementById("CardTitulos2_10").innerHTML=Rodadas[rodada][33].titulo10;
+
+  document.getElementById("CardNomeTec3").innerHTML=Rodadas[rodada][50].nome;
+  document.getElementById("CardLogo3").innerHTML=Rodadas[rodada][50].logo;
+  document.getElementById("CardLogin3").innerHTML=Rodadas[rodada][50].nomeLogin;
+  document.getElementById("CardId3").innerHTML="ID: "+Rodadas[rodada][50].idCart;
+  document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Rodadas[rodada][50].anoEnt;
+  document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Rodadas[rodada][34][6]+"ªrod. de "+Rodadas[rodada][34][65];
+  document.getElementById("CardTitulos3_1").innerHTML=Rodadas[rodada][50].titulo1;
+  document.getElementById("CardTitulos3_2").innerHTML=Rodadas[rodada][50].titulo2;
+  document.getElementById("CardTitulos3_3").innerHTML=Rodadas[rodada][50].titulo3;
+  document.getElementById("CardTitulos3_4").innerHTML=Rodadas[rodada][50].titulo4;
+  document.getElementById("CardTitulos3_5").innerHTML=Rodadas[rodada][50].titulo5;
+  document.getElementById("CardTitulos3_6").innerHTML=Rodadas[rodada][50].titulo6;
+  document.getElementById("CardTitulos3_7").innerHTML=Rodadas[rodada][50].titulo7;
+  document.getElementById("CardTitulos3_8").innerHTML=Rodadas[rodada][50].titulo8;
+  document.getElementById("CardTitulos3_9").innerHTML=Rodadas[rodada][50].titulo9;
+  document.getElementById("CardTitulos3_10").innerHTML=Rodadas[rodada][50].titulo10;
+
+  document.getElementById("CardNomeTec4").innerHTML=Rodadas[rodada][67].nome;
+  document.getElementById("CardLogo4").innerHTML=Rodadas[rodada][67].logo;
+  document.getElementById("CardLogin4").innerHTML=Rodadas[rodada][67].nomeLogin;
+  document.getElementById("CardId4").innerHTML="ID: "+Rodadas[rodada][67].idCart;
+  document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Rodadas[rodada][67].anoEnt;
+  document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Rodadas[rodada][51][6]+"ªrod. de "+Rodadas[rodada][51][65];
+  document.getElementById("CardTitulos4_1").innerHTML=Rodadas[rodada][67].titulo1;
+  document.getElementById("CardTitulos4_2").innerHTML=Rodadas[rodada][67].titulo2;
+  document.getElementById("CardTitulos4_3").innerHTML=Rodadas[rodada][67].titulo3;
+  document.getElementById("CardTitulos4_4").innerHTML=Rodadas[rodada][67].titulo4;
+  document.getElementById("CardTitulos4_5").innerHTML=Rodadas[rodada][67].titulo5;
+  document.getElementById("CardTitulos4_6").innerHTML=Rodadas[rodada][67].titulo6;
+  document.getElementById("CardTitulos4_7").innerHTML=Rodadas[rodada][67].titulo7;
+  document.getElementById("CardTitulos4_8").innerHTML=Rodadas[rodada][67].titulo8;
+  document.getElementById("CardTitulos4_9").innerHTML=Rodadas[rodada][67].titulo9;
+  document.getElementById("CardTitulos4_10").innerHTML=Rodadas[rodada][67].titulo10;
+
+
+  document.getElementById("CardNomeTec5").innerHTML=Rodadas[rodada][84].nome;
+  document.getElementById("CardLogo5").innerHTML=Rodadas[rodada][84].logo;
+  document.getElementById("CardLogin5").innerHTML=Rodadas[rodada][84].nomeLogin;
+  document.getElementById("CardId5").innerHTML="ID: "+Rodadas[rodada][84].idCart;
+  document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Rodadas[rodada][84].anoEnt;
+  document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Rodadas[rodada][68][6]+"ªrod. de "+Rodadas[rodada][68][65];
+  document.getElementById("CardTitulos5_1").innerHTML=Rodadas[rodada][84].titulo1;
+  document.getElementById("CardTitulos5_2").innerHTML=Rodadas[rodada][84].titulo2;
+  document.getElementById("CardTitulos5_3").innerHTML=Rodadas[rodada][84].titulo3;
+  document.getElementById("CardTitulos5_4").innerHTML=Rodadas[rodada][84].titulo4;
+  document.getElementById("CardTitulos5_5").innerHTML=Rodadas[rodada][84].titulo5;
+  document.getElementById("CardTitulos5_6").innerHTML=Rodadas[rodada][84].titulo6;
+  document.getElementById("CardTitulos5_7").innerHTML=Rodadas[rodada][84].titulo7;
+  document.getElementById("CardTitulos5_8").innerHTML=Rodadas[rodada][84].titulo8;
+  document.getElementById("CardTitulos5_9").innerHTML=Rodadas[rodada][84].titulo9;
+  document.getElementById("CardTitulos5_10").innerHTML=Rodadas[rodada][84].titulo10;
+
+  document.getElementById("CardNomeTec6").innerHTML=Rodadas[rodada][101].nome;
+  document.getElementById("CardLogo6").innerHTML=Rodadas[rodada][101].logo;
+  document.getElementById("CardLogin6").innerHTML=Rodadas[rodada][101].nomeLogin;
+  document.getElementById("CardId6").innerHTML="ID: "+Rodadas[rodada][101].idCart;
+  document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Rodadas[rodada][101].anoEnt;
+  document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Rodadas[rodada][85][6]+"ªrod. de "+Rodadas[rodada][85][65];
+  document.getElementById("CardTitulos6_1").innerHTML=Rodadas[rodada][101].titulo1;
+  document.getElementById("CardTitulos6_2").innerHTML=Rodadas[rodada][101].titulo2;
+  document.getElementById("CardTitulos6_3").innerHTML=Rodadas[rodada][101].titulo3;
+  document.getElementById("CardTitulos6_4").innerHTML=Rodadas[rodada][101].titulo4;
+  document.getElementById("CardTitulos6_5").innerHTML=Rodadas[rodada][101].titulo5;
+  document.getElementById("CardTitulos6_6").innerHTML=Rodadas[rodada][101].titulo6;
+  document.getElementById("CardTitulos6_7").innerHTML=Rodadas[rodada][101].titulo7;
+  document.getElementById("CardTitulos6_8").innerHTML=Rodadas[rodada][101].titulo8;
+  document.getElementById("CardTitulos6_9").innerHTML=Rodadas[rodada][101].titulo9;
+  document.getElementById("CardTitulos6_10").innerHTML=Rodadas[rodada][101].titulo10;
+
+  document.getElementById("CardNomeTec7").innerHTML=Rodadas[rodada][118].nome;
+  document.getElementById("CardLogo7").innerHTML=Rodadas[rodada][118].logo;
+  document.getElementById("CardLogin7").innerHTML=Rodadas[rodada][118].nomeLogin;
+  document.getElementById("CardId7").innerHTML="ID: "+Rodadas[rodada][118].idCart;
+  document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Rodadas[rodada][118].anoEnt;
+  document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Rodadas[rodada][102][6]+"ªrod. de "+Rodadas[rodada][102][65];
+  document.getElementById("CardTitulos7_1").innerHTML=Rodadas[rodada][118].titulo1;
+  document.getElementById("CardTitulos7_2").innerHTML=Rodadas[rodada][118].titulo2;
+  document.getElementById("CardTitulos7_3").innerHTML=Rodadas[rodada][118].titulo3;
+  document.getElementById("CardTitulos7_4").innerHTML=Rodadas[rodada][118].titulo4;
+  document.getElementById("CardTitulos7_5").innerHTML=Rodadas[rodada][118].titulo5;
+  document.getElementById("CardTitulos7_6").innerHTML=Rodadas[rodada][118].titulo6;
+  document.getElementById("CardTitulos7_7").innerHTML=Rodadas[rodada][118].titulo7;
+  document.getElementById("CardTitulos7_8").innerHTML=Rodadas[rodada][118].titulo8;
+  document.getElementById("CardTitulos7_9").innerHTML=Rodadas[rodada][118].titulo9;
+  document.getElementById("CardTitulos7_10").innerHTML=Rodadas[rodada][118].titulo10;
+
+  document.getElementById("CardNomeTec8").innerHTML=Rodadas[rodada][135].nome;
+  document.getElementById("CardLogo8").innerHTML=Rodadas[rodada][135].logo;
+  document.getElementById("CardLogin8").innerHTML=Rodadas[rodada][135].nomeLogin;
+  document.getElementById("CardId8").innerHTML="ID: "+Rodadas[rodada][135].idCart;
+  document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Rodadas[rodada][135].anoEnt;
+  document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Rodadas[rodada][119][6]+"ªrod. de "+Rodadas[rodada][119][65];
+  document.getElementById("CardTitulos8_1").innerHTML=Rodadas[rodada][135].titulo1;
+  document.getElementById("CardTitulos8_2").innerHTML=Rodadas[rodada][135].titulo2;
+  document.getElementById("CardTitulos8_3").innerHTML=Rodadas[rodada][135].titulo3;
+  document.getElementById("CardTitulos8_4").innerHTML=Rodadas[rodada][135].titulo4;
+  document.getElementById("CardTitulos8_5").innerHTML=Rodadas[rodada][135].titulo5;
+  document.getElementById("CardTitulos8_6").innerHTML=Rodadas[rodada][135].titulo6;
+  document.getElementById("CardTitulos8_7").innerHTML=Rodadas[rodada][135].titulo7;
+  document.getElementById("CardTitulos8_8").innerHTML=Rodadas[rodada][135].titulo8;
+  document.getElementById("CardTitulos8_9").innerHTML=Rodadas[rodada][135].titulo9;
+  document.getElementById("CardTitulos8_10").innerHTML=Rodadas[rodada][135].titulo10;
+
+   document.getElementById("CardNomeTec9").innerHTML=Rodadas[rodada][152].nome;
+  document.getElementById("CardLogo9").innerHTML=Rodadas[rodada][152].logo;
+  document.getElementById("CardLogin9").innerHTML=Rodadas[rodada][152].nomeLogin;
+  document.getElementById("CardId9").innerHTML="ID: "+Rodadas[rodada][152].idCart;
+  document.getElementById("CardDesde9").innerHTML="Na liga desde: "+Rodadas[rodada][152].anoEnt;
+  document.getElementById("CardAssumiu9").innerHTML="Assumiu o clube na "+Rodadas[rodada][136][6]+"ªrod. de "+Rodadas[rodada][136][65];
+  document.getElementById("CardTitulos9_1").innerHTML=Rodadas[rodada][152].titulo1;
+  document.getElementById("CardTitulos9_2").innerHTML=Rodadas[rodada][152].titulo2;
+  document.getElementById("CardTitulos9_3").innerHTML=Rodadas[rodada][152].titulo3;
+  document.getElementById("CardTitulos9_4").innerHTML=Rodadas[rodada][152].titulo4;
+  document.getElementById("CardTitulos9_5").innerHTML=Rodadas[rodada][152].titulo5;
+  document.getElementById("CardTitulos9_6").innerHTML=Rodadas[rodada][152].titulo6;
+  document.getElementById("CardTitulos9_7").innerHTML=Rodadas[rodada][152].titulo7;
+  document.getElementById("CardTitulos9_8").innerHTML=Rodadas[rodada][152].titulo8;
+  document.getElementById("CardTitulos9_9").innerHTML=Rodadas[rodada][152].titulo9;
+  document.getElementById("CardTitulos9_10").innerHTML=Rodadas[rodada][152].titulo10;
+
+  document.getElementById("CardNomeTec10").innerHTML=Rodadas[rodada][169].nome;
+  document.getElementById("CardLogo10").innerHTML=Rodadas[rodada][169].logo;
+  document.getElementById("CardLogin10").innerHTML=Rodadas[rodada][169].nomeLogin;
+  document.getElementById("CardId10").innerHTML="ID: "+Rodadas[rodada][169].idCart;
+  document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Rodadas[rodada][169].anoEnt;
+  document.getElementById("CardAssumiu10").innerHTML="Assumiu o clube na "+Rodadas[rodada][153][6]+"ªrod. de "+Rodadas[rodada][153][65];
+  document.getElementById("CardTitulos10_1").innerHTML=Rodadas[rodada][169].titulo1;
+  document.getElementById("CardTitulos10_2").innerHTML=Rodadas[rodada][169].titulo2;
+  document.getElementById("CardTitulos10_3").innerHTML=Rodadas[rodada][169].titulo3;
+  document.getElementById("CardTitulos10_4").innerHTML=Rodadas[rodada][169].titulo4;
+  document.getElementById("CardTitulos10_5").innerHTML=Rodadas[rodada][169].titulo5;
+  document.getElementById("CardTitulos10_6").innerHTML=Rodadas[rodada][169].titulo6;
+  document.getElementById("CardTitulos10_7").innerHTML=Rodadas[rodada][169].titulo7;
+  document.getElementById("CardTitulos10_8").innerHTML=Rodadas[rodada][169].titulo8;
+  document.getElementById("CardTitulos10_9").innerHTML=Rodadas[rodada][169].titulo9;
+  document.getElementById("CardTitulos10_10").innerHTML=Rodadas[rodada][169].titulo10;
+
+  document.getElementById("CardNomeTec11").innerHTML=Rodadas[rodada][186].nome;
+  document.getElementById("CardLogo11").innerHTML=Rodadas[rodada][186].logo;
+  document.getElementById("CardLogin11").innerHTML=Rodadas[rodada][186].nomeLogin;
+  document.getElementById("CardId11").innerHTML="ID: "+Rodadas[rodada][186].idCart;
+  document.getElementById("CardDesde11").innerHTML="Na liga desde: "+Rodadas[rodada][186].anoEnt;
+  document.getElementById("CardAssumiu11").innerHTML="Assumiu o clube na "+Rodadas[rodada][170][6]+"ªrod. de "+Rodadas[rodada][170][65];
+  document.getElementById("CardTitulos11_1").innerHTML=Rodadas[rodada][186].titulo1;
+  document.getElementById("CardTitulos11_2").innerHTML=Rodadas[rodada][186].titulo2;
+  document.getElementById("CardTitulos11_3").innerHTML=Rodadas[rodada][186].titulo3;
+  document.getElementById("CardTitulos11_4").innerHTML=Rodadas[rodada][186].titulo4;
+  document.getElementById("CardTitulos11_5").innerHTML=Rodadas[rodada][186].titulo5;
+  document.getElementById("CardTitulos11_6").innerHTML=Rodadas[rodada][186].titulo6;
+  document.getElementById("CardTitulos11_7").innerHTML=Rodadas[rodada][186].titulo7;
+  document.getElementById("CardTitulos11_8").innerHTML=Rodadas[rodada][186].titulo8;
+  document.getElementById("CardTitulos11_9").innerHTML=Rodadas[rodada][186].titulo9;
+  document.getElementById("CardTitulos11_10").innerHTML=Rodadas[rodada][186].titulo10;
+
+   document.getElementById("CardNomeTec12").innerHTML=Rodadas[rodada][203].nome;
+  document.getElementById("CardLogo12").innerHTML=Rodadas[rodada][203].logo;
+  document.getElementById("CardLogin12").innerHTML=Rodadas[rodada][203].nomeLogin;
+  document.getElementById("CardId12").innerHTML="ID: "+Rodadas[rodada][203].idCart;
+  document.getElementById("CardDesde12").innerHTML="Na liga desde: "+Rodadas[rodada][203].anoEnt;
+  document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Rodadas[rodada][187][6]+"ªrod. de "+Rodadas[rodada][187][65];
+  document.getElementById("CardTitulos12_1").innerHTML=Rodadas[rodada][203].titulo1;
+  document.getElementById("CardTitulos12_2").innerHTML=Rodadas[rodada][203].titulo2;
+  document.getElementById("CardTitulos12_3").innerHTML=Rodadas[rodada][203].titulo3;
+  document.getElementById("CardTitulos12_4").innerHTML=Rodadas[rodada][203].titulo4;
+  document.getElementById("CardTitulos12_5").innerHTML=Rodadas[rodada][203].titulo5;
+  document.getElementById("CardTitulos12_6").innerHTML=Rodadas[rodada][203].titulo6;
+  document.getElementById("CardTitulos12_7").innerHTML=Rodadas[rodada][203].titulo7;
+  document.getElementById("CardTitulos12_8").innerHTML=Rodadas[rodada][203].titulo8;
+  document.getElementById("CardTitulos12_9").innerHTML=Rodadas[rodada][203].titulo9;
+  document.getElementById("CardTitulos12_10").innerHTML=Rodadas[rodada][203].titulo10;
+
+   document.getElementById("CardNomeTec13").innerHTML=Rodadas[rodada][220].nome;
+  document.getElementById("CardLogo13").innerHTML=Rodadas[rodada][220].logo;
+  document.getElementById("CardLogin13").innerHTML=Rodadas[rodada][220].nomeLogin;
+  document.getElementById("CardId13").innerHTML="ID: "+Rodadas[rodada][220].idCart;
+  document.getElementById("CardDesde13").innerHTML="Na liga desde: "+Rodadas[rodada][220].anoEnt;
+  document.getElementById("CardAssumiu13").innerHTML="Assumiu o clube na "+Rodadas[rodada][204][6]+"ªrod. de "+Rodadas[rodada][204][65];
+  document.getElementById("CardTitulos13_1").innerHTML=Rodadas[rodada][220].titulo1;
+  document.getElementById("CardTitulos13_2").innerHTML=Rodadas[rodada][220].titulo2;
+  document.getElementById("CardTitulos13_3").innerHTML=Rodadas[rodada][220].titulo3;
+  document.getElementById("CardTitulos13_4").innerHTML=Rodadas[rodada][220].titulo4;
+  document.getElementById("CardTitulos13_5").innerHTML=Rodadas[rodada][220].titulo5;
+  document.getElementById("CardTitulos13_6").innerHTML=Rodadas[rodada][220].titulo6;
+  document.getElementById("CardTitulos13_7").innerHTML=Rodadas[rodada][220].titulo7;
+  document.getElementById("CardTitulos13_8").innerHTML=Rodadas[rodada][220].titulo8;
+  document.getElementById("CardTitulos13_9").innerHTML=Rodadas[rodada][220].titulo9;
+  document.getElementById("CardTitulos13_10").innerHTML=Rodadas[rodada][220].titulo10;
+
+   document.getElementById("CardNomeTec14").innerHTML=Rodadas[rodada][237].nome;
+  document.getElementById("CardLogo14").innerHTML=Rodadas[rodada][237].logo;
+  document.getElementById("CardLogin14").innerHTML=Rodadas[rodada][237].nomeLogin;
+  document.getElementById("CardId14").innerHTML="ID: "+Rodadas[rodada][237].idCart;
+  document.getElementById("CardDesde14").innerHTML="Na liga desde: "+Rodadas[rodada][237].anoEnt;
+  document.getElementById("CardAssumiu14").innerHTML="Assumiu o clube na "+Rodadas[rodada][221][6]+"ªrod. de "+Rodadas[rodada][221][65];
+  document.getElementById("CardTitulos14_1").innerHTML=Rodadas[rodada][237].titulo1;
+  document.getElementById("CardTitulos14_2").innerHTML=Rodadas[rodada][237].titulo2;
+  document.getElementById("CardTitulos14_3").innerHTML=Rodadas[rodada][237].titulo3;
+  document.getElementById("CardTitulos14_4").innerHTML=Rodadas[rodada][237].titulo4;
+  document.getElementById("CardTitulos14_5").innerHTML=Rodadas[rodada][237].titulo5;
+  document.getElementById("CardTitulos14_6").innerHTML=Rodadas[rodada][237].titulo6;
+  document.getElementById("CardTitulos14_7").innerHTML=Rodadas[rodada][237].titulo7;
+  document.getElementById("CardTitulos14_8").innerHTML=Rodadas[rodada][237].titulo8;
+  document.getElementById("CardTitulos14_9").innerHTML=Rodadas[rodada][237].titulo9;
+  document.getElementById("CardTitulos14_10").innerHTML=Rodadas[rodada][237].titulo10;
+
+  document.getElementById("CardNomeTec15").innerHTML=Rodadas[rodada][254].nome;
+  document.getElementById("CardLogo15").innerHTML=Rodadas[rodada][254].logo;
+  document.getElementById("CardLogin15").innerHTML=Rodadas[rodada][254].nomeLogin;
+  document.getElementById("CardId15").innerHTML="ID: "+Rodadas[rodada][254].idCart;
+  document.getElementById("CardDesde15").innerHTML="Na liga desde: "+Rodadas[rodada][254].anoEnt;
+  document.getElementById("CardAssumiu15").innerHTML="Assumiu o clube na "+Rodadas[rodada][238][6]+"ªrod. de "+Rodadas[rodada][238][65];
+  document.getElementById("CardTitulos15_1").innerHTML=Rodadas[rodada][254].titulo1;
+  document.getElementById("CardTitulos15_2").innerHTML=Rodadas[rodada][254].titulo2;
+  document.getElementById("CardTitulos15_3").innerHTML=Rodadas[rodada][254].titulo3;
+  document.getElementById("CardTitulos15_4").innerHTML=Rodadas[rodada][254].titulo4;
+  document.getElementById("CardTitulos15_5").innerHTML=Rodadas[rodada][254].titulo5;
+  document.getElementById("CardTitulos15_6").innerHTML=Rodadas[rodada][254].titulo6;
+  document.getElementById("CardTitulos15_7").innerHTML=Rodadas[rodada][254].titulo7;
+  document.getElementById("CardTitulos15_8").innerHTML=Rodadas[rodada][254].titulo8;
+  document.getElementById("CardTitulos15_9").innerHTML=Rodadas[rodada][254].titulo9;
+  document.getElementById("CardTitulos15_10").innerHTML=Rodadas[rodada][254].titulo10;
+
+   document.getElementById("CardNomeTec16").innerHTML=Rodadas[rodada][271].nome;
+  document.getElementById("CardLogo16").innerHTML=Rodadas[rodada][271].logo;
+  document.getElementById("CardLogin16").innerHTML=Rodadas[rodada][271].nomeLogin;
+  document.getElementById("CardId16").innerHTML="ID: "+Rodadas[rodada][271].idCart;
+  document.getElementById("CardDesde16").innerHTML="Na liga desde: "+Rodadas[rodada][271].anoEnt;
+  document.getElementById("CardAssumiu16").innerHTML="Assumiu o clube na "+Rodadas[rodada][255][6]+"ªrod. de "+Rodadas[rodada][255][65];
+  document.getElementById("CardTitulos16_1").innerHTML=Rodadas[rodada][271].titulo1;
+  document.getElementById("CardTitulos16_2").innerHTML=Rodadas[rodada][271].titulo2;
+  document.getElementById("CardTitulos16_3").innerHTML=Rodadas[rodada][271].titulo3;
+  document.getElementById("CardTitulos16_4").innerHTML=Rodadas[rodada][271].titulo4;
+  document.getElementById("CardTitulos16_5").innerHTML=Rodadas[rodada][271].titulo5;
+  document.getElementById("CardTitulos16_6").innerHTML=Rodadas[rodada][271].titulo6;
+  document.getElementById("CardTitulos16_7").innerHTML=Rodadas[rodada][271].titulo7;
+  document.getElementById("CardTitulos16_8").innerHTML=Rodadas[rodada][271].titulo8;
+  document.getElementById("CardTitulos16_9").innerHTML=Rodadas[rodada][271].titulo9;
+  document.getElementById("CardTitulos16_10").innerHTML=Rodadas[rodada][271].titulo10;
+
+  document.getElementById("CardNomeTec17").innerHTML=Rodadas[rodada][288].nome;
+  document.getElementById("CardLogo17").innerHTML=Rodadas[rodada][288].logo;
+  document.getElementById("CardLogin17").innerHTML=Rodadas[rodada][288].nomeLogin;
+  document.getElementById("CardId17").innerHTML="ID: "+Rodadas[rodada][288].idCart;
+  document.getElementById("CardDesde17").innerHTML="Na liga desde: "+Rodadas[rodada][288].anoEnt;
+  document.getElementById("CardAssumiu17").innerHTML="Assumiu o clube na "+Rodadas[rodada][272][6]+"ªrod. de "+Rodadas[rodada][272][65];
+  document.getElementById("CardTitulos17_1").innerHTML=Rodadas[rodada][288].titulo1;
+  document.getElementById("CardTitulos17_2").innerHTML=Rodadas[rodada][288].titulo2;
+  document.getElementById("CardTitulos17_3").innerHTML=Rodadas[rodada][288].titulo3;
+  document.getElementById("CardTitulos17_4").innerHTML=Rodadas[rodada][288].titulo4;
+  document.getElementById("CardTitulos17_5").innerHTML=Rodadas[rodada][288].titulo5;
+  document.getElementById("CardTitulos17_6").innerHTML=Rodadas[rodada][288].titulo6;
+  document.getElementById("CardTitulos17_7").innerHTML=Rodadas[rodada][288].titulo7;
+  document.getElementById("CardTitulos17_8").innerHTML=Rodadas[rodada][288].titulo8;
+  document.getElementById("CardTitulos17_9").innerHTML=Rodadas[rodada][288].titulo9;
+  document.getElementById("CardTitulos17_10").innerHTML=Rodadas[rodada][288].titulo10;
+
+  document.getElementById("CardNomeTec18").innerHTML=Rodadas[rodada][305].nome;
+  document.getElementById("CardLogo18").innerHTML=Rodadas[rodada][305].logo;
+  document.getElementById("CardLogin18").innerHTML=Rodadas[rodada][305].nomeLogin;
+  document.getElementById("CardId18").innerHTML="ID: "+Rodadas[rodada][305].idCart;
+  document.getElementById("CardDesde18").innerHTML="Na liga desde: "+Rodadas[rodada][305].anoEnt;
+  document.getElementById("CardAssumiu18").innerHTML="Assumiu o clube na "+Rodadas[rodada][289][6]+"ªrod. de "+Rodadas[rodada][289][65];
+  document.getElementById("CardTitulos18_1").innerHTML=Rodadas[rodada][305].titulo1;
+  document.getElementById("CardTitulos18_2").innerHTML=Rodadas[rodada][305].titulo2;
+  document.getElementById("CardTitulos18_3").innerHTML=Rodadas[rodada][305].titulo3;
+  document.getElementById("CardTitulos18_4").innerHTML=Rodadas[rodada][305].titulo4;
+  document.getElementById("CardTitulos18_5").innerHTML=Rodadas[rodada][305].titulo5;
+  document.getElementById("CardTitulos18_6").innerHTML=Rodadas[rodada][305].titulo6;
+  document.getElementById("CardTitulos18_7").innerHTML=Rodadas[rodada][305].titulo7;
+  document.getElementById("CardTitulos18_8").innerHTML=Rodadas[rodada][305].titulo8;
+  document.getElementById("CardTitulos18_9").innerHTML=Rodadas[rodada][305].titulo9;
+  document.getElementById("CardTitulos18_10").innerHTML=Rodadas[rodada][305].titulo10;
+
+   document.getElementById("CardNomeTec19").innerHTML=Rodadas[rodada][322].nome;
+  document.getElementById("CardLogo19").innerHTML=Rodadas[rodada][322].logo;
+  document.getElementById("CardLogin19").innerHTML=Rodadas[rodada][322].nomeLogin;
+  document.getElementById("CardId19").innerHTML="ID: "+Rodadas[rodada][322].idCart;
+  document.getElementById("CardDesde19").innerHTML="Na liga desde: "+Rodadas[rodada][322].anoEnt;
+  document.getElementById("CardAssumiu19").innerHTML="Assumiu o clube na "+Rodadas[rodada][306][6]+"ªrod. de "+Rodadas[rodada][306][65];
+  document.getElementById("CardTitulos19_1").innerHTML=Rodadas[rodada][322].titulo1;
+  document.getElementById("CardTitulos19_2").innerHTML=Rodadas[rodada][322].titulo2;
+  document.getElementById("CardTitulos19_3").innerHTML=Rodadas[rodada][322].titulo3;
+  document.getElementById("CardTitulos19_4").innerHTML=Rodadas[rodada][322].titulo4;
+  document.getElementById("CardTitulos19_5").innerHTML=Rodadas[rodada][322].titulo5;
+  document.getElementById("CardTitulos19_6").innerHTML=Rodadas[rodada][322].titulo6;
+  document.getElementById("CardTitulos19_7").innerHTML=Rodadas[rodada][322].titulo7;
+  document.getElementById("CardTitulos19_8").innerHTML=Rodadas[rodada][322].titulo8;
+  document.getElementById("CardTitulos19_9").innerHTML=Rodadas[rodada][322].titulo9;
+  document.getElementById("CardTitulos19_10").innerHTML=Rodadas[rodada][322].titulo10;
+
+   document.getElementById("CardNomeTec20").innerHTML=Rodadas[rodada][339].nome;
+  document.getElementById("CardLogo20").innerHTML=Rodadas[rodada][339].logo;
+  document.getElementById("CardLogin20").innerHTML=Rodadas[rodada][339].nomeLogin;
+  document.getElementById("CardId20").innerHTML="ID: "+Rodadas[rodada][339].idCart;
+  document.getElementById("CardDesde20").innerHTML="Na liga desde: "+Rodadas[rodada][339].anoEnt;
+  document.getElementById("CardAssumiu20").innerHTML="Assumiu o clube na "+Rodadas[rodada][323][6]+"ªrod. de "+Rodadas[rodada][323][65];
+  document.getElementById("CardTitulos20_1").innerHTML=Rodadas[rodada][339].titulo1;
+  document.getElementById("CardTitulos20_2").innerHTML=Rodadas[rodada][339].titulo2;
+  document.getElementById("CardTitulos20_3").innerHTML=Rodadas[rodada][339].titulo3;
+  document.getElementById("CardTitulos20_4").innerHTML=Rodadas[rodada][339].titulo4;
+  document.getElementById("CardTitulos20_5").innerHTML=Rodadas[rodada][339].titulo5;
+  document.getElementById("CardTitulos20_6").innerHTML=Rodadas[rodada][339].titulo6;
+  document.getElementById("CardTitulos20_7").innerHTML=Rodadas[rodada][339].titulo7;
+  document.getElementById("CardTitulos20_8").innerHTML=Rodadas[rodada][339].titulo8;
+  document.getElementById("CardTitulos20_9").innerHTML=Rodadas[rodada][339].titulo9;
+  document.getElementById("CardTitulos20_10").innerHTML=Rodadas[rodada][339].titulo10;
+
+
+
+
+
 }
 
 
@@ -2038,6 +2389,12 @@ function pesquisaCalendario() {
   document.getElementById("PlacTec20").innerHTML=Calendarios[calendario][78].nome;
   document.getElementById("PlacPt20").innerHTML=Calendarios[calendario][79];
 
+  
+
+
+
+  
+
 
 }
 
@@ -2047,7 +2404,7 @@ function pesquisaCalendario() {
 
 // ABRE O CARDTEC1///////////////////////
 
-function AbreTec1() {
+function AbreCardTec1() {
   var divTec1 = document.getElementById("cardtec1");
   if (divTec1.style.display === "none") {
     divTec1.style.display = "flex";
@@ -2055,6 +2412,216 @@ function AbreTec1() {
     divTec1.style.display = "none";
   }
 }
+
+// ABRE O CARDTEC2///////////////////////
+
+function AbreCardTec2() {
+  var divTec2 = document.getElementById("cardtec2");
+  if (divTec2.style.display === "none") {
+    divTec2.style.display = "flex";
+  } else {
+    divTec2.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC3///////////////////////
+
+function AbreCardTec3() {
+  var divTec3 = document.getElementById("cardtec3");
+  if (divTec3.style.display === "none") {
+    divTec3.style.display = "flex";
+  } else {
+    divTec3.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC4///////////////////////
+
+function AbreCardTec4() {
+  var divTec4 = document.getElementById("cardtec4");
+  if (divTec4.style.display === "none") {
+    divTec4.style.display = "flex";
+  } else {
+    divTec4.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC5///////////////////////
+
+function AbreCardTec5() {
+  var divTec5 = document.getElementById("cardtec5");
+  if (divTec5.style.display === "none") {
+    divTec5.style.display = "flex";
+  } else {
+    divTec5.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC6///////////////////////
+
+function AbreCardTec6() {
+  var divTec6 = document.getElementById("cardtec6");
+  if (divTec6.style.display === "none") {
+    divTec6.style.display = "flex";
+  } else {
+    divTec6.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC7///////////////////////
+
+function AbreCardTec7() {
+  var divTec7 = document.getElementById("cardtec7");
+  if (divTec7.style.display === "none") {
+    divTec7.style.display = "flex";
+  } else {
+    divTec7.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC8///////////////////////
+
+function AbreCardTec8() {
+  var divTec8 = document.getElementById("cardtec8");
+  if (divTec8.style.display === "none") {
+    divTec8.style.display = "flex";
+  } else {
+    divTec8.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC9///////////////////////
+
+function AbreCardTec9() {
+  var divTec9 = document.getElementById("cardtec9");
+  if (divTec9.style.display === "none") {
+    divTec9.style.display = "flex";
+  } else {
+    divTec9.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC10///////////////////////
+
+function AbreCardTec10() {
+  var divTec10 = document.getElementById("cardtec10");
+  if (divTec10.style.display === "none") {
+    divTec10.style.display = "flex";
+  } else {
+    divTec10.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC6///////////////////////
+
+function AbreCardTec11() {
+  var divTec11 = document.getElementById("cardtec11");
+  if (divTec11.style.display === "none") {
+    divTec11.style.display = "flex";
+  } else {
+    divTec11.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC12///////////////////////
+
+function AbreCardTec12() {
+  var divTec12 = document.getElementById("cardtec12");
+  if (divTec12.style.display === "none") {
+    divTec12.style.display = "flex";
+  } else {
+    divTec12.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC13///////////////////////
+
+function AbreCardTec13() {
+  var divTec13 = document.getElementById("cardtec13");
+  if (divTec13.style.display === "none") {
+    divTec13.style.display = "flex";
+  } else {
+    divTec13.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC14///////////////////////
+
+function AbreCardTec14() {
+  var divTec14 = document.getElementById("cardtec14");
+  if (divTec14.style.display === "none") {
+    divTec14.style.display = "flex";
+  } else {
+    divTec14.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC15///////////////////////
+
+function AbreCardTec15() {
+  var divTec15 = document.getElementById("cardtec15");
+  if (divTec15.style.display === "none") {
+    divTec15.style.display = "flex";
+  } else {
+    divTec15.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC16///////////////////////
+
+function AbreCardTec16() {
+  var divTec16 = document.getElementById("cardtec16");
+  if (divTec16.style.display === "none") {
+    divTec16.style.display = "flex";
+  } else {
+    divTec16.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC17///////////////////////
+
+function AbreCardTec17() {
+  var divTec17 = document.getElementById("cardtec17");
+  if (divTec17.style.display === "none") {
+    divTec17.style.display = "flex";
+  } else {
+    divTec17.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC18///////////////////////
+
+function AbreCardTec18() {
+  var divTec18 = document.getElementById("cardtec18");
+  if (divTec18.style.display === "none") {
+    divTec18.style.display = "flex";
+  } else {
+    divTec18.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC19///////////////////////
+
+function AbreCardTec19() {
+  var divTec19 = document.getElementById("cardtec19");
+  if (divTec19.style.display === "none") {
+    divTec19.style.display = "flex";
+  } else {
+    divTec19.style.display = "none";
+  }
+}
+
+// ABRE O CARDTEC20///////////////////////
+
+function AbreCardTec20() {
+  var divTec20 = document.getElementById("cardtec20");
+  if (divTec20.style.display === "none") {
+    divTec20.style.display = "flex";
+  } else {
+    divTec20.style.display = "none";
+  }
+}
+
 
 
 
