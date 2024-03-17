@@ -460,7 +460,7 @@ let logotec439="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7
 let logotec440="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_168/escudo/96/10/42/002a07e2f4-8e60-4eb9-84d8-dc6e7beb0f9620200803121042' width='100%'>;"
 let logotec441="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_211/escudo/9f/41/05/009b29c175-1273-47eb-9760-76fdfe6ea29f20230318124105' width='100%'>;"
 let logotec442="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_212/escudo/54/06/38/00ef6effa4-0be0-4fe3-9ede-8ea3229bad5420230404140638' width='100%'>;"
-
+let logotec443="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_222/escudo/2d/21/47/00643f44df-51d0-4a3c-9359-4dc8e02ca12d20240315142147' width='100%'>;"
 
 
  /*LOGO DOS CLUBES*/ 
@@ -699,7 +699,6 @@ let logojuazeiro="<img src='https://upload.wikimedia.org/wikipedia/pt/thumb/2/21
 let logounirb="<img src='https://upload.wikimedia.org/wikipedia/pt/thumb/3/33/Escudo_UNIRB_FC.png/180px-Escudo_UNIRB_FC.png' width='100%'>";
 let logovitoriadaconquista="<img src='https://upload.wikimedia.org/wikipedia/pt/thumb/5/5b/ECPPVitoriaDaConquista.png/150px-ECPPVitoriaDaConquista.png' width='100%'>";
 let logoleonico="<img src='https://upload.wikimedia.org/wikipedia/pt/thumb/6/66/ADLe%C3%B4nico.png/180px-ADLe%C3%B4nico.png' width='100%'>";
-
 
 
 
@@ -1388,7 +1387,7 @@ let tec439={idCart:44597560,nome:'vandopalmeiras',nomeLogin:'vandosilva',nomePes
 let tec440={idCart:4803924,nome:'Yernba FC',nomeLogin:'Alexandre Avelar',nomePess:'opcional',anoEnt:2023,logo:logotec440,ClubAtual:semclube,titulo1:'Camp1',titulo2:'Camp2',titulo3:'Camp3',titulo4:'Camp4',titulo5:'Camp5',titulo6:'Camp6',titulo7:'Camp7',titulo8:'Camp8',titulo9:'Camp9',titulo10:'Camp10',titulo11:'Camp11',titulo12:'Camp12',titulo13:'Camp13',titulo14:'Camp14',titulo15:'Camp15',titulo16:'Camp16',titulo17:'Camp17',titulo18:'Camp18',titulo19:'Camp19',titulo20:'Camp20'};
 let tec441={idCart:25275546,nome:'zona rubro negra',nomeLogin:'marcos',nomePess:'opcional',anoEnt:2023,logo:logotec441,ClubAtual:semclube,titulo1:'Camp1',titulo2:'Camp2',titulo3:'Camp3',titulo4:'Camp4',titulo5:'Camp5',titulo6:'Camp6',titulo7:'Camp7',titulo8:'Camp8',titulo9:'Camp9',titulo10:'Camp10',titulo11:'Camp11',titulo12:'Camp12',titulo13:'Camp13',titulo14:'Camp14',titulo15:'Camp15',titulo16:'Camp16',titulo17:'Camp17',titulo18:'Camp18',titulo19:'Camp19',titulo20:'Camp20'};
 let tec442={idCart:1486081,nome:'ECC COMERCIAL FC',nomeLogin:'Lino',nomePess:'opcional',anoEnt:2023,logo:logotec442,ClubAtual:semclube,titulo1:'Camp1',titulo2:'Camp2',titulo3:'Camp3',titulo4:'Camp4',titulo5:'Camp5',titulo6:'Camp6',titulo7:'Camp7',titulo8:'Camp8',titulo9:'Camp9',titulo10:'Camp10',titulo11:'Camp11',titulo12:'Camp12',titulo13:'Camp13',titulo14:'Camp14',titulo15:'Camp15',titulo16:'Camp16',titulo17:'Camp17',titulo18:'Camp18',titulo19:'Camp19',titulo20:'Camp20'};
-
+let tec443={idCart:27894799,nome:'BebumsDeEncruzilhadaFC',nomeLogin:'Henriqdosmega',nomePess:'opcional',anoEnt:2024,logo:logotec443,ClubAtual:ibis,titulo1:'Camp1',titulo2:'Camp2',titulo3:'Camp3',titulo4:'Camp4',titulo5:'Camp5',titulo6:'Camp6',titulo7:'Camp7',titulo8:'Camp8',titulo9:'Camp9',titulo10:'Camp10',titulo11:'Camp11',titulo12:'Camp12',titulo13:'Camp13',titulo14:'Camp14',titulo15:'Camp15',titulo16:'Camp16',titulo17:'Camp17',titulo18:'Camp18',titulo19:'Camp19',titulo20:'Camp20'};
 
 
 
