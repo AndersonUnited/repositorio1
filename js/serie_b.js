@@ -461,6 +461,10 @@ let logotec440="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7
 let logotec441="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_211/escudo/9f/41/05/009b29c175-1273-47eb-9760-76fdfe6ea29f20230318124105' width='100%'>;"
 let logotec442="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_212/escudo/54/06/38/00ef6effa4-0be0-4fe3-9ede-8ea3229bad5420230404140638' width='100%'>;"
 let logotec443="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_222/escudo/2d/21/47/00643f44df-51d0-4a3c-9359-4dc8e02ca12d20240315142147' width='100%'>;"
+let logotec444="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_222/escudo/3b/25/37/0017ab42d1-8fc3-4c56-aba9-87abd7fba93b20240314132537' width='100%'>;"
+let logotec445="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_211/escudo/19/59/53/007b29857a-267c-4671-8d14-6c8f7dd1da1920230317065953' width='100%'>;"
+
+
 
 
  /*LOGO DOS CLUBES*/ 
@@ -1389,7 +1393,8 @@ let tec440={idCart:4803924,nome:'Yernba FC',nomeLogin:'Alexandre Avelar',nomePes
 let tec441={idCart:25275546,nome:'zona rubro negra',nomeLogin:'marcos',nomePess:'opcional',anoEnt:2023,logo:logotec441,ClubAtual:semclube,titulo1:'Camp1',titulo2:'Camp2',titulo3:'Camp3',titulo4:'Camp4',titulo5:'Camp5',titulo6:'Camp6',titulo7:'Camp7',titulo8:'Camp8',titulo9:'Camp9',titulo10:'Camp10',titulo11:'Camp11',titulo12:'Camp12',titulo13:'Camp13',titulo14:'Camp14',titulo15:'Camp15',titulo16:'Camp16',titulo17:'Camp17',titulo18:'Camp18',titulo19:'Camp19',titulo20:'Camp20'};
 let tec442={idCart:1486081,nome:'ECC COMERCIAL FC',nomeLogin:'Lino',nomePess:'opcional',anoEnt:2023,logo:logotec442,ClubAtual:semclube,titulo1:'Camp1',titulo2:'Camp2',titulo3:'Camp3',titulo4:'Camp4',titulo5:'Camp5',titulo6:'Camp6',titulo7:'Camp7',titulo8:'Camp8',titulo9:'Camp9',titulo10:'Camp10',titulo11:'Camp11',titulo12:'Camp12',titulo13:'Camp13',titulo14:'Camp14',titulo15:'Camp15',titulo16:'Camp16',titulo17:'Camp17',titulo18:'Camp18',titulo19:'Camp19',titulo20:'Camp20'};
 let tec443={idCart:27894799,nome:'BebumsDeEncruzilhadaFC',nomeLogin:'Henriqdosmega',nomePess:'opcional',anoEnt:2024,logo:logotec443,ClubAtual:ibis,titulo1:'Camp1',titulo2:'Camp2',titulo3:'Camp3',titulo4:'Camp4',titulo5:'Camp5',titulo6:'Camp6',titulo7:'Camp7',titulo8:'Camp8',titulo9:'Camp9',titulo10:'Camp10',titulo11:'Camp11',titulo12:'Camp12',titulo13:'Camp13',titulo14:'Camp14',titulo15:'Camp15',titulo16:'Camp16',titulo17:'Camp17',titulo18:'Camp18',titulo19:'Camp19',titulo20:'Camp20'};
-
+let tec444={idCart:49120944,nome:'Lukinhas Loko',nomeLogin:'Lukinhas',nomePess:'opcional',anoEnt:2024,logo:logotec444,ClubAtual:gremioanapolis,titulo1:'Camp1',titulo2:'Camp2',titulo3:'Camp3',titulo4:'Camp4',titulo5:'Camp5',titulo6:'Camp6',titulo7:'Camp7',titulo8:'Camp8',titulo9:'Camp9',titulo10:'Camp10',titulo11:'Camp11',titulo12:'Camp12',titulo13:'Camp13',titulo14:'Camp14',titulo15:'Camp15',titulo16:'Camp16',titulo17:'Camp17',titulo18:'Camp18',titulo19:'Camp19',titulo20:'Camp20'};
+let tec445={idCart:44532788,nome:'Titanium Invicto',nomeLogin:'Lisca Doido',nomePess:'opcional',anoEnt:2024,logo:logotec445,ClubAtual:gloria,titulo1:'Camp1',titulo2:'Camp2',titulo3:'Camp3',titulo4:'Camp4',titulo5:'Camp5',titulo6:'Camp6',titulo7:'Camp7',titulo8:'Camp8',titulo9:'Camp9',titulo10:'Camp10',titulo11:'Camp11',titulo12:'Camp12',titulo13:'Camp13',titulo14:'Camp14',titulo15:'Camp15',titulo16:'Camp16',titulo17:'Camp17',titulo18:'Camp18',titulo19:'Camp19',titulo20:'Camp20'};
 
 
 
