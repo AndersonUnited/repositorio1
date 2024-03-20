@@ -52,8 +52,8 @@
 <div style="width: 95%;margin-left: 2.5%;margin-bottom: 2%;; flex-direction: row;">
 
 
-    <select onchange="pesquisaEstadual(this.value)" class="selectbox" name="estados" id="SeletorEstaduais" style="width: 85%;">
-        <option value="0"  selected>Selecione o campeonato</option>
+    <select class="selectbox" name="estados" id="NomeEstadual" onchange="EstadualEscolhido()" style="width: 85%;">
+        <option value="valor é zero"  selected>Selecione o campeonato</option>
                 <option value="Pauli_A">Campeonato Paulista - Elite</option>
                 <option value="Pauli_B">Campeonato Paulista - Acesso</option>
                 <option value="Cario_A">Campeonato Carioca - Elite</option>
@@ -85,12 +85,14 @@
                 </select>
 
 
+                
+
 </div>                
 
 
-<div style="background: grey;height: 50px;width: 95%;margin-left: 2.5%;margin-bottom: 6%;; flex-direction: row;">
+<div style="height: 50px;width: 95%;margin-left: 2.5%;margin-bottom: 6%;; flex-direction: row;">
 
-<select onchange="pesquisaEstadual(this.value)" class="selectbox" name="serieB" id="seletorEstadual" style="width:22%;">
+<select  class="selectbox" name="serieB" id="NumRodada" onchange="EstadualEscolhido()" style="width:25%;">
                     <option value="0"  selected>rodada:</option>
                             <option value="1">1ª rodada</option>
                             <option value="2">2ª rodada</option>
@@ -109,8 +111,12 @@
                             <option value="15">15ª rodada</option>
                             
                             </select>
-    
-                        </div>     
+
+                            
+                        </div> 
+                        
+                        
+                        
 
     
 
@@ -175,7 +181,7 @@
     <tr id="lintabB1" style="height: 5%;background-image:linear-gradient(180deg, rgb(183, 112, 6),rgb(249, 249, 249))">
         <td id="posB1" class="pos" style="background-image:linear-gradient(180deg, rgb(183, 112, 6),rgb(249, 249, 249))">1</td>
         <td id="logB1" class=""></td>
-        <td><div style="display: inline-block;white-space:nowrap;"><div class="nomeclube" id="clubB1" onclick="AbreCardTec1()" >Princesa do Solimões</div><div class="nometecG4" id="tecB1" onclick="AbreCardTec1()" style="color: rgb(146, 117, 11);font-size: 30px;font-weight:bold;font-family: Arial, Helvetica, sans-serif;color:rgb(146, 117, 11)">LUIAN SPORTING CLUB</div></div></td>
+        <td><div style="display: inline-block;white-space:nowrap;"><div class="nomeclube" id="clubB1" onclick="AbreCardTec1()" ></div><div class="nometecG4" id="tecB1" onclick="AbreCardTec1()" style="color: rgb(146, 117, 11);font-size: 30px;font-weight:bold;font-family: Arial, Helvetica, sans-serif;color:rgb(146, 117, 11)"></div></div></td>
         <td id="nlB1" class="nivel"></td>
         <td id="varB1" class="var"></td>
         <td id="objB1" class="obj"></td>
@@ -198,7 +204,7 @@
 <tr id="lintabB2" style="height: 5%;border-bottom: 3px solid rgb(183, 112, 6)">
 <td style="background-image:linear-gradient(90deg, rgb(183, 112, 6),rgb(255, 255, 255))"  id="posB2" class="pos">2</td>
 <td id="logB2" class=""></td>
-<td><div style="display: inline-block;"><div class="nomeclube" id="clubB2" onclick="AbreCardTec2()" style="font-family:'Arial';">Princesa do Solimões</div><div class="nometecG4" id="tecB2" onclick="AbreCardTec2()" style="font-family:'Arial';color:black;">TRICOLOR AZUL BRANCO E PRETO</div></div></td>
+<td><div style="display: inline-block;"><div class="nomeclube" id="clubB2" onclick="AbreCardTec2()" style="font-family:'Arial';"></div><div class="nometecG4" id="tecB2" onclick="AbreCardTec2()" style="font-family:'Arial';color:black;"></div></div></td>
 <td id="nlB2" class="nivel"></td>
 <td id="varB2" class="var"></td>
 <td id="objB2" class="obj"></td>
@@ -218,10 +224,10 @@
 <td id="MteB2" class='moral'></td>
 </tr>
 <!--LINHA 3-->
-<tr id="lintabB3" >
+<tr id="lintabB3" style="height: 5%;" >
 <td   id="posB3" class="posB5">3</td>
 <td id="logB3" class=""></td>
-<td><div style="display: inline-block;"><div class="nomeclube" id="clubB3" onclick="AbreCardTec3()" style="font-family:'Arial';">Princesa do Solimões</div><div class="nometecG4" id="tecB3" onclick="AbreCardTec3()" style="font-family:'Arial';color:black;">TRICOLOR AZUL BRANCO E PRETO</div></div></td>
+<td><div style="display: inline-block;"><div class="nomeclube" id="clubB3" onclick="AbreCardTec3()" style="font-family:'Arial';"></div><div class="nometecG4" id="tecB3" onclick="AbreCardTec3()" style="font-family:'Arial';color:black;"></div></div></td>
 <td id="nlB3" class="nivel"></td>
 <td id="varB3" class="var"></td>
 <td id="objB3" class="obj"></td>
@@ -241,10 +247,10 @@
 <td id="MteB3" class='moral'></td>
 </tr>
 <!--LINHA 4-->
-<tr id="lintabB4" >
+<tr id="lintabB4" style="height: 5%;" >
 <td   id="posB4" class="pos">4</td>
 <td id="logB4" class=""></td>
-<td><div style="display: inline-block;"><div class="nomeclube" id="clubB4" onclick="AbreCardTec4()" style="font-family:'Arial';">Princesa do Solimões</div><div class="nometecG4" id="tecB4" onclick="AbreCardTec4()" style="font-family:'Arial';color:black;">TRICOLOR AZUL BRANCO E PRETO</div></div></td>
+<td><div style="display: inline-block;"><div class="nomeclube" id="clubB4" onclick="AbreCardTec4()" style="font-family:'Arial';"></div><div class="nometecG4" id="tecB4" onclick="AbreCardTec4()" style="font-family:'Arial';color:black;"></div></div></td>
 <td id="nlB4" class="nivel"></td>
 <td id="varB4" class="var"></td>
 <td id="objB4" class="obj"></td>
@@ -264,10 +270,10 @@
 <td id="MteB4" class='moral'></td>
 </tr>
 <!--LINHA 5-->
-<tr id="lintabB5" >
+<tr id="lintabB5" style="height: 5%;" >
 <td id="posB5" class="posB5">5</td>
 <td id="logB5" class=""></td>
-<td><div style="display: inline-block;"><div class="nomeclube" id="clubB5" onclick="AbreCardTec5()" style="font-family:'Arial';">Princesa do Solimões</div><div class="nometecG4" id="tecB5" onclick="AbreCardTec5()" style="font-family:'Arial';color:black;">TRICOLOR AZUL BRANCO E PRETO</div></div></td>
+<td><div style="display: inline-block;"><div class="nomeclube" id="clubB5" onclick="AbreCardTec5()" style="font-family:'Arial';"></div><div class="nometecG4" id="tecB5" onclick="AbreCardTec5()" style="font-family:'Arial';color:black;"></div></div></td>
 <td id="nlB5" class="nivel"></td>
 <td id="varB5" class="var"></td>
 <td id="objB5" class="obj"></td>
@@ -287,10 +293,10 @@
 <td id="MteB5" class='moral'></td>
 </tr>
 <!--LINHA 6-->
-<tr id="lintabB6" >
+<tr id="lintabB6" style="height: 5%;" >
 <td id="posB6" class="posB6">6</td>
 <td id="logB6" class=""></td>
-<td><div style="display: inline-block;"><div class="nomeclube" id="clubB6" onclick="AbreCardTec6()" style="font-family:'Arial';">Princesa do Solimões</div><div class="nometecG4" id="tecB6" onclick="AbreCardTec6()" style="font-family:'Arial';color:black;">TRICOLOR AZUL BRANCO E PRETO</div></div></td>
+<td><div style="display: inline-block;"><div class="nomeclube" id="clubB6" onclick="AbreCardTec6()" style="font-family:'Arial';"></div><div class="nometecG4" id="tecB6" onclick="AbreCardTec6()" style="font-family:'Arial';color:black;"></div></div></td>
 <td id="nlB6" class="nivel"></td>
 <td id="varB6" class="var"></td>
 <td id="objB6" class="obj"></td>
@@ -310,10 +316,10 @@
 <td id="MteB6" class='moral'></td>
 </tr>
 <!--LINHA 7-->
-<tr id="lintabB7"  >
+<tr id="lintabB7" style="height: 5%;"  >
 <td id="posB7" class="posB19">7</td>
 <td id="logB7"></td>
-<td><div style="display: inline-block;"><div class="nomeclube" id="clubB7" onclick="AbreCardTec7()" style="font-family:'Arial';">Princesa do Solimões</div><div class="nometec" id="tecB7" onclick="AbreCardTec7()" style="font-family:'Arial';">TRICOLOR AZUL BRANCO E PRETO</div></div></td>
+<td><div style="display: inline-block;"><div class="nomeclube" id="clubB7" onclick="AbreCardTec7()" style="font-family:'Arial';"></div><div class="nometec" id="tecB7" onclick="AbreCardTec7()" style="font-family:'Arial';"></div></div></td>
 <td id="nlB7" class="nivel"></td>
 <td id="varB7" class="var"></td>
 <td id="objB7" class="obj"></td>
@@ -333,10 +339,10 @@
 <td id="MteB7" class='moral'></td>
 </tr>
 <!--LINHA 8-->
-<tr id="lintabB8" >
+<tr id="lintabB8" style="height: 5%;" >
 <td id="posB8" class="posB20">8</td>
 <td id="logB8" class=""></td>
-<td><div style="display: inline-block;"><div class="nomeclube" id="clubB8" onclick="AbreCardTec8()" style="font-family:'Arial';">Princesa do Solimões</div><div class="nometec" id="tecB8" onclick="AbreCardTec8()" style="font-family:'Arial';">TRICOLOR AZUL BRANCO E PRETO</div></div></td>
+<td><div style="display: inline-block;"><div class="nomeclube" id="clubB8" onclick="AbreCardTec8()" style="font-family:'Arial';"></div><div class="nometec" id="tecB8" onclick="AbreCardTec8()" style="font-family:'Arial';"></div></div></td>
 <td id="nlB8" class="nivel"></td>
 <td id="varB8" class="var"></td>
 <td id="objB8" class="obj"></td>
@@ -1144,6 +1150,6 @@
 </div>
 
 
-<script src="js/serie_a.js"></script>
+<script src="js/estaduais.js"></script>
 </body>
 </html>
