@@ -1447,8 +1447,18 @@ function toggleMenu() {
   let Pauli_B1=[logoferroviariasp,ferroviariasp,tec180,'','SUBIR',0,0,0,0,0,0,0,'','','','','','',logointernacionalsp,internacionalsp,tec93,'','',0,0,0,0,0,0,0,'','','','','','',logoituano,ituano,tec96,'','SUBIR',0,0,0,0,0,0,0,'','','','','','',logomirassol,mirassol,tec280,'','SUBIR',0,0,0,0,0,0,0,'','','','','','',logopalmeiras,palmeiras,tec67,'','SUBIR',0,0,0,0,0,0,0,'','','','','','',logopaulista,paulista,tec108,'','SUBIR',0,0,0,0,0,0,0,'','','','','','',logosantos,santos,tec155,'','',0,0,0,0,0,0,0,'','','','','','',logosaobernardo,saobernardo,tec158,'','',0,0,0,0,0,0,0,'','','','','',''];
   let Cario_A1=[logoamericarj,americarj,tec131,'','',0,0,0,0,0,0,0,'','','','','','',logoaudax,audax,tec39,'','',0,0,0,0,0,0,0,'','','','','','',logobotafogo,botafogo,tec7,'','',0,0,0,0,0,0,0,'','','','','','',logoflamengo,flamengo,tec41,'','',0,0,0,0,0,0,0,'','','','','','',logofluminense,fluminense,tec72,'','',0,0,0,0,0,0,0,'','','','','','',logoportuguesarj,portuguesarj,tec119,'','',0,0,0,0,0,0,0,'','','','','','',logovasco,vasco,tec167,'','',0,0,0,0,0,0,0,'','','','','','',logovoltaredonda,voltaredonda,tec148,'','',0,0,0,0,0,0,0,'','','','','',''];
   let Cario_B1=[logobangu,bangu,tec225,'','',0,0,0,0,0,0,0,'','','','','','',logobonsucesso,bonsucesso,tec40,'','',0,0,0,0,0,0,0,'','','','','','',logocabofriense,cabofriense,tec46,'','',0,0,0,0,0,0,0,'','','','','','',logomadureira,madureira,tec104,'','',0,0,0,0,0,0,0,'','','','','','',logoolaria,olaria,tec103,'','',0,0,0,0,0,0,0,'','','','','','',logonovaiguacu,novaiguacu,tec100,'','',0,0,0,0,0,0,0,'','','','','','',logoresende,resende,tec120,'','',0,0,0,0,0,0,0,'','','','','','',logosaocristovao,saocristovao,tec132,'','',0,0,0,0,0,0,0,'','','','','',''];
-
-
+  let Gauch_A1=[logobrasilrs,brasilrs,tec129,'','',0,0,0,0,0,0,0,'','','','','','',logocaxias,caxias,tec14,'','',0,0,0,0,0,0,0,'','','','','','',logogremio,gremio,tec73,'','',0,0,0,0,0,0,0,'','','','','','',logointernacional,internacional,tec92,'','',0,0,0,0,0,0,0,'','','','','','',logojuventude,juventude,tec169,'','',0,0,0,0,0,0,0,'','','','','','',logopelotas,pelotas,tec164,'','',0,0,0,0,0,0,0,'','','','','','',logosaojosers,saojosers,tec159,'','',0,0,0,0,0,0,0,'','','','','','',logoypirangars,ypirangars,tec200,'','',0,0,0,0,0,0,0,'','','','','',''];
+  let Gauch_B1=[logoavenida,avenida,tec246,'','',0,0,0,0,0,0,0,'','','','','','',logobage,bage,tec21,'','',0,0,0,0,0,0,0,'','','','','','',logoesportivo,esportivo,tec61,'','',0,0,0,0,0,0,0,'','','','','','',logogloria,gloria,tec445,'','',0,0,0,0,0,0,0,'','','','','','',logoguaranyrs,guaranyrs,tec80,'','',0,0,0,0,0,0,0,'','','','','','',logolajeadense,lajeadense,tec85,'','',0,0,0,0,0,0,0,'','','','','','',logonovohamburgo,novohamburgo,tec101,'','',0,0,0,0,0,0,0,'','','','','','',logosaoluizrs,saoluizrs,tec134,'','',0,0,0,0,0,0,0,'','','','','',''];
+  let Minei_A1=[logoamericamg,americamg,tec102,'','',0,0,0,0,0,0,0,'','','','','','',logoatleticomg,atleticomg,tec17,'','',0,0,0,0,0,0,0,'','','','','','',logocaldense,caldense,tec138,'','',0,0,0,0,0,0,0,'','','','','','',logocruzeiro,cruzeiro,tec55,'','',0,0,0,0,0,0,0,'','','','','','',logodemocrata,democrata,tec58,'','',0,0,0,0,0,0,0,'','','','','','',logoipatinga,ipatinga,tec81,'','',0,0,0,0,0,0,0,'','','','','','',logotombense,tombense,tec178,'','',0,0,0,0,0,0,0,'','','','','','',logovillanovamg,villanovamg,tec440,'','',0,0,0,0,0,0,0,'','','','','',''];
+  let Minei_B1=[logoathletic,athletic,tec166,'','SUBIR',0,0,0,0,0,0,0,'','','','','','',logoboaesporte,boaesporte,tec28,'','',0,0,0,0,0,0,0,'','','','','','',logopatrocinense,patrocinense,tec113,'','',0,0,0,0,0,0,0,'','','','','','',logosocial,social,tec136,'','',0,0,0,0,0,0,0,'','','','','','',logotupi,tupi,tec141,'','',0,0,0,0,0,0,0,'','','','','','',logouberlandia,uberlandia,tec146,'','',0,0,0,0,0,0,0,'','','','','','',logourt,urt,tec145,'','',0,0,0,0,0,0,0,'','','','','','',logopousoalegre,pousoalegre,tec173,'','',0,0,0,0,0,0,0,'','','','','',''];
+  let Paran_A1=[logoathletico,athletico,tec87,'','',0,0,0,0,0,0,0,'','','','','','',logocianorte,cianorte,tec52,'','',0,0,0,0,0,0,0,'','','','','','',logocoritiba,coritiba,tec175,'','',0,0,0,0,0,0,0,'','','','','','',logofccascavel,fccascavel,tec63,'','',0,0,0,0,0,0,0,'','','','','','',logolondrina,londrina,tec231,'','',0,0,0,0,0,0,0,'','','','','','',logomaringa,maringa,tec264,'','',0,0,0,0,0,0,0,'','','','','','',logooperariopr,operariopr,tec105,'','',0,0,0,0,0,0,0,'','','','','','',logoparana,parana,tec127,'','',0,0,0,0,0,0,0,'','','','','',''];
+  let Paran_B1=[logoandraus,andraus,tec281,'','',0,0,0,0,0,0,0,'','','','','','',logoazuriz,azuriz,tec282,'','',0,0,0,0,0,0,0,'','','','','','',logofozdoiguacu,fozdoiguacu,tec75,'','',0,0,0,0,0,0,0,'','','','','','',logopsts,psts,tec283,'','',0,0,0,0,0,0,0,'','','','','','',logogalomaringa,galomaringa,tec284,'','',0,0,0,0,0,0,0,'','','','','','',logogremiomaringa,gremiomaringa,tec287,'','',0,0,0,0,0,0,0,'','','','','','',logosaojoseense,saojoseense,tec285,'','',0,0,0,0,0,0,0,'','','','','','',logotoledo,toledo,tec286,'','',0,0,0,0,0,0,0,'','','','','',''];
+  let Catar_A1=[logoavai,avai,tec163,'','',0,0,0,0,0,0,0,'','','','','','',logobarrasc,barrasc,tec247,'','',0,0,0,0,0,0,0,'','','','','','',logobrusque,brusque,tec45,'','',0,0,0,0,0,0,0,'','','','','','',logochapecoense,chapecoense,tec1,'','',0,0,0,0,0,0,0,'','','','','','',logocriciuma,criciuma,tec183,'','',0,0,0,0,0,0,0,'','','','','','',logofigueirense,figueirense,tec4,'','',0,0,0,0,0,0,0,'','','','','','',logohercilioluz,hercilioluz,tec253,'','',0,0,0,0,0,0,0,'','','','','','',logojoinville,joinville,tec82,'','',0,0,0,0,0,0,0,'','','','','',''];
+  let Catar_B1=[logocaravaggio,caravaggio,tec292,'','',0,0,0,0,0,0,0,'','','','','','',logoconcordia,concordia,tec250,'','',0,0,0,0,0,0,0,'','','','','','',logoguaranidepalhoca,guaranidepalhoca,tec290,'','',0,0,0,0,0,0,0,'','','','','','',logointerdelajes,interdelajes,tec151,'','',0,0,0,0,0,0,0,'','','','','','',logojuventusdejaragua,juventusdejaragua,tec291,'','',0,0,0,0,0,0,0,'','','','','','',logomarciliodias,marciliodias,tec288,'','',0,0,0,0,0,0,0,'','','','','','',logometropolitano,metropolitano,tec91,'','',0,0,0,0,0,0,0,'','','','','','',logonacao,nacao,tec289,'','',0,0,0,0,0,0,0,'','','','','',''];
+  let Norde_A1=[logoamericarn,americarn,tec223,'','',0,0,0,0,0,0,0,'','','','','','',logoabc,abc,tec326,'','',0,0,0,0,0,0,0,'','','','','','',logobotafogopb,botafogopb,tec44,'','',0,0,0,0,0,0,0,'','','','','','',logocrb,crb,tec228,'','',0,0,0,0,0,0,0,'','','','','','',logocsa,csa,tec56,'','',0,0,0,0,0,0,0,'','','','','','',logoriverpi,riverpi,tec130,'','',0,0,0,0,0,0,0,'','','','','','',logosampaiocorrea,sampaiocorrea,tec65,'','',0,0,0,0,0,0,0,'','','','','','',logotreze,treze,tec237,'','',0,0,0,0,0,0,0,'','','','','',''];
+  let Norde_B1=[logoasa,asa,tec244,'','',0,0,0,0,0,0,0,'','','','','','',logoconfianca,confianca,tec161,'','',0,0,0,0,0,0,0,'','','','','','',logocse,cse,tec251,'','',0,0,0,0,0,0,0,'','','','','','',logofluminensepi,fluminensepi,tec252,'','',0,0,0,0,0,0,0,'','','','','','',logomotoclub,motoclub,tec265,'','',0,0,0,0,0,0,0,'','','','','','',logosergipe,sergipe,tec275,'','',0,0,0,0,0,0,0,'','','','','','',logoserra,serra,tec276,'','',0,0,0,0,0,0,0,'','','','','','',logosousa,sousa,tec277,'','',0,0,0,0,0,0,0,'','','','','',''];
+  let Norti_A1=[logoamazonas,amazonas,tec33,'','',0,0,0,0,0,0,0,'','','','','','',logomanaus,manaus,tec86,'','',0,0,0,0,0,0,0,'','','','','','',logonacionalam,nacionalam,tec112,'','',0,0,0,0,0,0,0,'','','','','','',logopaysandu,paysandu,tec150,'','',0,0,0,0,0,0,0,'','','','','','',logoremo,remo,tec144,'','',0,0,0,0,0,0,0,'','','','','','',logosaoraimundorr,saoraimundorr,tec274,'','',0,0,0,0,0,0,0,'','','','','','',logotocantinopolis,tocantinopolis,tec278,'','',0,0,0,0,0,0,0,'','','','','','',logotremap,tremap,tec139,'','',0,0,0,0,0,0,0,'','','','','',''];
+  let Norti_B1=[logoaguiademaraba,aguiademaraba,tec242,'','',0,0,0,0,0,0,0,'','','','','','',logocapital,capital,tec249,'','',0,0,0,0,0,0,0,'','','','','','',logohumaita,humaita,tec254,'','',0,0,0,0,0,0,0,'','','','','','',logonauticorr,nauticorr,tec98,'','',0,0,0,0,0,0,0,'','','','','','',logoportovelhoro,portovelhoro,tec118,'','',0,0,0,0,0,0,0,'','','','','','',logoprincesadosolimoes,princesadosolimoes,tec268,'','',0,0,0,0,0,0,0,'','','','','','',logoriobrancoac,riobrancoac,tec122,'','',0,0,0,0,0,0,0,'','','','','','',logosaoraimundoam,saoraimundoam,tec128,'','',0,0,0,0,0,0,0,'','','','','',''];
 
 
   
@@ -1456,7 +1466,18 @@ function toggleMenu() {
   let Pauli_B = ['',Pauli_B1];
   let Cario_A = ['',Cario_A1];
   let Cario_B = ['',Cario_B1];
-  
+  let Gauch_A = ['',Gauch_A1];
+  let Gauch_B = ['',Gauch_B1];
+  let Minei_A = ['',Minei_A1];
+  let Minei_B = ['',Minei_B1];
+  let Paran_A = ['',Paran_A1];
+  let Paran_B = ['',Paran_B1];
+  let Catar_A = ['',Catar_A1];
+  let Catar_B = ['',Catar_B1];
+  let Norde_A = ['',Norde_A1];
+  let Norde_B = ['',Norde_B1];
+  let Norti_A = ['',Norti_A1];
+  let Norti_B = ['',Norti_B1];
   
   
 
@@ -2140,6 +2161,2032 @@ function toggleMenu() {
 
       
     }
+
+    
+    else if(CampEscolhido==="Gauch_A"){
+
+
+      document.getElementById('logB1').innerHTML=Gauch_A[RodEscolhida][0];
+      document.getElementById('tecB1').innerHTML=Gauch_A[RodEscolhida][2].nome;
+      document.getElementById('clubB1').innerHTML=Gauch_A[RodEscolhida][1][0];
+      document.getElementById('nlB1').innerHTML=Gauch_A[RodEscolhida][1][2];
+      document.getElementById('varB1').innerHTML=Gauch_A[RodEscolhida][3];
+      document.getElementById('objB1').innerHTML=Gauch_A[RodEscolhida][4];
+      document.getElementById('ptB1').innerHTML=Gauch_A[RodEscolhida][5];
+      document.getElementById('vitB1').innerHTML=Gauch_A[RodEscolhida][6];
+      document.getElementById('empB1').innerHTML=Gauch_A[RodEscolhida][7];
+      document.getElementById('derB1').innerHTML=Gauch_A[RodEscolhida][8];
+      document.getElementById('gpB1').innerHTML=Gauch_A[RodEscolhida][9];
+      document.getElementById('gcB1').innerHTML=Gauch_A[RodEscolhida][10];
+      document.getElementById('sgB1').innerHTML=Gauch_A[RodEscolhida][11];
+      document.getElementById('apB1').innerHTML=Gauch_A[RodEscolhida][12];
+      document.getElementById('ultB1').innerHTML=Gauch_A[RodEscolhida][13];
+      document.getElementById('penB1').innerHTML=Gauch_A[RodEscolhida][14];
+      document.getElementById('antB1').innerHTML=Gauch_A[RodEscolhida][15];
+      document.getElementById('qaB1').innerHTML=Gauch_A[RodEscolhida][16];
+      document.getElementById('qiB1').innerHTML=Gauch_A[RodEscolhida][17];
+  
+      document.getElementById('logB2').innerHTML=Gauch_A[RodEscolhida][18];
+      document.getElementById('tecB2').innerHTML=Gauch_A[RodEscolhida][20].nome;
+      document.getElementById('clubB2').innerHTML=Gauch_A[RodEscolhida][19][0];
+      document.getElementById('nlB2').innerHTML=Gauch_A[RodEscolhida][19][2];
+      document.getElementById('varB2').innerHTML=Gauch_A[RodEscolhida][21];
+      document.getElementById('objB2').innerHTML=Gauch_A[RodEscolhida][22];
+      document.getElementById('ptB2').innerHTML=Gauch_A[RodEscolhida][23];
+      document.getElementById('vitB2').innerHTML=Gauch_A[RodEscolhida][24];
+      document.getElementById('empB2').innerHTML=Gauch_A[RodEscolhida][25];
+      document.getElementById('derB2').innerHTML=Gauch_A[RodEscolhida][26];
+      document.getElementById('gpB2').innerHTML=Gauch_A[RodEscolhida][27];
+      document.getElementById('gcB2').innerHTML=Gauch_A[RodEscolhida][28];
+      document.getElementById('sgB2').innerHTML=Gauch_A[RodEscolhida][29];
+      document.getElementById('apB2').innerHTML=Gauch_A[RodEscolhida][30];
+      document.getElementById('ultB2').innerHTML=Gauch_A[RodEscolhida][31];
+      document.getElementById('penB2').innerHTML=Gauch_A[RodEscolhida][32];
+      document.getElementById('antB2').innerHTML=Gauch_A[RodEscolhida][33];
+      document.getElementById('qaB2').innerHTML=Gauch_A[RodEscolhida][34];
+      document.getElementById('qiB2').innerHTML=Gauch_A[RodEscolhida][35];
+  
+      document.getElementById('logB3').innerHTML=Gauch_A[RodEscolhida][36];
+      document.getElementById('tecB3').innerHTML=Gauch_A[RodEscolhida][38].nome;
+      document.getElementById('clubB3').innerHTML=Gauch_A[RodEscolhida][37][0];
+      document.getElementById('nlB3').innerHTML=Gauch_A[RodEscolhida][37][2];
+      document.getElementById('varB3').innerHTML=Gauch_A[RodEscolhida][39];
+      document.getElementById('objB3').innerHTML=Gauch_A[RodEscolhida][40];
+      document.getElementById('ptB3').innerHTML=Gauch_A[RodEscolhida][41];
+      document.getElementById('vitB3').innerHTML=Gauch_A[RodEscolhida][42];
+      document.getElementById('empB3').innerHTML=Gauch_A[RodEscolhida][43];
+      document.getElementById('derB3').innerHTML=Gauch_A[RodEscolhida][44];
+      document.getElementById('gpB3').innerHTML=Gauch_A[RodEscolhida][45];
+      document.getElementById('gcB3').innerHTML=Gauch_A[RodEscolhida][46];
+      document.getElementById('sgB3').innerHTML=Gauch_A[RodEscolhida][47];
+      document.getElementById('apB3').innerHTML=Gauch_A[RodEscolhida][48];
+      document.getElementById('ultB3').innerHTML=Gauch_A[RodEscolhida][49];
+      document.getElementById('penB3').innerHTML=Gauch_A[RodEscolhida][50];
+      document.getElementById('antB3').innerHTML=Gauch_A[RodEscolhida][51];
+      document.getElementById('qaB3').innerHTML=Gauch_A[RodEscolhida][52];
+      document.getElementById('qiB3').innerHTML=Gauch_A[RodEscolhida][53];
+  
+      document.getElementById('logB4').innerHTML=Gauch_A[RodEscolhida][54];
+      document.getElementById('tecB4').innerHTML=Gauch_A[RodEscolhida][56].nome;
+      document.getElementById('clubB4').innerHTML=Gauch_A[RodEscolhida][55][0];
+      document.getElementById('nlB4').innerHTML=Gauch_A[RodEscolhida][55][2];
+      document.getElementById('varB4').innerHTML=Gauch_A[RodEscolhida][57];
+      document.getElementById('objB4').innerHTML=Gauch_A[RodEscolhida][58];
+      document.getElementById('ptB4').innerHTML=Gauch_A[RodEscolhida][59];
+      document.getElementById('vitB4').innerHTML=Gauch_A[RodEscolhida][60];
+      document.getElementById('empB4').innerHTML=Gauch_A[RodEscolhida][61];
+      document.getElementById('derB4').innerHTML=Gauch_A[RodEscolhida][62];
+      document.getElementById('gpB4').innerHTML=Gauch_A[RodEscolhida][63];
+      document.getElementById('gcB4').innerHTML=Gauch_A[RodEscolhida][64];
+      document.getElementById('sgB4').innerHTML=Gauch_A[RodEscolhida][65];
+      document.getElementById('apB4').innerHTML=Gauch_A[RodEscolhida][66];
+      document.getElementById('ultB4').innerHTML=Gauch_A[RodEscolhida][67];
+      document.getElementById('penB4').innerHTML=Gauch_A[RodEscolhida][68];
+      document.getElementById('antB4').innerHTML=Gauch_A[RodEscolhida][69];
+      document.getElementById('qaB4').innerHTML=Gauch_A[RodEscolhida][70];
+      document.getElementById('qiB4').innerHTML=Gauch_A[RodEscolhida][71];
+  
+      document.getElementById('logB5').innerHTML=Gauch_A[RodEscolhida][72];
+      document.getElementById('tecB5').innerHTML=Gauch_A[RodEscolhida][74].nome;
+      document.getElementById('clubB5').innerHTML=Gauch_A[RodEscolhida][73][0];
+      document.getElementById('nlB5').innerHTML=Gauch_A[RodEscolhida][73][2];
+      document.getElementById('varB5').innerHTML=Gauch_A[RodEscolhida][75];
+      document.getElementById('objB5').innerHTML=Gauch_A[RodEscolhida][76];
+      document.getElementById('ptB5').innerHTML=Gauch_A[RodEscolhida][77];
+      document.getElementById('vitB5').innerHTML=Gauch_A[RodEscolhida][78];
+      document.getElementById('empB5').innerHTML=Gauch_A[RodEscolhida][79];
+      document.getElementById('derB5').innerHTML=Gauch_A[RodEscolhida][80];
+      document.getElementById('gpB5').innerHTML=Gauch_A[RodEscolhida][81];
+      document.getElementById('gcB5').innerHTML=Gauch_A[RodEscolhida][82];
+      document.getElementById('sgB5').innerHTML=Gauch_A[RodEscolhida][83];
+      document.getElementById('apB5').innerHTML=Gauch_A[RodEscolhida][84];
+      document.getElementById('ultB5').innerHTML=Gauch_A[RodEscolhida][85];
+      document.getElementById('penB5').innerHTML=Gauch_A[RodEscolhida][86];
+      document.getElementById('antB5').innerHTML=Gauch_A[RodEscolhida][87];
+      document.getElementById('qaB5').innerHTML=Gauch_A[RodEscolhida][88];
+      document.getElementById('qiB5').innerHTML=Gauch_A[RodEscolhida][89];
+  
+      document.getElementById('logB6').innerHTML=Gauch_A[RodEscolhida][90];
+      document.getElementById('tecB6').innerHTML=Gauch_A[RodEscolhida][92].nome;
+      document.getElementById('clubB6').innerHTML=Gauch_A[RodEscolhida][91][0];
+      document.getElementById('nlB6').innerHTML=Gauch_A[RodEscolhida][91][2];
+      document.getElementById('varB6').innerHTML=Gauch_A[RodEscolhida][93];
+      document.getElementById('objB6').innerHTML=Gauch_A[RodEscolhida][94];
+      document.getElementById('ptB6').innerHTML=Gauch_A[RodEscolhida][95];
+      document.getElementById('vitB6').innerHTML=Gauch_A[RodEscolhida][96];
+      document.getElementById('empB6').innerHTML=Gauch_A[RodEscolhida][97];
+      document.getElementById('derB6').innerHTML=Gauch_A[RodEscolhida][98];
+      document.getElementById('gpB6').innerHTML=Gauch_A[RodEscolhida][99];
+      document.getElementById('gcB6').innerHTML=Gauch_A[RodEscolhida][100];
+      document.getElementById('sgB6').innerHTML=Gauch_A[RodEscolhida][101];
+      document.getElementById('apB6').innerHTML=Gauch_A[RodEscolhida][102];
+      document.getElementById('ultB6').innerHTML=Gauch_A[RodEscolhida][103];
+      document.getElementById('penB6').innerHTML=Gauch_A[RodEscolhida][104];
+      document.getElementById('antB6').innerHTML=Gauch_A[RodEscolhida][105];
+      document.getElementById('qaB6').innerHTML=Gauch_A[RodEscolhida][106];
+      document.getElementById('qiB6').innerHTML=Gauch_A[RodEscolhida][107];
+  
+      document.getElementById('logB7').innerHTML=Gauch_A[RodEscolhida][108];
+      document.getElementById('tecB7').innerHTML=Gauch_A[RodEscolhida][110].nome;
+      document.getElementById('clubB7').innerHTML=Gauch_A[RodEscolhida][109][0];
+      document.getElementById('nlB7').innerHTML=Gauch_A[RodEscolhida][109][2];
+      document.getElementById('varB7').innerHTML=Gauch_A[RodEscolhida][111];
+      document.getElementById('objB7').innerHTML=Gauch_A[RodEscolhida][112];
+      document.getElementById('ptB7').innerHTML=Gauch_A[RodEscolhida][113];
+      document.getElementById('vitB7').innerHTML=Gauch_A[RodEscolhida][114];
+      document.getElementById('empB7').innerHTML=Gauch_A[RodEscolhida][115];
+      document.getElementById('derB7').innerHTML=Gauch_A[RodEscolhida][116];
+      document.getElementById('gpB7').innerHTML=Gauch_A[RodEscolhida][117];
+      document.getElementById('gcB7').innerHTML=Gauch_A[RodEscolhida][118];
+      document.getElementById('sgB7').innerHTML=Gauch_A[RodEscolhida][119];
+      document.getElementById('apB7').innerHTML=Gauch_A[RodEscolhida][120];
+      document.getElementById('ultB7').innerHTML=Gauch_A[RodEscolhida][121];
+      document.getElementById('penB7').innerHTML=Gauch_A[RodEscolhida][122];
+      document.getElementById('antB7').innerHTML=Gauch_A[RodEscolhida][123];
+      document.getElementById('qaB7').innerHTML=Gauch_A[RodEscolhida][124];
+      document.getElementById('qiB7').innerHTML=Gauch_A[RodEscolhida][125];
+  
+      document.getElementById('logB8').innerHTML=Gauch_A[RodEscolhida][126];
+      document.getElementById('tecB8').innerHTML=Gauch_A[RodEscolhida][128].nome;
+      document.getElementById('clubB8').innerHTML=Gauch_A[RodEscolhida][127][0];
+      document.getElementById('nlB8').innerHTML=Gauch_A[RodEscolhida][127][2];
+      document.getElementById('varB8').innerHTML=Gauch_A[RodEscolhida][129];
+      document.getElementById('objB8').innerHTML=Gauch_A[RodEscolhida][130];
+      document.getElementById('ptB8').innerHTML=Gauch_A[RodEscolhida][131];
+      document.getElementById('vitB8').innerHTML=Gauch_A[RodEscolhida][132];
+      document.getElementById('empB8').innerHTML=Gauch_A[RodEscolhida][133];
+      document.getElementById('derB8').innerHTML=Gauch_A[RodEscolhida][134];
+      document.getElementById('gpB8').innerHTML=Gauch_A[RodEscolhida][135];
+      document.getElementById('gcB8').innerHTML=Gauch_A[RodEscolhida][136];
+      document.getElementById('sgB8').innerHTML=Gauch_A[RodEscolhida][137];
+      document.getElementById('apB8').innerHTML=Gauch_A[RodEscolhida][138];
+      document.getElementById('ultB8').innerHTML=Gauch_A[RodEscolhida][139];
+      document.getElementById('penB8').innerHTML=Gauch_A[RodEscolhida][140];
+      document.getElementById('antB8').innerHTML=Gauch_A[RodEscolhida][141];
+      document.getElementById('qaB8').innerHTML=Gauch_A[RodEscolhida][142];
+      document.getElementById('qiB8').innerHTML=Gauch_A[RodEscolhida][143];
+  
+
+      
+    }
+
+
+    else if(CampEscolhido==="Gauch_B"){
+
+
+      document.getElementById('logB1').innerHTML=Gauch_B[RodEscolhida][0];
+      document.getElementById('tecB1').innerHTML=Gauch_B[RodEscolhida][2].nome;
+      document.getElementById('clubB1').innerHTML=Gauch_B[RodEscolhida][1][0];
+      document.getElementById('nlB1').innerHTML=Gauch_B[RodEscolhida][1][2];
+      document.getElementById('varB1').innerHTML=Gauch_B[RodEscolhida][3];
+      document.getElementById('objB1').innerHTML=Gauch_B[RodEscolhida][4];
+      document.getElementById('ptB1').innerHTML=Gauch_B[RodEscolhida][5];
+      document.getElementById('vitB1').innerHTML=Gauch_B[RodEscolhida][6];
+      document.getElementById('empB1').innerHTML=Gauch_B[RodEscolhida][7];
+      document.getElementById('derB1').innerHTML=Gauch_B[RodEscolhida][8];
+      document.getElementById('gpB1').innerHTML=Gauch_B[RodEscolhida][9];
+      document.getElementById('gcB1').innerHTML=Gauch_B[RodEscolhida][10];
+      document.getElementById('sgB1').innerHTML=Gauch_B[RodEscolhida][11];
+      document.getElementById('apB1').innerHTML=Gauch_B[RodEscolhida][12];
+      document.getElementById('ultB1').innerHTML=Gauch_B[RodEscolhida][13];
+      document.getElementById('penB1').innerHTML=Gauch_B[RodEscolhida][14];
+      document.getElementById('antB1').innerHTML=Gauch_B[RodEscolhida][15];
+      document.getElementById('qaB1').innerHTML=Gauch_B[RodEscolhida][16];
+      document.getElementById('qiB1').innerHTML=Gauch_B[RodEscolhida][17];
+  
+      document.getElementById('logB2').innerHTML=Gauch_B[RodEscolhida][18];
+      document.getElementById('tecB2').innerHTML=Gauch_B[RodEscolhida][20].nome;
+      document.getElementById('clubB2').innerHTML=Gauch_B[RodEscolhida][19][0];
+      document.getElementById('nlB2').innerHTML=Gauch_B[RodEscolhida][19][2];
+      document.getElementById('varB2').innerHTML=Gauch_B[RodEscolhida][21];
+      document.getElementById('objB2').innerHTML=Gauch_B[RodEscolhida][22];
+      document.getElementById('ptB2').innerHTML=Gauch_B[RodEscolhida][23];
+      document.getElementById('vitB2').innerHTML=Gauch_B[RodEscolhida][24];
+      document.getElementById('empB2').innerHTML=Gauch_B[RodEscolhida][25];
+      document.getElementById('derB2').innerHTML=Gauch_B[RodEscolhida][26];
+      document.getElementById('gpB2').innerHTML=Gauch_B[RodEscolhida][27];
+      document.getElementById('gcB2').innerHTML=Gauch_B[RodEscolhida][28];
+      document.getElementById('sgB2').innerHTML=Gauch_B[RodEscolhida][29];
+      document.getElementById('apB2').innerHTML=Gauch_B[RodEscolhida][30];
+      document.getElementById('ultB2').innerHTML=Gauch_B[RodEscolhida][31];
+      document.getElementById('penB2').innerHTML=Gauch_B[RodEscolhida][32];
+      document.getElementById('antB2').innerHTML=Gauch_B[RodEscolhida][33];
+      document.getElementById('qaB2').innerHTML=Gauch_B[RodEscolhida][34];
+      document.getElementById('qiB2').innerHTML=Gauch_B[RodEscolhida][35];
+  
+      document.getElementById('logB3').innerHTML=Gauch_B[RodEscolhida][36];
+      document.getElementById('tecB3').innerHTML=Gauch_B[RodEscolhida][38].nome;
+      document.getElementById('clubB3').innerHTML=Gauch_B[RodEscolhida][37][0];
+      document.getElementById('nlB3').innerHTML=Gauch_B[RodEscolhida][37][2];
+      document.getElementById('varB3').innerHTML=Gauch_B[RodEscolhida][39];
+      document.getElementById('objB3').innerHTML=Gauch_B[RodEscolhida][40];
+      document.getElementById('ptB3').innerHTML=Gauch_B[RodEscolhida][41];
+      document.getElementById('vitB3').innerHTML=Gauch_B[RodEscolhida][42];
+      document.getElementById('empB3').innerHTML=Gauch_B[RodEscolhida][43];
+      document.getElementById('derB3').innerHTML=Gauch_B[RodEscolhida][44];
+      document.getElementById('gpB3').innerHTML=Gauch_B[RodEscolhida][45];
+      document.getElementById('gcB3').innerHTML=Gauch_B[RodEscolhida][46];
+      document.getElementById('sgB3').innerHTML=Gauch_B[RodEscolhida][47];
+      document.getElementById('apB3').innerHTML=Gauch_B[RodEscolhida][48];
+      document.getElementById('ultB3').innerHTML=Gauch_B[RodEscolhida][49];
+      document.getElementById('penB3').innerHTML=Gauch_B[RodEscolhida][50];
+      document.getElementById('antB3').innerHTML=Gauch_B[RodEscolhida][51];
+      document.getElementById('qaB3').innerHTML=Gauch_B[RodEscolhida][52];
+      document.getElementById('qiB3').innerHTML=Gauch_B[RodEscolhida][53];
+  
+      document.getElementById('logB4').innerHTML=Gauch_B[RodEscolhida][54];
+      document.getElementById('tecB4').innerHTML=Gauch_B[RodEscolhida][56].nome;
+      document.getElementById('clubB4').innerHTML=Gauch_B[RodEscolhida][55][0];
+      document.getElementById('nlB4').innerHTML=Gauch_B[RodEscolhida][55][2];
+      document.getElementById('varB4').innerHTML=Gauch_B[RodEscolhida][57];
+      document.getElementById('objB4').innerHTML=Gauch_B[RodEscolhida][58];
+      document.getElementById('ptB4').innerHTML=Gauch_B[RodEscolhida][59];
+      document.getElementById('vitB4').innerHTML=Gauch_B[RodEscolhida][60];
+      document.getElementById('empB4').innerHTML=Gauch_B[RodEscolhida][61];
+      document.getElementById('derB4').innerHTML=Gauch_B[RodEscolhida][62];
+      document.getElementById('gpB4').innerHTML=Gauch_B[RodEscolhida][63];
+      document.getElementById('gcB4').innerHTML=Gauch_B[RodEscolhida][64];
+      document.getElementById('sgB4').innerHTML=Gauch_B[RodEscolhida][65];
+      document.getElementById('apB4').innerHTML=Gauch_B[RodEscolhida][66];
+      document.getElementById('ultB4').innerHTML=Gauch_B[RodEscolhida][67];
+      document.getElementById('penB4').innerHTML=Gauch_B[RodEscolhida][68];
+      document.getElementById('antB4').innerHTML=Gauch_B[RodEscolhida][69];
+      document.getElementById('qaB4').innerHTML=Gauch_B[RodEscolhida][70];
+      document.getElementById('qiB4').innerHTML=Gauch_B[RodEscolhida][71];
+  
+      document.getElementById('logB5').innerHTML=Gauch_B[RodEscolhida][72];
+      document.getElementById('tecB5').innerHTML=Gauch_B[RodEscolhida][74].nome;
+      document.getElementById('clubB5').innerHTML=Gauch_B[RodEscolhida][73][0];
+      document.getElementById('nlB5').innerHTML=Gauch_B[RodEscolhida][73][2];
+      document.getElementById('varB5').innerHTML=Gauch_B[RodEscolhida][75];
+      document.getElementById('objB5').innerHTML=Gauch_B[RodEscolhida][76];
+      document.getElementById('ptB5').innerHTML=Gauch_B[RodEscolhida][77];
+      document.getElementById('vitB5').innerHTML=Gauch_B[RodEscolhida][78];
+      document.getElementById('empB5').innerHTML=Gauch_B[RodEscolhida][79];
+      document.getElementById('derB5').innerHTML=Gauch_B[RodEscolhida][80];
+      document.getElementById('gpB5').innerHTML=Gauch_B[RodEscolhida][81];
+      document.getElementById('gcB5').innerHTML=Gauch_B[RodEscolhida][82];
+      document.getElementById('sgB5').innerHTML=Gauch_B[RodEscolhida][83];
+      document.getElementById('apB5').innerHTML=Gauch_B[RodEscolhida][84];
+      document.getElementById('ultB5').innerHTML=Gauch_B[RodEscolhida][85];
+      document.getElementById('penB5').innerHTML=Gauch_B[RodEscolhida][86];
+      document.getElementById('antB5').innerHTML=Gauch_B[RodEscolhida][87];
+      document.getElementById('qaB5').innerHTML=Gauch_B[RodEscolhida][88];
+      document.getElementById('qiB5').innerHTML=Gauch_B[RodEscolhida][89];
+  
+      document.getElementById('logB6').innerHTML=Gauch_B[RodEscolhida][90];
+      document.getElementById('tecB6').innerHTML=Gauch_B[RodEscolhida][92].nome;
+      document.getElementById('clubB6').innerHTML=Gauch_B[RodEscolhida][91][0];
+      document.getElementById('nlB6').innerHTML=Gauch_B[RodEscolhida][91][2];
+      document.getElementById('varB6').innerHTML=Gauch_B[RodEscolhida][93];
+      document.getElementById('objB6').innerHTML=Gauch_B[RodEscolhida][94];
+      document.getElementById('ptB6').innerHTML=Gauch_B[RodEscolhida][95];
+      document.getElementById('vitB6').innerHTML=Gauch_B[RodEscolhida][96];
+      document.getElementById('empB6').innerHTML=Gauch_B[RodEscolhida][97];
+      document.getElementById('derB6').innerHTML=Gauch_B[RodEscolhida][98];
+      document.getElementById('gpB6').innerHTML=Gauch_B[RodEscolhida][99];
+      document.getElementById('gcB6').innerHTML=Gauch_B[RodEscolhida][100];
+      document.getElementById('sgB6').innerHTML=Gauch_B[RodEscolhida][101];
+      document.getElementById('apB6').innerHTML=Gauch_B[RodEscolhida][102];
+      document.getElementById('ultB6').innerHTML=Gauch_B[RodEscolhida][103];
+      document.getElementById('penB6').innerHTML=Gauch_B[RodEscolhida][104];
+      document.getElementById('antB6').innerHTML=Gauch_B[RodEscolhida][105];
+      document.getElementById('qaB6').innerHTML=Gauch_B[RodEscolhida][106];
+      document.getElementById('qiB6').innerHTML=Gauch_B[RodEscolhida][107];
+  
+      document.getElementById('logB7').innerHTML=Gauch_B[RodEscolhida][108];
+      document.getElementById('tecB7').innerHTML=Gauch_B[RodEscolhida][110].nome;
+      document.getElementById('clubB7').innerHTML=Gauch_B[RodEscolhida][109][0];
+      document.getElementById('nlB7').innerHTML=Gauch_B[RodEscolhida][109][2];
+      document.getElementById('varB7').innerHTML=Gauch_B[RodEscolhida][111];
+      document.getElementById('objB7').innerHTML=Gauch_B[RodEscolhida][112];
+      document.getElementById('ptB7').innerHTML=Gauch_B[RodEscolhida][113];
+      document.getElementById('vitB7').innerHTML=Gauch_B[RodEscolhida][114];
+      document.getElementById('empB7').innerHTML=Gauch_B[RodEscolhida][115];
+      document.getElementById('derB7').innerHTML=Gauch_B[RodEscolhida][116];
+      document.getElementById('gpB7').innerHTML=Gauch_B[RodEscolhida][117];
+      document.getElementById('gcB7').innerHTML=Gauch_B[RodEscolhida][118];
+      document.getElementById('sgB7').innerHTML=Gauch_B[RodEscolhida][119];
+      document.getElementById('apB7').innerHTML=Gauch_B[RodEscolhida][120];
+      document.getElementById('ultB7').innerHTML=Gauch_B[RodEscolhida][121];
+      document.getElementById('penB7').innerHTML=Gauch_B[RodEscolhida][122];
+      document.getElementById('antB7').innerHTML=Gauch_B[RodEscolhida][123];
+      document.getElementById('qaB7').innerHTML=Gauch_B[RodEscolhida][124];
+      document.getElementById('qiB7').innerHTML=Gauch_B[RodEscolhida][125];
+  
+      document.getElementById('logB8').innerHTML=Gauch_B[RodEscolhida][126];
+      document.getElementById('tecB8').innerHTML=Gauch_B[RodEscolhida][128].nome;
+      document.getElementById('clubB8').innerHTML=Gauch_B[RodEscolhida][127][0];
+      document.getElementById('nlB8').innerHTML=Gauch_B[RodEscolhida][127][2];
+      document.getElementById('varB8').innerHTML=Gauch_B[RodEscolhida][129];
+      document.getElementById('objB8').innerHTML=Gauch_B[RodEscolhida][130];
+      document.getElementById('ptB8').innerHTML=Gauch_B[RodEscolhida][131];
+      document.getElementById('vitB8').innerHTML=Gauch_B[RodEscolhida][132];
+      document.getElementById('empB8').innerHTML=Gauch_B[RodEscolhida][133];
+      document.getElementById('derB8').innerHTML=Gauch_B[RodEscolhida][134];
+      document.getElementById('gpB8').innerHTML=Gauch_B[RodEscolhida][135];
+      document.getElementById('gcB8').innerHTML=Gauch_B[RodEscolhida][136];
+      document.getElementById('sgB8').innerHTML=Gauch_B[RodEscolhida][137];
+      document.getElementById('apB8').innerHTML=Gauch_B[RodEscolhida][138];
+      document.getElementById('ultB8').innerHTML=Gauch_B[RodEscolhida][139];
+      document.getElementById('penB8').innerHTML=Gauch_B[RodEscolhida][140];
+      document.getElementById('antB8').innerHTML=Gauch_B[RodEscolhida][141];
+      document.getElementById('qaB8').innerHTML=Gauch_B[RodEscolhida][142];
+      document.getElementById('qiB8').innerHTML=Gauch_B[RodEscolhida][143];
+  
+
+      
+    }
+
+
+
+
+    
+    else if(CampEscolhido==="Minei_A"){
+
+
+      document.getElementById('logB1').innerHTML=Minei_A[RodEscolhida][0];
+      document.getElementById('tecB1').innerHTML=Minei_A[RodEscolhida][2].nome;
+      document.getElementById('clubB1').innerHTML=Minei_A[RodEscolhida][1][0];
+      document.getElementById('nlB1').innerHTML=Minei_A[RodEscolhida][1][2];
+      document.getElementById('varB1').innerHTML=Minei_A[RodEscolhida][3];
+      document.getElementById('objB1').innerHTML=Minei_A[RodEscolhida][4];
+      document.getElementById('ptB1').innerHTML=Minei_A[RodEscolhida][5];
+      document.getElementById('vitB1').innerHTML=Minei_A[RodEscolhida][6];
+      document.getElementById('empB1').innerHTML=Minei_A[RodEscolhida][7];
+      document.getElementById('derB1').innerHTML=Minei_A[RodEscolhida][8];
+      document.getElementById('gpB1').innerHTML=Minei_A[RodEscolhida][9];
+      document.getElementById('gcB1').innerHTML=Minei_A[RodEscolhida][10];
+      document.getElementById('sgB1').innerHTML=Minei_A[RodEscolhida][11];
+      document.getElementById('apB1').innerHTML=Minei_A[RodEscolhida][12];
+      document.getElementById('ultB1').innerHTML=Minei_A[RodEscolhida][13];
+      document.getElementById('penB1').innerHTML=Minei_A[RodEscolhida][14];
+      document.getElementById('antB1').innerHTML=Minei_A[RodEscolhida][15];
+      document.getElementById('qaB1').innerHTML=Minei_A[RodEscolhida][16];
+      document.getElementById('qiB1').innerHTML=Minei_A[RodEscolhida][17];
+  
+      document.getElementById('logB2').innerHTML=Minei_A[RodEscolhida][18];
+      document.getElementById('tecB2').innerHTML=Minei_A[RodEscolhida][20].nome;
+      document.getElementById('clubB2').innerHTML=Minei_A[RodEscolhida][19][0];
+      document.getElementById('nlB2').innerHTML=Minei_A[RodEscolhida][19][2];
+      document.getElementById('varB2').innerHTML=Minei_A[RodEscolhida][21];
+      document.getElementById('objB2').innerHTML=Minei_A[RodEscolhida][22];
+      document.getElementById('ptB2').innerHTML=Minei_A[RodEscolhida][23];
+      document.getElementById('vitB2').innerHTML=Minei_A[RodEscolhida][24];
+      document.getElementById('empB2').innerHTML=Minei_A[RodEscolhida][25];
+      document.getElementById('derB2').innerHTML=Minei_A[RodEscolhida][26];
+      document.getElementById('gpB2').innerHTML=Minei_A[RodEscolhida][27];
+      document.getElementById('gcB2').innerHTML=Minei_A[RodEscolhida][28];
+      document.getElementById('sgB2').innerHTML=Minei_A[RodEscolhida][29];
+      document.getElementById('apB2').innerHTML=Minei_A[RodEscolhida][30];
+      document.getElementById('ultB2').innerHTML=Minei_A[RodEscolhida][31];
+      document.getElementById('penB2').innerHTML=Minei_A[RodEscolhida][32];
+      document.getElementById('antB2').innerHTML=Minei_A[RodEscolhida][33];
+      document.getElementById('qaB2').innerHTML=Minei_A[RodEscolhida][34];
+      document.getElementById('qiB2').innerHTML=Minei_A[RodEscolhida][35];
+  
+      document.getElementById('logB3').innerHTML=Minei_A[RodEscolhida][36];
+      document.getElementById('tecB3').innerHTML=Minei_A[RodEscolhida][38].nome;
+      document.getElementById('clubB3').innerHTML=Minei_A[RodEscolhida][37][0];
+      document.getElementById('nlB3').innerHTML=Minei_A[RodEscolhida][37][2];
+      document.getElementById('varB3').innerHTML=Minei_A[RodEscolhida][39];
+      document.getElementById('objB3').innerHTML=Minei_A[RodEscolhida][40];
+      document.getElementById('ptB3').innerHTML=Minei_A[RodEscolhida][41];
+      document.getElementById('vitB3').innerHTML=Minei_A[RodEscolhida][42];
+      document.getElementById('empB3').innerHTML=Minei_A[RodEscolhida][43];
+      document.getElementById('derB3').innerHTML=Minei_A[RodEscolhida][44];
+      document.getElementById('gpB3').innerHTML=Minei_A[RodEscolhida][45];
+      document.getElementById('gcB3').innerHTML=Minei_A[RodEscolhida][46];
+      document.getElementById('sgB3').innerHTML=Minei_A[RodEscolhida][47];
+      document.getElementById('apB3').innerHTML=Minei_A[RodEscolhida][48];
+      document.getElementById('ultB3').innerHTML=Minei_A[RodEscolhida][49];
+      document.getElementById('penB3').innerHTML=Minei_A[RodEscolhida][50];
+      document.getElementById('antB3').innerHTML=Minei_A[RodEscolhida][51];
+      document.getElementById('qaB3').innerHTML=Minei_A[RodEscolhida][52];
+      document.getElementById('qiB3').innerHTML=Minei_A[RodEscolhida][53];
+  
+      document.getElementById('logB4').innerHTML=Minei_A[RodEscolhida][54];
+      document.getElementById('tecB4').innerHTML=Minei_A[RodEscolhida][56].nome;
+      document.getElementById('clubB4').innerHTML=Minei_A[RodEscolhida][55][0];
+      document.getElementById('nlB4').innerHTML=Minei_A[RodEscolhida][55][2];
+      document.getElementById('varB4').innerHTML=Minei_A[RodEscolhida][57];
+      document.getElementById('objB4').innerHTML=Minei_A[RodEscolhida][58];
+      document.getElementById('ptB4').innerHTML=Minei_A[RodEscolhida][59];
+      document.getElementById('vitB4').innerHTML=Minei_A[RodEscolhida][60];
+      document.getElementById('empB4').innerHTML=Minei_A[RodEscolhida][61];
+      document.getElementById('derB4').innerHTML=Minei_A[RodEscolhida][62];
+      document.getElementById('gpB4').innerHTML=Minei_A[RodEscolhida][63];
+      document.getElementById('gcB4').innerHTML=Minei_A[RodEscolhida][64];
+      document.getElementById('sgB4').innerHTML=Minei_A[RodEscolhida][65];
+      document.getElementById('apB4').innerHTML=Minei_A[RodEscolhida][66];
+      document.getElementById('ultB4').innerHTML=Minei_A[RodEscolhida][67];
+      document.getElementById('penB4').innerHTML=Minei_A[RodEscolhida][68];
+      document.getElementById('antB4').innerHTML=Minei_A[RodEscolhida][69];
+      document.getElementById('qaB4').innerHTML=Minei_A[RodEscolhida][70];
+      document.getElementById('qiB4').innerHTML=Minei_A[RodEscolhida][71];
+  
+      document.getElementById('logB5').innerHTML=Minei_A[RodEscolhida][72];
+      document.getElementById('tecB5').innerHTML=Minei_A[RodEscolhida][74].nome;
+      document.getElementById('clubB5').innerHTML=Minei_A[RodEscolhida][73][0];
+      document.getElementById('nlB5').innerHTML=Minei_A[RodEscolhida][73][2];
+      document.getElementById('varB5').innerHTML=Minei_A[RodEscolhida][75];
+      document.getElementById('objB5').innerHTML=Minei_A[RodEscolhida][76];
+      document.getElementById('ptB5').innerHTML=Minei_A[RodEscolhida][77];
+      document.getElementById('vitB5').innerHTML=Minei_A[RodEscolhida][78];
+      document.getElementById('empB5').innerHTML=Minei_A[RodEscolhida][79];
+      document.getElementById('derB5').innerHTML=Minei_A[RodEscolhida][80];
+      document.getElementById('gpB5').innerHTML=Minei_A[RodEscolhida][81];
+      document.getElementById('gcB5').innerHTML=Minei_A[RodEscolhida][82];
+      document.getElementById('sgB5').innerHTML=Minei_A[RodEscolhida][83];
+      document.getElementById('apB5').innerHTML=Minei_A[RodEscolhida][84];
+      document.getElementById('ultB5').innerHTML=Minei_A[RodEscolhida][85];
+      document.getElementById('penB5').innerHTML=Minei_A[RodEscolhida][86];
+      document.getElementById('antB5').innerHTML=Minei_A[RodEscolhida][87];
+      document.getElementById('qaB5').innerHTML=Minei_A[RodEscolhida][88];
+      document.getElementById('qiB5').innerHTML=Minei_A[RodEscolhida][89];
+  
+      document.getElementById('logB6').innerHTML=Minei_A[RodEscolhida][90];
+      document.getElementById('tecB6').innerHTML=Minei_A[RodEscolhida][92].nome;
+      document.getElementById('clubB6').innerHTML=Minei_A[RodEscolhida][91][0];
+      document.getElementById('nlB6').innerHTML=Minei_A[RodEscolhida][91][2];
+      document.getElementById('varB6').innerHTML=Minei_A[RodEscolhida][93];
+      document.getElementById('objB6').innerHTML=Minei_A[RodEscolhida][94];
+      document.getElementById('ptB6').innerHTML=Minei_A[RodEscolhida][95];
+      document.getElementById('vitB6').innerHTML=Minei_A[RodEscolhida][96];
+      document.getElementById('empB6').innerHTML=Minei_A[RodEscolhida][97];
+      document.getElementById('derB6').innerHTML=Minei_A[RodEscolhida][98];
+      document.getElementById('gpB6').innerHTML=Minei_A[RodEscolhida][99];
+      document.getElementById('gcB6').innerHTML=Minei_A[RodEscolhida][100];
+      document.getElementById('sgB6').innerHTML=Minei_A[RodEscolhida][101];
+      document.getElementById('apB6').innerHTML=Minei_A[RodEscolhida][102];
+      document.getElementById('ultB6').innerHTML=Minei_A[RodEscolhida][103];
+      document.getElementById('penB6').innerHTML=Minei_A[RodEscolhida][104];
+      document.getElementById('antB6').innerHTML=Minei_A[RodEscolhida][105];
+      document.getElementById('qaB6').innerHTML=Minei_A[RodEscolhida][106];
+      document.getElementById('qiB6').innerHTML=Minei_A[RodEscolhida][107];
+  
+      document.getElementById('logB7').innerHTML=Minei_A[RodEscolhida][108];
+      document.getElementById('tecB7').innerHTML=Minei_A[RodEscolhida][110].nome;
+      document.getElementById('clubB7').innerHTML=Minei_A[RodEscolhida][109][0];
+      document.getElementById('nlB7').innerHTML=Minei_A[RodEscolhida][109][2];
+      document.getElementById('varB7').innerHTML=Minei_A[RodEscolhida][111];
+      document.getElementById('objB7').innerHTML=Minei_A[RodEscolhida][112];
+      document.getElementById('ptB7').innerHTML=Minei_A[RodEscolhida][113];
+      document.getElementById('vitB7').innerHTML=Minei_A[RodEscolhida][114];
+      document.getElementById('empB7').innerHTML=Minei_A[RodEscolhida][115];
+      document.getElementById('derB7').innerHTML=Minei_A[RodEscolhida][116];
+      document.getElementById('gpB7').innerHTML=Minei_A[RodEscolhida][117];
+      document.getElementById('gcB7').innerHTML=Minei_A[RodEscolhida][118];
+      document.getElementById('sgB7').innerHTML=Minei_A[RodEscolhida][119];
+      document.getElementById('apB7').innerHTML=Minei_A[RodEscolhida][120];
+      document.getElementById('ultB7').innerHTML=Minei_A[RodEscolhida][121];
+      document.getElementById('penB7').innerHTML=Minei_A[RodEscolhida][122];
+      document.getElementById('antB7').innerHTML=Minei_A[RodEscolhida][123];
+      document.getElementById('qaB7').innerHTML=Minei_A[RodEscolhida][124];
+      document.getElementById('qiB7').innerHTML=Minei_A[RodEscolhida][125];
+  
+      document.getElementById('logB8').innerHTML=Minei_A[RodEscolhida][126];
+      document.getElementById('tecB8').innerHTML=Minei_A[RodEscolhida][128].nome;
+      document.getElementById('clubB8').innerHTML=Minei_A[RodEscolhida][127][0];
+      document.getElementById('nlB8').innerHTML=Minei_A[RodEscolhida][127][2];
+      document.getElementById('varB8').innerHTML=Minei_A[RodEscolhida][129];
+      document.getElementById('objB8').innerHTML=Minei_A[RodEscolhida][130];
+      document.getElementById('ptB8').innerHTML=Minei_A[RodEscolhida][131];
+      document.getElementById('vitB8').innerHTML=Minei_A[RodEscolhida][132];
+      document.getElementById('empB8').innerHTML=Minei_A[RodEscolhida][133];
+      document.getElementById('derB8').innerHTML=Minei_A[RodEscolhida][134];
+      document.getElementById('gpB8').innerHTML=Minei_A[RodEscolhida][135];
+      document.getElementById('gcB8').innerHTML=Minei_A[RodEscolhida][136];
+      document.getElementById('sgB8').innerHTML=Minei_A[RodEscolhida][137];
+      document.getElementById('apB8').innerHTML=Minei_A[RodEscolhida][138];
+      document.getElementById('ultB8').innerHTML=Minei_A[RodEscolhida][139];
+      document.getElementById('penB8').innerHTML=Minei_A[RodEscolhida][140];
+      document.getElementById('antB8').innerHTML=Minei_A[RodEscolhida][141];
+      document.getElementById('qaB8').innerHTML=Minei_A[RodEscolhida][142];
+      document.getElementById('qiB8').innerHTML=Minei_A[RodEscolhida][143];
+  
+
+      
+    }
+
+
+    else if(CampEscolhido==="Minei_B"){
+
+
+      document.getElementById('logB1').innerHTML=Minei_B[RodEscolhida][0];
+      document.getElementById('tecB1').innerHTML=Minei_B[RodEscolhida][2].nome;
+      document.getElementById('clubB1').innerHTML=Minei_B[RodEscolhida][1][0];
+      document.getElementById('nlB1').innerHTML=Minei_B[RodEscolhida][1][2];
+      document.getElementById('varB1').innerHTML=Minei_B[RodEscolhida][3];
+      document.getElementById('objB1').innerHTML=Minei_B[RodEscolhida][4];
+      document.getElementById('ptB1').innerHTML=Minei_B[RodEscolhida][5];
+      document.getElementById('vitB1').innerHTML=Minei_B[RodEscolhida][6];
+      document.getElementById('empB1').innerHTML=Minei_B[RodEscolhida][7];
+      document.getElementById('derB1').innerHTML=Minei_B[RodEscolhida][8];
+      document.getElementById('gpB1').innerHTML=Minei_B[RodEscolhida][9];
+      document.getElementById('gcB1').innerHTML=Minei_B[RodEscolhida][10];
+      document.getElementById('sgB1').innerHTML=Minei_B[RodEscolhida][11];
+      document.getElementById('apB1').innerHTML=Minei_B[RodEscolhida][12];
+      document.getElementById('ultB1').innerHTML=Minei_B[RodEscolhida][13];
+      document.getElementById('penB1').innerHTML=Minei_B[RodEscolhida][14];
+      document.getElementById('antB1').innerHTML=Minei_B[RodEscolhida][15];
+      document.getElementById('qaB1').innerHTML=Minei_B[RodEscolhida][16];
+      document.getElementById('qiB1').innerHTML=Minei_B[RodEscolhida][17];
+  
+      document.getElementById('logB2').innerHTML=Minei_B[RodEscolhida][18];
+      document.getElementById('tecB2').innerHTML=Minei_B[RodEscolhida][20].nome;
+      document.getElementById('clubB2').innerHTML=Minei_B[RodEscolhida][19][0];
+      document.getElementById('nlB2').innerHTML=Minei_B[RodEscolhida][19][2];
+      document.getElementById('varB2').innerHTML=Minei_B[RodEscolhida][21];
+      document.getElementById('objB2').innerHTML=Minei_B[RodEscolhida][22];
+      document.getElementById('ptB2').innerHTML=Minei_B[RodEscolhida][23];
+      document.getElementById('vitB2').innerHTML=Minei_B[RodEscolhida][24];
+      document.getElementById('empB2').innerHTML=Minei_B[RodEscolhida][25];
+      document.getElementById('derB2').innerHTML=Minei_B[RodEscolhida][26];
+      document.getElementById('gpB2').innerHTML=Minei_B[RodEscolhida][27];
+      document.getElementById('gcB2').innerHTML=Minei_B[RodEscolhida][28];
+      document.getElementById('sgB2').innerHTML=Minei_B[RodEscolhida][29];
+      document.getElementById('apB2').innerHTML=Minei_B[RodEscolhida][30];
+      document.getElementById('ultB2').innerHTML=Minei_B[RodEscolhida][31];
+      document.getElementById('penB2').innerHTML=Minei_B[RodEscolhida][32];
+      document.getElementById('antB2').innerHTML=Minei_B[RodEscolhida][33];
+      document.getElementById('qaB2').innerHTML=Minei_B[RodEscolhida][34];
+      document.getElementById('qiB2').innerHTML=Minei_B[RodEscolhida][35];
+  
+      document.getElementById('logB3').innerHTML=Minei_B[RodEscolhida][36];
+      document.getElementById('tecB3').innerHTML=Minei_B[RodEscolhida][38].nome;
+      document.getElementById('clubB3').innerHTML=Minei_B[RodEscolhida][37][0];
+      document.getElementById('nlB3').innerHTML=Minei_B[RodEscolhida][37][2];
+      document.getElementById('varB3').innerHTML=Minei_B[RodEscolhida][39];
+      document.getElementById('objB3').innerHTML=Minei_B[RodEscolhida][40];
+      document.getElementById('ptB3').innerHTML=Minei_B[RodEscolhida][41];
+      document.getElementById('vitB3').innerHTML=Minei_B[RodEscolhida][42];
+      document.getElementById('empB3').innerHTML=Minei_B[RodEscolhida][43];
+      document.getElementById('derB3').innerHTML=Minei_B[RodEscolhida][44];
+      document.getElementById('gpB3').innerHTML=Minei_B[RodEscolhida][45];
+      document.getElementById('gcB3').innerHTML=Minei_B[RodEscolhida][46];
+      document.getElementById('sgB3').innerHTML=Minei_B[RodEscolhida][47];
+      document.getElementById('apB3').innerHTML=Minei_B[RodEscolhida][48];
+      document.getElementById('ultB3').innerHTML=Minei_B[RodEscolhida][49];
+      document.getElementById('penB3').innerHTML=Minei_B[RodEscolhida][50];
+      document.getElementById('antB3').innerHTML=Minei_B[RodEscolhida][51];
+      document.getElementById('qaB3').innerHTML=Minei_B[RodEscolhida][52];
+      document.getElementById('qiB3').innerHTML=Minei_B[RodEscolhida][53];
+  
+      document.getElementById('logB4').innerHTML=Minei_B[RodEscolhida][54];
+      document.getElementById('tecB4').innerHTML=Minei_B[RodEscolhida][56].nome;
+      document.getElementById('clubB4').innerHTML=Minei_B[RodEscolhida][55][0];
+      document.getElementById('nlB4').innerHTML=Minei_B[RodEscolhida][55][2];
+      document.getElementById('varB4').innerHTML=Minei_B[RodEscolhida][57];
+      document.getElementById('objB4').innerHTML=Minei_B[RodEscolhida][58];
+      document.getElementById('ptB4').innerHTML=Minei_B[RodEscolhida][59];
+      document.getElementById('vitB4').innerHTML=Minei_B[RodEscolhida][60];
+      document.getElementById('empB4').innerHTML=Minei_B[RodEscolhida][61];
+      document.getElementById('derB4').innerHTML=Minei_B[RodEscolhida][62];
+      document.getElementById('gpB4').innerHTML=Minei_B[RodEscolhida][63];
+      document.getElementById('gcB4').innerHTML=Minei_B[RodEscolhida][64];
+      document.getElementById('sgB4').innerHTML=Minei_B[RodEscolhida][65];
+      document.getElementById('apB4').innerHTML=Minei_B[RodEscolhida][66];
+      document.getElementById('ultB4').innerHTML=Minei_B[RodEscolhida][67];
+      document.getElementById('penB4').innerHTML=Minei_B[RodEscolhida][68];
+      document.getElementById('antB4').innerHTML=Minei_B[RodEscolhida][69];
+      document.getElementById('qaB4').innerHTML=Minei_B[RodEscolhida][70];
+      document.getElementById('qiB4').innerHTML=Minei_B[RodEscolhida][71];
+  
+      document.getElementById('logB5').innerHTML=Minei_B[RodEscolhida][72];
+      document.getElementById('tecB5').innerHTML=Minei_B[RodEscolhida][74].nome;
+      document.getElementById('clubB5').innerHTML=Minei_B[RodEscolhida][73][0];
+      document.getElementById('nlB5').innerHTML=Minei_B[RodEscolhida][73][2];
+      document.getElementById('varB5').innerHTML=Minei_B[RodEscolhida][75];
+      document.getElementById('objB5').innerHTML=Minei_B[RodEscolhida][76];
+      document.getElementById('ptB5').innerHTML=Minei_B[RodEscolhida][77];
+      document.getElementById('vitB5').innerHTML=Minei_B[RodEscolhida][78];
+      document.getElementById('empB5').innerHTML=Minei_B[RodEscolhida][79];
+      document.getElementById('derB5').innerHTML=Minei_B[RodEscolhida][80];
+      document.getElementById('gpB5').innerHTML=Minei_B[RodEscolhida][81];
+      document.getElementById('gcB5').innerHTML=Minei_B[RodEscolhida][82];
+      document.getElementById('sgB5').innerHTML=Minei_B[RodEscolhida][83];
+      document.getElementById('apB5').innerHTML=Minei_B[RodEscolhida][84];
+      document.getElementById('ultB5').innerHTML=Minei_B[RodEscolhida][85];
+      document.getElementById('penB5').innerHTML=Minei_B[RodEscolhida][86];
+      document.getElementById('antB5').innerHTML=Minei_B[RodEscolhida][87];
+      document.getElementById('qaB5').innerHTML=Minei_B[RodEscolhida][88];
+      document.getElementById('qiB5').innerHTML=Minei_B[RodEscolhida][89];
+  
+      document.getElementById('logB6').innerHTML=Minei_B[RodEscolhida][90];
+      document.getElementById('tecB6').innerHTML=Minei_B[RodEscolhida][92].nome;
+      document.getElementById('clubB6').innerHTML=Minei_B[RodEscolhida][91][0];
+      document.getElementById('nlB6').innerHTML=Minei_B[RodEscolhida][91][2];
+      document.getElementById('varB6').innerHTML=Minei_B[RodEscolhida][93];
+      document.getElementById('objB6').innerHTML=Minei_B[RodEscolhida][94];
+      document.getElementById('ptB6').innerHTML=Minei_B[RodEscolhida][95];
+      document.getElementById('vitB6').innerHTML=Minei_B[RodEscolhida][96];
+      document.getElementById('empB6').innerHTML=Minei_B[RodEscolhida][97];
+      document.getElementById('derB6').innerHTML=Minei_B[RodEscolhida][98];
+      document.getElementById('gpB6').innerHTML=Minei_B[RodEscolhida][99];
+      document.getElementById('gcB6').innerHTML=Minei_B[RodEscolhida][100];
+      document.getElementById('sgB6').innerHTML=Minei_B[RodEscolhida][101];
+      document.getElementById('apB6').innerHTML=Minei_B[RodEscolhida][102];
+      document.getElementById('ultB6').innerHTML=Minei_B[RodEscolhida][103];
+      document.getElementById('penB6').innerHTML=Minei_B[RodEscolhida][104];
+      document.getElementById('antB6').innerHTML=Minei_B[RodEscolhida][105];
+      document.getElementById('qaB6').innerHTML=Minei_B[RodEscolhida][106];
+      document.getElementById('qiB6').innerHTML=Minei_B[RodEscolhida][107];
+  
+      document.getElementById('logB7').innerHTML=Minei_B[RodEscolhida][108];
+      document.getElementById('tecB7').innerHTML=Minei_B[RodEscolhida][110].nome;
+      document.getElementById('clubB7').innerHTML=Minei_B[RodEscolhida][109][0];
+      document.getElementById('nlB7').innerHTML=Minei_B[RodEscolhida][109][2];
+      document.getElementById('varB7').innerHTML=Minei_B[RodEscolhida][111];
+      document.getElementById('objB7').innerHTML=Minei_B[RodEscolhida][112];
+      document.getElementById('ptB7').innerHTML=Minei_B[RodEscolhida][113];
+      document.getElementById('vitB7').innerHTML=Minei_B[RodEscolhida][114];
+      document.getElementById('empB7').innerHTML=Minei_B[RodEscolhida][115];
+      document.getElementById('derB7').innerHTML=Minei_B[RodEscolhida][116];
+      document.getElementById('gpB7').innerHTML=Minei_B[RodEscolhida][117];
+      document.getElementById('gcB7').innerHTML=Minei_B[RodEscolhida][118];
+      document.getElementById('sgB7').innerHTML=Minei_B[RodEscolhida][119];
+      document.getElementById('apB7').innerHTML=Minei_B[RodEscolhida][120];
+      document.getElementById('ultB7').innerHTML=Minei_B[RodEscolhida][121];
+      document.getElementById('penB7').innerHTML=Minei_B[RodEscolhida][122];
+      document.getElementById('antB7').innerHTML=Minei_B[RodEscolhida][123];
+      document.getElementById('qaB7').innerHTML=Minei_B[RodEscolhida][124];
+      document.getElementById('qiB7').innerHTML=Minei_B[RodEscolhida][125];
+  
+      document.getElementById('logB8').innerHTML=Minei_B[RodEscolhida][126];
+      document.getElementById('tecB8').innerHTML=Minei_B[RodEscolhida][128].nome;
+      document.getElementById('clubB8').innerHTML=Minei_B[RodEscolhida][127][0];
+      document.getElementById('nlB8').innerHTML=Minei_B[RodEscolhida][127][2];
+      document.getElementById('varB8').innerHTML=Minei_B[RodEscolhida][129];
+      document.getElementById('objB8').innerHTML=Minei_B[RodEscolhida][130];
+      document.getElementById('ptB8').innerHTML=Minei_B[RodEscolhida][131];
+      document.getElementById('vitB8').innerHTML=Minei_B[RodEscolhida][132];
+      document.getElementById('empB8').innerHTML=Minei_B[RodEscolhida][133];
+      document.getElementById('derB8').innerHTML=Minei_B[RodEscolhida][134];
+      document.getElementById('gpB8').innerHTML=Minei_B[RodEscolhida][135];
+      document.getElementById('gcB8').innerHTML=Minei_B[RodEscolhida][136];
+      document.getElementById('sgB8').innerHTML=Minei_B[RodEscolhida][137];
+      document.getElementById('apB8').innerHTML=Minei_B[RodEscolhida][138];
+      document.getElementById('ultB8').innerHTML=Minei_B[RodEscolhida][139];
+      document.getElementById('penB8').innerHTML=Minei_B[RodEscolhida][140];
+      document.getElementById('antB8').innerHTML=Minei_B[RodEscolhida][141];
+      document.getElementById('qaB8').innerHTML=Minei_B[RodEscolhida][142];
+      document.getElementById('qiB8').innerHTML=Minei_B[RodEscolhida][143];
+  
+
+      
+    }
+
+
+    
+    else if(CampEscolhido==="Paran_A"){
+
+
+      document.getElementById('logB1').innerHTML=Paran_A[RodEscolhida][0];
+      document.getElementById('tecB1').innerHTML=Paran_A[RodEscolhida][2].nome;
+      document.getElementById('clubB1').innerHTML=Paran_A[RodEscolhida][1][0];
+      document.getElementById('nlB1').innerHTML=Paran_A[RodEscolhida][1][2];
+      document.getElementById('varB1').innerHTML=Paran_A[RodEscolhida][3];
+      document.getElementById('objB1').innerHTML=Paran_A[RodEscolhida][4];
+      document.getElementById('ptB1').innerHTML=Paran_A[RodEscolhida][5];
+      document.getElementById('vitB1').innerHTML=Paran_A[RodEscolhida][6];
+      document.getElementById('empB1').innerHTML=Paran_A[RodEscolhida][7];
+      document.getElementById('derB1').innerHTML=Paran_A[RodEscolhida][8];
+      document.getElementById('gpB1').innerHTML=Paran_A[RodEscolhida][9];
+      document.getElementById('gcB1').innerHTML=Paran_A[RodEscolhida][10];
+      document.getElementById('sgB1').innerHTML=Paran_A[RodEscolhida][11];
+      document.getElementById('apB1').innerHTML=Paran_A[RodEscolhida][12];
+      document.getElementById('ultB1').innerHTML=Paran_A[RodEscolhida][13];
+      document.getElementById('penB1').innerHTML=Paran_A[RodEscolhida][14];
+      document.getElementById('antB1').innerHTML=Paran_A[RodEscolhida][15];
+      document.getElementById('qaB1').innerHTML=Paran_A[RodEscolhida][16];
+      document.getElementById('qiB1').innerHTML=Paran_A[RodEscolhida][17];
+  
+      document.getElementById('logB2').innerHTML=Paran_A[RodEscolhida][18];
+      document.getElementById('tecB2').innerHTML=Paran_A[RodEscolhida][20].nome;
+      document.getElementById('clubB2').innerHTML=Paran_A[RodEscolhida][19][0];
+      document.getElementById('nlB2').innerHTML=Paran_A[RodEscolhida][19][2];
+      document.getElementById('varB2').innerHTML=Paran_A[RodEscolhida][21];
+      document.getElementById('objB2').innerHTML=Paran_A[RodEscolhida][22];
+      document.getElementById('ptB2').innerHTML=Paran_A[RodEscolhida][23];
+      document.getElementById('vitB2').innerHTML=Paran_A[RodEscolhida][24];
+      document.getElementById('empB2').innerHTML=Paran_A[RodEscolhida][25];
+      document.getElementById('derB2').innerHTML=Paran_A[RodEscolhida][26];
+      document.getElementById('gpB2').innerHTML=Paran_A[RodEscolhida][27];
+      document.getElementById('gcB2').innerHTML=Paran_A[RodEscolhida][28];
+      document.getElementById('sgB2').innerHTML=Paran_A[RodEscolhida][29];
+      document.getElementById('apB2').innerHTML=Paran_A[RodEscolhida][30];
+      document.getElementById('ultB2').innerHTML=Paran_A[RodEscolhida][31];
+      document.getElementById('penB2').innerHTML=Paran_A[RodEscolhida][32];
+      document.getElementById('antB2').innerHTML=Paran_A[RodEscolhida][33];
+      document.getElementById('qaB2').innerHTML=Paran_A[RodEscolhida][34];
+      document.getElementById('qiB2').innerHTML=Paran_A[RodEscolhida][35];
+  
+      document.getElementById('logB3').innerHTML=Paran_A[RodEscolhida][36];
+      document.getElementById('tecB3').innerHTML=Paran_A[RodEscolhida][38].nome;
+      document.getElementById('clubB3').innerHTML=Paran_A[RodEscolhida][37][0];
+      document.getElementById('nlB3').innerHTML=Paran_A[RodEscolhida][37][2];
+      document.getElementById('varB3').innerHTML=Paran_A[RodEscolhida][39];
+      document.getElementById('objB3').innerHTML=Paran_A[RodEscolhida][40];
+      document.getElementById('ptB3').innerHTML=Paran_A[RodEscolhida][41];
+      document.getElementById('vitB3').innerHTML=Paran_A[RodEscolhida][42];
+      document.getElementById('empB3').innerHTML=Paran_A[RodEscolhida][43];
+      document.getElementById('derB3').innerHTML=Paran_A[RodEscolhida][44];
+      document.getElementById('gpB3').innerHTML=Paran_A[RodEscolhida][45];
+      document.getElementById('gcB3').innerHTML=Paran_A[RodEscolhida][46];
+      document.getElementById('sgB3').innerHTML=Paran_A[RodEscolhida][47];
+      document.getElementById('apB3').innerHTML=Paran_A[RodEscolhida][48];
+      document.getElementById('ultB3').innerHTML=Paran_A[RodEscolhida][49];
+      document.getElementById('penB3').innerHTML=Paran_A[RodEscolhida][50];
+      document.getElementById('antB3').innerHTML=Paran_A[RodEscolhida][51];
+      document.getElementById('qaB3').innerHTML=Paran_A[RodEscolhida][52];
+      document.getElementById('qiB3').innerHTML=Paran_A[RodEscolhida][53];
+  
+      document.getElementById('logB4').innerHTML=Paran_A[RodEscolhida][54];
+      document.getElementById('tecB4').innerHTML=Paran_A[RodEscolhida][56].nome;
+      document.getElementById('clubB4').innerHTML=Paran_A[RodEscolhida][55][0];
+      document.getElementById('nlB4').innerHTML=Paran_A[RodEscolhida][55][2];
+      document.getElementById('varB4').innerHTML=Paran_A[RodEscolhida][57];
+      document.getElementById('objB4').innerHTML=Paran_A[RodEscolhida][58];
+      document.getElementById('ptB4').innerHTML=Paran_A[RodEscolhida][59];
+      document.getElementById('vitB4').innerHTML=Paran_A[RodEscolhida][60];
+      document.getElementById('empB4').innerHTML=Paran_A[RodEscolhida][61];
+      document.getElementById('derB4').innerHTML=Paran_A[RodEscolhida][62];
+      document.getElementById('gpB4').innerHTML=Paran_A[RodEscolhida][63];
+      document.getElementById('gcB4').innerHTML=Paran_A[RodEscolhida][64];
+      document.getElementById('sgB4').innerHTML=Paran_A[RodEscolhida][65];
+      document.getElementById('apB4').innerHTML=Paran_A[RodEscolhida][66];
+      document.getElementById('ultB4').innerHTML=Paran_A[RodEscolhida][67];
+      document.getElementById('penB4').innerHTML=Paran_A[RodEscolhida][68];
+      document.getElementById('antB4').innerHTML=Paran_A[RodEscolhida][69];
+      document.getElementById('qaB4').innerHTML=Paran_A[RodEscolhida][70];
+      document.getElementById('qiB4').innerHTML=Paran_A[RodEscolhida][71];
+  
+      document.getElementById('logB5').innerHTML=Paran_A[RodEscolhida][72];
+      document.getElementById('tecB5').innerHTML=Paran_A[RodEscolhida][74].nome;
+      document.getElementById('clubB5').innerHTML=Paran_A[RodEscolhida][73][0];
+      document.getElementById('nlB5').innerHTML=Paran_A[RodEscolhida][73][2];
+      document.getElementById('varB5').innerHTML=Paran_A[RodEscolhida][75];
+      document.getElementById('objB5').innerHTML=Paran_A[RodEscolhida][76];
+      document.getElementById('ptB5').innerHTML=Paran_A[RodEscolhida][77];
+      document.getElementById('vitB5').innerHTML=Paran_A[RodEscolhida][78];
+      document.getElementById('empB5').innerHTML=Paran_A[RodEscolhida][79];
+      document.getElementById('derB5').innerHTML=Paran_A[RodEscolhida][80];
+      document.getElementById('gpB5').innerHTML=Paran_A[RodEscolhida][81];
+      document.getElementById('gcB5').innerHTML=Paran_A[RodEscolhida][82];
+      document.getElementById('sgB5').innerHTML=Paran_A[RodEscolhida][83];
+      document.getElementById('apB5').innerHTML=Paran_A[RodEscolhida][84];
+      document.getElementById('ultB5').innerHTML=Paran_A[RodEscolhida][85];
+      document.getElementById('penB5').innerHTML=Paran_A[RodEscolhida][86];
+      document.getElementById('antB5').innerHTML=Paran_A[RodEscolhida][87];
+      document.getElementById('qaB5').innerHTML=Paran_A[RodEscolhida][88];
+      document.getElementById('qiB5').innerHTML=Paran_A[RodEscolhida][89];
+  
+      document.getElementById('logB6').innerHTML=Paran_A[RodEscolhida][90];
+      document.getElementById('tecB6').innerHTML=Paran_A[RodEscolhida][92].nome;
+      document.getElementById('clubB6').innerHTML=Paran_A[RodEscolhida][91][0];
+      document.getElementById('nlB6').innerHTML=Paran_A[RodEscolhida][91][2];
+      document.getElementById('varB6').innerHTML=Paran_A[RodEscolhida][93];
+      document.getElementById('objB6').innerHTML=Paran_A[RodEscolhida][94];
+      document.getElementById('ptB6').innerHTML=Paran_A[RodEscolhida][95];
+      document.getElementById('vitB6').innerHTML=Paran_A[RodEscolhida][96];
+      document.getElementById('empB6').innerHTML=Paran_A[RodEscolhida][97];
+      document.getElementById('derB6').innerHTML=Paran_A[RodEscolhida][98];
+      document.getElementById('gpB6').innerHTML=Paran_A[RodEscolhida][99];
+      document.getElementById('gcB6').innerHTML=Paran_A[RodEscolhida][100];
+      document.getElementById('sgB6').innerHTML=Paran_A[RodEscolhida][101];
+      document.getElementById('apB6').innerHTML=Paran_A[RodEscolhida][102];
+      document.getElementById('ultB6').innerHTML=Paran_A[RodEscolhida][103];
+      document.getElementById('penB6').innerHTML=Paran_A[RodEscolhida][104];
+      document.getElementById('antB6').innerHTML=Paran_A[RodEscolhida][105];
+      document.getElementById('qaB6').innerHTML=Paran_A[RodEscolhida][106];
+      document.getElementById('qiB6').innerHTML=Paran_A[RodEscolhida][107];
+  
+      document.getElementById('logB7').innerHTML=Paran_A[RodEscolhida][108];
+      document.getElementById('tecB7').innerHTML=Paran_A[RodEscolhida][110].nome;
+      document.getElementById('clubB7').innerHTML=Paran_A[RodEscolhida][109][0];
+      document.getElementById('nlB7').innerHTML=Paran_A[RodEscolhida][109][2];
+      document.getElementById('varB7').innerHTML=Paran_A[RodEscolhida][111];
+      document.getElementById('objB7').innerHTML=Paran_A[RodEscolhida][112];
+      document.getElementById('ptB7').innerHTML=Paran_A[RodEscolhida][113];
+      document.getElementById('vitB7').innerHTML=Paran_A[RodEscolhida][114];
+      document.getElementById('empB7').innerHTML=Paran_A[RodEscolhida][115];
+      document.getElementById('derB7').innerHTML=Paran_A[RodEscolhida][116];
+      document.getElementById('gpB7').innerHTML=Paran_A[RodEscolhida][117];
+      document.getElementById('gcB7').innerHTML=Paran_A[RodEscolhida][118];
+      document.getElementById('sgB7').innerHTML=Paran_A[RodEscolhida][119];
+      document.getElementById('apB7').innerHTML=Paran_A[RodEscolhida][120];
+      document.getElementById('ultB7').innerHTML=Paran_A[RodEscolhida][121];
+      document.getElementById('penB7').innerHTML=Paran_A[RodEscolhida][122];
+      document.getElementById('antB7').innerHTML=Paran_A[RodEscolhida][123];
+      document.getElementById('qaB7').innerHTML=Paran_A[RodEscolhida][124];
+      document.getElementById('qiB7').innerHTML=Paran_A[RodEscolhida][125];
+  
+      document.getElementById('logB8').innerHTML=Paran_A[RodEscolhida][126];
+      document.getElementById('tecB8').innerHTML=Paran_A[RodEscolhida][128].nome;
+      document.getElementById('clubB8').innerHTML=Paran_A[RodEscolhida][127][0];
+      document.getElementById('nlB8').innerHTML=Paran_A[RodEscolhida][127][2];
+      document.getElementById('varB8').innerHTML=Paran_A[RodEscolhida][129];
+      document.getElementById('objB8').innerHTML=Paran_A[RodEscolhida][130];
+      document.getElementById('ptB8').innerHTML=Paran_A[RodEscolhida][131];
+      document.getElementById('vitB8').innerHTML=Paran_A[RodEscolhida][132];
+      document.getElementById('empB8').innerHTML=Paran_A[RodEscolhida][133];
+      document.getElementById('derB8').innerHTML=Paran_A[RodEscolhida][134];
+      document.getElementById('gpB8').innerHTML=Paran_A[RodEscolhida][135];
+      document.getElementById('gcB8').innerHTML=Paran_A[RodEscolhida][136];
+      document.getElementById('sgB8').innerHTML=Paran_A[RodEscolhida][137];
+      document.getElementById('apB8').innerHTML=Paran_A[RodEscolhida][138];
+      document.getElementById('ultB8').innerHTML=Paran_A[RodEscolhida][139];
+      document.getElementById('penB8').innerHTML=Paran_A[RodEscolhida][140];
+      document.getElementById('antB8').innerHTML=Paran_A[RodEscolhida][141];
+      document.getElementById('qaB8').innerHTML=Paran_A[RodEscolhida][142];
+      document.getElementById('qiB8').innerHTML=Paran_A[RodEscolhida][143];
+  
+
+      
+    }
+
+
+    else if(CampEscolhido==="Paran_B"){
+
+
+      document.getElementById('logB1').innerHTML=Paran_B[RodEscolhida][0];
+      document.getElementById('tecB1').innerHTML=Paran_B[RodEscolhida][2].nome;
+      document.getElementById('clubB1').innerHTML=Paran_B[RodEscolhida][1][0];
+      document.getElementById('nlB1').innerHTML=Paran_B[RodEscolhida][1][2];
+      document.getElementById('varB1').innerHTML=Paran_B[RodEscolhida][3];
+      document.getElementById('objB1').innerHTML=Paran_B[RodEscolhida][4];
+      document.getElementById('ptB1').innerHTML=Paran_B[RodEscolhida][5];
+      document.getElementById('vitB1').innerHTML=Paran_B[RodEscolhida][6];
+      document.getElementById('empB1').innerHTML=Paran_B[RodEscolhida][7];
+      document.getElementById('derB1').innerHTML=Paran_B[RodEscolhida][8];
+      document.getElementById('gpB1').innerHTML=Paran_B[RodEscolhida][9];
+      document.getElementById('gcB1').innerHTML=Paran_B[RodEscolhida][10];
+      document.getElementById('sgB1').innerHTML=Paran_B[RodEscolhida][11];
+      document.getElementById('apB1').innerHTML=Paran_B[RodEscolhida][12];
+      document.getElementById('ultB1').innerHTML=Paran_B[RodEscolhida][13];
+      document.getElementById('penB1').innerHTML=Paran_B[RodEscolhida][14];
+      document.getElementById('antB1').innerHTML=Paran_B[RodEscolhida][15];
+      document.getElementById('qaB1').innerHTML=Paran_B[RodEscolhida][16];
+      document.getElementById('qiB1').innerHTML=Paran_B[RodEscolhida][17];
+  
+      document.getElementById('logB2').innerHTML=Paran_B[RodEscolhida][18];
+      document.getElementById('tecB2').innerHTML=Paran_B[RodEscolhida][20].nome;
+      document.getElementById('clubB2').innerHTML=Paran_B[RodEscolhida][19][0];
+      document.getElementById('nlB2').innerHTML=Paran_B[RodEscolhida][19][2];
+      document.getElementById('varB2').innerHTML=Paran_B[RodEscolhida][21];
+      document.getElementById('objB2').innerHTML=Paran_B[RodEscolhida][22];
+      document.getElementById('ptB2').innerHTML=Paran_B[RodEscolhida][23];
+      document.getElementById('vitB2').innerHTML=Paran_B[RodEscolhida][24];
+      document.getElementById('empB2').innerHTML=Paran_B[RodEscolhida][25];
+      document.getElementById('derB2').innerHTML=Paran_B[RodEscolhida][26];
+      document.getElementById('gpB2').innerHTML=Paran_B[RodEscolhida][27];
+      document.getElementById('gcB2').innerHTML=Paran_B[RodEscolhida][28];
+      document.getElementById('sgB2').innerHTML=Paran_B[RodEscolhida][29];
+      document.getElementById('apB2').innerHTML=Paran_B[RodEscolhida][30];
+      document.getElementById('ultB2').innerHTML=Paran_B[RodEscolhida][31];
+      document.getElementById('penB2').innerHTML=Paran_B[RodEscolhida][32];
+      document.getElementById('antB2').innerHTML=Paran_B[RodEscolhida][33];
+      document.getElementById('qaB2').innerHTML=Paran_B[RodEscolhida][34];
+      document.getElementById('qiB2').innerHTML=Paran_B[RodEscolhida][35];
+  
+      document.getElementById('logB3').innerHTML=Paran_B[RodEscolhida][36];
+      document.getElementById('tecB3').innerHTML=Paran_B[RodEscolhida][38].nome;
+      document.getElementById('clubB3').innerHTML=Paran_B[RodEscolhida][37][0];
+      document.getElementById('nlB3').innerHTML=Paran_B[RodEscolhida][37][2];
+      document.getElementById('varB3').innerHTML=Paran_B[RodEscolhida][39];
+      document.getElementById('objB3').innerHTML=Paran_B[RodEscolhida][40];
+      document.getElementById('ptB3').innerHTML=Paran_B[RodEscolhida][41];
+      document.getElementById('vitB3').innerHTML=Paran_B[RodEscolhida][42];
+      document.getElementById('empB3').innerHTML=Paran_B[RodEscolhida][43];
+      document.getElementById('derB3').innerHTML=Paran_B[RodEscolhida][44];
+      document.getElementById('gpB3').innerHTML=Paran_B[RodEscolhida][45];
+      document.getElementById('gcB3').innerHTML=Paran_B[RodEscolhida][46];
+      document.getElementById('sgB3').innerHTML=Paran_B[RodEscolhida][47];
+      document.getElementById('apB3').innerHTML=Paran_B[RodEscolhida][48];
+      document.getElementById('ultB3').innerHTML=Paran_B[RodEscolhida][49];
+      document.getElementById('penB3').innerHTML=Paran_B[RodEscolhida][50];
+      document.getElementById('antB3').innerHTML=Paran_B[RodEscolhida][51];
+      document.getElementById('qaB3').innerHTML=Paran_B[RodEscolhida][52];
+      document.getElementById('qiB3').innerHTML=Paran_B[RodEscolhida][53];
+  
+      document.getElementById('logB4').innerHTML=Paran_B[RodEscolhida][54];
+      document.getElementById('tecB4').innerHTML=Paran_B[RodEscolhida][56].nome;
+      document.getElementById('clubB4').innerHTML=Paran_B[RodEscolhida][55][0];
+      document.getElementById('nlB4').innerHTML=Paran_B[RodEscolhida][55][2];
+      document.getElementById('varB4').innerHTML=Paran_B[RodEscolhida][57];
+      document.getElementById('objB4').innerHTML=Paran_B[RodEscolhida][58];
+      document.getElementById('ptB4').innerHTML=Paran_B[RodEscolhida][59];
+      document.getElementById('vitB4').innerHTML=Paran_B[RodEscolhida][60];
+      document.getElementById('empB4').innerHTML=Paran_B[RodEscolhida][61];
+      document.getElementById('derB4').innerHTML=Paran_B[RodEscolhida][62];
+      document.getElementById('gpB4').innerHTML=Paran_B[RodEscolhida][63];
+      document.getElementById('gcB4').innerHTML=Paran_B[RodEscolhida][64];
+      document.getElementById('sgB4').innerHTML=Paran_B[RodEscolhida][65];
+      document.getElementById('apB4').innerHTML=Paran_B[RodEscolhida][66];
+      document.getElementById('ultB4').innerHTML=Paran_B[RodEscolhida][67];
+      document.getElementById('penB4').innerHTML=Paran_B[RodEscolhida][68];
+      document.getElementById('antB4').innerHTML=Paran_B[RodEscolhida][69];
+      document.getElementById('qaB4').innerHTML=Paran_B[RodEscolhida][70];
+      document.getElementById('qiB4').innerHTML=Paran_B[RodEscolhida][71];
+  
+      document.getElementById('logB5').innerHTML=Paran_B[RodEscolhida][72];
+      document.getElementById('tecB5').innerHTML=Paran_B[RodEscolhida][74].nome;
+      document.getElementById('clubB5').innerHTML=Paran_B[RodEscolhida][73][0];
+      document.getElementById('nlB5').innerHTML=Paran_B[RodEscolhida][73][2];
+      document.getElementById('varB5').innerHTML=Paran_B[RodEscolhida][75];
+      document.getElementById('objB5').innerHTML=Paran_B[RodEscolhida][76];
+      document.getElementById('ptB5').innerHTML=Paran_B[RodEscolhida][77];
+      document.getElementById('vitB5').innerHTML=Paran_B[RodEscolhida][78];
+      document.getElementById('empB5').innerHTML=Paran_B[RodEscolhida][79];
+      document.getElementById('derB5').innerHTML=Paran_B[RodEscolhida][80];
+      document.getElementById('gpB5').innerHTML=Paran_B[RodEscolhida][81];
+      document.getElementById('gcB5').innerHTML=Paran_B[RodEscolhida][82];
+      document.getElementById('sgB5').innerHTML=Paran_B[RodEscolhida][83];
+      document.getElementById('apB5').innerHTML=Paran_B[RodEscolhida][84];
+      document.getElementById('ultB5').innerHTML=Paran_B[RodEscolhida][85];
+      document.getElementById('penB5').innerHTML=Paran_B[RodEscolhida][86];
+      document.getElementById('antB5').innerHTML=Paran_B[RodEscolhida][87];
+      document.getElementById('qaB5').innerHTML=Paran_B[RodEscolhida][88];
+      document.getElementById('qiB5').innerHTML=Paran_B[RodEscolhida][89];
+  
+      document.getElementById('logB6').innerHTML=Paran_B[RodEscolhida][90];
+      document.getElementById('tecB6').innerHTML=Paran_B[RodEscolhida][92].nome;
+      document.getElementById('clubB6').innerHTML=Paran_B[RodEscolhida][91][0];
+      document.getElementById('nlB6').innerHTML=Paran_B[RodEscolhida][91][2];
+      document.getElementById('varB6').innerHTML=Paran_B[RodEscolhida][93];
+      document.getElementById('objB6').innerHTML=Paran_B[RodEscolhida][94];
+      document.getElementById('ptB6').innerHTML=Paran_B[RodEscolhida][95];
+      document.getElementById('vitB6').innerHTML=Paran_B[RodEscolhida][96];
+      document.getElementById('empB6').innerHTML=Paran_B[RodEscolhida][97];
+      document.getElementById('derB6').innerHTML=Paran_B[RodEscolhida][98];
+      document.getElementById('gpB6').innerHTML=Paran_B[RodEscolhida][99];
+      document.getElementById('gcB6').innerHTML=Paran_B[RodEscolhida][100];
+      document.getElementById('sgB6').innerHTML=Paran_B[RodEscolhida][101];
+      document.getElementById('apB6').innerHTML=Paran_B[RodEscolhida][102];
+      document.getElementById('ultB6').innerHTML=Paran_B[RodEscolhida][103];
+      document.getElementById('penB6').innerHTML=Paran_B[RodEscolhida][104];
+      document.getElementById('antB6').innerHTML=Paran_B[RodEscolhida][105];
+      document.getElementById('qaB6').innerHTML=Paran_B[RodEscolhida][106];
+      document.getElementById('qiB6').innerHTML=Paran_B[RodEscolhida][107];
+  
+      document.getElementById('logB7').innerHTML=Paran_B[RodEscolhida][108];
+      document.getElementById('tecB7').innerHTML=Paran_B[RodEscolhida][110].nome;
+      document.getElementById('clubB7').innerHTML=Paran_B[RodEscolhida][109][0];
+      document.getElementById('nlB7').innerHTML=Paran_B[RodEscolhida][109][2];
+      document.getElementById('varB7').innerHTML=Paran_B[RodEscolhida][111];
+      document.getElementById('objB7').innerHTML=Paran_B[RodEscolhida][112];
+      document.getElementById('ptB7').innerHTML=Paran_B[RodEscolhida][113];
+      document.getElementById('vitB7').innerHTML=Paran_B[RodEscolhida][114];
+      document.getElementById('empB7').innerHTML=Paran_B[RodEscolhida][115];
+      document.getElementById('derB7').innerHTML=Paran_B[RodEscolhida][116];
+      document.getElementById('gpB7').innerHTML=Paran_B[RodEscolhida][117];
+      document.getElementById('gcB7').innerHTML=Paran_B[RodEscolhida][118];
+      document.getElementById('sgB7').innerHTML=Paran_B[RodEscolhida][119];
+      document.getElementById('apB7').innerHTML=Paran_B[RodEscolhida][120];
+      document.getElementById('ultB7').innerHTML=Paran_B[RodEscolhida][121];
+      document.getElementById('penB7').innerHTML=Paran_B[RodEscolhida][122];
+      document.getElementById('antB7').innerHTML=Paran_B[RodEscolhida][123];
+      document.getElementById('qaB7').innerHTML=Paran_B[RodEscolhida][124];
+      document.getElementById('qiB7').innerHTML=Paran_B[RodEscolhida][125];
+  
+      document.getElementById('logB8').innerHTML=Paran_B[RodEscolhida][126];
+      document.getElementById('tecB8').innerHTML=Paran_B[RodEscolhida][128].nome;
+      document.getElementById('clubB8').innerHTML=Paran_B[RodEscolhida][127][0];
+      document.getElementById('nlB8').innerHTML=Paran_B[RodEscolhida][127][2];
+      document.getElementById('varB8').innerHTML=Paran_B[RodEscolhida][129];
+      document.getElementById('objB8').innerHTML=Paran_B[RodEscolhida][130];
+      document.getElementById('ptB8').innerHTML=Paran_B[RodEscolhida][131];
+      document.getElementById('vitB8').innerHTML=Paran_B[RodEscolhida][132];
+      document.getElementById('empB8').innerHTML=Paran_B[RodEscolhida][133];
+      document.getElementById('derB8').innerHTML=Paran_B[RodEscolhida][134];
+      document.getElementById('gpB8').innerHTML=Paran_B[RodEscolhida][135];
+      document.getElementById('gcB8').innerHTML=Paran_B[RodEscolhida][136];
+      document.getElementById('sgB8').innerHTML=Paran_B[RodEscolhida][137];
+      document.getElementById('apB8').innerHTML=Paran_B[RodEscolhida][138];
+      document.getElementById('ultB8').innerHTML=Paran_B[RodEscolhida][139];
+      document.getElementById('penB8').innerHTML=Paran_B[RodEscolhida][140];
+      document.getElementById('antB8').innerHTML=Paran_B[RodEscolhida][141];
+      document.getElementById('qaB8').innerHTML=Paran_B[RodEscolhida][142];
+      document.getElementById('qiB8').innerHTML=Paran_B[RodEscolhida][143];
+  
+
+      
+    }
+
+
+    
+    else if(CampEscolhido==="Catar_A"){
+
+
+      document.getElementById('logB1').innerHTML=Catar_A[RodEscolhida][0];
+      document.getElementById('tecB1').innerHTML=Catar_A[RodEscolhida][2].nome;
+      document.getElementById('clubB1').innerHTML=Catar_A[RodEscolhida][1][0];
+      document.getElementById('nlB1').innerHTML=Catar_A[RodEscolhida][1][2];
+      document.getElementById('varB1').innerHTML=Catar_A[RodEscolhida][3];
+      document.getElementById('objB1').innerHTML=Catar_A[RodEscolhida][4];
+      document.getElementById('ptB1').innerHTML=Catar_A[RodEscolhida][5];
+      document.getElementById('vitB1').innerHTML=Catar_A[RodEscolhida][6];
+      document.getElementById('empB1').innerHTML=Catar_A[RodEscolhida][7];
+      document.getElementById('derB1').innerHTML=Catar_A[RodEscolhida][8];
+      document.getElementById('gpB1').innerHTML=Catar_A[RodEscolhida][9];
+      document.getElementById('gcB1').innerHTML=Catar_A[RodEscolhida][10];
+      document.getElementById('sgB1').innerHTML=Catar_A[RodEscolhida][11];
+      document.getElementById('apB1').innerHTML=Catar_A[RodEscolhida][12];
+      document.getElementById('ultB1').innerHTML=Catar_A[RodEscolhida][13];
+      document.getElementById('penB1').innerHTML=Catar_A[RodEscolhida][14];
+      document.getElementById('antB1').innerHTML=Catar_A[RodEscolhida][15];
+      document.getElementById('qaB1').innerHTML=Catar_A[RodEscolhida][16];
+      document.getElementById('qiB1').innerHTML=Catar_A[RodEscolhida][17];
+  
+      document.getElementById('logB2').innerHTML=Catar_A[RodEscolhida][18];
+      document.getElementById('tecB2').innerHTML=Catar_A[RodEscolhida][20].nome;
+      document.getElementById('clubB2').innerHTML=Catar_A[RodEscolhida][19][0];
+      document.getElementById('nlB2').innerHTML=Catar_A[RodEscolhida][19][2];
+      document.getElementById('varB2').innerHTML=Catar_A[RodEscolhida][21];
+      document.getElementById('objB2').innerHTML=Catar_A[RodEscolhida][22];
+      document.getElementById('ptB2').innerHTML=Catar_A[RodEscolhida][23];
+      document.getElementById('vitB2').innerHTML=Catar_A[RodEscolhida][24];
+      document.getElementById('empB2').innerHTML=Catar_A[RodEscolhida][25];
+      document.getElementById('derB2').innerHTML=Catar_A[RodEscolhida][26];
+      document.getElementById('gpB2').innerHTML=Catar_A[RodEscolhida][27];
+      document.getElementById('gcB2').innerHTML=Catar_A[RodEscolhida][28];
+      document.getElementById('sgB2').innerHTML=Catar_A[RodEscolhida][29];
+      document.getElementById('apB2').innerHTML=Catar_A[RodEscolhida][30];
+      document.getElementById('ultB2').innerHTML=Catar_A[RodEscolhida][31];
+      document.getElementById('penB2').innerHTML=Catar_A[RodEscolhida][32];
+      document.getElementById('antB2').innerHTML=Catar_A[RodEscolhida][33];
+      document.getElementById('qaB2').innerHTML=Catar_A[RodEscolhida][34];
+      document.getElementById('qiB2').innerHTML=Catar_A[RodEscolhida][35];
+  
+      document.getElementById('logB3').innerHTML=Catar_A[RodEscolhida][36];
+      document.getElementById('tecB3').innerHTML=Catar_A[RodEscolhida][38].nome;
+      document.getElementById('clubB3').innerHTML=Catar_A[RodEscolhida][37][0];
+      document.getElementById('nlB3').innerHTML=Catar_A[RodEscolhida][37][2];
+      document.getElementById('varB3').innerHTML=Catar_A[RodEscolhida][39];
+      document.getElementById('objB3').innerHTML=Catar_A[RodEscolhida][40];
+      document.getElementById('ptB3').innerHTML=Catar_A[RodEscolhida][41];
+      document.getElementById('vitB3').innerHTML=Catar_A[RodEscolhida][42];
+      document.getElementById('empB3').innerHTML=Catar_A[RodEscolhida][43];
+      document.getElementById('derB3').innerHTML=Catar_A[RodEscolhida][44];
+      document.getElementById('gpB3').innerHTML=Catar_A[RodEscolhida][45];
+      document.getElementById('gcB3').innerHTML=Catar_A[RodEscolhida][46];
+      document.getElementById('sgB3').innerHTML=Catar_A[RodEscolhida][47];
+      document.getElementById('apB3').innerHTML=Catar_A[RodEscolhida][48];
+      document.getElementById('ultB3').innerHTML=Catar_A[RodEscolhida][49];
+      document.getElementById('penB3').innerHTML=Catar_A[RodEscolhida][50];
+      document.getElementById('antB3').innerHTML=Catar_A[RodEscolhida][51];
+      document.getElementById('qaB3').innerHTML=Catar_A[RodEscolhida][52];
+      document.getElementById('qiB3').innerHTML=Catar_A[RodEscolhida][53];
+  
+      document.getElementById('logB4').innerHTML=Catar_A[RodEscolhida][54];
+      document.getElementById('tecB4').innerHTML=Catar_A[RodEscolhida][56].nome;
+      document.getElementById('clubB4').innerHTML=Catar_A[RodEscolhida][55][0];
+      document.getElementById('nlB4').innerHTML=Catar_A[RodEscolhida][55][2];
+      document.getElementById('varB4').innerHTML=Catar_A[RodEscolhida][57];
+      document.getElementById('objB4').innerHTML=Catar_A[RodEscolhida][58];
+      document.getElementById('ptB4').innerHTML=Catar_A[RodEscolhida][59];
+      document.getElementById('vitB4').innerHTML=Catar_A[RodEscolhida][60];
+      document.getElementById('empB4').innerHTML=Catar_A[RodEscolhida][61];
+      document.getElementById('derB4').innerHTML=Catar_A[RodEscolhida][62];
+      document.getElementById('gpB4').innerHTML=Catar_A[RodEscolhida][63];
+      document.getElementById('gcB4').innerHTML=Catar_A[RodEscolhida][64];
+      document.getElementById('sgB4').innerHTML=Catar_A[RodEscolhida][65];
+      document.getElementById('apB4').innerHTML=Catar_A[RodEscolhida][66];
+      document.getElementById('ultB4').innerHTML=Catar_A[RodEscolhida][67];
+      document.getElementById('penB4').innerHTML=Catar_A[RodEscolhida][68];
+      document.getElementById('antB4').innerHTML=Catar_A[RodEscolhida][69];
+      document.getElementById('qaB4').innerHTML=Catar_A[RodEscolhida][70];
+      document.getElementById('qiB4').innerHTML=Catar_A[RodEscolhida][71];
+  
+      document.getElementById('logB5').innerHTML=Catar_A[RodEscolhida][72];
+      document.getElementById('tecB5').innerHTML=Catar_A[RodEscolhida][74].nome;
+      document.getElementById('clubB5').innerHTML=Catar_A[RodEscolhida][73][0];
+      document.getElementById('nlB5').innerHTML=Catar_A[RodEscolhida][73][2];
+      document.getElementById('varB5').innerHTML=Catar_A[RodEscolhida][75];
+      document.getElementById('objB5').innerHTML=Catar_A[RodEscolhida][76];
+      document.getElementById('ptB5').innerHTML=Catar_A[RodEscolhida][77];
+      document.getElementById('vitB5').innerHTML=Catar_A[RodEscolhida][78];
+      document.getElementById('empB5').innerHTML=Catar_A[RodEscolhida][79];
+      document.getElementById('derB5').innerHTML=Catar_A[RodEscolhida][80];
+      document.getElementById('gpB5').innerHTML=Catar_A[RodEscolhida][81];
+      document.getElementById('gcB5').innerHTML=Catar_A[RodEscolhida][82];
+      document.getElementById('sgB5').innerHTML=Catar_A[RodEscolhida][83];
+      document.getElementById('apB5').innerHTML=Catar_A[RodEscolhida][84];
+      document.getElementById('ultB5').innerHTML=Catar_A[RodEscolhida][85];
+      document.getElementById('penB5').innerHTML=Catar_A[RodEscolhida][86];
+      document.getElementById('antB5').innerHTML=Catar_A[RodEscolhida][87];
+      document.getElementById('qaB5').innerHTML=Catar_A[RodEscolhida][88];
+      document.getElementById('qiB5').innerHTML=Catar_A[RodEscolhida][89];
+  
+      document.getElementById('logB6').innerHTML=Catar_A[RodEscolhida][90];
+      document.getElementById('tecB6').innerHTML=Catar_A[RodEscolhida][92].nome;
+      document.getElementById('clubB6').innerHTML=Catar_A[RodEscolhida][91][0];
+      document.getElementById('nlB6').innerHTML=Catar_A[RodEscolhida][91][2];
+      document.getElementById('varB6').innerHTML=Catar_A[RodEscolhida][93];
+      document.getElementById('objB6').innerHTML=Catar_A[RodEscolhida][94];
+      document.getElementById('ptB6').innerHTML=Catar_A[RodEscolhida][95];
+      document.getElementById('vitB6').innerHTML=Catar_A[RodEscolhida][96];
+      document.getElementById('empB6').innerHTML=Catar_A[RodEscolhida][97];
+      document.getElementById('derB6').innerHTML=Catar_A[RodEscolhida][98];
+      document.getElementById('gpB6').innerHTML=Catar_A[RodEscolhida][99];
+      document.getElementById('gcB6').innerHTML=Catar_A[RodEscolhida][100];
+      document.getElementById('sgB6').innerHTML=Catar_A[RodEscolhida][101];
+      document.getElementById('apB6').innerHTML=Catar_A[RodEscolhida][102];
+      document.getElementById('ultB6').innerHTML=Catar_A[RodEscolhida][103];
+      document.getElementById('penB6').innerHTML=Catar_A[RodEscolhida][104];
+      document.getElementById('antB6').innerHTML=Catar_A[RodEscolhida][105];
+      document.getElementById('qaB6').innerHTML=Catar_A[RodEscolhida][106];
+      document.getElementById('qiB6').innerHTML=Catar_A[RodEscolhida][107];
+  
+      document.getElementById('logB7').innerHTML=Catar_A[RodEscolhida][108];
+      document.getElementById('tecB7').innerHTML=Catar_A[RodEscolhida][110].nome;
+      document.getElementById('clubB7').innerHTML=Catar_A[RodEscolhida][109][0];
+      document.getElementById('nlB7').innerHTML=Catar_A[RodEscolhida][109][2];
+      document.getElementById('varB7').innerHTML=Catar_A[RodEscolhida][111];
+      document.getElementById('objB7').innerHTML=Catar_A[RodEscolhida][112];
+      document.getElementById('ptB7').innerHTML=Catar_A[RodEscolhida][113];
+      document.getElementById('vitB7').innerHTML=Catar_A[RodEscolhida][114];
+      document.getElementById('empB7').innerHTML=Catar_A[RodEscolhida][115];
+      document.getElementById('derB7').innerHTML=Catar_A[RodEscolhida][116];
+      document.getElementById('gpB7').innerHTML=Catar_A[RodEscolhida][117];
+      document.getElementById('gcB7').innerHTML=Catar_A[RodEscolhida][118];
+      document.getElementById('sgB7').innerHTML=Catar_A[RodEscolhida][119];
+      document.getElementById('apB7').innerHTML=Catar_A[RodEscolhida][120];
+      document.getElementById('ultB7').innerHTML=Catar_A[RodEscolhida][121];
+      document.getElementById('penB7').innerHTML=Catar_A[RodEscolhida][122];
+      document.getElementById('antB7').innerHTML=Catar_A[RodEscolhida][123];
+      document.getElementById('qaB7').innerHTML=Catar_A[RodEscolhida][124];
+      document.getElementById('qiB7').innerHTML=Catar_A[RodEscolhida][125];
+  
+      document.getElementById('logB8').innerHTML=Catar_A[RodEscolhida][126];
+      document.getElementById('tecB8').innerHTML=Catar_A[RodEscolhida][128].nome;
+      document.getElementById('clubB8').innerHTML=Catar_A[RodEscolhida][127][0];
+      document.getElementById('nlB8').innerHTML=Catar_A[RodEscolhida][127][2];
+      document.getElementById('varB8').innerHTML=Catar_A[RodEscolhida][129];
+      document.getElementById('objB8').innerHTML=Catar_A[RodEscolhida][130];
+      document.getElementById('ptB8').innerHTML=Catar_A[RodEscolhida][131];
+      document.getElementById('vitB8').innerHTML=Catar_A[RodEscolhida][132];
+      document.getElementById('empB8').innerHTML=Catar_A[RodEscolhida][133];
+      document.getElementById('derB8').innerHTML=Catar_A[RodEscolhida][134];
+      document.getElementById('gpB8').innerHTML=Catar_A[RodEscolhida][135];
+      document.getElementById('gcB8').innerHTML=Catar_A[RodEscolhida][136];
+      document.getElementById('sgB8').innerHTML=Catar_A[RodEscolhida][137];
+      document.getElementById('apB8').innerHTML=Catar_A[RodEscolhida][138];
+      document.getElementById('ultB8').innerHTML=Catar_A[RodEscolhida][139];
+      document.getElementById('penB8').innerHTML=Catar_A[RodEscolhida][140];
+      document.getElementById('antB8').innerHTML=Catar_A[RodEscolhida][141];
+      document.getElementById('qaB8').innerHTML=Catar_A[RodEscolhida][142];
+      document.getElementById('qiB8').innerHTML=Catar_A[RodEscolhida][143];
+  
+
+      
+    }
+
+
+    else if(CampEscolhido==="Catar_B"){
+
+
+      document.getElementById('logB1').innerHTML=Catar_B[RodEscolhida][0];
+      document.getElementById('tecB1').innerHTML=Catar_B[RodEscolhida][2].nome;
+      document.getElementById('clubB1').innerHTML=Catar_B[RodEscolhida][1][0];
+      document.getElementById('nlB1').innerHTML=Catar_B[RodEscolhida][1][2];
+      document.getElementById('varB1').innerHTML=Catar_B[RodEscolhida][3];
+      document.getElementById('objB1').innerHTML=Catar_B[RodEscolhida][4];
+      document.getElementById('ptB1').innerHTML=Catar_B[RodEscolhida][5];
+      document.getElementById('vitB1').innerHTML=Catar_B[RodEscolhida][6];
+      document.getElementById('empB1').innerHTML=Catar_B[RodEscolhida][7];
+      document.getElementById('derB1').innerHTML=Catar_B[RodEscolhida][8];
+      document.getElementById('gpB1').innerHTML=Catar_B[RodEscolhida][9];
+      document.getElementById('gcB1').innerHTML=Catar_B[RodEscolhida][10];
+      document.getElementById('sgB1').innerHTML=Catar_B[RodEscolhida][11];
+      document.getElementById('apB1').innerHTML=Catar_B[RodEscolhida][12];
+      document.getElementById('ultB1').innerHTML=Catar_B[RodEscolhida][13];
+      document.getElementById('penB1').innerHTML=Catar_B[RodEscolhida][14];
+      document.getElementById('antB1').innerHTML=Catar_B[RodEscolhida][15];
+      document.getElementById('qaB1').innerHTML=Catar_B[RodEscolhida][16];
+      document.getElementById('qiB1').innerHTML=Catar_B[RodEscolhida][17];
+  
+      document.getElementById('logB2').innerHTML=Catar_B[RodEscolhida][18];
+      document.getElementById('tecB2').innerHTML=Catar_B[RodEscolhida][20].nome;
+      document.getElementById('clubB2').innerHTML=Catar_B[RodEscolhida][19][0];
+      document.getElementById('nlB2').innerHTML=Catar_B[RodEscolhida][19][2];
+      document.getElementById('varB2').innerHTML=Catar_B[RodEscolhida][21];
+      document.getElementById('objB2').innerHTML=Catar_B[RodEscolhida][22];
+      document.getElementById('ptB2').innerHTML=Catar_B[RodEscolhida][23];
+      document.getElementById('vitB2').innerHTML=Catar_B[RodEscolhida][24];
+      document.getElementById('empB2').innerHTML=Catar_B[RodEscolhida][25];
+      document.getElementById('derB2').innerHTML=Catar_B[RodEscolhida][26];
+      document.getElementById('gpB2').innerHTML=Catar_B[RodEscolhida][27];
+      document.getElementById('gcB2').innerHTML=Catar_B[RodEscolhida][28];
+      document.getElementById('sgB2').innerHTML=Catar_B[RodEscolhida][29];
+      document.getElementById('apB2').innerHTML=Catar_B[RodEscolhida][30];
+      document.getElementById('ultB2').innerHTML=Catar_B[RodEscolhida][31];
+      document.getElementById('penB2').innerHTML=Catar_B[RodEscolhida][32];
+      document.getElementById('antB2').innerHTML=Catar_B[RodEscolhida][33];
+      document.getElementById('qaB2').innerHTML=Catar_B[RodEscolhida][34];
+      document.getElementById('qiB2').innerHTML=Catar_B[RodEscolhida][35];
+  
+      document.getElementById('logB3').innerHTML=Catar_B[RodEscolhida][36];
+      document.getElementById('tecB3').innerHTML=Catar_B[RodEscolhida][38].nome;
+      document.getElementById('clubB3').innerHTML=Catar_B[RodEscolhida][37][0];
+      document.getElementById('nlB3').innerHTML=Catar_B[RodEscolhida][37][2];
+      document.getElementById('varB3').innerHTML=Catar_B[RodEscolhida][39];
+      document.getElementById('objB3').innerHTML=Catar_B[RodEscolhida][40];
+      document.getElementById('ptB3').innerHTML=Catar_B[RodEscolhida][41];
+      document.getElementById('vitB3').innerHTML=Catar_B[RodEscolhida][42];
+      document.getElementById('empB3').innerHTML=Catar_B[RodEscolhida][43];
+      document.getElementById('derB3').innerHTML=Catar_B[RodEscolhida][44];
+      document.getElementById('gpB3').innerHTML=Catar_B[RodEscolhida][45];
+      document.getElementById('gcB3').innerHTML=Catar_B[RodEscolhida][46];
+      document.getElementById('sgB3').innerHTML=Catar_B[RodEscolhida][47];
+      document.getElementById('apB3').innerHTML=Catar_B[RodEscolhida][48];
+      document.getElementById('ultB3').innerHTML=Catar_B[RodEscolhida][49];
+      document.getElementById('penB3').innerHTML=Catar_B[RodEscolhida][50];
+      document.getElementById('antB3').innerHTML=Catar_B[RodEscolhida][51];
+      document.getElementById('qaB3').innerHTML=Catar_B[RodEscolhida][52];
+      document.getElementById('qiB3').innerHTML=Catar_B[RodEscolhida][53];
+  
+      document.getElementById('logB4').innerHTML=Catar_B[RodEscolhida][54];
+      document.getElementById('tecB4').innerHTML=Catar_B[RodEscolhida][56].nome;
+      document.getElementById('clubB4').innerHTML=Catar_B[RodEscolhida][55][0];
+      document.getElementById('nlB4').innerHTML=Catar_B[RodEscolhida][55][2];
+      document.getElementById('varB4').innerHTML=Catar_B[RodEscolhida][57];
+      document.getElementById('objB4').innerHTML=Catar_B[RodEscolhida][58];
+      document.getElementById('ptB4').innerHTML=Catar_B[RodEscolhida][59];
+      document.getElementById('vitB4').innerHTML=Catar_B[RodEscolhida][60];
+      document.getElementById('empB4').innerHTML=Catar_B[RodEscolhida][61];
+      document.getElementById('derB4').innerHTML=Catar_B[RodEscolhida][62];
+      document.getElementById('gpB4').innerHTML=Catar_B[RodEscolhida][63];
+      document.getElementById('gcB4').innerHTML=Catar_B[RodEscolhida][64];
+      document.getElementById('sgB4').innerHTML=Catar_B[RodEscolhida][65];
+      document.getElementById('apB4').innerHTML=Catar_B[RodEscolhida][66];
+      document.getElementById('ultB4').innerHTML=Catar_B[RodEscolhida][67];
+      document.getElementById('penB4').innerHTML=Catar_B[RodEscolhida][68];
+      document.getElementById('antB4').innerHTML=Catar_B[RodEscolhida][69];
+      document.getElementById('qaB4').innerHTML=Catar_B[RodEscolhida][70];
+      document.getElementById('qiB4').innerHTML=Catar_B[RodEscolhida][71];
+  
+      document.getElementById('logB5').innerHTML=Catar_B[RodEscolhida][72];
+      document.getElementById('tecB5').innerHTML=Catar_B[RodEscolhida][74].nome;
+      document.getElementById('clubB5').innerHTML=Catar_B[RodEscolhida][73][0];
+      document.getElementById('nlB5').innerHTML=Catar_B[RodEscolhida][73][2];
+      document.getElementById('varB5').innerHTML=Catar_B[RodEscolhida][75];
+      document.getElementById('objB5').innerHTML=Catar_B[RodEscolhida][76];
+      document.getElementById('ptB5').innerHTML=Catar_B[RodEscolhida][77];
+      document.getElementById('vitB5').innerHTML=Catar_B[RodEscolhida][78];
+      document.getElementById('empB5').innerHTML=Catar_B[RodEscolhida][79];
+      document.getElementById('derB5').innerHTML=Catar_B[RodEscolhida][80];
+      document.getElementById('gpB5').innerHTML=Catar_B[RodEscolhida][81];
+      document.getElementById('gcB5').innerHTML=Catar_B[RodEscolhida][82];
+      document.getElementById('sgB5').innerHTML=Catar_B[RodEscolhida][83];
+      document.getElementById('apB5').innerHTML=Catar_B[RodEscolhida][84];
+      document.getElementById('ultB5').innerHTML=Catar_B[RodEscolhida][85];
+      document.getElementById('penB5').innerHTML=Catar_B[RodEscolhida][86];
+      document.getElementById('antB5').innerHTML=Catar_B[RodEscolhida][87];
+      document.getElementById('qaB5').innerHTML=Catar_B[RodEscolhida][88];
+      document.getElementById('qiB5').innerHTML=Catar_B[RodEscolhida][89];
+  
+      document.getElementById('logB6').innerHTML=Catar_B[RodEscolhida][90];
+      document.getElementById('tecB6').innerHTML=Catar_B[RodEscolhida][92].nome;
+      document.getElementById('clubB6').innerHTML=Catar_B[RodEscolhida][91][0];
+      document.getElementById('nlB6').innerHTML=Catar_B[RodEscolhida][91][2];
+      document.getElementById('varB6').innerHTML=Catar_B[RodEscolhida][93];
+      document.getElementById('objB6').innerHTML=Catar_B[RodEscolhida][94];
+      document.getElementById('ptB6').innerHTML=Catar_B[RodEscolhida][95];
+      document.getElementById('vitB6').innerHTML=Catar_B[RodEscolhida][96];
+      document.getElementById('empB6').innerHTML=Catar_B[RodEscolhida][97];
+      document.getElementById('derB6').innerHTML=Catar_B[RodEscolhida][98];
+      document.getElementById('gpB6').innerHTML=Catar_B[RodEscolhida][99];
+      document.getElementById('gcB6').innerHTML=Catar_B[RodEscolhida][100];
+      document.getElementById('sgB6').innerHTML=Catar_B[RodEscolhida][101];
+      document.getElementById('apB6').innerHTML=Catar_B[RodEscolhida][102];
+      document.getElementById('ultB6').innerHTML=Catar_B[RodEscolhida][103];
+      document.getElementById('penB6').innerHTML=Catar_B[RodEscolhida][104];
+      document.getElementById('antB6').innerHTML=Catar_B[RodEscolhida][105];
+      document.getElementById('qaB6').innerHTML=Catar_B[RodEscolhida][106];
+      document.getElementById('qiB6').innerHTML=Catar_B[RodEscolhida][107];
+  
+      document.getElementById('logB7').innerHTML=Catar_B[RodEscolhida][108];
+      document.getElementById('tecB7').innerHTML=Catar_B[RodEscolhida][110].nome;
+      document.getElementById('clubB7').innerHTML=Catar_B[RodEscolhida][109][0];
+      document.getElementById('nlB7').innerHTML=Catar_B[RodEscolhida][109][2];
+      document.getElementById('varB7').innerHTML=Catar_B[RodEscolhida][111];
+      document.getElementById('objB7').innerHTML=Catar_B[RodEscolhida][112];
+      document.getElementById('ptB7').innerHTML=Catar_B[RodEscolhida][113];
+      document.getElementById('vitB7').innerHTML=Catar_B[RodEscolhida][114];
+      document.getElementById('empB7').innerHTML=Catar_B[RodEscolhida][115];
+      document.getElementById('derB7').innerHTML=Catar_B[RodEscolhida][116];
+      document.getElementById('gpB7').innerHTML=Catar_B[RodEscolhida][117];
+      document.getElementById('gcB7').innerHTML=Catar_B[RodEscolhida][118];
+      document.getElementById('sgB7').innerHTML=Catar_B[RodEscolhida][119];
+      document.getElementById('apB7').innerHTML=Catar_B[RodEscolhida][120];
+      document.getElementById('ultB7').innerHTML=Catar_B[RodEscolhida][121];
+      document.getElementById('penB7').innerHTML=Catar_B[RodEscolhida][122];
+      document.getElementById('antB7').innerHTML=Catar_B[RodEscolhida][123];
+      document.getElementById('qaB7').innerHTML=Catar_B[RodEscolhida][124];
+      document.getElementById('qiB7').innerHTML=Catar_B[RodEscolhida][125];
+  
+      document.getElementById('logB8').innerHTML=Catar_B[RodEscolhida][126];
+      document.getElementById('tecB8').innerHTML=Catar_B[RodEscolhida][128].nome;
+      document.getElementById('clubB8').innerHTML=Catar_B[RodEscolhida][127][0];
+      document.getElementById('nlB8').innerHTML=Catar_B[RodEscolhida][127][2];
+      document.getElementById('varB8').innerHTML=Catar_B[RodEscolhida][129];
+      document.getElementById('objB8').innerHTML=Catar_B[RodEscolhida][130];
+      document.getElementById('ptB8').innerHTML=Catar_B[RodEscolhida][131];
+      document.getElementById('vitB8').innerHTML=Catar_B[RodEscolhida][132];
+      document.getElementById('empB8').innerHTML=Catar_B[RodEscolhida][133];
+      document.getElementById('derB8').innerHTML=Catar_B[RodEscolhida][134];
+      document.getElementById('gpB8').innerHTML=Catar_B[RodEscolhida][135];
+      document.getElementById('gcB8').innerHTML=Catar_B[RodEscolhida][136];
+      document.getElementById('sgB8').innerHTML=Catar_B[RodEscolhida][137];
+      document.getElementById('apB8').innerHTML=Catar_B[RodEscolhida][138];
+      document.getElementById('ultB8').innerHTML=Catar_B[RodEscolhida][139];
+      document.getElementById('penB8').innerHTML=Catar_B[RodEscolhida][140];
+      document.getElementById('antB8').innerHTML=Catar_B[RodEscolhida][141];
+      document.getElementById('qaB8').innerHTML=Catar_B[RodEscolhida][142];
+      document.getElementById('qiB8').innerHTML=Catar_B[RodEscolhida][143];
+  
+
+      
+    }
+
+
+    
+    else if(CampEscolhido==="Norde_A"){
+
+
+      document.getElementById('logB1').innerHTML=Norde_A[RodEscolhida][0];
+      document.getElementById('tecB1').innerHTML=Norde_A[RodEscolhida][2].nome;
+      document.getElementById('clubB1').innerHTML=Norde_A[RodEscolhida][1][0];
+      document.getElementById('nlB1').innerHTML=Norde_A[RodEscolhida][1][2];
+      document.getElementById('varB1').innerHTML=Norde_A[RodEscolhida][3];
+      document.getElementById('objB1').innerHTML=Norde_A[RodEscolhida][4];
+      document.getElementById('ptB1').innerHTML=Norde_A[RodEscolhida][5];
+      document.getElementById('vitB1').innerHTML=Norde_A[RodEscolhida][6];
+      document.getElementById('empB1').innerHTML=Norde_A[RodEscolhida][7];
+      document.getElementById('derB1').innerHTML=Norde_A[RodEscolhida][8];
+      document.getElementById('gpB1').innerHTML=Norde_A[RodEscolhida][9];
+      document.getElementById('gcB1').innerHTML=Norde_A[RodEscolhida][10];
+      document.getElementById('sgB1').innerHTML=Norde_A[RodEscolhida][11];
+      document.getElementById('apB1').innerHTML=Norde_A[RodEscolhida][12];
+      document.getElementById('ultB1').innerHTML=Norde_A[RodEscolhida][13];
+      document.getElementById('penB1').innerHTML=Norde_A[RodEscolhida][14];
+      document.getElementById('antB1').innerHTML=Norde_A[RodEscolhida][15];
+      document.getElementById('qaB1').innerHTML=Norde_A[RodEscolhida][16];
+      document.getElementById('qiB1').innerHTML=Norde_A[RodEscolhida][17];
+  
+      document.getElementById('logB2').innerHTML=Norde_A[RodEscolhida][18];
+      document.getElementById('tecB2').innerHTML=Norde_A[RodEscolhida][20].nome;
+      document.getElementById('clubB2').innerHTML=Norde_A[RodEscolhida][19][0];
+      document.getElementById('nlB2').innerHTML=Norde_A[RodEscolhida][19][2];
+      document.getElementById('varB2').innerHTML=Norde_A[RodEscolhida][21];
+      document.getElementById('objB2').innerHTML=Norde_A[RodEscolhida][22];
+      document.getElementById('ptB2').innerHTML=Norde_A[RodEscolhida][23];
+      document.getElementById('vitB2').innerHTML=Norde_A[RodEscolhida][24];
+      document.getElementById('empB2').innerHTML=Norde_A[RodEscolhida][25];
+      document.getElementById('derB2').innerHTML=Norde_A[RodEscolhida][26];
+      document.getElementById('gpB2').innerHTML=Norde_A[RodEscolhida][27];
+      document.getElementById('gcB2').innerHTML=Norde_A[RodEscolhida][28];
+      document.getElementById('sgB2').innerHTML=Norde_A[RodEscolhida][29];
+      document.getElementById('apB2').innerHTML=Norde_A[RodEscolhida][30];
+      document.getElementById('ultB2').innerHTML=Norde_A[RodEscolhida][31];
+      document.getElementById('penB2').innerHTML=Norde_A[RodEscolhida][32];
+      document.getElementById('antB2').innerHTML=Norde_A[RodEscolhida][33];
+      document.getElementById('qaB2').innerHTML=Norde_A[RodEscolhida][34];
+      document.getElementById('qiB2').innerHTML=Norde_A[RodEscolhida][35];
+  
+      document.getElementById('logB3').innerHTML=Norde_A[RodEscolhida][36];
+      document.getElementById('tecB3').innerHTML=Norde_A[RodEscolhida][38].nome;
+      document.getElementById('clubB3').innerHTML=Norde_A[RodEscolhida][37][0];
+      document.getElementById('nlB3').innerHTML=Norde_A[RodEscolhida][37][2];
+      document.getElementById('varB3').innerHTML=Norde_A[RodEscolhida][39];
+      document.getElementById('objB3').innerHTML=Norde_A[RodEscolhida][40];
+      document.getElementById('ptB3').innerHTML=Norde_A[RodEscolhida][41];
+      document.getElementById('vitB3').innerHTML=Norde_A[RodEscolhida][42];
+      document.getElementById('empB3').innerHTML=Norde_A[RodEscolhida][43];
+      document.getElementById('derB3').innerHTML=Norde_A[RodEscolhida][44];
+      document.getElementById('gpB3').innerHTML=Norde_A[RodEscolhida][45];
+      document.getElementById('gcB3').innerHTML=Norde_A[RodEscolhida][46];
+      document.getElementById('sgB3').innerHTML=Norde_A[RodEscolhida][47];
+      document.getElementById('apB3').innerHTML=Norde_A[RodEscolhida][48];
+      document.getElementById('ultB3').innerHTML=Norde_A[RodEscolhida][49];
+      document.getElementById('penB3').innerHTML=Norde_A[RodEscolhida][50];
+      document.getElementById('antB3').innerHTML=Norde_A[RodEscolhida][51];
+      document.getElementById('qaB3').innerHTML=Norde_A[RodEscolhida][52];
+      document.getElementById('qiB3').innerHTML=Norde_A[RodEscolhida][53];
+  
+      document.getElementById('logB4').innerHTML=Norde_A[RodEscolhida][54];
+      document.getElementById('tecB4').innerHTML=Norde_A[RodEscolhida][56].nome;
+      document.getElementById('clubB4').innerHTML=Norde_A[RodEscolhida][55][0];
+      document.getElementById('nlB4').innerHTML=Norde_A[RodEscolhida][55][2];
+      document.getElementById('varB4').innerHTML=Norde_A[RodEscolhida][57];
+      document.getElementById('objB4').innerHTML=Norde_A[RodEscolhida][58];
+      document.getElementById('ptB4').innerHTML=Norde_A[RodEscolhida][59];
+      document.getElementById('vitB4').innerHTML=Norde_A[RodEscolhida][60];
+      document.getElementById('empB4').innerHTML=Norde_A[RodEscolhida][61];
+      document.getElementById('derB4').innerHTML=Norde_A[RodEscolhida][62];
+      document.getElementById('gpB4').innerHTML=Norde_A[RodEscolhida][63];
+      document.getElementById('gcB4').innerHTML=Norde_A[RodEscolhida][64];
+      document.getElementById('sgB4').innerHTML=Norde_A[RodEscolhida][65];
+      document.getElementById('apB4').innerHTML=Norde_A[RodEscolhida][66];
+      document.getElementById('ultB4').innerHTML=Norde_A[RodEscolhida][67];
+      document.getElementById('penB4').innerHTML=Norde_A[RodEscolhida][68];
+      document.getElementById('antB4').innerHTML=Norde_A[RodEscolhida][69];
+      document.getElementById('qaB4').innerHTML=Norde_A[RodEscolhida][70];
+      document.getElementById('qiB4').innerHTML=Norde_A[RodEscolhida][71];
+  
+      document.getElementById('logB5').innerHTML=Norde_A[RodEscolhida][72];
+      document.getElementById('tecB5').innerHTML=Norde_A[RodEscolhida][74].nome;
+      document.getElementById('clubB5').innerHTML=Norde_A[RodEscolhida][73][0];
+      document.getElementById('nlB5').innerHTML=Norde_A[RodEscolhida][73][2];
+      document.getElementById('varB5').innerHTML=Norde_A[RodEscolhida][75];
+      document.getElementById('objB5').innerHTML=Norde_A[RodEscolhida][76];
+      document.getElementById('ptB5').innerHTML=Norde_A[RodEscolhida][77];
+      document.getElementById('vitB5').innerHTML=Norde_A[RodEscolhida][78];
+      document.getElementById('empB5').innerHTML=Norde_A[RodEscolhida][79];
+      document.getElementById('derB5').innerHTML=Norde_A[RodEscolhida][80];
+      document.getElementById('gpB5').innerHTML=Norde_A[RodEscolhida][81];
+      document.getElementById('gcB5').innerHTML=Norde_A[RodEscolhida][82];
+      document.getElementById('sgB5').innerHTML=Norde_A[RodEscolhida][83];
+      document.getElementById('apB5').innerHTML=Norde_A[RodEscolhida][84];
+      document.getElementById('ultB5').innerHTML=Norde_A[RodEscolhida][85];
+      document.getElementById('penB5').innerHTML=Norde_A[RodEscolhida][86];
+      document.getElementById('antB5').innerHTML=Norde_A[RodEscolhida][87];
+      document.getElementById('qaB5').innerHTML=Norde_A[RodEscolhida][88];
+      document.getElementById('qiB5').innerHTML=Norde_A[RodEscolhida][89];
+  
+      document.getElementById('logB6').innerHTML=Norde_A[RodEscolhida][90];
+      document.getElementById('tecB6').innerHTML=Norde_A[RodEscolhida][92].nome;
+      document.getElementById('clubB6').innerHTML=Norde_A[RodEscolhida][91][0];
+      document.getElementById('nlB6').innerHTML=Norde_A[RodEscolhida][91][2];
+      document.getElementById('varB6').innerHTML=Norde_A[RodEscolhida][93];
+      document.getElementById('objB6').innerHTML=Norde_A[RodEscolhida][94];
+      document.getElementById('ptB6').innerHTML=Norde_A[RodEscolhida][95];
+      document.getElementById('vitB6').innerHTML=Norde_A[RodEscolhida][96];
+      document.getElementById('empB6').innerHTML=Norde_A[RodEscolhida][97];
+      document.getElementById('derB6').innerHTML=Norde_A[RodEscolhida][98];
+      document.getElementById('gpB6').innerHTML=Norde_A[RodEscolhida][99];
+      document.getElementById('gcB6').innerHTML=Norde_A[RodEscolhida][100];
+      document.getElementById('sgB6').innerHTML=Norde_A[RodEscolhida][101];
+      document.getElementById('apB6').innerHTML=Norde_A[RodEscolhida][102];
+      document.getElementById('ultB6').innerHTML=Norde_A[RodEscolhida][103];
+      document.getElementById('penB6').innerHTML=Norde_A[RodEscolhida][104];
+      document.getElementById('antB6').innerHTML=Norde_A[RodEscolhida][105];
+      document.getElementById('qaB6').innerHTML=Norde_A[RodEscolhida][106];
+      document.getElementById('qiB6').innerHTML=Norde_A[RodEscolhida][107];
+  
+      document.getElementById('logB7').innerHTML=Norde_A[RodEscolhida][108];
+      document.getElementById('tecB7').innerHTML=Norde_A[RodEscolhida][110].nome;
+      document.getElementById('clubB7').innerHTML=Norde_A[RodEscolhida][109][0];
+      document.getElementById('nlB7').innerHTML=Norde_A[RodEscolhida][109][2];
+      document.getElementById('varB7').innerHTML=Norde_A[RodEscolhida][111];
+      document.getElementById('objB7').innerHTML=Norde_A[RodEscolhida][112];
+      document.getElementById('ptB7').innerHTML=Norde_A[RodEscolhida][113];
+      document.getElementById('vitB7').innerHTML=Norde_A[RodEscolhida][114];
+      document.getElementById('empB7').innerHTML=Norde_A[RodEscolhida][115];
+      document.getElementById('derB7').innerHTML=Norde_A[RodEscolhida][116];
+      document.getElementById('gpB7').innerHTML=Norde_A[RodEscolhida][117];
+      document.getElementById('gcB7').innerHTML=Norde_A[RodEscolhida][118];
+      document.getElementById('sgB7').innerHTML=Norde_A[RodEscolhida][119];
+      document.getElementById('apB7').innerHTML=Norde_A[RodEscolhida][120];
+      document.getElementById('ultB7').innerHTML=Norde_A[RodEscolhida][121];
+      document.getElementById('penB7').innerHTML=Norde_A[RodEscolhida][122];
+      document.getElementById('antB7').innerHTML=Norde_A[RodEscolhida][123];
+      document.getElementById('qaB7').innerHTML=Norde_A[RodEscolhida][124];
+      document.getElementById('qiB7').innerHTML=Norde_A[RodEscolhida][125];
+  
+      document.getElementById('logB8').innerHTML=Norde_A[RodEscolhida][126];
+      document.getElementById('tecB8').innerHTML=Norde_A[RodEscolhida][128].nome;
+      document.getElementById('clubB8').innerHTML=Norde_A[RodEscolhida][127][0];
+      document.getElementById('nlB8').innerHTML=Norde_A[RodEscolhida][127][2];
+      document.getElementById('varB8').innerHTML=Norde_A[RodEscolhida][129];
+      document.getElementById('objB8').innerHTML=Norde_A[RodEscolhida][130];
+      document.getElementById('ptB8').innerHTML=Norde_A[RodEscolhida][131];
+      document.getElementById('vitB8').innerHTML=Norde_A[RodEscolhida][132];
+      document.getElementById('empB8').innerHTML=Norde_A[RodEscolhida][133];
+      document.getElementById('derB8').innerHTML=Norde_A[RodEscolhida][134];
+      document.getElementById('gpB8').innerHTML=Norde_A[RodEscolhida][135];
+      document.getElementById('gcB8').innerHTML=Norde_A[RodEscolhida][136];
+      document.getElementById('sgB8').innerHTML=Norde_A[RodEscolhida][137];
+      document.getElementById('apB8').innerHTML=Norde_A[RodEscolhida][138];
+      document.getElementById('ultB8').innerHTML=Norde_A[RodEscolhida][139];
+      document.getElementById('penB8').innerHTML=Norde_A[RodEscolhida][140];
+      document.getElementById('antB8').innerHTML=Norde_A[RodEscolhida][141];
+      document.getElementById('qaB8').innerHTML=Norde_A[RodEscolhida][142];
+      document.getElementById('qiB8').innerHTML=Norde_A[RodEscolhida][143];
+  
+
+      
+    }
+
+
+    else if(CampEscolhido==="Norde_B"){
+
+
+      document.getElementById('logB1').innerHTML=Norde_B[RodEscolhida][0];
+      document.getElementById('tecB1').innerHTML=Norde_B[RodEscolhida][2].nome;
+      document.getElementById('clubB1').innerHTML=Norde_B[RodEscolhida][1][0];
+      document.getElementById('nlB1').innerHTML=Norde_B[RodEscolhida][1][2];
+      document.getElementById('varB1').innerHTML=Norde_B[RodEscolhida][3];
+      document.getElementById('objB1').innerHTML=Norde_B[RodEscolhida][4];
+      document.getElementById('ptB1').innerHTML=Norde_B[RodEscolhida][5];
+      document.getElementById('vitB1').innerHTML=Norde_B[RodEscolhida][6];
+      document.getElementById('empB1').innerHTML=Norde_B[RodEscolhida][7];
+      document.getElementById('derB1').innerHTML=Norde_B[RodEscolhida][8];
+      document.getElementById('gpB1').innerHTML=Norde_B[RodEscolhida][9];
+      document.getElementById('gcB1').innerHTML=Norde_B[RodEscolhida][10];
+      document.getElementById('sgB1').innerHTML=Norde_B[RodEscolhida][11];
+      document.getElementById('apB1').innerHTML=Norde_B[RodEscolhida][12];
+      document.getElementById('ultB1').innerHTML=Norde_B[RodEscolhida][13];
+      document.getElementById('penB1').innerHTML=Norde_B[RodEscolhida][14];
+      document.getElementById('antB1').innerHTML=Norde_B[RodEscolhida][15];
+      document.getElementById('qaB1').innerHTML=Norde_B[RodEscolhida][16];
+      document.getElementById('qiB1').innerHTML=Norde_B[RodEscolhida][17];
+  
+      document.getElementById('logB2').innerHTML=Norde_B[RodEscolhida][18];
+      document.getElementById('tecB2').innerHTML=Norde_B[RodEscolhida][20].nome;
+      document.getElementById('clubB2').innerHTML=Norde_B[RodEscolhida][19][0];
+      document.getElementById('nlB2').innerHTML=Norde_B[RodEscolhida][19][2];
+      document.getElementById('varB2').innerHTML=Norde_B[RodEscolhida][21];
+      document.getElementById('objB2').innerHTML=Norde_B[RodEscolhida][22];
+      document.getElementById('ptB2').innerHTML=Norde_B[RodEscolhida][23];
+      document.getElementById('vitB2').innerHTML=Norde_B[RodEscolhida][24];
+      document.getElementById('empB2').innerHTML=Norde_B[RodEscolhida][25];
+      document.getElementById('derB2').innerHTML=Norde_B[RodEscolhida][26];
+      document.getElementById('gpB2').innerHTML=Norde_B[RodEscolhida][27];
+      document.getElementById('gcB2').innerHTML=Norde_B[RodEscolhida][28];
+      document.getElementById('sgB2').innerHTML=Norde_B[RodEscolhida][29];
+      document.getElementById('apB2').innerHTML=Norde_B[RodEscolhida][30];
+      document.getElementById('ultB2').innerHTML=Norde_B[RodEscolhida][31];
+      document.getElementById('penB2').innerHTML=Norde_B[RodEscolhida][32];
+      document.getElementById('antB2').innerHTML=Norde_B[RodEscolhida][33];
+      document.getElementById('qaB2').innerHTML=Norde_B[RodEscolhida][34];
+      document.getElementById('qiB2').innerHTML=Norde_B[RodEscolhida][35];
+  
+      document.getElementById('logB3').innerHTML=Norde_B[RodEscolhida][36];
+      document.getElementById('tecB3').innerHTML=Norde_B[RodEscolhida][38].nome;
+      document.getElementById('clubB3').innerHTML=Norde_B[RodEscolhida][37][0];
+      document.getElementById('nlB3').innerHTML=Norde_B[RodEscolhida][37][2];
+      document.getElementById('varB3').innerHTML=Norde_B[RodEscolhida][39];
+      document.getElementById('objB3').innerHTML=Norde_B[RodEscolhida][40];
+      document.getElementById('ptB3').innerHTML=Norde_B[RodEscolhida][41];
+      document.getElementById('vitB3').innerHTML=Norde_B[RodEscolhida][42];
+      document.getElementById('empB3').innerHTML=Norde_B[RodEscolhida][43];
+      document.getElementById('derB3').innerHTML=Norde_B[RodEscolhida][44];
+      document.getElementById('gpB3').innerHTML=Norde_B[RodEscolhida][45];
+      document.getElementById('gcB3').innerHTML=Norde_B[RodEscolhida][46];
+      document.getElementById('sgB3').innerHTML=Norde_B[RodEscolhida][47];
+      document.getElementById('apB3').innerHTML=Norde_B[RodEscolhida][48];
+      document.getElementById('ultB3').innerHTML=Norde_B[RodEscolhida][49];
+      document.getElementById('penB3').innerHTML=Norde_B[RodEscolhida][50];
+      document.getElementById('antB3').innerHTML=Norde_B[RodEscolhida][51];
+      document.getElementById('qaB3').innerHTML=Norde_B[RodEscolhida][52];
+      document.getElementById('qiB3').innerHTML=Norde_B[RodEscolhida][53];
+  
+      document.getElementById('logB4').innerHTML=Norde_B[RodEscolhida][54];
+      document.getElementById('tecB4').innerHTML=Norde_B[RodEscolhida][56].nome;
+      document.getElementById('clubB4').innerHTML=Norde_B[RodEscolhida][55][0];
+      document.getElementById('nlB4').innerHTML=Norde_B[RodEscolhida][55][2];
+      document.getElementById('varB4').innerHTML=Norde_B[RodEscolhida][57];
+      document.getElementById('objB4').innerHTML=Norde_B[RodEscolhida][58];
+      document.getElementById('ptB4').innerHTML=Norde_B[RodEscolhida][59];
+      document.getElementById('vitB4').innerHTML=Norde_B[RodEscolhida][60];
+      document.getElementById('empB4').innerHTML=Norde_B[RodEscolhida][61];
+      document.getElementById('derB4').innerHTML=Norde_B[RodEscolhida][62];
+      document.getElementById('gpB4').innerHTML=Norde_B[RodEscolhida][63];
+      document.getElementById('gcB4').innerHTML=Norde_B[RodEscolhida][64];
+      document.getElementById('sgB4').innerHTML=Norde_B[RodEscolhida][65];
+      document.getElementById('apB4').innerHTML=Norde_B[RodEscolhida][66];
+      document.getElementById('ultB4').innerHTML=Norde_B[RodEscolhida][67];
+      document.getElementById('penB4').innerHTML=Norde_B[RodEscolhida][68];
+      document.getElementById('antB4').innerHTML=Norde_B[RodEscolhida][69];
+      document.getElementById('qaB4').innerHTML=Norde_B[RodEscolhida][70];
+      document.getElementById('qiB4').innerHTML=Norde_B[RodEscolhida][71];
+  
+      document.getElementById('logB5').innerHTML=Norde_B[RodEscolhida][72];
+      document.getElementById('tecB5').innerHTML=Norde_B[RodEscolhida][74].nome;
+      document.getElementById('clubB5').innerHTML=Norde_B[RodEscolhida][73][0];
+      document.getElementById('nlB5').innerHTML=Norde_B[RodEscolhida][73][2];
+      document.getElementById('varB5').innerHTML=Norde_B[RodEscolhida][75];
+      document.getElementById('objB5').innerHTML=Norde_B[RodEscolhida][76];
+      document.getElementById('ptB5').innerHTML=Norde_B[RodEscolhida][77];
+      document.getElementById('vitB5').innerHTML=Norde_B[RodEscolhida][78];
+      document.getElementById('empB5').innerHTML=Norde_B[RodEscolhida][79];
+      document.getElementById('derB5').innerHTML=Norde_B[RodEscolhida][80];
+      document.getElementById('gpB5').innerHTML=Norde_B[RodEscolhida][81];
+      document.getElementById('gcB5').innerHTML=Norde_B[RodEscolhida][82];
+      document.getElementById('sgB5').innerHTML=Norde_B[RodEscolhida][83];
+      document.getElementById('apB5').innerHTML=Norde_B[RodEscolhida][84];
+      document.getElementById('ultB5').innerHTML=Norde_B[RodEscolhida][85];
+      document.getElementById('penB5').innerHTML=Norde_B[RodEscolhida][86];
+      document.getElementById('antB5').innerHTML=Norde_B[RodEscolhida][87];
+      document.getElementById('qaB5').innerHTML=Norde_B[RodEscolhida][88];
+      document.getElementById('qiB5').innerHTML=Norde_B[RodEscolhida][89];
+  
+      document.getElementById('logB6').innerHTML=Norde_B[RodEscolhida][90];
+      document.getElementById('tecB6').innerHTML=Norde_B[RodEscolhida][92].nome;
+      document.getElementById('clubB6').innerHTML=Norde_B[RodEscolhida][91][0];
+      document.getElementById('nlB6').innerHTML=Norde_B[RodEscolhida][91][2];
+      document.getElementById('varB6').innerHTML=Norde_B[RodEscolhida][93];
+      document.getElementById('objB6').innerHTML=Norde_B[RodEscolhida][94];
+      document.getElementById('ptB6').innerHTML=Norde_B[RodEscolhida][95];
+      document.getElementById('vitB6').innerHTML=Norde_B[RodEscolhida][96];
+      document.getElementById('empB6').innerHTML=Norde_B[RodEscolhida][97];
+      document.getElementById('derB6').innerHTML=Norde_B[RodEscolhida][98];
+      document.getElementById('gpB6').innerHTML=Norde_B[RodEscolhida][99];
+      document.getElementById('gcB6').innerHTML=Norde_B[RodEscolhida][100];
+      document.getElementById('sgB6').innerHTML=Norde_B[RodEscolhida][101];
+      document.getElementById('apB6').innerHTML=Norde_B[RodEscolhida][102];
+      document.getElementById('ultB6').innerHTML=Norde_B[RodEscolhida][103];
+      document.getElementById('penB6').innerHTML=Norde_B[RodEscolhida][104];
+      document.getElementById('antB6').innerHTML=Norde_B[RodEscolhida][105];
+      document.getElementById('qaB6').innerHTML=Norde_B[RodEscolhida][106];
+      document.getElementById('qiB6').innerHTML=Norde_B[RodEscolhida][107];
+  
+      document.getElementById('logB7').innerHTML=Norde_B[RodEscolhida][108];
+      document.getElementById('tecB7').innerHTML=Norde_B[RodEscolhida][110].nome;
+      document.getElementById('clubB7').innerHTML=Norde_B[RodEscolhida][109][0];
+      document.getElementById('nlB7').innerHTML=Norde_B[RodEscolhida][109][2];
+      document.getElementById('varB7').innerHTML=Norde_B[RodEscolhida][111];
+      document.getElementById('objB7').innerHTML=Norde_B[RodEscolhida][112];
+      document.getElementById('ptB7').innerHTML=Norde_B[RodEscolhida][113];
+      document.getElementById('vitB7').innerHTML=Norde_B[RodEscolhida][114];
+      document.getElementById('empB7').innerHTML=Norde_B[RodEscolhida][115];
+      document.getElementById('derB7').innerHTML=Norde_B[RodEscolhida][116];
+      document.getElementById('gpB7').innerHTML=Norde_B[RodEscolhida][117];
+      document.getElementById('gcB7').innerHTML=Norde_B[RodEscolhida][118];
+      document.getElementById('sgB7').innerHTML=Norde_B[RodEscolhida][119];
+      document.getElementById('apB7').innerHTML=Norde_B[RodEscolhida][120];
+      document.getElementById('ultB7').innerHTML=Norde_B[RodEscolhida][121];
+      document.getElementById('penB7').innerHTML=Norde_B[RodEscolhida][122];
+      document.getElementById('antB7').innerHTML=Norde_B[RodEscolhida][123];
+      document.getElementById('qaB7').innerHTML=Norde_B[RodEscolhida][124];
+      document.getElementById('qiB7').innerHTML=Norde_B[RodEscolhida][125];
+  
+      document.getElementById('logB8').innerHTML=Norde_B[RodEscolhida][126];
+      document.getElementById('tecB8').innerHTML=Norde_B[RodEscolhida][128].nome;
+      document.getElementById('clubB8').innerHTML=Norde_B[RodEscolhida][127][0];
+      document.getElementById('nlB8').innerHTML=Norde_B[RodEscolhida][127][2];
+      document.getElementById('varB8').innerHTML=Norde_B[RodEscolhida][129];
+      document.getElementById('objB8').innerHTML=Norde_B[RodEscolhida][130];
+      document.getElementById('ptB8').innerHTML=Norde_B[RodEscolhida][131];
+      document.getElementById('vitB8').innerHTML=Norde_B[RodEscolhida][132];
+      document.getElementById('empB8').innerHTML=Norde_B[RodEscolhida][133];
+      document.getElementById('derB8').innerHTML=Norde_B[RodEscolhida][134];
+      document.getElementById('gpB8').innerHTML=Norde_B[RodEscolhida][135];
+      document.getElementById('gcB8').innerHTML=Norde_B[RodEscolhida][136];
+      document.getElementById('sgB8').innerHTML=Norde_B[RodEscolhida][137];
+      document.getElementById('apB8').innerHTML=Norde_B[RodEscolhida][138];
+      document.getElementById('ultB8').innerHTML=Norde_B[RodEscolhida][139];
+      document.getElementById('penB8').innerHTML=Norde_B[RodEscolhida][140];
+      document.getElementById('antB8').innerHTML=Norde_B[RodEscolhida][141];
+      document.getElementById('qaB8').innerHTML=Norde_B[RodEscolhida][142];
+      document.getElementById('qiB8').innerHTML=Norde_B[RodEscolhida][143];
+  
+
+      
+    }
+
+
+    
+    else if(CampEscolhido==="Norti_A"){
+
+
+      document.getElementById('logB1').innerHTML=Norti_A[RodEscolhida][0];
+      document.getElementById('tecB1').innerHTML=Norti_A[RodEscolhida][2].nome;
+      document.getElementById('clubB1').innerHTML=Norti_A[RodEscolhida][1][0];
+      document.getElementById('nlB1').innerHTML=Norti_A[RodEscolhida][1][2];
+      document.getElementById('varB1').innerHTML=Norti_A[RodEscolhida][3];
+      document.getElementById('objB1').innerHTML=Norti_A[RodEscolhida][4];
+      document.getElementById('ptB1').innerHTML=Norti_A[RodEscolhida][5];
+      document.getElementById('vitB1').innerHTML=Norti_A[RodEscolhida][6];
+      document.getElementById('empB1').innerHTML=Norti_A[RodEscolhida][7];
+      document.getElementById('derB1').innerHTML=Norti_A[RodEscolhida][8];
+      document.getElementById('gpB1').innerHTML=Norti_A[RodEscolhida][9];
+      document.getElementById('gcB1').innerHTML=Norti_A[RodEscolhida][10];
+      document.getElementById('sgB1').innerHTML=Norti_A[RodEscolhida][11];
+      document.getElementById('apB1').innerHTML=Norti_A[RodEscolhida][12];
+      document.getElementById('ultB1').innerHTML=Norti_A[RodEscolhida][13];
+      document.getElementById('penB1').innerHTML=Norti_A[RodEscolhida][14];
+      document.getElementById('antB1').innerHTML=Norti_A[RodEscolhida][15];
+      document.getElementById('qaB1').innerHTML=Norti_A[RodEscolhida][16];
+      document.getElementById('qiB1').innerHTML=Norti_A[RodEscolhida][17];
+  
+      document.getElementById('logB2').innerHTML=Norti_A[RodEscolhida][18];
+      document.getElementById('tecB2').innerHTML=Norti_A[RodEscolhida][20].nome;
+      document.getElementById('clubB2').innerHTML=Norti_A[RodEscolhida][19][0];
+      document.getElementById('nlB2').innerHTML=Norti_A[RodEscolhida][19][2];
+      document.getElementById('varB2').innerHTML=Norti_A[RodEscolhida][21];
+      document.getElementById('objB2').innerHTML=Norti_A[RodEscolhida][22];
+      document.getElementById('ptB2').innerHTML=Norti_A[RodEscolhida][23];
+      document.getElementById('vitB2').innerHTML=Norti_A[RodEscolhida][24];
+      document.getElementById('empB2').innerHTML=Norti_A[RodEscolhida][25];
+      document.getElementById('derB2').innerHTML=Norti_A[RodEscolhida][26];
+      document.getElementById('gpB2').innerHTML=Norti_A[RodEscolhida][27];
+      document.getElementById('gcB2').innerHTML=Norti_A[RodEscolhida][28];
+      document.getElementById('sgB2').innerHTML=Norti_A[RodEscolhida][29];
+      document.getElementById('apB2').innerHTML=Norti_A[RodEscolhida][30];
+      document.getElementById('ultB2').innerHTML=Norti_A[RodEscolhida][31];
+      document.getElementById('penB2').innerHTML=Norti_A[RodEscolhida][32];
+      document.getElementById('antB2').innerHTML=Norti_A[RodEscolhida][33];
+      document.getElementById('qaB2').innerHTML=Norti_A[RodEscolhida][34];
+      document.getElementById('qiB2').innerHTML=Norti_A[RodEscolhida][35];
+  
+      document.getElementById('logB3').innerHTML=Norti_A[RodEscolhida][36];
+      document.getElementById('tecB3').innerHTML=Norti_A[RodEscolhida][38].nome;
+      document.getElementById('clubB3').innerHTML=Norti_A[RodEscolhida][37][0];
+      document.getElementById('nlB3').innerHTML=Norti_A[RodEscolhida][37][2];
+      document.getElementById('varB3').innerHTML=Norti_A[RodEscolhida][39];
+      document.getElementById('objB3').innerHTML=Norti_A[RodEscolhida][40];
+      document.getElementById('ptB3').innerHTML=Norti_A[RodEscolhida][41];
+      document.getElementById('vitB3').innerHTML=Norti_A[RodEscolhida][42];
+      document.getElementById('empB3').innerHTML=Norti_A[RodEscolhida][43];
+      document.getElementById('derB3').innerHTML=Norti_A[RodEscolhida][44];
+      document.getElementById('gpB3').innerHTML=Norti_A[RodEscolhida][45];
+      document.getElementById('gcB3').innerHTML=Norti_A[RodEscolhida][46];
+      document.getElementById('sgB3').innerHTML=Norti_A[RodEscolhida][47];
+      document.getElementById('apB3').innerHTML=Norti_A[RodEscolhida][48];
+      document.getElementById('ultB3').innerHTML=Norti_A[RodEscolhida][49];
+      document.getElementById('penB3').innerHTML=Norti_A[RodEscolhida][50];
+      document.getElementById('antB3').innerHTML=Norti_A[RodEscolhida][51];
+      document.getElementById('qaB3').innerHTML=Norti_A[RodEscolhida][52];
+      document.getElementById('qiB3').innerHTML=Norti_A[RodEscolhida][53];
+  
+      document.getElementById('logB4').innerHTML=Norti_A[RodEscolhida][54];
+      document.getElementById('tecB4').innerHTML=Norti_A[RodEscolhida][56].nome;
+      document.getElementById('clubB4').innerHTML=Norti_A[RodEscolhida][55][0];
+      document.getElementById('nlB4').innerHTML=Norti_A[RodEscolhida][55][2];
+      document.getElementById('varB4').innerHTML=Norti_A[RodEscolhida][57];
+      document.getElementById('objB4').innerHTML=Norti_A[RodEscolhida][58];
+      document.getElementById('ptB4').innerHTML=Norti_A[RodEscolhida][59];
+      document.getElementById('vitB4').innerHTML=Norti_A[RodEscolhida][60];
+      document.getElementById('empB4').innerHTML=Norti_A[RodEscolhida][61];
+      document.getElementById('derB4').innerHTML=Norti_A[RodEscolhida][62];
+      document.getElementById('gpB4').innerHTML=Norti_A[RodEscolhida][63];
+      document.getElementById('gcB4').innerHTML=Norti_A[RodEscolhida][64];
+      document.getElementById('sgB4').innerHTML=Norti_A[RodEscolhida][65];
+      document.getElementById('apB4').innerHTML=Norti_A[RodEscolhida][66];
+      document.getElementById('ultB4').innerHTML=Norti_A[RodEscolhida][67];
+      document.getElementById('penB4').innerHTML=Norti_A[RodEscolhida][68];
+      document.getElementById('antB4').innerHTML=Norti_A[RodEscolhida][69];
+      document.getElementById('qaB4').innerHTML=Norti_A[RodEscolhida][70];
+      document.getElementById('qiB4').innerHTML=Norti_A[RodEscolhida][71];
+  
+      document.getElementById('logB5').innerHTML=Norti_A[RodEscolhida][72];
+      document.getElementById('tecB5').innerHTML=Norti_A[RodEscolhida][74].nome;
+      document.getElementById('clubB5').innerHTML=Norti_A[RodEscolhida][73][0];
+      document.getElementById('nlB5').innerHTML=Norti_A[RodEscolhida][73][2];
+      document.getElementById('varB5').innerHTML=Norti_A[RodEscolhida][75];
+      document.getElementById('objB5').innerHTML=Norti_A[RodEscolhida][76];
+      document.getElementById('ptB5').innerHTML=Norti_A[RodEscolhida][77];
+      document.getElementById('vitB5').innerHTML=Norti_A[RodEscolhida][78];
+      document.getElementById('empB5').innerHTML=Norti_A[RodEscolhida][79];
+      document.getElementById('derB5').innerHTML=Norti_A[RodEscolhida][80];
+      document.getElementById('gpB5').innerHTML=Norti_A[RodEscolhida][81];
+      document.getElementById('gcB5').innerHTML=Norti_A[RodEscolhida][82];
+      document.getElementById('sgB5').innerHTML=Norti_A[RodEscolhida][83];
+      document.getElementById('apB5').innerHTML=Norti_A[RodEscolhida][84];
+      document.getElementById('ultB5').innerHTML=Norti_A[RodEscolhida][85];
+      document.getElementById('penB5').innerHTML=Norti_A[RodEscolhida][86];
+      document.getElementById('antB5').innerHTML=Norti_A[RodEscolhida][87];
+      document.getElementById('qaB5').innerHTML=Norti_A[RodEscolhida][88];
+      document.getElementById('qiB5').innerHTML=Norti_A[RodEscolhida][89];
+  
+      document.getElementById('logB6').innerHTML=Norti_A[RodEscolhida][90];
+      document.getElementById('tecB6').innerHTML=Norti_A[RodEscolhida][92].nome;
+      document.getElementById('clubB6').innerHTML=Norti_A[RodEscolhida][91][0];
+      document.getElementById('nlB6').innerHTML=Norti_A[RodEscolhida][91][2];
+      document.getElementById('varB6').innerHTML=Norti_A[RodEscolhida][93];
+      document.getElementById('objB6').innerHTML=Norti_A[RodEscolhida][94];
+      document.getElementById('ptB6').innerHTML=Norti_A[RodEscolhida][95];
+      document.getElementById('vitB6').innerHTML=Norti_A[RodEscolhida][96];
+      document.getElementById('empB6').innerHTML=Norti_A[RodEscolhida][97];
+      document.getElementById('derB6').innerHTML=Norti_A[RodEscolhida][98];
+      document.getElementById('gpB6').innerHTML=Norti_A[RodEscolhida][99];
+      document.getElementById('gcB6').innerHTML=Norti_A[RodEscolhida][100];
+      document.getElementById('sgB6').innerHTML=Norti_A[RodEscolhida][101];
+      document.getElementById('apB6').innerHTML=Norti_A[RodEscolhida][102];
+      document.getElementById('ultB6').innerHTML=Norti_A[RodEscolhida][103];
+      document.getElementById('penB6').innerHTML=Norti_A[RodEscolhida][104];
+      document.getElementById('antB6').innerHTML=Norti_A[RodEscolhida][105];
+      document.getElementById('qaB6').innerHTML=Norti_A[RodEscolhida][106];
+      document.getElementById('qiB6').innerHTML=Norti_A[RodEscolhida][107];
+  
+      document.getElementById('logB7').innerHTML=Norti_A[RodEscolhida][108];
+      document.getElementById('tecB7').innerHTML=Norti_A[RodEscolhida][110].nome;
+      document.getElementById('clubB7').innerHTML=Norti_A[RodEscolhida][109][0];
+      document.getElementById('nlB7').innerHTML=Norti_A[RodEscolhida][109][2];
+      document.getElementById('varB7').innerHTML=Norti_A[RodEscolhida][111];
+      document.getElementById('objB7').innerHTML=Norti_A[RodEscolhida][112];
+      document.getElementById('ptB7').innerHTML=Norti_A[RodEscolhida][113];
+      document.getElementById('vitB7').innerHTML=Norti_A[RodEscolhida][114];
+      document.getElementById('empB7').innerHTML=Norti_A[RodEscolhida][115];
+      document.getElementById('derB7').innerHTML=Norti_A[RodEscolhida][116];
+      document.getElementById('gpB7').innerHTML=Norti_A[RodEscolhida][117];
+      document.getElementById('gcB7').innerHTML=Norti_A[RodEscolhida][118];
+      document.getElementById('sgB7').innerHTML=Norti_A[RodEscolhida][119];
+      document.getElementById('apB7').innerHTML=Norti_A[RodEscolhida][120];
+      document.getElementById('ultB7').innerHTML=Norti_A[RodEscolhida][121];
+      document.getElementById('penB7').innerHTML=Norti_A[RodEscolhida][122];
+      document.getElementById('antB7').innerHTML=Norti_A[RodEscolhida][123];
+      document.getElementById('qaB7').innerHTML=Norti_A[RodEscolhida][124];
+      document.getElementById('qiB7').innerHTML=Norti_A[RodEscolhida][125];
+  
+      document.getElementById('logB8').innerHTML=Norti_A[RodEscolhida][126];
+      document.getElementById('tecB8').innerHTML=Norti_A[RodEscolhida][128].nome;
+      document.getElementById('clubB8').innerHTML=Norti_A[RodEscolhida][127][0];
+      document.getElementById('nlB8').innerHTML=Norti_A[RodEscolhida][127][2];
+      document.getElementById('varB8').innerHTML=Norti_A[RodEscolhida][129];
+      document.getElementById('objB8').innerHTML=Norti_A[RodEscolhida][130];
+      document.getElementById('ptB8').innerHTML=Norti_A[RodEscolhida][131];
+      document.getElementById('vitB8').innerHTML=Norti_A[RodEscolhida][132];
+      document.getElementById('empB8').innerHTML=Norti_A[RodEscolhida][133];
+      document.getElementById('derB8').innerHTML=Norti_A[RodEscolhida][134];
+      document.getElementById('gpB8').innerHTML=Norti_A[RodEscolhida][135];
+      document.getElementById('gcB8').innerHTML=Norti_A[RodEscolhida][136];
+      document.getElementById('sgB8').innerHTML=Norti_A[RodEscolhida][137];
+      document.getElementById('apB8').innerHTML=Norti_A[RodEscolhida][138];
+      document.getElementById('ultB8').innerHTML=Norti_A[RodEscolhida][139];
+      document.getElementById('penB8').innerHTML=Norti_A[RodEscolhida][140];
+      document.getElementById('antB8').innerHTML=Norti_A[RodEscolhida][141];
+      document.getElementById('qaB8').innerHTML=Norti_A[RodEscolhida][142];
+      document.getElementById('qiB8').innerHTML=Norti_A[RodEscolhida][143];
+  
+
+      
+    }
+
+
+    else if(CampEscolhido==="Norti_B"){
+
+
+      document.getElementById('logB1').innerHTML=Norti_B[RodEscolhida][0];
+      document.getElementById('tecB1').innerHTML=Norti_B[RodEscolhida][2].nome;
+      document.getElementById('clubB1').innerHTML=Norti_B[RodEscolhida][1][0];
+      document.getElementById('nlB1').innerHTML=Norti_B[RodEscolhida][1][2];
+      document.getElementById('varB1').innerHTML=Norti_B[RodEscolhida][3];
+      document.getElementById('objB1').innerHTML=Norti_B[RodEscolhida][4];
+      document.getElementById('ptB1').innerHTML=Norti_B[RodEscolhida][5];
+      document.getElementById('vitB1').innerHTML=Norti_B[RodEscolhida][6];
+      document.getElementById('empB1').innerHTML=Norti_B[RodEscolhida][7];
+      document.getElementById('derB1').innerHTML=Norti_B[RodEscolhida][8];
+      document.getElementById('gpB1').innerHTML=Norti_B[RodEscolhida][9];
+      document.getElementById('gcB1').innerHTML=Norti_B[RodEscolhida][10];
+      document.getElementById('sgB1').innerHTML=Norti_B[RodEscolhida][11];
+      document.getElementById('apB1').innerHTML=Norti_B[RodEscolhida][12];
+      document.getElementById('ultB1').innerHTML=Norti_B[RodEscolhida][13];
+      document.getElementById('penB1').innerHTML=Norti_B[RodEscolhida][14];
+      document.getElementById('antB1').innerHTML=Norti_B[RodEscolhida][15];
+      document.getElementById('qaB1').innerHTML=Norti_B[RodEscolhida][16];
+      document.getElementById('qiB1').innerHTML=Norti_B[RodEscolhida][17];
+  
+      document.getElementById('logB2').innerHTML=Norti_B[RodEscolhida][18];
+      document.getElementById('tecB2').innerHTML=Norti_B[RodEscolhida][20].nome;
+      document.getElementById('clubB2').innerHTML=Norti_B[RodEscolhida][19][0];
+      document.getElementById('nlB2').innerHTML=Norti_B[RodEscolhida][19][2];
+      document.getElementById('varB2').innerHTML=Norti_B[RodEscolhida][21];
+      document.getElementById('objB2').innerHTML=Norti_B[RodEscolhida][22];
+      document.getElementById('ptB2').innerHTML=Norti_B[RodEscolhida][23];
+      document.getElementById('vitB2').innerHTML=Norti_B[RodEscolhida][24];
+      document.getElementById('empB2').innerHTML=Norti_B[RodEscolhida][25];
+      document.getElementById('derB2').innerHTML=Norti_B[RodEscolhida][26];
+      document.getElementById('gpB2').innerHTML=Norti_B[RodEscolhida][27];
+      document.getElementById('gcB2').innerHTML=Norti_B[RodEscolhida][28];
+      document.getElementById('sgB2').innerHTML=Norti_B[RodEscolhida][29];
+      document.getElementById('apB2').innerHTML=Norti_B[RodEscolhida][30];
+      document.getElementById('ultB2').innerHTML=Norti_B[RodEscolhida][31];
+      document.getElementById('penB2').innerHTML=Norti_B[RodEscolhida][32];
+      document.getElementById('antB2').innerHTML=Norti_B[RodEscolhida][33];
+      document.getElementById('qaB2').innerHTML=Norti_B[RodEscolhida][34];
+      document.getElementById('qiB2').innerHTML=Norti_B[RodEscolhida][35];
+  
+      document.getElementById('logB3').innerHTML=Norti_B[RodEscolhida][36];
+      document.getElementById('tecB3').innerHTML=Norti_B[RodEscolhida][38].nome;
+      document.getElementById('clubB3').innerHTML=Norti_B[RodEscolhida][37][0];
+      document.getElementById('nlB3').innerHTML=Norti_B[RodEscolhida][37][2];
+      document.getElementById('varB3').innerHTML=Norti_B[RodEscolhida][39];
+      document.getElementById('objB3').innerHTML=Norti_B[RodEscolhida][40];
+      document.getElementById('ptB3').innerHTML=Norti_B[RodEscolhida][41];
+      document.getElementById('vitB3').innerHTML=Norti_B[RodEscolhida][42];
+      document.getElementById('empB3').innerHTML=Norti_B[RodEscolhida][43];
+      document.getElementById('derB3').innerHTML=Norti_B[RodEscolhida][44];
+      document.getElementById('gpB3').innerHTML=Norti_B[RodEscolhida][45];
+      document.getElementById('gcB3').innerHTML=Norti_B[RodEscolhida][46];
+      document.getElementById('sgB3').innerHTML=Norti_B[RodEscolhida][47];
+      document.getElementById('apB3').innerHTML=Norti_B[RodEscolhida][48];
+      document.getElementById('ultB3').innerHTML=Norti_B[RodEscolhida][49];
+      document.getElementById('penB3').innerHTML=Norti_B[RodEscolhida][50];
+      document.getElementById('antB3').innerHTML=Norti_B[RodEscolhida][51];
+      document.getElementById('qaB3').innerHTML=Norti_B[RodEscolhida][52];
+      document.getElementById('qiB3').innerHTML=Norti_B[RodEscolhida][53];
+  
+      document.getElementById('logB4').innerHTML=Norti_B[RodEscolhida][54];
+      document.getElementById('tecB4').innerHTML=Norti_B[RodEscolhida][56].nome;
+      document.getElementById('clubB4').innerHTML=Norti_B[RodEscolhida][55][0];
+      document.getElementById('nlB4').innerHTML=Norti_B[RodEscolhida][55][2];
+      document.getElementById('varB4').innerHTML=Norti_B[RodEscolhida][57];
+      document.getElementById('objB4').innerHTML=Norti_B[RodEscolhida][58];
+      document.getElementById('ptB4').innerHTML=Norti_B[RodEscolhida][59];
+      document.getElementById('vitB4').innerHTML=Norti_B[RodEscolhida][60];
+      document.getElementById('empB4').innerHTML=Norti_B[RodEscolhida][61];
+      document.getElementById('derB4').innerHTML=Norti_B[RodEscolhida][62];
+      document.getElementById('gpB4').innerHTML=Norti_B[RodEscolhida][63];
+      document.getElementById('gcB4').innerHTML=Norti_B[RodEscolhida][64];
+      document.getElementById('sgB4').innerHTML=Norti_B[RodEscolhida][65];
+      document.getElementById('apB4').innerHTML=Norti_B[RodEscolhida][66];
+      document.getElementById('ultB4').innerHTML=Norti_B[RodEscolhida][67];
+      document.getElementById('penB4').innerHTML=Norti_B[RodEscolhida][68];
+      document.getElementById('antB4').innerHTML=Norti_B[RodEscolhida][69];
+      document.getElementById('qaB4').innerHTML=Norti_B[RodEscolhida][70];
+      document.getElementById('qiB4').innerHTML=Norti_B[RodEscolhida][71];
+  
+      document.getElementById('logB5').innerHTML=Norti_B[RodEscolhida][72];
+      document.getElementById('tecB5').innerHTML=Norti_B[RodEscolhida][74].nome;
+      document.getElementById('clubB5').innerHTML=Norti_B[RodEscolhida][73][0];
+      document.getElementById('nlB5').innerHTML=Norti_B[RodEscolhida][73][2];
+      document.getElementById('varB5').innerHTML=Norti_B[RodEscolhida][75];
+      document.getElementById('objB5').innerHTML=Norti_B[RodEscolhida][76];
+      document.getElementById('ptB5').innerHTML=Norti_B[RodEscolhida][77];
+      document.getElementById('vitB5').innerHTML=Norti_B[RodEscolhida][78];
+      document.getElementById('empB5').innerHTML=Norti_B[RodEscolhida][79];
+      document.getElementById('derB5').innerHTML=Norti_B[RodEscolhida][80];
+      document.getElementById('gpB5').innerHTML=Norti_B[RodEscolhida][81];
+      document.getElementById('gcB5').innerHTML=Norti_B[RodEscolhida][82];
+      document.getElementById('sgB5').innerHTML=Norti_B[RodEscolhida][83];
+      document.getElementById('apB5').innerHTML=Norti_B[RodEscolhida][84];
+      document.getElementById('ultB5').innerHTML=Norti_B[RodEscolhida][85];
+      document.getElementById('penB5').innerHTML=Norti_B[RodEscolhida][86];
+      document.getElementById('antB5').innerHTML=Norti_B[RodEscolhida][87];
+      document.getElementById('qaB5').innerHTML=Norti_B[RodEscolhida][88];
+      document.getElementById('qiB5').innerHTML=Norti_B[RodEscolhida][89];
+  
+      document.getElementById('logB6').innerHTML=Norti_B[RodEscolhida][90];
+      document.getElementById('tecB6').innerHTML=Norti_B[RodEscolhida][92].nome;
+      document.getElementById('clubB6').innerHTML=Norti_B[RodEscolhida][91][0];
+      document.getElementById('nlB6').innerHTML=Norti_B[RodEscolhida][91][2];
+      document.getElementById('varB6').innerHTML=Norti_B[RodEscolhida][93];
+      document.getElementById('objB6').innerHTML=Norti_B[RodEscolhida][94];
+      document.getElementById('ptB6').innerHTML=Norti_B[RodEscolhida][95];
+      document.getElementById('vitB6').innerHTML=Norti_B[RodEscolhida][96];
+      document.getElementById('empB6').innerHTML=Norti_B[RodEscolhida][97];
+      document.getElementById('derB6').innerHTML=Norti_B[RodEscolhida][98];
+      document.getElementById('gpB6').innerHTML=Norti_B[RodEscolhida][99];
+      document.getElementById('gcB6').innerHTML=Norti_B[RodEscolhida][100];
+      document.getElementById('sgB6').innerHTML=Norti_B[RodEscolhida][101];
+      document.getElementById('apB6').innerHTML=Norti_B[RodEscolhida][102];
+      document.getElementById('ultB6').innerHTML=Norti_B[RodEscolhida][103];
+      document.getElementById('penB6').innerHTML=Norti_B[RodEscolhida][104];
+      document.getElementById('antB6').innerHTML=Norti_B[RodEscolhida][105];
+      document.getElementById('qaB6').innerHTML=Norti_B[RodEscolhida][106];
+      document.getElementById('qiB6').innerHTML=Norti_B[RodEscolhida][107];
+  
+      document.getElementById('logB7').innerHTML=Norti_B[RodEscolhida][108];
+      document.getElementById('tecB7').innerHTML=Norti_B[RodEscolhida][110].nome;
+      document.getElementById('clubB7').innerHTML=Norti_B[RodEscolhida][109][0];
+      document.getElementById('nlB7').innerHTML=Norti_B[RodEscolhida][109][2];
+      document.getElementById('varB7').innerHTML=Norti_B[RodEscolhida][111];
+      document.getElementById('objB7').innerHTML=Norti_B[RodEscolhida][112];
+      document.getElementById('ptB7').innerHTML=Norti_B[RodEscolhida][113];
+      document.getElementById('vitB7').innerHTML=Norti_B[RodEscolhida][114];
+      document.getElementById('empB7').innerHTML=Norti_B[RodEscolhida][115];
+      document.getElementById('derB7').innerHTML=Norti_B[RodEscolhida][116];
+      document.getElementById('gpB7').innerHTML=Norti_B[RodEscolhida][117];
+      document.getElementById('gcB7').innerHTML=Norti_B[RodEscolhida][118];
+      document.getElementById('sgB7').innerHTML=Norti_B[RodEscolhida][119];
+      document.getElementById('apB7').innerHTML=Norti_B[RodEscolhida][120];
+      document.getElementById('ultB7').innerHTML=Norti_B[RodEscolhida][121];
+      document.getElementById('penB7').innerHTML=Norti_B[RodEscolhida][122];
+      document.getElementById('antB7').innerHTML=Norti_B[RodEscolhida][123];
+      document.getElementById('qaB7').innerHTML=Norti_B[RodEscolhida][124];
+      document.getElementById('qiB7').innerHTML=Norti_B[RodEscolhida][125];
+  
+      document.getElementById('logB8').innerHTML=Norti_B[RodEscolhida][126];
+      document.getElementById('tecB8').innerHTML=Norti_B[RodEscolhida][128].nome;
+      document.getElementById('clubB8').innerHTML=Norti_B[RodEscolhida][127][0];
+      document.getElementById('nlB8').innerHTML=Norti_B[RodEscolhida][127][2];
+      document.getElementById('varB8').innerHTML=Norti_B[RodEscolhida][129];
+      document.getElementById('objB8').innerHTML=Norti_B[RodEscolhida][130];
+      document.getElementById('ptB8').innerHTML=Norti_B[RodEscolhida][131];
+      document.getElementById('vitB8').innerHTML=Norti_B[RodEscolhida][132];
+      document.getElementById('empB8').innerHTML=Norti_B[RodEscolhida][133];
+      document.getElementById('derB8').innerHTML=Norti_B[RodEscolhida][134];
+      document.getElementById('gpB8').innerHTML=Norti_B[RodEscolhida][135];
+      document.getElementById('gcB8').innerHTML=Norti_B[RodEscolhida][136];
+      document.getElementById('sgB8').innerHTML=Norti_B[RodEscolhida][137];
+      document.getElementById('apB8').innerHTML=Norti_B[RodEscolhida][138];
+      document.getElementById('ultB8').innerHTML=Norti_B[RodEscolhida][139];
+      document.getElementById('penB8').innerHTML=Norti_B[RodEscolhida][140];
+      document.getElementById('antB8').innerHTML=Norti_B[RodEscolhida][141];
+      document.getElementById('qaB8').innerHTML=Norti_B[RodEscolhida][142];
+      document.getElementById('qiB8').innerHTML=Norti_B[RodEscolhida][143];
+  
+
+      
+    }
+
+
+
 
 
 };
