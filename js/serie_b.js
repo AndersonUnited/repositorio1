@@ -75,8 +75,8 @@ let logovoltaredonda="<img src='https://ssl.gstatic.com/onebox/media/sports/logo
 
 /**CLUBES**/  var semclube={nome:'sem clube',logo:logosemclube,nivel:'citadino',uf:'RS',estadual:'RS2',div:' ',rodingr:'1',obj:'0'};
 
-let americarj=['América-RJ',logoamericarj,'Regional','RJ','RJ1','B',1,'G16',0,2,4,1,0,3,1,2,3,0,0,1,4,3,0,3,5,3,3,5,4,0,2,5,0,3,1,1,1,3,0,1,4,5,0,3,4,5,'','','','','','','','','','','','','','','','','','','',''];
-let americarn=['América-RN',logoamericarn,'Estadual','RN','NO','B',1,'G13',1,3,3,0,0,0,4,2,3,2,5,2,0,0,3,3,1,3,0,2,3,2,4,5,3,5,4,1,4,1,1,1,5,1,0,2,5,2,'','','','','','','','','','','','','','','','','','','',''];
+let americarj=['América-RJ',logoamericarj,'Regional','RJ','RJ1','B',1,'G16',0,2,4,1,0,3,1,2,3,0,0,1,4,3,0,3,5,3,3,5,4,0,2,5,0,3,1,1,1,3,0,1,4,5,0,3,4,5,'','','','','','','','','','','','','','','','','','','','2023'];
+let americarn=['América-RN',logoamericarn,'Estadual','RN','NO','B',1,'G13',1,3,3,0,0,0,4,2,3,2,5,2,0,0,3,3,1,3,0,2,3,2,4,5,3,5,4,1,4,1,1,1,5,1,0,2,5,2,'','','','','','','','','','','','','','','','','','','19','1900'];
 let brasilrs=['Brasil-RS',logobrasilrs,'Regional','RS','RS','B',1,'G16',2,3,3,1,3,2,2,5,3,4,2,3,5,3,2,1,1,2,1,2,5,1,0,1,5,1,1,5,0,1,2,3,1,3,4,5,5,4,'','','','','','','','','','','','','','','','','','','',''];
 let ceara=['Ceará',logoceara,'Pequeno','CE','CE','B',1,'G8',3,4,0,3,5,2,2,5,1,3,5,3,2,1,2,1,4,5,4,4,1,5,5,1,2,2,5,5,4,1,0,4,4,2,5,3,5,0,'','','','','','','','','','','','','','','','','','','',''];
 let coritiba=['Coritiba',logocoritiba,'Médio','PR','PR','B',1,'G4',1,2,5,5,3,5,0,2,0,3,1,1,5,0,5,3,4,1,2,0,4,3,2,5,0,2,5,2,0,0,1,4,5,2,4,2,2,0,'','','','','','','','','','','','','','','','','','','',''];
@@ -668,7 +668,7 @@ document.getElementById("CardNomeTec1").innerHTML=Rodadas[rodada][16].nome;
   document.getElementById("CardLogin1").innerHTML=Rodadas[rodada][16].nomeLogin;
   document.getElementById("CardId1").innerHTML="ID: "+Rodadas[rodada][16].idCart;
   document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Rodadas[rodada][16].anoEnt;
-  document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Rodadas[rodada][0][6]+"ªrod. de "+Rodadas[rodada][0][65];
+  document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Rodadas[rodada][16].ClubAtual[64]+"ªrod. de "+Rodadas[rodada][16].ClubAtual[65];
   document.getElementById("CardTitulos1_1").innerHTML=Rodadas[rodada][16].titulo1;
   document.getElementById("CardTitulos1_2").innerHTML=Rodadas[rodada][16].titulo2;
   document.getElementById("CardTitulos1_3").innerHTML=Rodadas[rodada][16].titulo3;
@@ -686,7 +686,7 @@ document.getElementById("CardNomeTec1").innerHTML=Rodadas[rodada][16].nome;
   document.getElementById("CardLogin2").innerHTML=Rodadas[rodada][33].nomeLogin;
   document.getElementById("CardId2").innerHTML="ID: "+Rodadas[rodada][33].idCart;
   document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Rodadas[rodada][33].anoEnt;
-  document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Rodadas[rodada][17][6]+"ªrod. de "+Rodadas[rodada][17][65];
+  document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Rodadas[rodada][17][64]+"ªrod. de "+Rodadas[rodada][17][65];
   document.getElementById("CardTitulos2_1").innerHTML=Rodadas[rodada][33].titulo1;
   document.getElementById("CardTitulos2_2").innerHTML=Rodadas[rodada][33].titulo2;
   document.getElementById("CardTitulos2_3").innerHTML=Rodadas[rodada][33].titulo3;
