@@ -753,7 +753,7 @@ function toggleMenu() {
   let bonsucesso=['Bonsucesso',logobonsucesso,'Citadino','RJ','RJ1','E',1,'',2,2,5,4,1,0,3,1,4,2,0,5,3,5,2,1,3,4,0,0,5,0,0,5,2,3,5,0,5,3,5,4,2,2,2,5,5,4,'','','','','','','','','','','','','','','','','','','',''];
   let botafogo=['Botafogo',logobotafogo,'Grande','RJ','RJ','A',1,'G8',0,4,4,4,1,4,2,0,5,4,1,2,5,1,0,2,4,0,4,5,0,5,5,3,2,0,2,4,2,5,5,0,3,1,3,5,2,3,'','','','','','','','','','','','','','','','','','','',''];
   let botafogopb=['Botafogo-PB',logobotafogopb,'Regional','PB','NO','C',1,'G13',0,1,0,4,2,0,0,0,2,0,1,3,0,0,4,3,1,1,1,3,4,5,5,2,1,0,2,3,5,4,1,4,0,2,1,1,4,4,'','','','','','','','','','','','','','','','','','','',''];
-  let botafogosp=['Botafogo-SP',logobotafogosp,'Regional','SP','SP','C',1,'G13',0,1,1,3,2,2,2,5,4,3,2,0,5,0,1,3,3,2,1,3,2,0,4,1,2,1,5,2,4,1,5,4,5,5,1,5,2,3,'','','','','','','','','','','','','','','','','','','',''];
+  let botafogosp=['Botafogo-SP',logobotafogosp,'Regional','SP','SP','C',1,'G13',0,1,1,3,2,2,2,5,4,3,2,0,5,0,1,3,3,2,1,3,2,0,4,1,2,1,5,2,4,1,5,4,5,5,1,5,2,3,'','','','','','','','','','','','','','','','','','','23','2023'];
   let bragantino=['Bragantino',logobragantino,'Pequeno','SP','SP','A',1,'G16',0,5,0,0,3,5,2,2,5,0,3,3,4,2,5,0,1,1,2,3,2,1,2,3,3,4,0,4,1,3,5,3,0,4,1,4,5,2,'','','','','','','','','','','','','','','','','','','',''];
   let brasiliense=['Brasiliense',logobrasiliense,'Regional','DF','CO','D',1,'',0,1,3,1,0,3,2,5,2,4,4,2,1,2,1,3,1,2,0,1,4,4,0,0,5,1,3,0,1,3,4,3,2,5,4,5,2,5,'','','','','','','','','','','','','','','','','','','',''];
   let brasilrs=['Brasil-RS',logobrasilrs,'Regional','RS','RS','B',1,'G16',2,3,3,1,3,2,2,5,3,4,2,3,5,3,2,1,1,2,1,2,5,1,0,1,5,1,1,5,0,1,2,3,1,3,4,5,5,4,'','','','','','','','','','','','','','','','','','','',''];
@@ -2344,7 +2344,9 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
     if (CampEscolhido==='Pauli_A'){
 
 
-      JogosDaRodada = Pauli_Cal_A[RodEscolhida];
+       JogosDaRodada = Pauli_Cal_A[RodEscolhida];
+
+
 
     document.getElementById('logB1').innerHTML=Pauli_A[RodEscolhida][0];
     document.getElementById('tecB1').innerHTML=Pauli_A[RodEscolhida][2].nome;
@@ -2505,6 +2507,153 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
     document.getElementById('antB8').innerHTML=Pauli_A[RodEscolhida][141];
     document.getElementById('qaB8').innerHTML=Pauli_A[RodEscolhida][142];
     document.getElementById('qiB8').innerHTML=Pauli_A[RodEscolhida][143];
+
+
+    document.getElementById("CardNomeTec1").innerHTML=Pauli_A[RodEscolhida][2].nome;
+document.getElementById("CardLogo1").innerHTML=Pauli_A[RodEscolhida][2].logo;
+document.getElementById("CardLogin1").innerHTML="Login: "+Pauli_A[RodEscolhida][2].nomeLogin;
+document.getElementById("CardId1").innerHTML="Id: "+Pauli_A[RodEscolhida][2].idCart;
+document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Pauli_A[RodEscolhida][2].anoEnt;
+document.getElementById("CarMoral1").innerHTML='Não aferida';
+document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Pauli_A[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Pauli_A[RodEscolhida][2].ClubAtual[65];
+document.getElementById("CardTitulos1_1").innerHTML=Pauli_A[RodEscolhida][2].titulo1;
+document.getElementById("CardTitulos1_2").innerHTML=Pauli_A[RodEscolhida][2].titulo2;
+document.getElementById("CardTitulos1_3").innerHTML=Pauli_A[RodEscolhida][2].titulo3;
+document.getElementById("CardTitulos1_4").innerHTML=Pauli_A[RodEscolhida][2].titulo4;
+document.getElementById("CardTitulos1_5").innerHTML=Pauli_A[RodEscolhida][2].titulo5;
+document.getElementById("CardTitulos1_6").innerHTML=Pauli_A[RodEscolhida][2].titulo6;
+document.getElementById("CardTitulos1_7").innerHTML=Pauli_A[RodEscolhida][2].titulo7;
+document.getElementById("CardTitulos1_8").innerHTML=Pauli_A[RodEscolhida][2].titulo8;
+document.getElementById("CardTitulos1_9").innerHTML=Pauli_A[RodEscolhida][2].titulo9;
+document.getElementById("CardTitulos1_10").innerHTML=Pauli_A[RodEscolhida][2].titulo10;
+
+
+
+document.getElementById("CardNomeTec2").innerHTML=Pauli_A[RodEscolhida][20].nome;
+document.getElementById("CardLogo2").innerHTML=Pauli_A[RodEscolhida][20].logo;
+document.getElementById("CardLogin2").innerHTML="Login: "+Pauli_A[RodEscolhida][20].nomeLogin;
+document.getElementById("CardId2").innerHTML="Id: "+Pauli_A[RodEscolhida][20].idCart;
+document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Pauli_A[RodEscolhida][20].anoEnt;
+document.getElementById("CarMoral2").innerHTML='Não aferida';
+document.getElementById("CardTitulos2_1").innerHTML=Pauli_A[RodEscolhida][20].titulo1;
+document.getElementById("CardTitulos2_2").innerHTML=Pauli_A[RodEscolhida][20].titulo2;
+document.getElementById("CardTitulos2_3").innerHTML=Pauli_A[RodEscolhida][20].titulo3;
+document.getElementById("CardTitulos2_4").innerHTML=Pauli_A[RodEscolhida][20].titulo4;
+document.getElementById("CardTitulos2_5").innerHTML=Pauli_A[RodEscolhida][20].titulo5;
+document.getElementById("CardTitulos2_6").innerHTML=Pauli_A[RodEscolhida][20].titulo6;
+document.getElementById("CardTitulos2_7").innerHTML=Pauli_A[RodEscolhida][20].titulo7;
+document.getElementById("CardTitulos2_8").innerHTML=Pauli_A[RodEscolhida][20].titulo8;
+document.getElementById("CardTitulos2_9").innerHTML=Pauli_A[RodEscolhida][20].titulo9;
+document.getElementById("CardTitulos2_10").innerHTML=Pauli_A[RodEscolhida][20].titulo10;
+
+
+document.getElementById("CardNomeTec3").innerHTML=Pauli_A[RodEscolhida][38].nome;
+document.getElementById("CardLogo3").innerHTML=Pauli_A[RodEscolhida][38].logo;
+document.getElementById("CardLogin3").innerHTML="Login: "+Pauli_A[RodEscolhida][38].nomeLogin;
+document.getElementById("CardId3").innerHTML="Id: "+Pauli_A[RodEscolhida][38].idCart;
+document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Pauli_A[RodEscolhida][38].anoEnt;
+document.getElementById("CarMoral3").innerHTML='Não aferida';
+document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Pauli_A[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Pauli_A[RodEscolhida][38].ClubAtual[65];
+document.getElementById("CardTitulos3_1").innerHTML=Pauli_A[RodEscolhida][38].titulo1;
+document.getElementById("CardTitulos3_2").innerHTML=Pauli_A[RodEscolhida][38].titulo2;
+document.getElementById("CardTitulos3_3").innerHTML=Pauli_A[RodEscolhida][38].titulo3;
+document.getElementById("CardTitulos3_4").innerHTML=Pauli_A[RodEscolhida][38].titulo4;
+document.getElementById("CardTitulos3_5").innerHTML=Pauli_A[RodEscolhida][38].titulo5;
+document.getElementById("CardTitulos3_6").innerHTML=Pauli_A[RodEscolhida][38].titulo6;
+document.getElementById("CardTitulos3_7").innerHTML=Pauli_A[RodEscolhida][38].titulo7;
+document.getElementById("CardTitulos3_8").innerHTML=Pauli_A[RodEscolhida][38].titulo8;
+document.getElementById("CardTitulos3_9").innerHTML=Pauli_A[RodEscolhida][38].titulo9;
+document.getElementById("CardTitulos3_10").innerHTML=Pauli_A[RodEscolhida][38].titulo10;
+
+document.getElementById("CardNomeTec4").innerHTML=Pauli_A[RodEscolhida][56].nome;
+document.getElementById("CardLogo4").innerHTML=Pauli_A[RodEscolhida][56].logo;
+document.getElementById("CardLogin4").innerHTML="Login: "+Pauli_A[RodEscolhida][56].nomeLogin;
+document.getElementById("CardId4").innerHTML="Id: "+Pauli_A[RodEscolhida][56].idCart;
+document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Pauli_A[RodEscolhida][56].anoEnt;
+document.getElementById("CarMoral4").innerHTML='Não aferida';
+document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Pauli_A[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Pauli_A[RodEscolhida][56].ClubAtual[65];
+document.getElementById("CardTitulos4_1").innerHTML=Pauli_A[RodEscolhida][56].titulo1;
+document.getElementById("CardTitulos4_2").innerHTML=Pauli_A[RodEscolhida][56].titulo2;
+document.getElementById("CardTitulos4_3").innerHTML=Pauli_A[RodEscolhida][56].titulo3;
+document.getElementById("CardTitulos4_4").innerHTML=Pauli_A[RodEscolhida][56].titulo4;
+document.getElementById("CardTitulos4_5").innerHTML=Pauli_A[RodEscolhida][56].titulo5;
+document.getElementById("CardTitulos4_6").innerHTML=Pauli_A[RodEscolhida][56].titulo6;
+document.getElementById("CardTitulos4_7").innerHTML=Pauli_A[RodEscolhida][56].titulo7;
+document.getElementById("CardTitulos4_8").innerHTML=Pauli_A[RodEscolhida][56].titulo8;
+document.getElementById("CardTitulos4_9").innerHTML=Pauli_A[RodEscolhida][56].titulo9;
+document.getElementById("CardTitulos4_10").innerHTML=Pauli_A[RodEscolhida][56].titulo10;
+
+document.getElementById("CardNomeTec5").innerHTML=Pauli_A[RodEscolhida][74].nome;
+document.getElementById("CardLogo5").innerHTML=Pauli_A[RodEscolhida][74].logo;
+document.getElementById("CardLogin5").innerHTML="Login: "+Pauli_A[RodEscolhida][74].nomeLogin;
+document.getElementById("CardId5").innerHTML="Id: "+Pauli_A[RodEscolhida][74].idCart;
+document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Pauli_A[RodEscolhida][74].anoEnt;
+document.getElementById("CarMoral5").innerHTML='Não aferida';
+document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Pauli_A[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Pauli_A[RodEscolhida][74].ClubAtual[65];
+document.getElementById("CardTitulos5_1").innerHTML=Pauli_A[RodEscolhida][74].titulo1;
+document.getElementById("CardTitulos5_2").innerHTML=Pauli_A[RodEscolhida][74].titulo2;
+document.getElementById("CardTitulos5_3").innerHTML=Pauli_A[RodEscolhida][74].titulo3;
+document.getElementById("CardTitulos5_4").innerHTML=Pauli_A[RodEscolhida][74].titulo4;
+document.getElementById("CardTitulos5_5").innerHTML=Pauli_A[RodEscolhida][74].titulo5;
+document.getElementById("CardTitulos5_6").innerHTML=Pauli_A[RodEscolhida][74].titulo6;
+document.getElementById("CardTitulos5_7").innerHTML=Pauli_A[RodEscolhida][74].titulo7;
+document.getElementById("CardTitulos5_8").innerHTML=Pauli_A[RodEscolhida][74].titulo8;
+document.getElementById("CardTitulos5_9").innerHTML=Pauli_A[RodEscolhida][74].titulo9;
+document.getElementById("CardTitulos5_10").innerHTML=Pauli_A[RodEscolhida][74].titulo10;
+
+document.getElementById("CardNomeTec6").innerHTML=Pauli_A[RodEscolhida][92].nome;
+document.getElementById("CardLogo6").innerHTML=Pauli_A[RodEscolhida][92].logo;
+document.getElementById("CardLogin6").innerHTML="Login: "+Pauli_A[RodEscolhida][92].nomeLogin;
+document.getElementById("CardId6").innerHTML="Id: "+Pauli_A[RodEscolhida][92].idCart;
+document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Pauli_A[RodEscolhida][92].anoEnt;
+document.getElementById("CarMoral6").innerHTML='Não aferida';
+document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Pauli_A[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Pauli_A[RodEscolhida][92].ClubAtual[65];
+document.getElementById("CardTitulos6_1").innerHTML=Pauli_A[RodEscolhida][92].titulo1;
+document.getElementById("CardTitulos6_2").innerHTML=Pauli_A[RodEscolhida][92].titulo2;
+document.getElementById("CardTitulos6_3").innerHTML=Pauli_A[RodEscolhida][92].titulo3;
+document.getElementById("CardTitulos6_4").innerHTML=Pauli_A[RodEscolhida][92].titulo4;
+document.getElementById("CardTitulos6_5").innerHTML=Pauli_A[RodEscolhida][92].titulo5;
+document.getElementById("CardTitulos6_6").innerHTML=Pauli_A[RodEscolhida][92].titulo6;
+document.getElementById("CardTitulos6_7").innerHTML=Pauli_A[RodEscolhida][92].titulo7;
+document.getElementById("CardTitulos6_8").innerHTML=Pauli_A[RodEscolhida][92].titulo8;
+document.getElementById("CardTitulos6_9").innerHTML=Pauli_A[RodEscolhida][92].titulo9;
+document.getElementById("CardTitulos6_10").innerHTML=Pauli_A[RodEscolhida][92].titulo10;
+
+document.getElementById("CardNomeTec7").innerHTML=Pauli_A[RodEscolhida][110].nome;
+document.getElementById("CardLogo7").innerHTML=Pauli_A[RodEscolhida][110].logo;
+document.getElementById("CardLogin7").innerHTML="Login: "+Pauli_A[RodEscolhida][110].nomeLogin;
+document.getElementById("CardId7").innerHTML="Id: "+Pauli_A[RodEscolhida][110].idCart;
+document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Pauli_A[RodEscolhida][110].anoEnt;
+document.getElementById("CarMoral7").innerHTML='Não aferida';
+document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Pauli_A[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Pauli_A[RodEscolhida][110].ClubAtual[65];
+document.getElementById("CardTitulos7_1").innerHTML=Pauli_A[RodEscolhida][110].titulo1;
+document.getElementById("CardTitulos7_2").innerHTML=Pauli_A[RodEscolhida][110].titulo2;
+document.getElementById("CardTitulos7_3").innerHTML=Pauli_A[RodEscolhida][110].titulo3;
+document.getElementById("CardTitulos7_4").innerHTML=Pauli_A[RodEscolhida][110].titulo4;
+document.getElementById("CardTitulos7_5").innerHTML=Pauli_A[RodEscolhida][110].titulo5;
+document.getElementById("CardTitulos7_6").innerHTML=Pauli_A[RodEscolhida][110].titulo6;
+document.getElementById("CardTitulos7_7").innerHTML=Pauli_A[RodEscolhida][110].titulo7;
+document.getElementById("CardTitulos7_8").innerHTML=Pauli_A[RodEscolhida][110].titulo8;
+document.getElementById("CardTitulos7_9").innerHTML=Pauli_A[RodEscolhida][110].titulo9;
+document.getElementById("CardTitulos7_10").innerHTML=Pauli_A[RodEscolhida][110].titulo10;
+
+document.getElementById("CardNomeTec8").innerHTML=Pauli_A[RodEscolhida][128].nome;
+document.getElementById("CardLogo8").innerHTML=Pauli_A[RodEscolhida][128].logo;
+document.getElementById("CardLogin8").innerHTML="Login: "+Pauli_A[RodEscolhida][128].nomeLogin;
+document.getElementById("CardId8").innerHTML="Id: "+Pauli_A[RodEscolhida][128].idCart;
+document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Pauli_A[RodEscolhida][128].anoEnt;
+document.getElementById("CarMoral8").innerHTML='Não aferida';
+document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Pauli_A[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Pauli_A[RodEscolhida][128].ClubAtual[65];
+document.getElementById("CardTitulos8_1").innerHTML=Pauli_A[RodEscolhida][128].titulo1;
+document.getElementById("CardTitulos8_2").innerHTML=Pauli_A[RodEscolhida][128].titulo2;
+document.getElementById("CardTitulos8_3").innerHTML=Pauli_A[RodEscolhida][128].titulo3;
+document.getElementById("CardTitulos8_4").innerHTML=Pauli_A[RodEscolhida][128].titulo4;
+document.getElementById("CardTitulos8_5").innerHTML=Pauli_A[RodEscolhida][128].titulo5;
+document.getElementById("CardTitulos8_6").innerHTML=Pauli_A[RodEscolhida][128].titulo6;
+document.getElementById("CardTitulos8_7").innerHTML=Pauli_A[RodEscolhida][128].titulo7;
+document.getElementById("CardTitulos8_8").innerHTML=Pauli_A[RodEscolhida][128].titulo8;
+document.getElementById("CardTitulos8_9").innerHTML=Pauli_A[RodEscolhida][128].titulo9;
+document.getElementById("CardTitulos8_10").innerHTML=Pauli_A[RodEscolhida][128].titulo10;
 
 
     }
@@ -2679,6 +2828,153 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('antB8').innerHTML=Pauli_B[RodEscolhida][141];
       document.getElementById('qaB8').innerHTML=Pauli_B[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Pauli_B[RodEscolhida][143];
+
+
+
+      document.getElementById("CardNomeTec1").innerHTML=Pauli_B[RodEscolhida][2].nome;
+document.getElementById("CardLogo1").innerHTML=Pauli_B[RodEscolhida][2].logo;
+document.getElementById("CardLogin1").innerHTML="Login: "+Pauli_B[RodEscolhida][2].nomeLogin;
+document.getElementById("CardId1").innerHTML="Id: "+Pauli_B[RodEscolhida][2].idCart;
+document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Pauli_B[RodEscolhida][2].anoEnt;
+document.getElementById("CarMoral1").innerHTML='Não aferida';
+document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Pauli_B[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Pauli_B[RodEscolhida][2].ClubAtual[65];
+document.getElementById("CardTitulos1_1").innerHTML=Pauli_B[RodEscolhida][2].titulo1;
+document.getElementById("CardTitulos1_2").innerHTML=Pauli_B[RodEscolhida][2].titulo2;
+document.getElementById("CardTitulos1_3").innerHTML=Pauli_B[RodEscolhida][2].titulo3;
+document.getElementById("CardTitulos1_4").innerHTML=Pauli_B[RodEscolhida][2].titulo4;
+document.getElementById("CardTitulos1_5").innerHTML=Pauli_B[RodEscolhida][2].titulo5;
+document.getElementById("CardTitulos1_6").innerHTML=Pauli_B[RodEscolhida][2].titulo6;
+document.getElementById("CardTitulos1_7").innerHTML=Pauli_B[RodEscolhida][2].titulo7;
+document.getElementById("CardTitulos1_8").innerHTML=Pauli_B[RodEscolhida][2].titulo8;
+document.getElementById("CardTitulos1_9").innerHTML=Pauli_B[RodEscolhida][2].titulo9;
+document.getElementById("CardTitulos1_10").innerHTML=Pauli_B[RodEscolhida][2].titulo10;
+
+document.getElementById("CardNomeTec2").innerHTML=Pauli_B[RodEscolhida][20].nome;
+document.getElementById("CardLogo2").innerHTML=Pauli_B[RodEscolhida][20].logo;
+document.getElementById("CardLogin2").innerHTML="Login: "+Pauli_B[RodEscolhida][20].nomeLogin;
+document.getElementById("CardId2").innerHTML="Id: "+Pauli_B[RodEscolhida][20].idCart;
+document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Pauli_B[RodEscolhida][20].anoEnt;
+document.getElementById("CarMoral2").innerHTML='Não aferida';
+document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Pauli_B[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Pauli_B[RodEscolhida][20].ClubAtual[65];
+document.getElementById("CardTitulos2_1").innerHTML=Pauli_B[RodEscolhida][20].titulo1;
+document.getElementById("CardTitulos2_2").innerHTML=Pauli_B[RodEscolhida][20].titulo2;
+document.getElementById("CardTitulos2_3").innerHTML=Pauli_B[RodEscolhida][20].titulo3;
+document.getElementById("CardTitulos2_4").innerHTML=Pauli_B[RodEscolhida][20].titulo4;
+document.getElementById("CardTitulos2_5").innerHTML=Pauli_B[RodEscolhida][20].titulo5;
+document.getElementById("CardTitulos2_6").innerHTML=Pauli_B[RodEscolhida][20].titulo6;
+document.getElementById("CardTitulos2_7").innerHTML=Pauli_B[RodEscolhida][20].titulo7;
+document.getElementById("CardTitulos2_8").innerHTML=Pauli_B[RodEscolhida][20].titulo8;
+document.getElementById("CardTitulos2_9").innerHTML=Pauli_B[RodEscolhida][20].titulo9;
+document.getElementById("CardTitulos2_10").innerHTML=Pauli_B[RodEscolhida][20].titulo10;
+
+document.getElementById("CardNomeTec3").innerHTML=Pauli_B[RodEscolhida][38].nome;
+document.getElementById("CardLogo3").innerHTML=Pauli_B[RodEscolhida][38].logo;
+document.getElementById("CardLogin3").innerHTML="Login: "+Pauli_B[RodEscolhida][38].nomeLogin;
+document.getElementById("CardId3").innerHTML="Id: "+Pauli_B[RodEscolhida][38].idCart;
+document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Pauli_B[RodEscolhida][38].anoEnt;
+document.getElementById("CarMoral3").innerHTML='Não aferida';
+document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Pauli_B[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Pauli_B[RodEscolhida][38].ClubAtual[65];
+document.getElementById("CardTitulos3_1").innerHTML=Pauli_B[RodEscolhida][38].titulo1;
+document.getElementById("CardTitulos3_2").innerHTML=Pauli_B[RodEscolhida][38].titulo2;
+document.getElementById("CardTitulos3_3").innerHTML=Pauli_B[RodEscolhida][38].titulo3;
+document.getElementById("CardTitulos3_4").innerHTML=Pauli_B[RodEscolhida][38].titulo4;
+document.getElementById("CardTitulos3_5").innerHTML=Pauli_B[RodEscolhida][38].titulo5;
+document.getElementById("CardTitulos3_6").innerHTML=Pauli_B[RodEscolhida][38].titulo6;
+document.getElementById("CardTitulos3_7").innerHTML=Pauli_B[RodEscolhida][38].titulo7;
+document.getElementById("CardTitulos3_8").innerHTML=Pauli_B[RodEscolhida][38].titulo8;
+document.getElementById("CardTitulos3_9").innerHTML=Pauli_B[RodEscolhida][38].titulo9;
+document.getElementById("CardTitulos3_10").innerHTML=Pauli_B[RodEscolhida][38].titulo10;
+
+document.getElementById("CardNomeTec4").innerHTML=Pauli_B[RodEscolhida][56].nome;
+document.getElementById("CardLogo4").innerHTML=Pauli_B[RodEscolhida][56].logo;
+document.getElementById("CardLogin4").innerHTML="Login: "+Pauli_B[RodEscolhida][56].nomeLogin;
+document.getElementById("CardId4").innerHTML="Id: "+Pauli_B[RodEscolhida][56].idCart;
+document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Pauli_B[RodEscolhida][56].anoEnt;
+document.getElementById("CarMoral4").innerHTML='Não aferida';
+document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Pauli_B[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Pauli_B[RodEscolhida][56].ClubAtual[65];
+document.getElementById("CardTitulos4_1").innerHTML=Pauli_B[RodEscolhida][56].titulo1;
+document.getElementById("CardTitulos4_2").innerHTML=Pauli_B[RodEscolhida][56].titulo2;
+document.getElementById("CardTitulos4_3").innerHTML=Pauli_B[RodEscolhida][56].titulo3;
+document.getElementById("CardTitulos4_4").innerHTML=Pauli_B[RodEscolhida][56].titulo4;
+document.getElementById("CardTitulos4_5").innerHTML=Pauli_B[RodEscolhida][56].titulo5;
+document.getElementById("CardTitulos4_6").innerHTML=Pauli_B[RodEscolhida][56].titulo6;
+document.getElementById("CardTitulos4_7").innerHTML=Pauli_B[RodEscolhida][56].titulo7;
+document.getElementById("CardTitulos4_8").innerHTML=Pauli_B[RodEscolhida][56].titulo8;
+document.getElementById("CardTitulos4_9").innerHTML=Pauli_B[RodEscolhida][56].titulo9;
+document.getElementById("CardTitulos4_10").innerHTML=Pauli_B[RodEscolhida][56].titulo10;
+
+document.getElementById("CardNomeTec5").innerHTML=Pauli_B[RodEscolhida][74].nome;
+document.getElementById("CardLogo5").innerHTML=Pauli_B[RodEscolhida][74].logo;
+document.getElementById("CardLogin5").innerHTML="Login: "+Pauli_B[RodEscolhida][74].nomeLogin;
+document.getElementById("CardId5").innerHTML="Id: "+Pauli_B[RodEscolhida][74].idCart;
+document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Pauli_B[RodEscolhida][74].anoEnt;
+document.getElementById("CarMoral5").innerHTML='Não aferida';
+document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Pauli_B[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Pauli_B[RodEscolhida][74].ClubAtual[65];
+document.getElementById("CardTitulos5_1").innerHTML=Pauli_B[RodEscolhida][74].titulo1;
+document.getElementById("CardTitulos5_2").innerHTML=Pauli_B[RodEscolhida][74].titulo2;
+document.getElementById("CardTitulos5_3").innerHTML=Pauli_B[RodEscolhida][74].titulo3;
+document.getElementById("CardTitulos5_4").innerHTML=Pauli_B[RodEscolhida][74].titulo4;
+document.getElementById("CardTitulos5_5").innerHTML=Pauli_B[RodEscolhida][74].titulo5;
+document.getElementById("CardTitulos5_6").innerHTML=Pauli_B[RodEscolhida][74].titulo6;
+document.getElementById("CardTitulos5_7").innerHTML=Pauli_B[RodEscolhida][74].titulo7;
+document.getElementById("CardTitulos5_8").innerHTML=Pauli_B[RodEscolhida][74].titulo8;
+document.getElementById("CardTitulos5_9").innerHTML=Pauli_B[RodEscolhida][74].titulo9;
+document.getElementById("CardTitulos5_10").innerHTML=Pauli_B[RodEscolhida][74].titulo10;
+
+document.getElementById("CardNomeTec6").innerHTML=Pauli_B[RodEscolhida][92].nome;
+document.getElementById("CardLogo6").innerHTML=Pauli_B[RodEscolhida][92].logo;
+document.getElementById("CardLogin6").innerHTML="Login: "+Pauli_B[RodEscolhida][92].nomeLogin;
+document.getElementById("CardId6").innerHTML="Id: "+Pauli_B[RodEscolhida][92].idCart;
+document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Pauli_B[RodEscolhida][92].anoEnt;
+document.getElementById("CarMoral6").innerHTML='Não aferida';
+document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Pauli_B[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Pauli_B[RodEscolhida][92].ClubAtual[65];
+document.getElementById("CardTitulos6_1").innerHTML=Pauli_B[RodEscolhida][92].titulo1;
+document.getElementById("CardTitulos6_2").innerHTML=Pauli_B[RodEscolhida][92].titulo2;
+document.getElementById("CardTitulos6_3").innerHTML=Pauli_B[RodEscolhida][92].titulo3;
+document.getElementById("CardTitulos6_4").innerHTML=Pauli_B[RodEscolhida][92].titulo4;
+document.getElementById("CardTitulos6_5").innerHTML=Pauli_B[RodEscolhida][92].titulo5;
+document.getElementById("CardTitulos6_6").innerHTML=Pauli_B[RodEscolhida][92].titulo6;
+document.getElementById("CardTitulos6_7").innerHTML=Pauli_B[RodEscolhida][92].titulo7;
+document.getElementById("CardTitulos6_8").innerHTML=Pauli_B[RodEscolhida][92].titulo8;
+document.getElementById("CardTitulos6_9").innerHTML=Pauli_B[RodEscolhida][92].titulo9;
+document.getElementById("CardTitulos6_10").innerHTML=Pauli_B[RodEscolhida][92].titulo10;
+
+document.getElementById("CardNomeTec7").innerHTML=Pauli_B[RodEscolhida][110].nome;
+document.getElementById("CardLogo7").innerHTML=Pauli_B[RodEscolhida][110].logo;
+document.getElementById("CardLogin7").innerHTML="Login: "+Pauli_B[RodEscolhida][110].nomeLogin;
+document.getElementById("CardId7").innerHTML="Id: "+Pauli_B[RodEscolhida][110].idCart;
+document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Pauli_B[RodEscolhida][110].anoEnt;
+document.getElementById("CarMoral7").innerHTML='Não aferida';
+document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Pauli_B[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Pauli_B[RodEscolhida][110].ClubAtual[65];
+document.getElementById("CardTitulos7_1").innerHTML=Pauli_B[RodEscolhida][110].titulo1;
+document.getElementById("CardTitulos7_2").innerHTML=Pauli_B[RodEscolhida][110].titulo2;
+document.getElementById("CardTitulos7_3").innerHTML=Pauli_B[RodEscolhida][110].titulo3;
+document.getElementById("CardTitulos7_4").innerHTML=Pauli_B[RodEscolhida][110].titulo4;
+document.getElementById("CardTitulos7_5").innerHTML=Pauli_B[RodEscolhida][110].titulo5;
+document.getElementById("CardTitulos7_6").innerHTML=Pauli_B[RodEscolhida][110].titulo6;
+document.getElementById("CardTitulos7_7").innerHTML=Pauli_B[RodEscolhida][110].titulo7;
+document.getElementById("CardTitulos7_8").innerHTML=Pauli_B[RodEscolhida][110].titulo8;
+document.getElementById("CardTitulos7_9").innerHTML=Pauli_B[RodEscolhida][110].titulo9;
+document.getElementById("CardTitulos7_10").innerHTML=Pauli_B[RodEscolhida][110].titulo10;
+
+document.getElementById("CardNomeTec8").innerHTML=Pauli_B[RodEscolhida][128].nome;
+document.getElementById("CardLogo8").innerHTML=Pauli_B[RodEscolhida][128].logo;
+document.getElementById("CardLogin8").innerHTML="Login: "+Pauli_B[RodEscolhida][128].nomeLogin;
+document.getElementById("CardId8").innerHTML="Id: "+Pauli_B[RodEscolhida][128].idCart;
+document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Pauli_B[RodEscolhida][128].anoEnt;
+document.getElementById("CarMoral8").innerHTML='Não aferida';
+document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Pauli_B[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Pauli_B[RodEscolhida][128].ClubAtual[65];
+document.getElementById("CardTitulos8_1").innerHTML=Pauli_B[RodEscolhida][128].titulo1;
+document.getElementById("CardTitulos8_2").innerHTML=Pauli_B[RodEscolhida][128].titulo2;
+document.getElementById("CardTitulos8_3").innerHTML=Pauli_B[RodEscolhida][128].titulo3;
+document.getElementById("CardTitulos8_4").innerHTML=Pauli_B[RodEscolhida][128].titulo4;
+document.getElementById("CardTitulos8_5").innerHTML=Pauli_B[RodEscolhida][128].titulo5;
+document.getElementById("CardTitulos8_6").innerHTML=Pauli_B[RodEscolhida][128].titulo6;
+document.getElementById("CardTitulos8_7").innerHTML=Pauli_B[RodEscolhida][128].titulo7;
+document.getElementById("CardTitulos8_8").innerHTML=Pauli_B[RodEscolhida][128].titulo8;
+document.getElementById("CardTitulos8_9").innerHTML=Pauli_B[RodEscolhida][128].titulo9;
+document.getElementById("CardTitulos8_10").innerHTML=Pauli_B[RodEscolhida][128].titulo10;
+
   
 
       
@@ -2852,7 +3148,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Cario_A[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Cario_A[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Cario_A[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Cario_A[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Cario_A[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Cario_A[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Cario_A[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Cario_A[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Cario_A[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Cario_A[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Cario_A[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Cario_A[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Cario_A[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Cario_A[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Cario_A[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Cario_A[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Cario_A[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Cario_A[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Cario_A[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Cario_A[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Cario_A[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Cario_A[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Cario_A[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Cario_A[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Cario_A[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Cario_A[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Cario_A[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Cario_A[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Cario_A[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Cario_A[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Cario_A[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Cario_A[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Cario_A[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Cario_A[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Cario_A[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Cario_A[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Cario_A[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Cario_A[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Cario_A[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Cario_A[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Cario_A[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Cario_A[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Cario_A[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Cario_A[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Cario_A[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Cario_A[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Cario_A[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Cario_A[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Cario_A[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Cario_A[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Cario_A[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Cario_A[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Cario_A[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Cario_A[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Cario_A[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Cario_A[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Cario_A[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Cario_A[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Cario_A[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Cario_A[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Cario_A[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Cario_A[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Cario_A[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Cario_A[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Cario_A[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Cario_A[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Cario_A[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Cario_A[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Cario_A[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Cario_A[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Cario_A[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Cario_A[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Cario_A[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Cario_A[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Cario_A[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Cario_A[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Cario_A[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Cario_A[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Cario_A[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Cario_A[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Cario_A[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Cario_A[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Cario_A[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Cario_A[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Cario_A[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Cario_A[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Cario_A[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Cario_A[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Cario_A[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Cario_A[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Cario_A[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Cario_A[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Cario_A[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Cario_A[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Cario_A[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Cario_A[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Cario_A[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Cario_A[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Cario_A[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Cario_A[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Cario_A[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Cario_A[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Cario_A[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Cario_A[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Cario_A[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Cario_A[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Cario_A[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Cario_A[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Cario_A[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Cario_A[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Cario_A[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Cario_A[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Cario_A[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Cario_A[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Cario_A[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Cario_A[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Cario_A[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Cario_A[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Cario_A[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Cario_A[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Cario_A[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Cario_A[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Cario_A[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Cario_A[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Cario_A[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Cario_A[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Cario_A[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Cario_A[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Cario_A[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Cario_A[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Cario_A[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Cario_A[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Cario_A[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Cario_A[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Cario_A[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Cario_A[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Cario_A[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Cario_A[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -3024,6 +3464,153 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
   
 
       
+document.getElementById("CardNomeTec1").innerHTML=Cario_B[RodEscolhida][2].nome;
+document.getElementById("CardLogo1").innerHTML=Cario_B[RodEscolhida][2].logo;
+document.getElementById("CardLogin1").innerHTML="Login: "+Cario_B[RodEscolhida][2].nomeLogin;
+document.getElementById("CardId1").innerHTML="Id: "+Cario_B[RodEscolhida][2].idCart;
+document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Cario_B[RodEscolhida][2].anoEnt;
+document.getElementById("CarMoral1").innerHTML='Não aferida';
+document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Cario_B[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Cario_B[RodEscolhida][2].ClubAtual[65];
+document.getElementById("CardTitulos1_1").innerHTML=Cario_B[RodEscolhida][2].titulo1;
+document.getElementById("CardTitulos1_2").innerHTML=Cario_B[RodEscolhida][2].titulo2;
+document.getElementById("CardTitulos1_3").innerHTML=Cario_B[RodEscolhida][2].titulo3;
+document.getElementById("CardTitulos1_4").innerHTML=Cario_B[RodEscolhida][2].titulo4;
+document.getElementById("CardTitulos1_5").innerHTML=Cario_B[RodEscolhida][2].titulo5;
+document.getElementById("CardTitulos1_6").innerHTML=Cario_B[RodEscolhida][2].titulo6;
+document.getElementById("CardTitulos1_7").innerHTML=Cario_B[RodEscolhida][2].titulo7;
+document.getElementById("CardTitulos1_8").innerHTML=Cario_B[RodEscolhida][2].titulo8;
+document.getElementById("CardTitulos1_9").innerHTML=Cario_B[RodEscolhida][2].titulo9;
+document.getElementById("CardTitulos1_10").innerHTML=Cario_B[RodEscolhida][2].titulo10;
+
+document.getElementById("CardNomeTec2").innerHTML=Cario_B[RodEscolhida][20].nome;
+document.getElementById("CardLogo2").innerHTML=Cario_B[RodEscolhida][20].logo;
+document.getElementById("CardLogin2").innerHTML="Login: "+Cario_B[RodEscolhida][20].nomeLogin;
+document.getElementById("CardId2").innerHTML="Id: "+Cario_B[RodEscolhida][20].idCart;
+document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Cario_B[RodEscolhida][20].anoEnt;
+document.getElementById("CarMoral2").innerHTML='Não aferida';
+document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Cario_B[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Cario_B[RodEscolhida][20].ClubAtual[65];
+document.getElementById("CardTitulos2_1").innerHTML=Cario_B[RodEscolhida][20].titulo1;
+document.getElementById("CardTitulos2_2").innerHTML=Cario_B[RodEscolhida][20].titulo2;
+document.getElementById("CardTitulos2_3").innerHTML=Cario_B[RodEscolhida][20].titulo3;
+document.getElementById("CardTitulos2_4").innerHTML=Cario_B[RodEscolhida][20].titulo4;
+document.getElementById("CardTitulos2_5").innerHTML=Cario_B[RodEscolhida][20].titulo5;
+document.getElementById("CardTitulos2_6").innerHTML=Cario_B[RodEscolhida][20].titulo6;
+document.getElementById("CardTitulos2_7").innerHTML=Cario_B[RodEscolhida][20].titulo7;
+document.getElementById("CardTitulos2_8").innerHTML=Cario_B[RodEscolhida][20].titulo8;
+document.getElementById("CardTitulos2_9").innerHTML=Cario_B[RodEscolhida][20].titulo9;
+document.getElementById("CardTitulos2_10").innerHTML=Cario_B[RodEscolhida][20].titulo10;
+
+document.getElementById("CardNomeTec3").innerHTML=Cario_B[RodEscolhida][38].nome;
+document.getElementById("CardLogo3").innerHTML=Cario_B[RodEscolhida][38].logo;
+document.getElementById("CardLogin3").innerHTML="Login: "+Cario_B[RodEscolhida][38].nomeLogin;
+document.getElementById("CardId3").innerHTML="Id: "+Cario_B[RodEscolhida][38].idCart;
+document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Cario_B[RodEscolhida][38].anoEnt;
+document.getElementById("CarMoral3").innerHTML='Não aferida';
+document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Cario_B[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Cario_B[RodEscolhida][38].ClubAtual[65];
+document.getElementById("CardTitulos3_1").innerHTML=Cario_B[RodEscolhida][38].titulo1;
+document.getElementById("CardTitulos3_2").innerHTML=Cario_B[RodEscolhida][38].titulo2;
+document.getElementById("CardTitulos3_3").innerHTML=Cario_B[RodEscolhida][38].titulo3;
+document.getElementById("CardTitulos3_4").innerHTML=Cario_B[RodEscolhida][38].titulo4;
+document.getElementById("CardTitulos3_5").innerHTML=Cario_B[RodEscolhida][38].titulo5;
+document.getElementById("CardTitulos3_6").innerHTML=Cario_B[RodEscolhida][38].titulo6;
+document.getElementById("CardTitulos3_7").innerHTML=Cario_B[RodEscolhida][38].titulo7;
+document.getElementById("CardTitulos3_8").innerHTML=Cario_B[RodEscolhida][38].titulo8;
+document.getElementById("CardTitulos3_9").innerHTML=Cario_B[RodEscolhida][38].titulo9;
+document.getElementById("CardTitulos3_10").innerHTML=Cario_B[RodEscolhida][38].titulo10;
+
+document.getElementById("CardNomeTec4").innerHTML=Cario_B[RodEscolhida][56].nome;
+document.getElementById("CardLogo4").innerHTML=Cario_B[RodEscolhida][56].logo;
+document.getElementById("CardLogin4").innerHTML="Login: "+Cario_B[RodEscolhida][56].nomeLogin;
+document.getElementById("CardId4").innerHTML="Id: "+Cario_B[RodEscolhida][56].idCart;
+document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Cario_B[RodEscolhida][56].anoEnt;
+document.getElementById("CarMoral4").innerHTML='Não aferida';
+document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Cario_B[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Cario_B[RodEscolhida][56].ClubAtual[65];
+document.getElementById("CardTitulos4_1").innerHTML=Cario_B[RodEscolhida][56].titulo1;
+document.getElementById("CardTitulos4_2").innerHTML=Cario_B[RodEscolhida][56].titulo2;
+document.getElementById("CardTitulos4_3").innerHTML=Cario_B[RodEscolhida][56].titulo3;
+document.getElementById("CardTitulos4_4").innerHTML=Cario_B[RodEscolhida][56].titulo4;
+document.getElementById("CardTitulos4_5").innerHTML=Cario_B[RodEscolhida][56].titulo5;
+document.getElementById("CardTitulos4_6").innerHTML=Cario_B[RodEscolhida][56].titulo6;
+document.getElementById("CardTitulos4_7").innerHTML=Cario_B[RodEscolhida][56].titulo7;
+document.getElementById("CardTitulos4_8").innerHTML=Cario_B[RodEscolhida][56].titulo8;
+document.getElementById("CardTitulos4_9").innerHTML=Cario_B[RodEscolhida][56].titulo9;
+document.getElementById("CardTitulos4_10").innerHTML=Cario_B[RodEscolhida][56].titulo10;
+
+document.getElementById("CardNomeTec5").innerHTML=Cario_B[RodEscolhida][74].nome;
+document.getElementById("CardLogo5").innerHTML=Cario_B[RodEscolhida][74].logo;
+document.getElementById("CardLogin5").innerHTML="Login: "+Cario_B[RodEscolhida][74].nomeLogin;
+document.getElementById("CardId5").innerHTML="Id: "+Cario_B[RodEscolhida][74].idCart;
+document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Cario_B[RodEscolhida][74].anoEnt;
+document.getElementById("CarMoral5").innerHTML='Não aferida';
+document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Cario_B[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Cario_B[RodEscolhida][74].ClubAtual[65];
+document.getElementById("CardTitulos5_1").innerHTML=Cario_B[RodEscolhida][74].titulo1;
+document.getElementById("CardTitulos5_2").innerHTML=Cario_B[RodEscolhida][74].titulo2;
+document.getElementById("CardTitulos5_3").innerHTML=Cario_B[RodEscolhida][74].titulo3;
+document.getElementById("CardTitulos5_4").innerHTML=Cario_B[RodEscolhida][74].titulo4;
+document.getElementById("CardTitulos5_5").innerHTML=Cario_B[RodEscolhida][74].titulo5;
+document.getElementById("CardTitulos5_6").innerHTML=Cario_B[RodEscolhida][74].titulo6;
+document.getElementById("CardTitulos5_7").innerHTML=Cario_B[RodEscolhida][74].titulo7;
+document.getElementById("CardTitulos5_8").innerHTML=Cario_B[RodEscolhida][74].titulo8;
+document.getElementById("CardTitulos5_9").innerHTML=Cario_B[RodEscolhida][74].titulo9;
+document.getElementById("CardTitulos5_10").innerHTML=Cario_B[RodEscolhida][74].titulo10;
+
+document.getElementById("CardNomeTec6").innerHTML=Cario_B[RodEscolhida][92].nome;
+document.getElementById("CardLogo6").innerHTML=Cario_B[RodEscolhida][92].logo;
+document.getElementById("CardLogin6").innerHTML="Login: "+Cario_B[RodEscolhida][92].nomeLogin;
+document.getElementById("CardId6").innerHTML="Id: "+Cario_B[RodEscolhida][92].idCart;
+document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Cario_B[RodEscolhida][92].anoEnt;
+document.getElementById("CarMoral6").innerHTML='Não aferida';
+document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Cario_B[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Cario_B[RodEscolhida][92].ClubAtual[65];
+document.getElementById("CardTitulos6_1").innerHTML=Cario_B[RodEscolhida][92].titulo1;
+document.getElementById("CardTitulos6_2").innerHTML=Cario_B[RodEscolhida][92].titulo2;
+document.getElementById("CardTitulos6_3").innerHTML=Cario_B[RodEscolhida][92].titulo3;
+document.getElementById("CardTitulos6_4").innerHTML=Cario_B[RodEscolhida][92].titulo4;
+document.getElementById("CardTitulos6_5").innerHTML=Cario_B[RodEscolhida][92].titulo5;
+document.getElementById("CardTitulos6_6").innerHTML=Cario_B[RodEscolhida][92].titulo6;
+document.getElementById("CardTitulos6_7").innerHTML=Cario_B[RodEscolhida][92].titulo7;
+document.getElementById("CardTitulos6_8").innerHTML=Cario_B[RodEscolhida][92].titulo8;
+document.getElementById("CardTitulos6_9").innerHTML=Cario_B[RodEscolhida][92].titulo9;
+document.getElementById("CardTitulos6_10").innerHTML=Cario_B[RodEscolhida][92].titulo10;
+
+document.getElementById("CardNomeTec7").innerHTML=Cario_B[RodEscolhida][110].nome;
+document.getElementById("CardLogo7").innerHTML=Cario_B[RodEscolhida][110].logo;
+document.getElementById("CardLogin7").innerHTML="Login: "+Cario_B[RodEscolhida][110].nomeLogin;
+document.getElementById("CardId7").innerHTML="Id: "+Cario_B[RodEscolhida][110].idCart;
+document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Cario_B[RodEscolhida][110].anoEnt;
+document.getElementById("CarMoral7").innerHTML='Não aferida';
+document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Cario_B[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Cario_B[RodEscolhida][110].ClubAtual[65];
+document.getElementById("CardTitulos7_1").innerHTML=Cario_B[RodEscolhida][110].titulo1;
+document.getElementById("CardTitulos7_2").innerHTML=Cario_B[RodEscolhida][110].titulo2;
+document.getElementById("CardTitulos7_3").innerHTML=Cario_B[RodEscolhida][110].titulo3;
+document.getElementById("CardTitulos7_4").innerHTML=Cario_B[RodEscolhida][110].titulo4;
+document.getElementById("CardTitulos7_5").innerHTML=Cario_B[RodEscolhida][110].titulo5;
+document.getElementById("CardTitulos7_6").innerHTML=Cario_B[RodEscolhida][110].titulo6;
+document.getElementById("CardTitulos7_7").innerHTML=Cario_B[RodEscolhida][110].titulo7;
+document.getElementById("CardTitulos7_8").innerHTML=Cario_B[RodEscolhida][110].titulo8;
+document.getElementById("CardTitulos7_9").innerHTML=Cario_B[RodEscolhida][110].titulo9;
+document.getElementById("CardTitulos7_10").innerHTML=Cario_B[RodEscolhida][110].titulo10;
+
+document.getElementById("CardNomeTec8").innerHTML=Cario_B[RodEscolhida][128].nome;
+document.getElementById("CardLogo8").innerHTML=Cario_B[RodEscolhida][128].logo;
+document.getElementById("CardLogin8").innerHTML="Login: "+Cario_B[RodEscolhida][128].nomeLogin;
+document.getElementById("CardId8").innerHTML="Id: "+Cario_B[RodEscolhida][128].idCart;
+document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Cario_B[RodEscolhida][128].anoEnt;
+document.getElementById("CarMoral8").innerHTML='Não aferida';
+document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Cario_B[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Cario_B[RodEscolhida][128].ClubAtual[65];
+document.getElementById("CardTitulos8_1").innerHTML=Cario_B[RodEscolhida][128].titulo1;
+document.getElementById("CardTitulos8_2").innerHTML=Cario_B[RodEscolhida][128].titulo2;
+document.getElementById("CardTitulos8_3").innerHTML=Cario_B[RodEscolhida][128].titulo3;
+document.getElementById("CardTitulos8_4").innerHTML=Cario_B[RodEscolhida][128].titulo4;
+document.getElementById("CardTitulos8_5").innerHTML=Cario_B[RodEscolhida][128].titulo5;
+document.getElementById("CardTitulos8_6").innerHTML=Cario_B[RodEscolhida][128].titulo6;
+document.getElementById("CardTitulos8_7").innerHTML=Cario_B[RodEscolhida][128].titulo7;
+document.getElementById("CardTitulos8_8").innerHTML=Cario_B[RodEscolhida][128].titulo8;
+document.getElementById("CardTitulos8_9").innerHTML=Cario_B[RodEscolhida][128].titulo9;
+document.getElementById("CardTitulos8_10").innerHTML=Cario_B[RodEscolhida][128].titulo10;
+
+
+
+      
     }
 
     
@@ -3191,6 +3778,152 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('antB8').innerHTML=Gauch_A[RodEscolhida][141];
       document.getElementById('qaB8').innerHTML=Gauch_A[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Gauch_A[RodEscolhida][143];
+
+      document.getElementById("CardNomeTec1").innerHTML=Gauch_A[RodEscolhida][2].nome;
+document.getElementById("CardLogo1").innerHTML=Gauch_A[RodEscolhida][2].logo;
+document.getElementById("CardLogin1").innerHTML="Login: "+Gauch_A[RodEscolhida][2].nomeLogin;
+document.getElementById("CardId1").innerHTML="Id: "+Gauch_A[RodEscolhida][2].idCart;
+document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Gauch_A[RodEscolhida][2].anoEnt;
+document.getElementById("CarMoral1").innerHTML='Não aferida';
+document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Gauch_A[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Gauch_A[RodEscolhida][2].ClubAtual[65];
+document.getElementById("CardTitulos1_1").innerHTML=Gauch_A[RodEscolhida][2].titulo1;
+document.getElementById("CardTitulos1_2").innerHTML=Gauch_A[RodEscolhida][2].titulo2;
+document.getElementById("CardTitulos1_3").innerHTML=Gauch_A[RodEscolhida][2].titulo3;
+document.getElementById("CardTitulos1_4").innerHTML=Gauch_A[RodEscolhida][2].titulo4;
+document.getElementById("CardTitulos1_5").innerHTML=Gauch_A[RodEscolhida][2].titulo5;
+document.getElementById("CardTitulos1_6").innerHTML=Gauch_A[RodEscolhida][2].titulo6;
+document.getElementById("CardTitulos1_7").innerHTML=Gauch_A[RodEscolhida][2].titulo7;
+document.getElementById("CardTitulos1_8").innerHTML=Gauch_A[RodEscolhida][2].titulo8;
+document.getElementById("CardTitulos1_9").innerHTML=Gauch_A[RodEscolhida][2].titulo9;
+document.getElementById("CardTitulos1_10").innerHTML=Gauch_A[RodEscolhida][2].titulo10;
+
+document.getElementById("CardNomeTec2").innerHTML=Gauch_A[RodEscolhida][20].nome;
+document.getElementById("CardLogo2").innerHTML=Gauch_A[RodEscolhida][20].logo;
+document.getElementById("CardLogin2").innerHTML="Login: "+Gauch_A[RodEscolhida][20].nomeLogin;
+document.getElementById("CardId2").innerHTML="Id: "+Gauch_A[RodEscolhida][20].idCart;
+document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Gauch_A[RodEscolhida][20].anoEnt;
+document.getElementById("CarMoral2").innerHTML='Não aferida';
+document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Gauch_A[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Gauch_A[RodEscolhida][20].ClubAtual[65];
+document.getElementById("CardTitulos2_1").innerHTML=Gauch_A[RodEscolhida][20].titulo1;
+document.getElementById("CardTitulos2_2").innerHTML=Gauch_A[RodEscolhida][20].titulo2;
+document.getElementById("CardTitulos2_3").innerHTML=Gauch_A[RodEscolhida][20].titulo3;
+document.getElementById("CardTitulos2_4").innerHTML=Gauch_A[RodEscolhida][20].titulo4;
+document.getElementById("CardTitulos2_5").innerHTML=Gauch_A[RodEscolhida][20].titulo5;
+document.getElementById("CardTitulos2_6").innerHTML=Gauch_A[RodEscolhida][20].titulo6;
+document.getElementById("CardTitulos2_7").innerHTML=Gauch_A[RodEscolhida][20].titulo7;
+document.getElementById("CardTitulos2_8").innerHTML=Gauch_A[RodEscolhida][20].titulo8;
+document.getElementById("CardTitulos2_9").innerHTML=Gauch_A[RodEscolhida][20].titulo9;
+document.getElementById("CardTitulos2_10").innerHTML=Gauch_A[RodEscolhida][20].titulo10;
+
+document.getElementById("CardNomeTec3").innerHTML=Gauch_A[RodEscolhida][38].nome;
+document.getElementById("CardLogo3").innerHTML=Gauch_A[RodEscolhida][38].logo;
+document.getElementById("CardLogin3").innerHTML="Login: "+Gauch_A[RodEscolhida][38].nomeLogin;
+document.getElementById("CardId3").innerHTML="Id: "+Gauch_A[RodEscolhida][38].idCart;
+document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Gauch_A[RodEscolhida][38].anoEnt;
+document.getElementById("CarMoral3").innerHTML='Não aferida';
+document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Gauch_A[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Gauch_A[RodEscolhida][38].ClubAtual[65];
+document.getElementById("CardTitulos3_1").innerHTML=Gauch_A[RodEscolhida][38].titulo1;
+document.getElementById("CardTitulos3_2").innerHTML=Gauch_A[RodEscolhida][38].titulo2;
+document.getElementById("CardTitulos3_3").innerHTML=Gauch_A[RodEscolhida][38].titulo3;
+document.getElementById("CardTitulos3_4").innerHTML=Gauch_A[RodEscolhida][38].titulo4;
+document.getElementById("CardTitulos3_5").innerHTML=Gauch_A[RodEscolhida][38].titulo5;
+document.getElementById("CardTitulos3_6").innerHTML=Gauch_A[RodEscolhida][38].titulo6;
+document.getElementById("CardTitulos3_7").innerHTML=Gauch_A[RodEscolhida][38].titulo7;
+document.getElementById("CardTitulos3_8").innerHTML=Gauch_A[RodEscolhida][38].titulo8;
+document.getElementById("CardTitulos3_9").innerHTML=Gauch_A[RodEscolhida][38].titulo9;
+document.getElementById("CardTitulos3_10").innerHTML=Gauch_A[RodEscolhida][38].titulo10;
+
+document.getElementById("CardNomeTec4").innerHTML=Gauch_A[RodEscolhida][56].nome;
+document.getElementById("CardLogo4").innerHTML=Gauch_A[RodEscolhida][56].logo;
+document.getElementById("CardLogin4").innerHTML="Login: "+Gauch_A[RodEscolhida][56].nomeLogin;
+document.getElementById("CardId4").innerHTML="Id: "+Gauch_A[RodEscolhida][56].idCart;
+document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Gauch_A[RodEscolhida][56].anoEnt;
+document.getElementById("CarMoral4").innerHTML='Não aferida';
+document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Gauch_A[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Gauch_A[RodEscolhida][56].ClubAtual[65];
+document.getElementById("CardTitulos4_1").innerHTML=Gauch_A[RodEscolhida][56].titulo1;
+document.getElementById("CardTitulos4_2").innerHTML=Gauch_A[RodEscolhida][56].titulo2;
+document.getElementById("CardTitulos4_3").innerHTML=Gauch_A[RodEscolhida][56].titulo3;
+document.getElementById("CardTitulos4_4").innerHTML=Gauch_A[RodEscolhida][56].titulo4;
+document.getElementById("CardTitulos4_5").innerHTML=Gauch_A[RodEscolhida][56].titulo5;
+document.getElementById("CardTitulos4_6").innerHTML=Gauch_A[RodEscolhida][56].titulo6;
+document.getElementById("CardTitulos4_7").innerHTML=Gauch_A[RodEscolhida][56].titulo7;
+document.getElementById("CardTitulos4_8").innerHTML=Gauch_A[RodEscolhida][56].titulo8;
+document.getElementById("CardTitulos4_9").innerHTML=Gauch_A[RodEscolhida][56].titulo9;
+document.getElementById("CardTitulos4_10").innerHTML=Gauch_A[RodEscolhida][56].titulo10;
+
+document.getElementById("CardNomeTec5").innerHTML=Gauch_A[RodEscolhida][74].nome;
+document.getElementById("CardLogo5").innerHTML=Gauch_A[RodEscolhida][74].logo;
+document.getElementById("CardLogin5").innerHTML="Login: "+Gauch_A[RodEscolhida][74].nomeLogin;
+document.getElementById("CardId5").innerHTML="Id: "+Gauch_A[RodEscolhida][74].idCart;
+document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Gauch_A[RodEscolhida][74].anoEnt;
+document.getElementById("CarMoral5").innerHTML='Não aferida';
+document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Gauch_A[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Gauch_A[RodEscolhida][74].ClubAtual[65];
+document.getElementById("CardTitulos5_1").innerHTML=Gauch_A[RodEscolhida][74].titulo1;
+document.getElementById("CardTitulos5_2").innerHTML=Gauch_A[RodEscolhida][74].titulo2;
+document.getElementById("CardTitulos5_3").innerHTML=Gauch_A[RodEscolhida][74].titulo3;
+document.getElementById("CardTitulos5_4").innerHTML=Gauch_A[RodEscolhida][74].titulo4;
+document.getElementById("CardTitulos5_5").innerHTML=Gauch_A[RodEscolhida][74].titulo5;
+document.getElementById("CardTitulos5_6").innerHTML=Gauch_A[RodEscolhida][74].titulo6;
+document.getElementById("CardTitulos5_7").innerHTML=Gauch_A[RodEscolhida][74].titulo7;
+document.getElementById("CardTitulos5_8").innerHTML=Gauch_A[RodEscolhida][74].titulo8;
+document.getElementById("CardTitulos5_9").innerHTML=Gauch_A[RodEscolhida][74].titulo9;
+document.getElementById("CardTitulos5_10").innerHTML=Gauch_A[RodEscolhida][74].titulo10;
+
+document.getElementById("CardNomeTec6").innerHTML=Gauch_A[RodEscolhida][92].nome;
+document.getElementById("CardLogo6").innerHTML=Gauch_A[RodEscolhida][92].logo;
+document.getElementById("CardLogin6").innerHTML="Login: "+Gauch_A[RodEscolhida][92].nomeLogin;
+document.getElementById("CardId6").innerHTML="Id: "+Gauch_A[RodEscolhida][92].idCart;
+document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Gauch_A[RodEscolhida][92].anoEnt;
+document.getElementById("CarMoral6").innerHTML='Não aferida';
+document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Gauch_A[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Gauch_A[RodEscolhida][92].ClubAtual[65];
+document.getElementById("CardTitulos6_1").innerHTML=Gauch_A[RodEscolhida][92].titulo1;
+document.getElementById("CardTitulos6_2").innerHTML=Gauch_A[RodEscolhida][92].titulo2;
+document.getElementById("CardTitulos6_3").innerHTML=Gauch_A[RodEscolhida][92].titulo3;
+document.getElementById("CardTitulos6_4").innerHTML=Gauch_A[RodEscolhida][92].titulo4;
+document.getElementById("CardTitulos6_5").innerHTML=Gauch_A[RodEscolhida][92].titulo5;
+document.getElementById("CardTitulos6_6").innerHTML=Gauch_A[RodEscolhida][92].titulo6;
+document.getElementById("CardTitulos6_7").innerHTML=Gauch_A[RodEscolhida][92].titulo7;
+document.getElementById("CardTitulos6_8").innerHTML=Gauch_A[RodEscolhida][92].titulo8;
+document.getElementById("CardTitulos6_9").innerHTML=Gauch_A[RodEscolhida][92].titulo9;
+document.getElementById("CardTitulos6_10").innerHTML=Gauch_A[RodEscolhida][92].titulo10;
+
+document.getElementById("CardNomeTec7").innerHTML=Gauch_A[RodEscolhida][110].nome;
+document.getElementById("CardLogo7").innerHTML=Gauch_A[RodEscolhida][110].logo;
+document.getElementById("CardLogin7").innerHTML="Login: "+Gauch_A[RodEscolhida][110].nomeLogin;
+document.getElementById("CardId7").innerHTML="Id: "+Gauch_A[RodEscolhida][110].idCart;
+document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Gauch_A[RodEscolhida][110].anoEnt;
+document.getElementById("CarMoral7").innerHTML='Não aferida';
+document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Gauch_A[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Gauch_A[RodEscolhida][110].ClubAtual[65];
+document.getElementById("CardTitulos7_1").innerHTML=Gauch_A[RodEscolhida][110].titulo1;
+document.getElementById("CardTitulos7_2").innerHTML=Gauch_A[RodEscolhida][110].titulo2;
+document.getElementById("CardTitulos7_3").innerHTML=Gauch_A[RodEscolhida][110].titulo3;
+document.getElementById("CardTitulos7_4").innerHTML=Gauch_A[RodEscolhida][110].titulo4;
+document.getElementById("CardTitulos7_5").innerHTML=Gauch_A[RodEscolhida][110].titulo5;
+document.getElementById("CardTitulos7_6").innerHTML=Gauch_A[RodEscolhida][110].titulo6;
+document.getElementById("CardTitulos7_7").innerHTML=Gauch_A[RodEscolhida][110].titulo7;
+document.getElementById("CardTitulos7_8").innerHTML=Gauch_A[RodEscolhida][110].titulo8;
+document.getElementById("CardTitulos7_9").innerHTML=Gauch_A[RodEscolhida][110].titulo9;
+document.getElementById("CardTitulos7_10").innerHTML=Gauch_A[RodEscolhida][110].titulo10;
+
+document.getElementById("CardNomeTec8").innerHTML=Gauch_A[RodEscolhida][128].nome;
+document.getElementById("CardLogo8").innerHTML=Gauch_A[RodEscolhida][128].logo;
+document.getElementById("CardLogin8").innerHTML="Login: "+Gauch_A[RodEscolhida][128].nomeLogin;
+document.getElementById("CardId8").innerHTML="Id: "+Gauch_A[RodEscolhida][128].idCart;
+document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Gauch_A[RodEscolhida][128].anoEnt;
+document.getElementById("CarMoral8").innerHTML='Não aferida';
+document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Gauch_A[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Gauch_A[RodEscolhida][128].ClubAtual[65];
+document.getElementById("CardTitulos8_1").innerHTML=Gauch_A[RodEscolhida][128].titulo1;
+document.getElementById("CardTitulos8_2").innerHTML=Gauch_A[RodEscolhida][128].titulo2;
+document.getElementById("CardTitulos8_3").innerHTML=Gauch_A[RodEscolhida][128].titulo3;
+document.getElementById("CardTitulos8_4").innerHTML=Gauch_A[RodEscolhida][128].titulo4;
+document.getElementById("CardTitulos8_5").innerHTML=Gauch_A[RodEscolhida][128].titulo5;
+document.getElementById("CardTitulos8_6").innerHTML=Gauch_A[RodEscolhida][128].titulo6;
+document.getElementById("CardTitulos8_7").innerHTML=Gauch_A[RodEscolhida][128].titulo7;
+document.getElementById("CardTitulos8_8").innerHTML=Gauch_A[RodEscolhida][128].titulo8;
+document.getElementById("CardTitulos8_9").innerHTML=Gauch_A[RodEscolhida][128].titulo9;
+document.getElementById("CardTitulos8_10").innerHTML=Gauch_A[RodEscolhida][128].titulo10;
+
+
   
 
       
@@ -3363,6 +4096,150 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qiB8').innerHTML=Gauch_B[RodEscolhida][143];
   
 
+      document.getElementById("CardNomeTec1").innerHTML=Gauch_B[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Gauch_B[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Gauch_B[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Gauch_B[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Gauch_B[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Gauch_B[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Gauch_B[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Gauch_B[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Gauch_B[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Gauch_B[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Gauch_B[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Gauch_B[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Gauch_B[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Gauch_B[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Gauch_B[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Gauch_B[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Gauch_B[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Gauch_B[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Gauch_B[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Gauch_B[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Gauch_B[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Gauch_B[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Gauch_B[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Gauch_B[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Gauch_B[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Gauch_B[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Gauch_B[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Gauch_B[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Gauch_B[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Gauch_B[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Gauch_B[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Gauch_B[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Gauch_B[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Gauch_B[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Gauch_B[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Gauch_B[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Gauch_B[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Gauch_B[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Gauch_B[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Gauch_B[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Gauch_B[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Gauch_B[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Gauch_B[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Gauch_B[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Gauch_B[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Gauch_B[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Gauch_B[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Gauch_B[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Gauch_B[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Gauch_B[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Gauch_B[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Gauch_B[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Gauch_B[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Gauch_B[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Gauch_B[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Gauch_B[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Gauch_B[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Gauch_B[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Gauch_B[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Gauch_B[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Gauch_B[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Gauch_B[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Gauch_B[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Gauch_B[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Gauch_B[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Gauch_B[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Gauch_B[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Gauch_B[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Gauch_B[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Gauch_B[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Gauch_B[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Gauch_B[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Gauch_B[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Gauch_B[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Gauch_B[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Gauch_B[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Gauch_B[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Gauch_B[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Gauch_B[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Gauch_B[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Gauch_B[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Gauch_B[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Gauch_B[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Gauch_B[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Gauch_B[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Gauch_B[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Gauch_B[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Gauch_B[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Gauch_B[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Gauch_B[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Gauch_B[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Gauch_B[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Gauch_B[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Gauch_B[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Gauch_B[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Gauch_B[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Gauch_B[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Gauch_B[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Gauch_B[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Gauch_B[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Gauch_B[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Gauch_B[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Gauch_B[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Gauch_B[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Gauch_B[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Gauch_B[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Gauch_B[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Gauch_B[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Gauch_B[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Gauch_B[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Gauch_B[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Gauch_B[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Gauch_B[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Gauch_B[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Gauch_B[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Gauch_B[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Gauch_B[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Gauch_B[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Gauch_B[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Gauch_B[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Gauch_B[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Gauch_B[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Gauch_B[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Gauch_B[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Gauch_B[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Gauch_B[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Gauch_B[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Gauch_B[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Gauch_B[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Gauch_B[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Gauch_B[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Gauch_B[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Gauch_B[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Gauch_B[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Gauch_B[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Gauch_B[RodEscolhida][128].titulo10;
+      
       
     }
 
@@ -3535,7 +4412,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Minei_A[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Minei_A[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Minei_A[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Minei_A[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Minei_A[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Minei_A[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Minei_A[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Minei_A[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Minei_A[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Minei_A[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Minei_A[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Minei_A[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Minei_A[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Minei_A[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Minei_A[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Minei_A[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Minei_A[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Minei_A[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Minei_A[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Minei_A[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Minei_A[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Minei_A[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Minei_A[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Minei_A[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Minei_A[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Minei_A[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Minei_A[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Minei_A[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Minei_A[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Minei_A[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Minei_A[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Minei_A[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Minei_A[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Minei_A[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Minei_A[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Minei_A[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Minei_A[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Minei_A[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Minei_A[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Minei_A[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Minei_A[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Minei_A[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Minei_A[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Minei_A[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Minei_A[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Minei_A[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Minei_A[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Minei_A[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Minei_A[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Minei_A[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Minei_A[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Minei_A[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Minei_A[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Minei_A[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Minei_A[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Minei_A[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Minei_A[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Minei_A[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Minei_A[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Minei_A[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Minei_A[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Minei_A[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Minei_A[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Minei_A[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Minei_A[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Minei_A[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Minei_A[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Minei_A[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Minei_A[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Minei_A[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Minei_A[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Minei_A[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Minei_A[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Minei_A[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Minei_A[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Minei_A[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Minei_A[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Minei_A[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Minei_A[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Minei_A[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Minei_A[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Minei_A[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Minei_A[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Minei_A[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Minei_A[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Minei_A[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Minei_A[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Minei_A[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Minei_A[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Minei_A[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Minei_A[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Minei_A[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Minei_A[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Minei_A[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Minei_A[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Minei_A[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Minei_A[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Minei_A[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Minei_A[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Minei_A[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Minei_A[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Minei_A[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Minei_A[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Minei_A[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Minei_A[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Minei_A[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Minei_A[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Minei_A[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Minei_A[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Minei_A[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Minei_A[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Minei_A[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Minei_A[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Minei_A[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Minei_A[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Minei_A[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Minei_A[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Minei_A[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Minei_A[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Minei_A[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Minei_A[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Minei_A[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Minei_A[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Minei_A[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Minei_A[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Minei_A[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Minei_A[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Minei_A[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Minei_A[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Minei_A[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Minei_A[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Minei_A[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Minei_A[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Minei_A[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Minei_A[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Minei_A[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Minei_A[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Minei_A[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -3706,6 +4727,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qiB8').innerHTML=Minei_B[RodEscolhida][143];
   
 
+      document.getElementById("CardNomeTec1").innerHTML=Minei_B[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Minei_B[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Minei_B[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Minei_B[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Minei_B[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Minei_B[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Minei_B[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Minei_B[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Minei_B[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Minei_B[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Minei_B[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Minei_B[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Minei_B[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Minei_B[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Minei_B[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Minei_B[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Minei_B[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Minei_B[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Minei_B[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Minei_B[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Minei_B[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Minei_B[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Minei_B[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Minei_B[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Minei_B[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Minei_B[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Minei_B[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Minei_B[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Minei_B[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Minei_B[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Minei_B[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Minei_B[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Minei_B[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Minei_B[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Minei_B[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Minei_B[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Minei_B[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Minei_B[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Minei_B[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Minei_B[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Minei_B[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Minei_B[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Minei_B[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Minei_B[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Minei_B[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Minei_B[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Minei_B[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Minei_B[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Minei_B[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Minei_B[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Minei_B[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Minei_B[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Minei_B[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Minei_B[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Minei_B[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Minei_B[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Minei_B[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Minei_B[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Minei_B[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Minei_B[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Minei_B[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Minei_B[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Minei_B[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Minei_B[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Minei_B[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Minei_B[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Minei_B[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Minei_B[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Minei_B[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Minei_B[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Minei_B[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Minei_B[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Minei_B[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Minei_B[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Minei_B[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Minei_B[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Minei_B[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Minei_B[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Minei_B[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Minei_B[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Minei_B[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Minei_B[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Minei_B[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Minei_B[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Minei_B[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Minei_B[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Minei_B[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Minei_B[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Minei_B[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Minei_B[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Minei_B[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Minei_B[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Minei_B[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Minei_B[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Minei_B[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Minei_B[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Minei_B[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Minei_B[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Minei_B[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Minei_B[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Minei_B[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Minei_B[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Minei_B[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Minei_B[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Minei_B[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Minei_B[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Minei_B[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Minei_B[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Minei_B[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Minei_B[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Minei_B[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Minei_B[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Minei_B[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Minei_B[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Minei_B[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Minei_B[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Minei_B[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Minei_B[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Minei_B[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Minei_B[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Minei_B[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Minei_B[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Minei_B[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Minei_B[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Minei_B[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Minei_B[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Minei_B[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Minei_B[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Minei_B[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Minei_B[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Minei_B[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Minei_B[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Minei_B[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Minei_B[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Minei_B[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Minei_B[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -3876,7 +5042,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Paran_A[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Paran_A[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Paran_A[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Paran_A[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Paran_A[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Paran_A[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Paran_A[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Paran_A[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Paran_A[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Paran_A[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Paran_A[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Paran_A[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Paran_A[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Paran_A[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Paran_A[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Paran_A[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Paran_A[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Paran_A[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Paran_A[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Paran_A[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Paran_A[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Paran_A[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Paran_A[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Paran_A[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Paran_A[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Paran_A[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Paran_A[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Paran_A[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Paran_A[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Paran_A[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Paran_A[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Paran_A[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Paran_A[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Paran_A[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Paran_A[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Paran_A[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Paran_A[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Paran_A[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Paran_A[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Paran_A[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Paran_A[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Paran_A[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Paran_A[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Paran_A[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Paran_A[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Paran_A[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Paran_A[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Paran_A[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Paran_A[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Paran_A[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Paran_A[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Paran_A[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Paran_A[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Paran_A[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Paran_A[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Paran_A[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Paran_A[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Paran_A[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Paran_A[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Paran_A[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Paran_A[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Paran_A[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Paran_A[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Paran_A[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Paran_A[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Paran_A[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Paran_A[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Paran_A[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Paran_A[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Paran_A[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Paran_A[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Paran_A[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Paran_A[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Paran_A[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Paran_A[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Paran_A[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Paran_A[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Paran_A[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Paran_A[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Paran_A[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Paran_A[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Paran_A[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Paran_A[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Paran_A[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Paran_A[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Paran_A[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Paran_A[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Paran_A[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Paran_A[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Paran_A[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Paran_A[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Paran_A[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Paran_A[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Paran_A[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Paran_A[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Paran_A[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Paran_A[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Paran_A[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Paran_A[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Paran_A[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Paran_A[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Paran_A[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Paran_A[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Paran_A[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Paran_A[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Paran_A[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Paran_A[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Paran_A[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Paran_A[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Paran_A[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Paran_A[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Paran_A[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Paran_A[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Paran_A[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Paran_A[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Paran_A[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Paran_A[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Paran_A[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Paran_A[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Paran_A[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Paran_A[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Paran_A[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Paran_A[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Paran_A[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Paran_A[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Paran_A[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Paran_A[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Paran_A[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Paran_A[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Paran_A[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Paran_A[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Paran_A[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Paran_A[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Paran_A[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Paran_A[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Paran_A[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Paran_A[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Paran_A[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -4047,6 +5357,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qiB8').innerHTML=Paran_B[RodEscolhida][143];
   
 
+      document.getElementById("CardNomeTec1").innerHTML=Paran_B[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Paran_B[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Paran_B[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Paran_B[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Paran_B[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Paran_B[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Paran_B[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Paran_B[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Paran_B[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Paran_B[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Paran_B[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Paran_B[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Paran_B[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Paran_B[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Paran_B[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Paran_B[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Paran_B[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Paran_B[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Paran_B[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Paran_B[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Paran_B[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Paran_B[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Paran_B[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Paran_B[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Paran_B[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Paran_B[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Paran_B[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Paran_B[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Paran_B[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Paran_B[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Paran_B[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Paran_B[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Paran_B[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Paran_B[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Paran_B[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Paran_B[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Paran_B[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Paran_B[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Paran_B[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Paran_B[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Paran_B[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Paran_B[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Paran_B[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Paran_B[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Paran_B[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Paran_B[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Paran_B[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Paran_B[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Paran_B[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Paran_B[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Paran_B[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Paran_B[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Paran_B[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Paran_B[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Paran_B[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Paran_B[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Paran_B[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Paran_B[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Paran_B[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Paran_B[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Paran_B[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Paran_B[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Paran_B[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Paran_B[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Paran_B[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Paran_B[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Paran_B[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Paran_B[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Paran_B[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Paran_B[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Paran_B[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Paran_B[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Paran_B[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Paran_B[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Paran_B[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Paran_B[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Paran_B[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Paran_B[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Paran_B[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Paran_B[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Paran_B[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Paran_B[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Paran_B[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Paran_B[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Paran_B[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Paran_B[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Paran_B[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Paran_B[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Paran_B[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Paran_B[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Paran_B[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Paran_B[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Paran_B[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Paran_B[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Paran_B[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Paran_B[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Paran_B[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Paran_B[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Paran_B[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Paran_B[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Paran_B[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Paran_B[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Paran_B[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Paran_B[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Paran_B[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Paran_B[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Paran_B[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Paran_B[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Paran_B[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Paran_B[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Paran_B[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Paran_B[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Paran_B[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Paran_B[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Paran_B[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Paran_B[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Paran_B[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Paran_B[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Paran_B[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Paran_B[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Paran_B[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Paran_B[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Paran_B[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Paran_B[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Paran_B[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Paran_B[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Paran_B[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Paran_B[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Paran_B[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Paran_B[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Paran_B[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Paran_B[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Paran_B[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Paran_B[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Paran_B[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Paran_B[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -4216,7 +5671,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('antB8').innerHTML=Catar_A[RodEscolhida][141];
       document.getElementById('qaB8').innerHTML=Catar_A[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Catar_A[RodEscolhida][143];
-  
+      document.getElementById("CardNomeTec1").innerHTML=Catar_A[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Catar_A[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Catar_A[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Catar_A[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Catar_A[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Catar_A[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Catar_A[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Catar_A[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Catar_A[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Catar_A[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Catar_A[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Catar_A[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Catar_A[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Catar_A[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Catar_A[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Catar_A[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Catar_A[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Catar_A[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Catar_A[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Catar_A[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Catar_A[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Catar_A[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Catar_A[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Catar_A[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Catar_A[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Catar_A[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Catar_A[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Catar_A[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Catar_A[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Catar_A[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Catar_A[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Catar_A[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Catar_A[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Catar_A[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Catar_A[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Catar_A[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Catar_A[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Catar_A[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Catar_A[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Catar_A[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Catar_A[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Catar_A[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Catar_A[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Catar_A[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Catar_A[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Catar_A[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Catar_A[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Catar_A[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Catar_A[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Catar_A[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Catar_A[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Catar_A[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Catar_A[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Catar_A[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Catar_A[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Catar_A[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Catar_A[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Catar_A[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Catar_A[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Catar_A[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Catar_A[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Catar_A[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Catar_A[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Catar_A[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Catar_A[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Catar_A[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Catar_A[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Catar_A[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Catar_A[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Catar_A[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Catar_A[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Catar_A[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Catar_A[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Catar_A[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Catar_A[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Catar_A[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Catar_A[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Catar_A[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Catar_A[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Catar_A[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Catar_A[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Catar_A[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Catar_A[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Catar_A[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Catar_A[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Catar_A[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Catar_A[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Catar_A[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Catar_A[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Catar_A[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Catar_A[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Catar_A[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Catar_A[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Catar_A[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Catar_A[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Catar_A[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Catar_A[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Catar_A[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Catar_A[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Catar_A[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Catar_A[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Catar_A[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Catar_A[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Catar_A[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Catar_A[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Catar_A[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Catar_A[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Catar_A[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Catar_A[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Catar_A[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Catar_A[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Catar_A[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Catar_A[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Catar_A[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Catar_A[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Catar_A[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Catar_A[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Catar_A[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Catar_A[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Catar_A[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Catar_A[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Catar_A[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Catar_A[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Catar_A[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Catar_A[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Catar_A[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Catar_A[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Catar_A[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Catar_A[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Catar_A[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Catar_A[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Catar_A[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Catar_A[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Catar_A[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Catar_A[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Catar_A[RodEscolhida][128].titulo10;
+      
+      
 
       
     }
@@ -4387,7 +5986,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Catar_B[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Catar_B[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Catar_B[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Catar_B[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Catar_B[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Catar_B[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Catar_B[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Catar_B[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Catar_B[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Catar_B[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Catar_B[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Catar_B[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Catar_B[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Catar_B[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Catar_B[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Catar_B[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Catar_B[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Catar_B[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Catar_B[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Catar_B[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Catar_B[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Catar_B[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Catar_B[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Catar_B[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Catar_B[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Catar_B[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Catar_B[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Catar_B[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Catar_B[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Catar_B[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Catar_B[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Catar_B[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Catar_B[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Catar_B[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Catar_B[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Catar_B[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Catar_B[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Catar_B[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Catar_B[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Catar_B[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Catar_B[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Catar_B[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Catar_B[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Catar_B[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Catar_B[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Catar_B[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Catar_B[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Catar_B[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Catar_B[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Catar_B[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Catar_B[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Catar_B[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Catar_B[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Catar_B[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Catar_B[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Catar_B[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Catar_B[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Catar_B[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Catar_B[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Catar_B[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Catar_B[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Catar_B[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Catar_B[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Catar_B[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Catar_B[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Catar_B[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Catar_B[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Catar_B[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Catar_B[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Catar_B[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Catar_B[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Catar_B[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Catar_B[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Catar_B[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Catar_B[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Catar_B[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Catar_B[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Catar_B[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Catar_B[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Catar_B[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Catar_B[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Catar_B[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Catar_B[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Catar_B[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Catar_B[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Catar_B[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Catar_B[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Catar_B[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Catar_B[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Catar_B[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Catar_B[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Catar_B[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Catar_B[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Catar_B[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Catar_B[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Catar_B[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Catar_B[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Catar_B[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Catar_B[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Catar_B[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Catar_B[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Catar_B[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Catar_B[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Catar_B[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Catar_B[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Catar_B[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Catar_B[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Catar_B[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Catar_B[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Catar_B[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Catar_B[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Catar_B[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Catar_B[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Catar_B[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Catar_B[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Catar_B[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Catar_B[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Catar_B[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Catar_B[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Catar_B[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Catar_B[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Catar_B[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Catar_B[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Catar_B[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Catar_B[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Catar_B[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Catar_B[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Catar_B[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Catar_B[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Catar_B[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Catar_B[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Catar_B[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Catar_B[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Catar_B[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Catar_B[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Catar_B[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Catar_B[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Catar_B[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -4559,7 +6302,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Norde_A[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Norde_A[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Norde_A[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Norde_A[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Norde_A[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Norde_A[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Norde_A[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Norde_A[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Norde_A[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Norde_A[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Norde_A[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Norde_A[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Norde_A[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Norde_A[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Norde_A[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Norde_A[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Norde_A[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Norde_A[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Norde_A[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Norde_A[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Norde_A[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Norde_A[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Norde_A[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Norde_A[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Norde_A[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Norde_A[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Norde_A[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Norde_A[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Norde_A[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Norde_A[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Norde_A[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Norde_A[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Norde_A[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Norde_A[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Norde_A[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Norde_A[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Norde_A[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Norde_A[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Norde_A[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Norde_A[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Norde_A[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Norde_A[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Norde_A[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Norde_A[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Norde_A[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Norde_A[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Norde_A[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Norde_A[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Norde_A[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Norde_A[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Norde_A[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Norde_A[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Norde_A[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Norde_A[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Norde_A[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Norde_A[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Norde_A[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Norde_A[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Norde_A[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Norde_A[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Norde_A[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Norde_A[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Norde_A[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Norde_A[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Norde_A[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Norde_A[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Norde_A[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Norde_A[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Norde_A[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Norde_A[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Norde_A[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Norde_A[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Norde_A[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Norde_A[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Norde_A[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Norde_A[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Norde_A[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Norde_A[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Norde_A[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Norde_A[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Norde_A[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Norde_A[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Norde_A[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Norde_A[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Norde_A[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Norde_A[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Norde_A[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Norde_A[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Norde_A[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Norde_A[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Norde_A[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Norde_A[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Norde_A[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Norde_A[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Norde_A[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Norde_A[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Norde_A[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Norde_A[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Norde_A[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Norde_A[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Norde_A[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Norde_A[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Norde_A[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Norde_A[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Norde_A[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Norde_A[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Norde_A[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Norde_A[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Norde_A[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Norde_A[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Norde_A[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Norde_A[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Norde_A[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Norde_A[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Norde_A[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Norde_A[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Norde_A[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Norde_A[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Norde_A[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Norde_A[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Norde_A[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Norde_A[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Norde_A[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Norde_A[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Norde_A[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Norde_A[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Norde_A[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Norde_A[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Norde_A[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Norde_A[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Norde_A[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Norde_A[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Norde_A[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Norde_A[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Norde_A[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Norde_A[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Norde_A[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Norde_A[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -4730,7 +6617,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Norde_B[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Norde_B[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Norde_B[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Norde_B[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Norde_B[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Norde_B[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Norde_B[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Norde_B[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Norde_B[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Norde_B[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Norde_B[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Norde_B[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Norde_B[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Norde_B[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Norde_B[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Norde_B[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Norde_B[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Norde_B[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Norde_B[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Norde_B[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Norde_B[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Norde_B[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Norde_B[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Norde_B[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Norde_B[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Norde_B[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Norde_B[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Norde_B[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Norde_B[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Norde_B[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Norde_B[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Norde_B[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Norde_B[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Norde_B[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Norde_B[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Norde_B[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Norde_B[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Norde_B[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Norde_B[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Norde_B[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Norde_B[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Norde_B[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Norde_B[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Norde_B[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Norde_B[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Norde_B[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Norde_B[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Norde_B[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Norde_B[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Norde_B[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Norde_B[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Norde_B[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Norde_B[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Norde_B[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Norde_B[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Norde_B[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Norde_B[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Norde_B[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Norde_B[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Norde_B[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Norde_B[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Norde_B[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Norde_B[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Norde_B[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Norde_B[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Norde_B[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Norde_B[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Norde_B[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Norde_B[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Norde_B[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Norde_B[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Norde_B[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Norde_B[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Norde_B[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Norde_B[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Norde_B[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Norde_B[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Norde_B[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Norde_B[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Norde_B[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Norde_B[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Norde_B[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Norde_B[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Norde_B[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Norde_B[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Norde_B[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Norde_B[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Norde_B[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Norde_B[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Norde_B[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Norde_B[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Norde_B[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Norde_B[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Norde_B[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Norde_B[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Norde_B[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Norde_B[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Norde_B[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Norde_B[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Norde_B[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Norde_B[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Norde_B[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Norde_B[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Norde_B[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Norde_B[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Norde_B[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Norde_B[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Norde_B[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Norde_B[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Norde_B[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Norde_B[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Norde_B[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Norde_B[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Norde_B[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Norde_B[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Norde_B[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Norde_B[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Norde_B[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Norde_B[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Norde_B[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Norde_B[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Norde_B[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Norde_B[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Norde_B[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Norde_B[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Norde_B[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Norde_B[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Norde_B[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Norde_B[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Norde_B[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Norde_B[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Norde_B[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Norde_B[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Norde_B[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Norde_B[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Norde_B[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Norde_B[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Norde_B[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -4902,7 +6933,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Norti_A[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Norti_A[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Norti_A[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Norti_A[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Norti_A[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Norti_A[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Norti_A[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Norti_A[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Norti_A[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Norti_A[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Norti_A[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Norti_A[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Norti_A[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Norti_A[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Norti_A[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Norti_A[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Norti_A[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Norti_A[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Norti_A[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Norti_A[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Norti_A[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Norti_A[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Norti_A[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Norti_A[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Norti_A[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Norti_A[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Norti_A[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Norti_A[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Norti_A[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Norti_A[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Norti_A[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Norti_A[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Norti_A[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Norti_A[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Norti_A[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Norti_A[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Norti_A[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Norti_A[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Norti_A[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Norti_A[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Norti_A[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Norti_A[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Norti_A[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Norti_A[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Norti_A[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Norti_A[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Norti_A[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Norti_A[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Norti_A[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Norti_A[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Norti_A[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Norti_A[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Norti_A[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Norti_A[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Norti_A[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Norti_A[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Norti_A[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Norti_A[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Norti_A[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Norti_A[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Norti_A[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Norti_A[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Norti_A[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Norti_A[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Norti_A[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Norti_A[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Norti_A[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Norti_A[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Norti_A[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Norti_A[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Norti_A[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Norti_A[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Norti_A[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Norti_A[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Norti_A[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Norti_A[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Norti_A[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Norti_A[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Norti_A[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Norti_A[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Norti_A[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Norti_A[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Norti_A[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Norti_A[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Norti_A[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Norti_A[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Norti_A[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Norti_A[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Norti_A[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Norti_A[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Norti_A[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Norti_A[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Norti_A[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Norti_A[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Norti_A[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Norti_A[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Norti_A[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Norti_A[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Norti_A[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Norti_A[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Norti_A[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Norti_A[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Norti_A[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Norti_A[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Norti_A[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Norti_A[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Norti_A[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Norti_A[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Norti_A[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Norti_A[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Norti_A[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Norti_A[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Norti_A[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Norti_A[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Norti_A[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Norti_A[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Norti_A[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Norti_A[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Norti_A[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Norti_A[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Norti_A[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Norti_A[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Norti_A[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Norti_A[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Norti_A[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Norti_A[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Norti_A[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Norti_A[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Norti_A[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Norti_A[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Norti_A[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Norti_A[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Norti_A[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Norti_A[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Norti_A[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Norti_A[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Norti_A[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Norti_A[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -5073,7 +7248,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Norti_B[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Norti_B[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Norti_B[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Norti_B[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Norti_B[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Norti_B[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Norti_B[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Norti_B[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Norti_B[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Norti_B[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Norti_B[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Norti_B[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Norti_B[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Norti_B[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Norti_B[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Norti_B[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Norti_B[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Norti_B[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Norti_B[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Norti_B[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Norti_B[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Norti_B[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Norti_B[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Norti_B[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Norti_B[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Norti_B[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Norti_B[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Norti_B[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Norti_B[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Norti_B[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Norti_B[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Norti_B[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Norti_B[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Norti_B[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Norti_B[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Norti_B[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Norti_B[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Norti_B[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Norti_B[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Norti_B[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Norti_B[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Norti_B[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Norti_B[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Norti_B[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Norti_B[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Norti_B[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Norti_B[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Norti_B[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Norti_B[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Norti_B[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Norti_B[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Norti_B[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Norti_B[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Norti_B[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Norti_B[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Norti_B[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Norti_B[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Norti_B[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Norti_B[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Norti_B[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Norti_B[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Norti_B[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Norti_B[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Norti_B[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Norti_B[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Norti_B[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Norti_B[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Norti_B[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Norti_B[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Norti_B[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Norti_B[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Norti_B[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Norti_B[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Norti_B[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Norti_B[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Norti_B[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Norti_B[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Norti_B[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Norti_B[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Norti_B[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Norti_B[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Norti_B[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Norti_B[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Norti_B[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Norti_B[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Norti_B[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Norti_B[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Norti_B[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Norti_B[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Norti_B[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Norti_B[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Norti_B[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Norti_B[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Norti_B[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Norti_B[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Norti_B[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Norti_B[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Norti_B[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Norti_B[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Norti_B[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Norti_B[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Norti_B[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Norti_B[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Norti_B[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Norti_B[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Norti_B[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Norti_B[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Norti_B[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Norti_B[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Norti_B[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Norti_B[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Norti_B[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Norti_B[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Norti_B[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Norti_B[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Norti_B[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Norti_B[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Norti_B[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Norti_B[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Norti_B[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Norti_B[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Norti_B[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Norti_B[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Norti_B[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Norti_B[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Norti_B[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Norti_B[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Norti_B[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Norti_B[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Norti_B[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Norti_B[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Norti_B[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Norti_B[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Norti_B[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Norti_B[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Norti_B[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Norti_B[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Norti_B[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -5244,7 +7563,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Centr_A[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Centr_A[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Centr_A[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Centr_A[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Centr_A[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Centr_A[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Centr_A[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Centr_A[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Centr_A[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Centr_A[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Centr_A[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Centr_A[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Centr_A[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Centr_A[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Centr_A[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Centr_A[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Centr_A[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Centr_A[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Centr_A[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Centr_A[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Centr_A[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Centr_A[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Centr_A[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Centr_A[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Centr_A[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Centr_A[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Centr_A[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Centr_A[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Centr_A[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Centr_A[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Centr_A[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Centr_A[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Centr_A[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Centr_A[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Centr_A[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Centr_A[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Centr_A[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Centr_A[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Centr_A[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Centr_A[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Centr_A[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Centr_A[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Centr_A[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Centr_A[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Centr_A[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Centr_A[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Centr_A[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Centr_A[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Centr_A[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Centr_A[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Centr_A[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Centr_A[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Centr_A[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Centr_A[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Centr_A[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Centr_A[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Centr_A[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Centr_A[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Centr_A[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Centr_A[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Centr_A[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Centr_A[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Centr_A[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Centr_A[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Centr_A[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Centr_A[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Centr_A[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Centr_A[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Centr_A[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Centr_A[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Centr_A[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Centr_A[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Centr_A[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Centr_A[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Centr_A[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Centr_A[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Centr_A[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Centr_A[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Centr_A[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Centr_A[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Centr_A[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Centr_A[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Centr_A[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Centr_A[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Centr_A[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Centr_A[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Centr_A[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Centr_A[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Centr_A[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Centr_A[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Centr_A[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Centr_A[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Centr_A[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Centr_A[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Centr_A[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Centr_A[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Centr_A[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Centr_A[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Centr_A[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Centr_A[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Centr_A[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Centr_A[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Centr_A[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Centr_A[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Centr_A[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Centr_A[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Centr_A[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Centr_A[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Centr_A[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Centr_A[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Centr_A[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Centr_A[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Centr_A[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Centr_A[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Centr_A[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Centr_A[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Centr_A[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Centr_A[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Centr_A[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Centr_A[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Centr_A[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Centr_A[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Centr_A[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Centr_A[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Centr_A[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Centr_A[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Centr_A[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Centr_A[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Centr_A[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Centr_A[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Centr_A[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Centr_A[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Centr_A[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Centr_A[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Centr_A[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Centr_A[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Centr_A[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Centr_A[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -5415,7 +7878,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Centr_B[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Centr_B[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Centr_B[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Centr_B[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Centr_B[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Centr_B[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Centr_B[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Centr_B[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Centr_B[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Centr_B[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Centr_B[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Centr_B[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Centr_B[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Centr_B[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Centr_B[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Centr_B[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Centr_B[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Centr_B[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Centr_B[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Centr_B[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Centr_B[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Centr_B[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Centr_B[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Centr_B[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Centr_B[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Centr_B[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Centr_B[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Centr_B[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Centr_B[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Centr_B[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Centr_B[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Centr_B[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Centr_B[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Centr_B[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Centr_B[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Centr_B[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Centr_B[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Centr_B[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Centr_B[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Centr_B[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Centr_B[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Centr_B[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Centr_B[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Centr_B[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Centr_B[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Centr_B[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Centr_B[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Centr_B[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Centr_B[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Centr_B[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Centr_B[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Centr_B[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Centr_B[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Centr_B[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Centr_B[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Centr_B[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Centr_B[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Centr_B[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Centr_B[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Centr_B[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Centr_B[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Centr_B[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Centr_B[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Centr_B[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Centr_B[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Centr_B[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Centr_B[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Centr_B[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Centr_B[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Centr_B[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Centr_B[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Centr_B[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Centr_B[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Centr_B[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Centr_B[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Centr_B[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Centr_B[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Centr_B[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Centr_B[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Centr_B[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Centr_B[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Centr_B[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Centr_B[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Centr_B[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Centr_B[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Centr_B[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Centr_B[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Centr_B[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Centr_B[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Centr_B[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Centr_B[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Centr_B[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Centr_B[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Centr_B[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Centr_B[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Centr_B[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Centr_B[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Centr_B[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Centr_B[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Centr_B[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Centr_B[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Centr_B[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Centr_B[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Centr_B[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Centr_B[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Centr_B[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Centr_B[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Centr_B[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Centr_B[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Centr_B[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Centr_B[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Centr_B[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Centr_B[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Centr_B[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Centr_B[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Centr_B[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Centr_B[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Centr_B[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Centr_B[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Centr_B[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Centr_B[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Centr_B[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Centr_B[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Centr_B[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Centr_B[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Centr_B[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Centr_B[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Centr_B[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Centr_B[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Centr_B[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Centr_B[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Centr_B[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Centr_B[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Centr_B[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Centr_B[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Centr_B[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Centr_B[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Centr_B[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -5585,7 +8192,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Goian_A[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Goian_A[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Goian_A[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Goian_A[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Goian_A[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Goian_A[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Goian_A[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Goian_A[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Goian_A[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Goian_A[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Goian_A[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Goian_A[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Goian_A[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Goian_A[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Goian_A[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Goian_A[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Goian_A[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Goian_A[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Goian_A[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Goian_A[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Goian_A[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Goian_A[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Goian_A[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Goian_A[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Goian_A[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Goian_A[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Goian_A[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Goian_A[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Goian_A[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Goian_A[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Goian_A[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Goian_A[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Goian_A[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Goian_A[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Goian_A[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Goian_A[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Goian_A[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Goian_A[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Goian_A[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Goian_A[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Goian_A[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Goian_A[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Goian_A[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Goian_A[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Goian_A[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Goian_A[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Goian_A[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Goian_A[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Goian_A[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Goian_A[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Goian_A[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Goian_A[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Goian_A[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Goian_A[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Goian_A[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Goian_A[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Goian_A[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Goian_A[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Goian_A[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Goian_A[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Goian_A[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Goian_A[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Goian_A[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Goian_A[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Goian_A[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Goian_A[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Goian_A[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Goian_A[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Goian_A[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Goian_A[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Goian_A[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Goian_A[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Goian_A[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Goian_A[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Goian_A[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Goian_A[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Goian_A[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Goian_A[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Goian_A[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Goian_A[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Goian_A[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Goian_A[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Goian_A[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Goian_A[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Goian_A[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Goian_A[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Goian_A[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Goian_A[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Goian_A[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Goian_A[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Goian_A[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Goian_A[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Goian_A[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Goian_A[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Goian_A[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Goian_A[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Goian_A[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Goian_A[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Goian_A[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Goian_A[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Goian_A[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Goian_A[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Goian_A[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Goian_A[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Goian_A[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Goian_A[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Goian_A[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Goian_A[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Goian_A[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Goian_A[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Goian_A[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Goian_A[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Goian_A[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Goian_A[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Goian_A[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Goian_A[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Goian_A[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Goian_A[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Goian_A[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Goian_A[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Goian_A[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Goian_A[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Goian_A[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Goian_A[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Goian_A[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Goian_A[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Goian_A[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Goian_A[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Goian_A[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Goian_A[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Goian_A[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Goian_A[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Goian_A[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Goian_A[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Goian_A[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Goian_A[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Goian_A[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Goian_A[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -5756,7 +8507,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Goian_B[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Goian_B[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Goian_B[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Goian_B[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Goian_B[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Goian_B[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Goian_B[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Goian_B[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Goian_B[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Goian_B[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Goian_B[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Goian_B[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Goian_B[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Goian_B[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Goian_B[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Goian_B[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Goian_B[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Goian_B[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Goian_B[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Goian_B[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Goian_B[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Goian_B[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Goian_B[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Goian_B[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Goian_B[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Goian_B[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Goian_B[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Goian_B[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Goian_B[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Goian_B[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Goian_B[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Goian_B[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Goian_B[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Goian_B[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Goian_B[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Goian_B[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Goian_B[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Goian_B[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Goian_B[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Goian_B[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Goian_B[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Goian_B[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Goian_B[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Goian_B[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Goian_B[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Goian_B[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Goian_B[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Goian_B[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Goian_B[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Goian_B[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Goian_B[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Goian_B[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Goian_B[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Goian_B[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Goian_B[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Goian_B[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Goian_B[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Goian_B[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Goian_B[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Goian_B[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Goian_B[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Goian_B[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Goian_B[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Goian_B[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Goian_B[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Goian_B[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Goian_B[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Goian_B[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Goian_B[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Goian_B[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Goian_B[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Goian_B[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Goian_B[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Goian_B[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Goian_B[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Goian_B[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Goian_B[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Goian_B[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Goian_B[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Goian_B[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Goian_B[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Goian_B[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Goian_B[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Goian_B[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Goian_B[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Goian_B[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Goian_B[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Goian_B[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Goian_B[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Goian_B[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Goian_B[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Goian_B[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Goian_B[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Goian_B[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Goian_B[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Goian_B[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Goian_B[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Goian_B[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Goian_B[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Goian_B[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Goian_B[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Goian_B[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Goian_B[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Goian_B[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Goian_B[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Goian_B[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Goian_B[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Goian_B[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Goian_B[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Goian_B[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Goian_B[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Goian_B[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Goian_B[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Goian_B[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Goian_B[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Goian_B[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Goian_B[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Goian_B[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Goian_B[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Goian_B[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Goian_B[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Goian_B[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Goian_B[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Goian_B[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Goian_B[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Goian_B[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Goian_B[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Goian_B[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Goian_B[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Goian_B[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Goian_B[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Goian_B[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Goian_B[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Goian_B[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Goian_B[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Goian_B[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Goian_B[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Goian_B[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -5926,7 +8821,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Perna_A[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Perna_A[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Perna_A[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Perna_A[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Perna_A[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Perna_A[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Perna_A[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Perna_A[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Perna_A[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Perna_A[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Perna_A[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Perna_A[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Perna_A[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Perna_A[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Perna_A[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Perna_A[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Perna_A[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Perna_A[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Perna_A[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Perna_A[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Perna_A[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Perna_A[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Perna_A[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Perna_A[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Perna_A[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Perna_A[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Perna_A[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Perna_A[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Perna_A[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Perna_A[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Perna_A[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Perna_A[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Perna_A[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Perna_A[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Perna_A[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Perna_A[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Perna_A[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Perna_A[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Perna_A[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Perna_A[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Perna_A[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Perna_A[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Perna_A[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Perna_A[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Perna_A[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Perna_A[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Perna_A[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Perna_A[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Perna_A[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Perna_A[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Perna_A[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Perna_A[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Perna_A[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Perna_A[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Perna_A[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Perna_A[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Perna_A[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Perna_A[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Perna_A[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Perna_A[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Perna_A[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Perna_A[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Perna_A[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Perna_A[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Perna_A[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Perna_A[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Perna_A[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Perna_A[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Perna_A[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Perna_A[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Perna_A[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Perna_A[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Perna_A[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Perna_A[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Perna_A[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Perna_A[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Perna_A[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Perna_A[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Perna_A[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Perna_A[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Perna_A[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Perna_A[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Perna_A[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Perna_A[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Perna_A[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Perna_A[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Perna_A[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Perna_A[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Perna_A[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Perna_A[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Perna_A[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Perna_A[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Perna_A[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Perna_A[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Perna_A[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Perna_A[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Perna_A[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Perna_A[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Perna_A[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Perna_A[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Perna_A[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Perna_A[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Perna_A[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Perna_A[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Perna_A[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Perna_A[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Perna_A[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Perna_A[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Perna_A[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Perna_A[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Perna_A[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Perna_A[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Perna_A[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Perna_A[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Perna_A[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Perna_A[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Perna_A[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Perna_A[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Perna_A[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Perna_A[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Perna_A[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Perna_A[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Perna_A[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Perna_A[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Perna_A[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Perna_A[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Perna_A[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Perna_A[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Perna_A[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Perna_A[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Perna_A[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Perna_A[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Perna_A[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Perna_A[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Perna_A[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Perna_A[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Perna_A[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Perna_A[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -6098,7 +9137,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Perna_B[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Perna_B[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Perna_B[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Perna_B[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Perna_B[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Perna_B[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Perna_B[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Perna_B[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Perna_B[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Perna_B[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Perna_B[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Perna_B[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Perna_B[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Perna_B[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Perna_B[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Perna_B[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Perna_B[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Perna_B[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Perna_B[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Perna_B[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Perna_B[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Perna_B[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Perna_B[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Perna_B[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Perna_B[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Perna_B[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Perna_B[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Perna_B[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Perna_B[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Perna_B[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Perna_B[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Perna_B[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Perna_B[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Perna_B[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Perna_B[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Perna_B[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Perna_B[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Perna_B[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Perna_B[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Perna_B[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Perna_B[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Perna_B[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Perna_B[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Perna_B[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Perna_B[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Perna_B[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Perna_B[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Perna_B[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Perna_B[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Perna_B[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Perna_B[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Perna_B[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Perna_B[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Perna_B[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Perna_B[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Perna_B[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Perna_B[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Perna_B[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Perna_B[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Perna_B[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Perna_B[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Perna_B[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Perna_B[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Perna_B[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Perna_B[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Perna_B[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Perna_B[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Perna_B[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Perna_B[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Perna_B[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Perna_B[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Perna_B[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Perna_B[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Perna_B[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Perna_B[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Perna_B[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Perna_B[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Perna_B[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Perna_B[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Perna_B[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Perna_B[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Perna_B[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Perna_B[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Perna_B[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Perna_B[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Perna_B[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Perna_B[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Perna_B[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Perna_B[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Perna_B[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Perna_B[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Perna_B[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Perna_B[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Perna_B[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Perna_B[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Perna_B[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Perna_B[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Perna_B[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Perna_B[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Perna_B[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Perna_B[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Perna_B[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Perna_B[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Perna_B[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Perna_B[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Perna_B[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Perna_B[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Perna_B[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Perna_B[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Perna_B[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Perna_B[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Perna_B[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Perna_B[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Perna_B[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Perna_B[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Perna_B[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Perna_B[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Perna_B[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Perna_B[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Perna_B[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Perna_B[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Perna_B[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Perna_B[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Perna_B[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Perna_B[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Perna_B[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Perna_B[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Perna_B[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Perna_B[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Perna_B[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Perna_B[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Perna_B[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Perna_B[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Perna_B[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Perna_B[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Perna_B[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Perna_B[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Perna_B[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -6268,7 +9451,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Ceare_A[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Ceare_A[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Ceare_A[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Ceare_A[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Ceare_A[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Ceare_A[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Ceare_A[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Ceare_A[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Ceare_A[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Ceare_A[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Ceare_A[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Ceare_A[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Ceare_A[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Ceare_A[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Ceare_A[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Ceare_A[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Ceare_A[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Ceare_A[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Ceare_A[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Ceare_A[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Ceare_A[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Ceare_A[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Ceare_A[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Ceare_A[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Ceare_A[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Ceare_A[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Ceare_A[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Ceare_A[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Ceare_A[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Ceare_A[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Ceare_A[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Ceare_A[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Ceare_A[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Ceare_A[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Ceare_A[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Ceare_A[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Ceare_A[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Ceare_A[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Ceare_A[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Ceare_A[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Ceare_A[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Ceare_A[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Ceare_A[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Ceare_A[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Ceare_A[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Ceare_A[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Ceare_A[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Ceare_A[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Ceare_A[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Ceare_A[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Ceare_A[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Ceare_A[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Ceare_A[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Ceare_A[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Ceare_A[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Ceare_A[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Ceare_A[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Ceare_A[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Ceare_A[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Ceare_A[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Ceare_A[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Ceare_A[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Ceare_A[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Ceare_A[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Ceare_A[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Ceare_A[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Ceare_A[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Ceare_A[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Ceare_A[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Ceare_A[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Ceare_A[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Ceare_A[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Ceare_A[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Ceare_A[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Ceare_A[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Ceare_A[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Ceare_A[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Ceare_A[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Ceare_A[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Ceare_A[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Ceare_A[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Ceare_A[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Ceare_A[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Ceare_A[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Ceare_A[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Ceare_A[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Ceare_A[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Ceare_A[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Ceare_A[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Ceare_A[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Ceare_A[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Ceare_A[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Ceare_A[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Ceare_A[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Ceare_A[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Ceare_A[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Ceare_A[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Ceare_A[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Ceare_A[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Ceare_A[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Ceare_A[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Ceare_A[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Ceare_A[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Ceare_A[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Ceare_A[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Ceare_A[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Ceare_A[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Ceare_A[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Ceare_A[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Ceare_A[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Ceare_A[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Ceare_A[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Ceare_A[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Ceare_A[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Ceare_A[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Ceare_A[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Ceare_A[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Ceare_A[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Ceare_A[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Ceare_A[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Ceare_A[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Ceare_A[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Ceare_A[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Ceare_A[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Ceare_A[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Ceare_A[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Ceare_A[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Ceare_A[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Ceare_A[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Ceare_A[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Ceare_A[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Ceare_A[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Ceare_A[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Ceare_A[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Ceare_A[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Ceare_A[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Ceare_A[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Ceare_A[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -6438,7 +9765,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Ceare_B[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Ceare_B[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Ceare_B[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Ceare_B[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Ceare_B[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Ceare_B[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Ceare_B[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Ceare_B[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Ceare_B[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Ceare_B[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Ceare_B[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Ceare_B[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Ceare_B[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Ceare_B[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Ceare_B[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Ceare_B[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Ceare_B[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Ceare_B[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Ceare_B[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Ceare_B[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Ceare_B[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Ceare_B[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Ceare_B[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Ceare_B[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Ceare_B[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Ceare_B[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Ceare_B[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Ceare_B[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Ceare_B[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Ceare_B[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Ceare_B[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Ceare_B[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Ceare_B[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Ceare_B[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Ceare_B[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Ceare_B[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Ceare_B[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Ceare_B[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Ceare_B[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Ceare_B[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Ceare_B[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Ceare_B[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Ceare_B[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Ceare_B[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Ceare_B[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Ceare_B[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Ceare_B[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Ceare_B[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Ceare_B[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Ceare_B[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Ceare_B[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Ceare_B[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Ceare_B[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Ceare_B[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Ceare_B[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Ceare_B[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Ceare_B[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Ceare_B[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Ceare_B[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Ceare_B[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Ceare_B[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Ceare_B[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Ceare_B[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Ceare_B[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Ceare_B[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Ceare_B[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Ceare_B[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Ceare_B[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Ceare_B[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Ceare_B[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Ceare_B[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Ceare_B[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Ceare_B[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Ceare_B[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Ceare_B[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Ceare_B[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Ceare_B[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Ceare_B[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Ceare_B[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Ceare_B[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Ceare_B[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Ceare_B[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Ceare_B[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Ceare_B[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Ceare_B[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Ceare_B[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Ceare_B[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Ceare_B[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Ceare_B[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Ceare_B[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Ceare_B[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Ceare_B[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Ceare_B[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Ceare_B[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Ceare_B[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Ceare_B[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Ceare_B[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Ceare_B[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Ceare_B[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Ceare_B[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Ceare_B[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Ceare_B[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Ceare_B[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Ceare_B[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Ceare_B[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Ceare_B[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Ceare_B[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Ceare_B[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Ceare_B[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Ceare_B[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Ceare_B[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Ceare_B[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Ceare_B[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Ceare_B[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Ceare_B[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Ceare_B[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Ceare_B[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Ceare_B[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Ceare_B[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Ceare_B[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Ceare_B[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Ceare_B[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Ceare_B[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Ceare_B[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Ceare_B[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Ceare_B[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Ceare_B[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Ceare_B[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Ceare_B[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Ceare_B[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Ceare_B[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Ceare_B[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Ceare_B[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Ceare_B[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Ceare_B[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Ceare_B[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Ceare_B[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Ceare_B[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -6612,7 +10083,151 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Baian_A[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Baian_A[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Baian_A[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Baian_A[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Baian_A[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Baian_A[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Baian_A[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Baian_A[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Baian_A[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Baian_A[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Baian_A[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Baian_A[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Baian_A[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Baian_A[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Baian_A[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Baian_A[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Baian_A[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Baian_A[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Baian_A[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Baian_A[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Baian_A[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Baian_A[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Baian_A[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Baian_A[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Baian_A[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Baian_A[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Baian_A[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Baian_A[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Baian_A[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Baian_A[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Baian_A[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Baian_A[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Baian_A[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Baian_A[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Baian_A[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Baian_A[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Baian_A[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Baian_A[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Baian_A[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Baian_A[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Baian_A[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Baian_A[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Baian_A[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Baian_A[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Baian_A[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Baian_A[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Baian_A[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Baian_A[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Baian_A[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Baian_A[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Baian_A[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Baian_A[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Baian_A[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Baian_A[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Baian_A[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Baian_A[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Baian_A[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Baian_A[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Baian_A[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Baian_A[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Baian_A[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Baian_A[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Baian_A[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Baian_A[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Baian_A[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Baian_A[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Baian_A[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Baian_A[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Baian_A[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Baian_A[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Baian_A[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Baian_A[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Baian_A[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Baian_A[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Baian_A[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Baian_A[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Baian_A[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Baian_A[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Baian_A[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Baian_A[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Baian_A[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Baian_A[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Baian_A[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Baian_A[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Baian_A[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Baian_A[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Baian_A[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Baian_A[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Baian_A[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Baian_A[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Baian_A[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Baian_A[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Baian_A[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Baian_A[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Baian_A[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Baian_A[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Baian_A[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Baian_A[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Baian_A[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Baian_A[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Baian_A[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Baian_A[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Baian_A[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Baian_A[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Baian_A[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Baian_A[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Baian_A[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Baian_A[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Baian_A[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Baian_A[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Baian_A[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Baian_A[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Baian_A[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Baian_A[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Baian_A[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Baian_A[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Baian_A[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Baian_A[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Baian_A[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Baian_A[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Baian_A[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Baian_A[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Baian_A[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Baian_A[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Baian_A[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Baian_A[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Baian_A[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Baian_A[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Baian_A[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Baian_A[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Baian_A[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Baian_A[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Baian_A[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Baian_A[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Baian_A[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Baian_A[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Baian_A[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Baian_A[RodEscolhida][128].titulo10;
+      
+      
       
     }
 
@@ -6782,12 +10397,156 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
       document.getElementById('qaB8').innerHTML=Baian_B[RodEscolhida][142];
       document.getElementById('qiB8').innerHTML=Baian_B[RodEscolhida][143];
   
-
+      document.getElementById("CardNomeTec1").innerHTML=Baian_B[RodEscolhida][2].nome;
+      document.getElementById("CardLogo1").innerHTML=Baian_B[RodEscolhida][2].logo;
+      document.getElementById("CardLogin1").innerHTML="Login: "+Baian_B[RodEscolhida][2].nomeLogin;
+      document.getElementById("CardId1").innerHTML="Id: "+Baian_B[RodEscolhida][2].idCart;
+      document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Baian_B[RodEscolhida][2].anoEnt;
+      document.getElementById("CarMoral1").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Baian_B[RodEscolhida][2].ClubAtual[64]+"ªrod. de "+Baian_B[RodEscolhida][2].ClubAtual[65];
+      document.getElementById("CardTitulos1_1").innerHTML=Baian_B[RodEscolhida][2].titulo1;
+      document.getElementById("CardTitulos1_2").innerHTML=Baian_B[RodEscolhida][2].titulo2;
+      document.getElementById("CardTitulos1_3").innerHTML=Baian_B[RodEscolhida][2].titulo3;
+      document.getElementById("CardTitulos1_4").innerHTML=Baian_B[RodEscolhida][2].titulo4;
+      document.getElementById("CardTitulos1_5").innerHTML=Baian_B[RodEscolhida][2].titulo5;
+      document.getElementById("CardTitulos1_6").innerHTML=Baian_B[RodEscolhida][2].titulo6;
+      document.getElementById("CardTitulos1_7").innerHTML=Baian_B[RodEscolhida][2].titulo7;
+      document.getElementById("CardTitulos1_8").innerHTML=Baian_B[RodEscolhida][2].titulo8;
+      document.getElementById("CardTitulos1_9").innerHTML=Baian_B[RodEscolhida][2].titulo9;
+      document.getElementById("CardTitulos1_10").innerHTML=Baian_B[RodEscolhida][2].titulo10;
+      
+      document.getElementById("CardNomeTec2").innerHTML=Baian_B[RodEscolhida][20].nome;
+      document.getElementById("CardLogo2").innerHTML=Baian_B[RodEscolhida][20].logo;
+      document.getElementById("CardLogin2").innerHTML="Login: "+Baian_B[RodEscolhida][20].nomeLogin;
+      document.getElementById("CardId2").innerHTML="Id: "+Baian_B[RodEscolhida][20].idCart;
+      document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Baian_B[RodEscolhida][20].anoEnt;
+      document.getElementById("CarMoral2").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu2").innerHTML="Assumiu o clube na "+Baian_B[RodEscolhida][20].ClubAtual[64]+"ªrod. de "+Baian_B[RodEscolhida][20].ClubAtual[65];
+      document.getElementById("CardTitulos2_1").innerHTML=Baian_B[RodEscolhida][20].titulo1;
+      document.getElementById("CardTitulos2_2").innerHTML=Baian_B[RodEscolhida][20].titulo2;
+      document.getElementById("CardTitulos2_3").innerHTML=Baian_B[RodEscolhida][20].titulo3;
+      document.getElementById("CardTitulos2_4").innerHTML=Baian_B[RodEscolhida][20].titulo4;
+      document.getElementById("CardTitulos2_5").innerHTML=Baian_B[RodEscolhida][20].titulo5;
+      document.getElementById("CardTitulos2_6").innerHTML=Baian_B[RodEscolhida][20].titulo6;
+      document.getElementById("CardTitulos2_7").innerHTML=Baian_B[RodEscolhida][20].titulo7;
+      document.getElementById("CardTitulos2_8").innerHTML=Baian_B[RodEscolhida][20].titulo8;
+      document.getElementById("CardTitulos2_9").innerHTML=Baian_B[RodEscolhida][20].titulo9;
+      document.getElementById("CardTitulos2_10").innerHTML=Baian_B[RodEscolhida][20].titulo10;
+      
+      document.getElementById("CardNomeTec3").innerHTML=Baian_B[RodEscolhida][38].nome;
+      document.getElementById("CardLogo3").innerHTML=Baian_B[RodEscolhida][38].logo;
+      document.getElementById("CardLogin3").innerHTML="Login: "+Baian_B[RodEscolhida][38].nomeLogin;
+      document.getElementById("CardId3").innerHTML="Id: "+Baian_B[RodEscolhida][38].idCart;
+      document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Baian_B[RodEscolhida][38].anoEnt;
+      document.getElementById("CarMoral3").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Baian_B[RodEscolhida][38].ClubAtual[64]+"ªrod. de "+Baian_B[RodEscolhida][38].ClubAtual[65];
+      document.getElementById("CardTitulos3_1").innerHTML=Baian_B[RodEscolhida][38].titulo1;
+      document.getElementById("CardTitulos3_2").innerHTML=Baian_B[RodEscolhida][38].titulo2;
+      document.getElementById("CardTitulos3_3").innerHTML=Baian_B[RodEscolhida][38].titulo3;
+      document.getElementById("CardTitulos3_4").innerHTML=Baian_B[RodEscolhida][38].titulo4;
+      document.getElementById("CardTitulos3_5").innerHTML=Baian_B[RodEscolhida][38].titulo5;
+      document.getElementById("CardTitulos3_6").innerHTML=Baian_B[RodEscolhida][38].titulo6;
+      document.getElementById("CardTitulos3_7").innerHTML=Baian_B[RodEscolhida][38].titulo7;
+      document.getElementById("CardTitulos3_8").innerHTML=Baian_B[RodEscolhida][38].titulo8;
+      document.getElementById("CardTitulos3_9").innerHTML=Baian_B[RodEscolhida][38].titulo9;
+      document.getElementById("CardTitulos3_10").innerHTML=Baian_B[RodEscolhida][38].titulo10;
+      
+      document.getElementById("CardNomeTec4").innerHTML=Baian_B[RodEscolhida][56].nome;
+      document.getElementById("CardLogo4").innerHTML=Baian_B[RodEscolhida][56].logo;
+      document.getElementById("CardLogin4").innerHTML="Login: "+Baian_B[RodEscolhida][56].nomeLogin;
+      document.getElementById("CardId4").innerHTML="Id: "+Baian_B[RodEscolhida][56].idCart;
+      document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Baian_B[RodEscolhida][56].anoEnt;
+      document.getElementById("CarMoral4").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Baian_B[RodEscolhida][56].ClubAtual[64]+"ªrod. de "+Baian_B[RodEscolhida][56].ClubAtual[65];
+      document.getElementById("CardTitulos4_1").innerHTML=Baian_B[RodEscolhida][56].titulo1;
+      document.getElementById("CardTitulos4_2").innerHTML=Baian_B[RodEscolhida][56].titulo2;
+      document.getElementById("CardTitulos4_3").innerHTML=Baian_B[RodEscolhida][56].titulo3;
+      document.getElementById("CardTitulos4_4").innerHTML=Baian_B[RodEscolhida][56].titulo4;
+      document.getElementById("CardTitulos4_5").innerHTML=Baian_B[RodEscolhida][56].titulo5;
+      document.getElementById("CardTitulos4_6").innerHTML=Baian_B[RodEscolhida][56].titulo6;
+      document.getElementById("CardTitulos4_7").innerHTML=Baian_B[RodEscolhida][56].titulo7;
+      document.getElementById("CardTitulos4_8").innerHTML=Baian_B[RodEscolhida][56].titulo8;
+      document.getElementById("CardTitulos4_9").innerHTML=Baian_B[RodEscolhida][56].titulo9;
+      document.getElementById("CardTitulos4_10").innerHTML=Baian_B[RodEscolhida][56].titulo10;
+      
+      document.getElementById("CardNomeTec5").innerHTML=Baian_B[RodEscolhida][74].nome;
+      document.getElementById("CardLogo5").innerHTML=Baian_B[RodEscolhida][74].logo;
+      document.getElementById("CardLogin5").innerHTML="Login: "+Baian_B[RodEscolhida][74].nomeLogin;
+      document.getElementById("CardId5").innerHTML="Id: "+Baian_B[RodEscolhida][74].idCart;
+      document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Baian_B[RodEscolhida][74].anoEnt;
+      document.getElementById("CarMoral5").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Baian_B[RodEscolhida][74].ClubAtual[64]+"ªrod. de "+Baian_B[RodEscolhida][74].ClubAtual[65];
+      document.getElementById("CardTitulos5_1").innerHTML=Baian_B[RodEscolhida][74].titulo1;
+      document.getElementById("CardTitulos5_2").innerHTML=Baian_B[RodEscolhida][74].titulo2;
+      document.getElementById("CardTitulos5_3").innerHTML=Baian_B[RodEscolhida][74].titulo3;
+      document.getElementById("CardTitulos5_4").innerHTML=Baian_B[RodEscolhida][74].titulo4;
+      document.getElementById("CardTitulos5_5").innerHTML=Baian_B[RodEscolhida][74].titulo5;
+      document.getElementById("CardTitulos5_6").innerHTML=Baian_B[RodEscolhida][74].titulo6;
+      document.getElementById("CardTitulos5_7").innerHTML=Baian_B[RodEscolhida][74].titulo7;
+      document.getElementById("CardTitulos5_8").innerHTML=Baian_B[RodEscolhida][74].titulo8;
+      document.getElementById("CardTitulos5_9").innerHTML=Baian_B[RodEscolhida][74].titulo9;
+      document.getElementById("CardTitulos5_10").innerHTML=Baian_B[RodEscolhida][74].titulo10;
+      
+      document.getElementById("CardNomeTec6").innerHTML=Baian_B[RodEscolhida][92].nome;
+      document.getElementById("CardLogo6").innerHTML=Baian_B[RodEscolhida][92].logo;
+      document.getElementById("CardLogin6").innerHTML="Login: "+Baian_B[RodEscolhida][92].nomeLogin;
+      document.getElementById("CardId6").innerHTML="Id: "+Baian_B[RodEscolhida][92].idCart;
+      document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Baian_B[RodEscolhida][92].anoEnt;
+      document.getElementById("CarMoral6").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Baian_B[RodEscolhida][92].ClubAtual[64]+"ªrod. de "+Baian_B[RodEscolhida][92].ClubAtual[65];
+      document.getElementById("CardTitulos6_1").innerHTML=Baian_B[RodEscolhida][92].titulo1;
+      document.getElementById("CardTitulos6_2").innerHTML=Baian_B[RodEscolhida][92].titulo2;
+      document.getElementById("CardTitulos6_3").innerHTML=Baian_B[RodEscolhida][92].titulo3;
+      document.getElementById("CardTitulos6_4").innerHTML=Baian_B[RodEscolhida][92].titulo4;
+      document.getElementById("CardTitulos6_5").innerHTML=Baian_B[RodEscolhida][92].titulo5;
+      document.getElementById("CardTitulos6_6").innerHTML=Baian_B[RodEscolhida][92].titulo6;
+      document.getElementById("CardTitulos6_7").innerHTML=Baian_B[RodEscolhida][92].titulo7;
+      document.getElementById("CardTitulos6_8").innerHTML=Baian_B[RodEscolhida][92].titulo8;
+      document.getElementById("CardTitulos6_9").innerHTML=Baian_B[RodEscolhida][92].titulo9;
+      document.getElementById("CardTitulos6_10").innerHTML=Baian_B[RodEscolhida][92].titulo10;
+      
+      document.getElementById("CardNomeTec7").innerHTML=Baian_B[RodEscolhida][110].nome;
+      document.getElementById("CardLogo7").innerHTML=Baian_B[RodEscolhida][110].logo;
+      document.getElementById("CardLogin7").innerHTML="Login: "+Baian_B[RodEscolhida][110].nomeLogin;
+      document.getElementById("CardId7").innerHTML="Id: "+Baian_B[RodEscolhida][110].idCart;
+      document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Baian_B[RodEscolhida][110].anoEnt;
+      document.getElementById("CarMoral7").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Baian_B[RodEscolhida][110].ClubAtual[64]+"ªrod. de "+Baian_B[RodEscolhida][110].ClubAtual[65];
+      document.getElementById("CardTitulos7_1").innerHTML=Baian_B[RodEscolhida][110].titulo1;
+      document.getElementById("CardTitulos7_2").innerHTML=Baian_B[RodEscolhida][110].titulo2;
+      document.getElementById("CardTitulos7_3").innerHTML=Baian_B[RodEscolhida][110].titulo3;
+      document.getElementById("CardTitulos7_4").innerHTML=Baian_B[RodEscolhida][110].titulo4;
+      document.getElementById("CardTitulos7_5").innerHTML=Baian_B[RodEscolhida][110].titulo5;
+      document.getElementById("CardTitulos7_6").innerHTML=Baian_B[RodEscolhida][110].titulo6;
+      document.getElementById("CardTitulos7_7").innerHTML=Baian_B[RodEscolhida][110].titulo7;
+      document.getElementById("CardTitulos7_8").innerHTML=Baian_B[RodEscolhida][110].titulo8;
+      document.getElementById("CardTitulos7_9").innerHTML=Baian_B[RodEscolhida][110].titulo9;
+      document.getElementById("CardTitulos7_10").innerHTML=Baian_B[RodEscolhida][110].titulo10;
+      
+      document.getElementById("CardNomeTec8").innerHTML=Baian_B[RodEscolhida][128].nome;
+      document.getElementById("CardLogo8").innerHTML=Baian_B[RodEscolhida][128].logo;
+      document.getElementById("CardLogin8").innerHTML="Login: "+Baian_B[RodEscolhida][128].nomeLogin;
+      document.getElementById("CardId8").innerHTML="Id: "+Baian_B[RodEscolhida][128].idCart;
+      document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Baian_B[RodEscolhida][128].anoEnt;
+      document.getElementById("CarMoral8").innerHTML='Não aferida';
+      document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Baian_B[RodEscolhida][128].ClubAtual[64]+"ªrod. de "+Baian_B[RodEscolhida][128].ClubAtual[65];
+      document.getElementById("CardTitulos8_1").innerHTML=Baian_B[RodEscolhida][128].titulo1;
+      document.getElementById("CardTitulos8_2").innerHTML=Baian_B[RodEscolhida][128].titulo2;
+      document.getElementById("CardTitulos8_3").innerHTML=Baian_B[RodEscolhida][128].titulo3;
+      document.getElementById("CardTitulos8_4").innerHTML=Baian_B[RodEscolhida][128].titulo4;
+      document.getElementById("CardTitulos8_5").innerHTML=Baian_B[RodEscolhida][128].titulo5;
+      document.getElementById("CardTitulos8_6").innerHTML=Baian_B[RodEscolhida][128].titulo6;
+      document.getElementById("CardTitulos8_7").innerHTML=Baian_B[RodEscolhida][128].titulo7;
+      document.getElementById("CardTitulos8_8").innerHTML=Baian_B[RodEscolhida][128].titulo8;
+      document.getElementById("CardTitulos8_9").innerHTML=Baian_B[RodEscolhida][128].titulo9;
+      document.getElementById("CardTitulos8_10").innerHTML=Baian_B[RodEscolhida][128].titulo10;
+      
+      
       
     }
  
 
-//CARTÕES DOS TÉCNICOS
+//CALENDÁRIO DE JOGOS
 
 
 
@@ -6832,6 +10591,10 @@ document.getElementById("PlacPt8").innerHTML=JogosDaRodada[31];
 
 
 
+
+
+
+//CARD TÉC1*****************************
 
 
 
@@ -6946,156 +10709,6 @@ document.getElementById("PlacPt8").innerHTML=JogosDaRodada[31];
       divTec8.style.display = "none";
     }
   }
-  
-  // ABRE O CARDTEC9///////////////////////
-  
-  function AbreCardTec9() {
-    var divTec9 = document.getElementById("cardtec9");
-    if (divTec9.style.display === "none") {
-      divTec9.style.display = "flex";
-    } else {
-      divTec9.style.display = "none";
-    }
-  }
-  
-  // ABRE O CARDTEC10///////////////////////
-  
-  function AbreCardTec10() {
-    var divTec10 = document.getElementById("cardtec10");
-    if (divTec10.style.display === "none") {
-      divTec10.style.display = "flex";
-    } else {
-      divTec10.style.display = "none";
-    }
-  }
-  
-  // ABRE O CARDTEC6///////////////////////
-  
-  function AbreCardTec11() {
-    var divTec11 = document.getElementById("cardtec11");
-    if (divTec11.style.display === "none") {
-      divTec11.style.display = "flex";
-    } else {
-      divTec11.style.display = "none";
-    }
-  }
-  
-  // ABRE O CARDTEC12///////////////////////
-  
-  function AbreCardTec12() {
-    var divTec12 = document.getElementById("cardtec12");
-    if (divTec12.style.display === "none") {
-      divTec12.style.display = "flex";
-    } else {
-      divTec12.style.display = "none";
-    }
-  }
-  
-  // ABRE O CARDTEC13///////////////////////
-  
-  function AbreCardTec13() {
-    var divTec13 = document.getElementById("cardtec13");
-    if (divTec13.style.display === "none") {
-      divTec13.style.display = "flex";
-    } else {
-      divTec13.style.display = "none";
-    }
-  }
-  
-  // ABRE O CARDTEC14///////////////////////
-  
-  function AbreCardTec14() {
-    var divTec14 = document.getElementById("cardtec14");
-    if (divTec14.style.display === "none") {
-      divTec14.style.display = "flex";
-    } else {
-      divTec14.style.display = "none";
-    }
-  }
-  
-  // ABRE O CARDTEC15///////////////////////
-  
-  function AbreCardTec15() {
-    var divTec15 = document.getElementById("cardtec15");
-    if (divTec15.style.display === "none") {
-      divTec15.style.display = "flex";
-    } else {
-      divTec15.style.display = "none";
-    }
-  }
-  
-  // ABRE O CARDTEC16///////////////////////
-  
-  function AbreCardTec16() {
-    var divTec16 = document.getElementById("cardtec16");
-    if (divTec16.style.display === "none") {
-      divTec16.style.display = "flex";
-    } else {
-      divTec16.style.display = "none";
-    }
-  }
-  
-  // ABRE O CARDTEC17///////////////////////
-  
-  function AbreCardTec17() {
-    var divTec17 = document.getElementById("cardtec17");
-    if (divTec17.style.display === "none") {
-      divTec17.style.display = "flex";
-    } else {
-      divTec17.style.display = "none";
-    }
-  }
-  
-  // ABRE O CARDTEC18///////////////////////
-  
-  function AbreCardTec18() {
-    var divTec18 = document.getElementById("cardtec18");
-    if (divTec18.style.display === "none") {
-      divTec18.style.display = "flex";
-    } else {
-      divTec18.style.display = "none";
-    }
-  }
-  
-  // ABRE O CARDTEC19///////////////////////
-  
-  function AbreCardTec19() {
-    var divTec19 = document.getElementById("cardtec19");
-    if (divTec19.style.display === "none") {
-      divTec19.style.display = "flex";
-    } else {
-      divTec19.style.display = "none";
-    }
-  }
-  
-  // ABRE O CARDTEC20///////////////////////
-  
-  function AbreCardTec20() {
-    var divTec20 = document.getElementById("cardtec20");
-    if (divTec20.style.display === "none") {
-      divTec20.style.display = "flex";
-    } else {
-      divTec20.style.display = "none";
-    }
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
   
