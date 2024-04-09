@@ -20,7 +20,7 @@ document.addEventListener('click', function(event) {
 
 let logotec1="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'>;"
 let logotec7="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_167/escudo/92/55/47/00ef98baa4-de62-40f8-9aa2-6d7b0cf8269220200730115547' width='100%'>;"
-let logotec9="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_186/escudo/d7/48/19/005caa8b24-a53d-45d4-8512-6e9ba2c5d7d720210507214819' width='100%'>;"
+let logotec9="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_223/escudo/d7/00/09/005caa8b24-a53d-45d4-8512-6e9ba2c5d7d720240404200009' width='100%'>;"
 let logotec17="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_211/escudo/ff/52/21/00ebecd1d5-fbff-4230-863c-74aa5117a0ff20230317025221' width='100%'>;"
 let logotec26="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_133/escudo/85/08/43/00cf8cb52d-7ae1-4e90-814c-913508ef858520190402190843' width='100%'>;"
 let logotec41="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_165/escudo/08/19/20/0083f4aac7-c312-495e-b790-24f78775b60820200723021920' width='100%'>;"
