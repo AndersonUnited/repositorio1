@@ -329,7 +329,7 @@ function toggleMenu() {
   let logofortaleza="<img src='https://ssl.gstatic.com/onebox/media/sports/logos/me10ephzRxdj45zVq1Risg_96x96.png' width='100%'>";
   let logofozdoiguacu="<img src='https://upload.wikimedia.org/wikipedia/pt/thumb/c/c2/FOZ-FC-2014-229x300_%281%29.png/180px-FOZ-FC-2014-229x300_%281%29.png' width='100%'>";
   let logogalomaringa="<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Galo_maringa_vetor_%281%29.png/180px-Galo_maringa_vetor_%281%29.png' width='100%'>";
-  let logogama="<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/SEGama_2023.png/180px-SEGama_2023.png' width='100%'>";
+  let logogama="<img src='https://segama.com.br/images/Brasao-SE-Gama-p.png'>";
   let logogloria="<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Gloria-logo.png/180px-Gloria-logo.png' width='100%'>";
   let logogoianesia="<img src='https://ssl.gstatic.com/onebox/media/sports/logos/A5aviZHHjbxK7MyPk9iA8Q_48x48.png' width='100%'>";
   let logogoiania="<img src='https://ssl.gstatic.com/onebox/media/sports/logos/HR4eL_RAa2stz4m1C6iHng_48x48.png' width='100%'>";
