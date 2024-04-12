@@ -36,7 +36,7 @@ let logotec150="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7
 let logotec167="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_219/escudo/41/56/06/00d5339ff8-066b-4e71-a570-3d13c4b2e24120230509135606' width='100%'>;"
 let logotec168="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_211/escudo/97/09/58/00d8fcbb37-606c-45f0-990a-6ef75b17899720230317160958' width='100%'>;"
 let logotec170="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_210/escudo/c6/53/01/0094b4ce72-27b1-4010-bd3b-cd5faf2e91c620230316115301' width='100%'>;"
-let logotec172="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/e2/07/56/002406d552-5950-4de2-b12e-9b7d289199e220180322210756' width='100%'>;"
+let logotec172="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_223/escudo/e2/40/50/002406d552-5950-4de2-b12e-9b7d289199e220240322194050' width='100%'>;"
 let logotec198="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_223/escudo/49/41/22/000f999cec-368b-4840-aee3-86dfa024e34920240405114122' width='100%'>;"
 
 
