@@ -159,7 +159,7 @@ function toggleMenu() {
   let logotec282="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_212/escudo/ce/34/22/00dc7ec7e0-10e1-4975-aaa5-eb641bdfc6ce20230326013422' width='100%'>;"
   let logotec283="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_211/escudo/0c/43/06/0094373226-8ab9-452c-88aa-d1e4d8513a0c20230322104306' width='100%'>;"
   let logotec284="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_215/escudo/ea/02/47/0001d3bbda-5407-4a92-abf6-becd5d8a60ea20230415040247' width='100%'>;"
-  let logotec285="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_211/escudo/f0/03/11/0025b87e4f-da67-4527-a9ec-724d59e365f020230316220311' width='100%'>;"
+  let logotec285="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_224/escudo/3c/08/45/008879fcf0-faff-4715-97aa-be96e7f0723c20240409080845' width='100%'>;"
   let logotec286="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/37/45/25/0081f76d61-eb35-42fe-8776-1a7bfb70433720180413104525' width='100%'>;"
   let logotec288="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/f0/54/43/00f29202b7-45d4-46f3-b646-1994bf0614f020230409225443' width='100%'>;"
   let logotec289="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_135/escudo/ac/07/11/006f2165c2-9926-45e1-89f8-995854350fac20190406160711' width='100%'>;"
