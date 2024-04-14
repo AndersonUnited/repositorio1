@@ -17,7 +17,7 @@ function toggleMenu() {
   
   
   /**LOGO DOS TECNICOS */
-  let logotec2="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_211/escudo/ce/39/25/0078a1157e-c151-4226-9d46-ca0b468fcfce20230322123925' width='100%'>;"
+  let logotec2="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_222/escudo/ce/39/18/0078a1157e-c151-4226-9d46-ca0b468fcfce20240315003918' width='100%'>;"
   let logotec4="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_219/escudo/ae/23/59/00e52f15c1-c2da-41d3-afd2-dfd2fa8319ae20230506002359' width='100%'>;"
   let logotec7="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_167/escudo/92/55/47/00ef98baa4-de62-40f8-9aa2-6d7b0cf8269220200730115547' width='100%'>;"
   let logotec9="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_186/escudo/d7/48/19/005caa8b24-a53d-45d4-8512-6e9ba2c5d7d720210507214819' width='100%'>;"
