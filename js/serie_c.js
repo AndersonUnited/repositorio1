@@ -149,7 +149,7 @@ let tec466={idCart:25436191,nome:'Footbeer FC',nomeLogin:'Leandro Rodrigues',nom
 
 /*CAMPO DE ATUALIZAÇÕES CLASSIFICAÇÃO GERAL */
 
-let rod1=[vilanova,'','G8',3,1,0,0,1,0,1,'V','','','','','66',tec193,ituano,'','SUBIR',3,1,0,0,1,0,1,'V','','','','','68',tec457,figueirense,'','G4',3,1,0,0,1,0,1,'V','','','','','69',tec4,ferroviariasp,'','SUBIR',3,1,0,0,1,0,1,'V','','','','','70',tec69,crb,'','G8',3,1,0,0,1,0,1,'V','','','','','69',tec201,botafogosp,'','G13',3,1,0,0,1,0,1,'V','','','','','66',tec458,athletic,'','SUBIR',3,1,0,0,1,0,1,'V','','','','','70',tec166,tombense,'','G16',1,0,1,0,0,0,0,'E','','','','','53',tec450,remo,'','G4',1,0,1,0,0,0,0,'E','','','','','48',tec64,mirassol,'','SUBIR',1,0,1,0,0,0,0,'E','','','','','69',tec449,londrina,'','G8',1,0,1,0,0,0,0,'E','','','','','48',tec466,botafogopb,'','G13',1,0,1,0,0,0,0,'E','','','','','53',tec456,avai,'','G4',1,0,1,0,0,0,0,'E','','','','','64',tec163,ypirangars,'','G16',0,0,0,1,0,1,-1,'D','','','','','47',tec463,juventude,'','G4',0,0,0,1,0,1,-1,'D','','','','','46',tec169,ferroviario,'','G4',0,0,0,1,0,1,-1,'D','','','','','45',tec174,csa,'','G8',0,0,0,1,0,1,-1,'D','','','','','42',tec22,caxias,'','G13',0,0,0,1,0,1,-1,'D','','','','','45',tec14,brusque,'','G13',0,0,0,1,0,1,-1,'D','','','','','46',tec446,abc,'','G4',0,0,0,1,0,1,-1,'D','','','','','42',tec143];
+let rod1=[vilanova,'','G16',3,1,0,0,1,0,1,'V','','','','','66',tec193,ituano,'','G17',3,1,0,0,1,0,1,'V','','','','','68',tec457,figueirense,'','G18',3,1,0,0,1,0,1,'V','','','','','69',tec4,ferroviariasp,'','G19',3,1,0,0,1,0,1,'V','','','','','70',tec69,crb,'','G20',3,1,0,0,1,0,1,'V','','','','','69',tec201,botafogosp,'','G21',3,1,0,0,1,0,1,'V','','','','','66',tec458,athletic,'','G22',3,1,0,0,1,0,1,'V','','','','','70',tec166,tombense,'','G23',1,0,1,0,0,0,0,'E','','','','','53',tec450,remo,'','G24',1,0,1,0,0,0,0,'E','','','','','48',tec64,mirassol,'','G25',1,0,1,0,0,0,0,'E','','','','','69',tec449,londrina,'','G26',1,0,1,0,0,0,0,'E','','','','','48',tec466,botafogopb,'','G27',1,0,1,0,0,0,0,'E','','','','','53',tec456,avai,'','G28',1,0,1,0,0,0,0,'E','','','','','64',tec163,ypirangars,'','G29',0,0,0,1,0,1,-1,'D','','','','','47',tec463,juventude,'','G30',0,0,0,1,0,1,-1,'D','','','','','46',tec169,ferroviario,'','G31',0,0,0,1,0,1,-1,'D','','','','','45',tec174,csa,'','G32',0,0,0,1,0,1,-1,'D','','','','','42',tec22,caxias,'','G33',0,0,0,1,0,1,-1,'D','','','','','45',tec14,brusque,'','G34',0,0,0,1,0,1,-1,'D','','','','','46',tec446,abc,'','G35',0,0,0,1,0,1,-1,'D','','','','','42',tec143];
 
 
 
@@ -368,13 +368,13 @@ document.getElementById("derB7").innerHTML=Rodadas[rodada][108];
 document.getElementById("gpB7").innerHTML=Rodadas[rodada][109];
 document.getElementById("gcB7").innerHTML=Rodadas[rodada][110];
 document.getElementById("sgB7").innerHTML=Rodadas[rodada][111];
-document.getElementById("apB7").innerHTML=(((Rodadas[rodada][3]*105)/((Rodadas[rodada][106]+Rodadas[rodada][107]+Rodadas[rodada][108])*3))).toFixed()+"%";
+document.getElementById("apB7").innerHTML=(((Rodadas[rodada][105]*100)/((Rodadas[rodada][106]+Rodadas[rodada][107]+Rodadas[rodada][108])*3))).toFixed()+"%";
 document.getElementById("ultB7").innerHTML=Rodadas[rodada][10];
 document.getElementById("penB7").innerHTML=Rodadas[rodada][11];
 document.getElementById("antB7").innerHTML=Rodadas[rodada][12];  
 document.getElementById("qaB7").innerHTML=Rodadas[rodada][13];
 document.getElementById("qiB7").innerHTML=Rodadas[rodada][14];
-document.getElementById("MteB7").innerHTML=Rodadas[rodada][15]+"%";
+document.getElementById("MteB7").innerHTML=Rodadas[rodada][117]+"%";
 
 
 document.getElementById("logB8").innerHTML=Rodadas[rodada][119][1];
@@ -418,7 +418,7 @@ document.getElementById("penB9").innerHTML=Rodadas[rodada][11];
 document.getElementById("antB9").innerHTML=Rodadas[rodada][12];  
 document.getElementById("qaB9").innerHTML=Rodadas[rodada][13];
 document.getElementById("qiB9").innerHTML=Rodadas[rodada][14];
-document.getElementById("MteB9").innerHTML=Rodadas[rodada][15]+"%";
+document.getElementById("MteB9").innerHTML=Rodadas[rodada][151]+"%";
 
 
 document.getElementById("logB10").innerHTML=Rodadas[rodada][153][1];
@@ -499,7 +499,7 @@ document.getElementById("derB13").innerHTML=Rodadas[rodada][210];
 document.getElementById("gpB13").innerHTML=Rodadas[rodada][211];
 document.getElementById("gcB13").innerHTML=Rodadas[rodada][212];
 document.getElementById("sgB13").innerHTML=Rodadas[rodada][213];
-document.getElementById("apB13").innerHTML=(((Rodadas[rodada][207]*3)/((Rodadas[rodada][208]+Rodadas[rodada][209]+Rodadas[rodada][210])*3))).toFixed()+"%";
+document.getElementById("apB13").innerHTML=(((Rodadas[rodada][207]*100)/((Rodadas[rodada][208]+Rodadas[rodada][192]+Rodadas[rodada][193])*3))).toFixed()+"%";
 document.getElementById("ultB13").innerHTML=Rodadas[rodada][214];
 document.getElementById("penB13").innerHTML=Rodadas[rodada][215];
 document.getElementById("antB13").innerHTML=Rodadas[rodada][216];  

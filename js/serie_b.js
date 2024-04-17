@@ -151,8 +151,7 @@ let tec431={idCart:389166,nome:'Team Napolli',nomeLogin:'Filipe Rocha',nomePess:
 
 /*CAMPO DE ATUALIZAÇÕES CLASSIFICAÇÃO GERAL */
 
-let rod1=[santacruz,'','G16',3,1,0,0,3,0,3,'V','','','','','98',tec27,portuguesa,'','G17',3,1,0,0,2,1,1,'V','','','','','72',tec83,paulista,'','G18',3,1,0,0,2,1,1,'V','','','','','68',tec108,santos,'','G19',3,1,0,0,1,0,1,'V','','','','','66',tec24,internacional,'','G20',3,1,0,0,1,0,1,'V','','','','','72',tec92,ceara,'','G21',1,0,1,0,1,1,0,'E','','','','','52',tec116,brasilrs,'','G22',1,0,1,0,1,1,0,'E','','','','','50',tec129,novorizontino,'','G23',1,0,1,0,0,0,0,'E','','','','','53',tec60,nautico,'','G24',1,0,1,0,0,0,0,'E','','','','','48',tec204,cuiaba,'','G25',1,0,1,0,0,0,0,'E','','','','','61',tec165,cruzeiro,'','G26',1,0,1,0,0,0,0,'E','','','','','50',tec55,criciuma,'','G27',1,0,1,0,0,0,0,'E','','','','','54',tec183,coritiba,'','G28',1,0,1,0,0,0,0,'E','','','','','50',tec431,americarn,'','G29',1,0,1,0,0,0,0,'E','','','','','52',tec223,americarj,'','G30',1,0,1,0,0,0,0,'E','','','','','50',tec192,pontepreta,'','G31',0,0,0,1,1,2,-1,'D','','','','','45',tec233,operarioms,'','G32',0,0,0,1,1,2,-1,'D','','','','','42',tec77,voltaredonda,'','G33',0,0,0,1,0,1,-1,'D','','','','','49',tec206,guarani,'','G34',0,0,0,1,0,1,-1,'D','','','','','47',tec25,sampaiocorrea,'','G35',0,0,0,1,0,3,-3,'D','','','','','45',tec65];
-
+let rod1=[santacruz,'','G8',3,1,0,0,3,0,3,'V','','','','','98',tec27,portuguesa,'','G13',3,1,0,0,2,1,1,'V','','','','','72',tec83,paulista,'','SUBIR',3,1,0,0,2,1,1,'V','','','','','68',tec108,santos,'','G4',3,1,0,0,1,0,1,'V','','','','','66',tec24,internacional,'','G4',3,1,0,0,1,0,1,'V','','','','','72',tec92,ceara,'','G8',1,0,1,0,1,1,0,'E','','','','','52',tec116,brasilrs,'','G16',1,0,1,0,1,1,0,'E','','','','','50',tec129,novorizontino,'','G13',1,0,1,0,0,0,0,'E','','','','','53',tec60,nautico,'','G8',1,0,1,0,0,0,0,'E','','','','','48',tec204,cuiaba,'','G4',1,0,1,0,0,0,0,'E','','','','','61',tec165,cruzeiro,'','G4',1,0,1,0,0,0,0,'E','','','','','50',tec55,criciuma,'','G4',1,0,1,0,0,0,0,'E','','','','','54',tec183,coritiba,'','G4',1,0,1,0,0,0,0,'E','','','','','50',tec431,americarn,'','G13',1,0,1,0,0,0,0,'E','','','','','52',tec223,americarj,'','G16',1,0,1,0,0,0,0,'E','','','','','50',tec192,pontepreta,'','G16',0,0,0,1,1,2,-1,'D','','','','','45',tec233,operarioms,'','G16',0,0,0,1,1,2,-1,'D','','','','','42',tec77,voltaredonda,'','G13',0,0,0,1,0,1,-1,'D','','','','','49',tec206,guarani,'','G8',0,0,0,1,0,1,-1,'D','','','','','47',tec25,sampaiocorrea,'','G13',0,0,0,1,0,3,-3,'D','','','','','45',tec65];
 
 /*CAMPO DE ATUALIZAÇÕES CALENDÁRIO */
 
@@ -369,13 +368,13 @@ document.getElementById("derB7").innerHTML=Rodadas[rodada][108];
 document.getElementById("gpB7").innerHTML=Rodadas[rodada][109];
 document.getElementById("gcB7").innerHTML=Rodadas[rodada][110];
 document.getElementById("sgB7").innerHTML=Rodadas[rodada][111];
-document.getElementById("apB7").innerHTML=(((Rodadas[rodada][3]*105)/((Rodadas[rodada][106]+Rodadas[rodada][107]+Rodadas[rodada][108])*3))).toFixed()+"%";
+document.getElementById("apB7").innerHTML=(((Rodadas[rodada][105]*100)/((Rodadas[rodada][106]+Rodadas[rodada][107]+Rodadas[rodada][108])*3))).toFixed()+"%";
 document.getElementById("ultB7").innerHTML=Rodadas[rodada][10];
 document.getElementById("penB7").innerHTML=Rodadas[rodada][11];
 document.getElementById("antB7").innerHTML=Rodadas[rodada][12];  
 document.getElementById("qaB7").innerHTML=Rodadas[rodada][13];
 document.getElementById("qiB7").innerHTML=Rodadas[rodada][14];
-document.getElementById("MteB7").innerHTML=Rodadas[rodada][15]+"%";
+document.getElementById("MteB7").innerHTML=Rodadas[rodada][117]+"%";
 
 
 document.getElementById("logB8").innerHTML=Rodadas[rodada][119][1];
@@ -419,7 +418,7 @@ document.getElementById("penB9").innerHTML=Rodadas[rodada][11];
 document.getElementById("antB9").innerHTML=Rodadas[rodada][12];  
 document.getElementById("qaB9").innerHTML=Rodadas[rodada][13];
 document.getElementById("qiB9").innerHTML=Rodadas[rodada][14];
-document.getElementById("MteB9").innerHTML=Rodadas[rodada][15]+"%";
+document.getElementById("MteB9").innerHTML=Rodadas[rodada][151]+"%";
 
 
 document.getElementById("logB10").innerHTML=Rodadas[rodada][153][1];
