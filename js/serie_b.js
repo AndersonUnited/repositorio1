@@ -370,11 +370,11 @@ document.getElementById("gpB7").innerHTML=Rodadas[rodada][109];
 document.getElementById("gcB7").innerHTML=Rodadas[rodada][110];
 document.getElementById("sgB7").innerHTML=Rodadas[rodada][111];
 document.getElementById("apB7").innerHTML=(((Rodadas[rodada][105]*100)/((Rodadas[rodada][106]+Rodadas[rodada][107]+Rodadas[rodada][108])*3))).toFixed()+"%";
-document.getElementById("ultB7").innerHTML=Rodadas[rodada][10];
-document.getElementById("penB7").innerHTML=Rodadas[rodada][11];
-document.getElementById("antB7").innerHTML=Rodadas[rodada][12];  
-document.getElementById("qaB7").innerHTML=Rodadas[rodada][13];
-document.getElementById("qiB7").innerHTML=Rodadas[rodada][14];
+document.getElementById("ultB7").innerHTML=Rodadas[rodada][112];
+document.getElementById("penB7").innerHTML=Rodadas[rodada][113];
+document.getElementById("antB7").innerHTML=Rodadas[rodada][114];  
+document.getElementById("qaB7").innerHTML=Rodadas[rodada][115];
+document.getElementById("qiB7").innerHTML=Rodadas[rodada][116];
 document.getElementById("MteB7").innerHTML=Rodadas[rodada][117]+"%";
 
 
@@ -414,11 +414,11 @@ document.getElementById("gpB9").innerHTML=Rodadas[rodada][143];
 document.getElementById("gcB9").innerHTML=Rodadas[rodada][144];
 document.getElementById("sgB9").innerHTML=Rodadas[rodada][145];
 document.getElementById("apB9").innerHTML=(((Rodadas[rodada][139]*100)/((Rodadas[rodada][140]+Rodadas[rodada][141]+Rodadas[rodada][142])*3))).toFixed()+"%";
-document.getElementById("ultB9").innerHTML=Rodadas[rodada][10];
-document.getElementById("penB9").innerHTML=Rodadas[rodada][11];
-document.getElementById("antB9").innerHTML=Rodadas[rodada][12];  
-document.getElementById("qaB9").innerHTML=Rodadas[rodada][13];
-document.getElementById("qiB9").innerHTML=Rodadas[rodada][14];
+document.getElementById("ultB9").innerHTML=Rodadas[rodada][146];
+document.getElementById("penB9").innerHTML=Rodadas[rodada][147];
+document.getElementById("antB9").innerHTML=Rodadas[rodada][148];  
+document.getElementById("qaB9").innerHTML=Rodadas[rodada][149];
+document.getElementById("qiB9").innerHTML=Rodadas[rodada][150];
 document.getElementById("MteB9").innerHTML=Rodadas[rodada][151]+"%";
 
 
