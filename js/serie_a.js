@@ -485,6 +485,7 @@ let logotec464="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7
 let logotec465="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_214/escudo/dd/57/35/00015026b0-a71c-46d7-8ca0-0e8cf4e1eedd20230411125735' width='100%'>;"
 let logotec466="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_222/escudo/c7/38/31/00195b5a88-1ded-4d9d-8cfa-29b5da00ddc720240318223831' width='100%'>;"
 let logotec467="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_222/escudo/aa/58/03/002bc28beb-c275-4104-b758-ace94c0baeaa20240314115803' width='100%'>;"
+let logotec468="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_224/escudo/26/29/27/002fad8105-34b4-488a-8900-39ab611db72620240408162927' width='100%'>;"
 
 
 
@@ -887,7 +888,7 @@ let novohamburgo=['Novo Hamburgo',logonovohamburgo,'Citadino','RS','RS','D',1,''
 let novorizontino=['Novorizontino',logonovorizontino,'Citadino','SP','SP','B',1,'G13',1,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'','','','','','','','','','','','','','','','','','','29','2023'];
 let olaria=['Olaria',logoolaria,'Citadino','RJ','RJ1','E',1,'',1,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'','','','','','','','','','','','','','','','','','','1','2024'];
 let operarioms=['Operário-MS',logooperarioms,'Citadino','MS','CO','B',1,'G16',1,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'','','','','','','','','','','','','','','','','','','1','2023'];
-let operariopr=['Operário-PR',logooperariopr,'Regional','PR','PR','D',1,'G8',1,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'','','','','','','','','','','','','','','','','','','1','2024'];
+let operariopr=['Operário-PR',logooperariopr,'Regional','PR','PR','D',1,'G8',1,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'','','','','','','','','','','','','','','','','','','13','2024'];
 let pacajus=['Pacajus ',logopacajus,'Citadino','CE','CE1','E',1,'',1,2,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'','','','','','','','','','','','','','','','','','','1','2024'];
 let palmeiras=['Palmeiras',logopalmeiras,'Grande','SP','SP1','A',1,'SUBIR',1,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'','','','','','','','','','','','','','','','','','','36','2023'];
 let parana=['Paraná',logoparana,'Estadual','PR','PR','D',1,'',1,1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'','','','','','','','','','','','','','','','','','','1','2024'];
@@ -1434,6 +1435,7 @@ let tec464={idCart:14661641,nome:'É Dmais Team',nomeLogin:'Ribeiro',nomePess:'o
 let tec465={idCart:13979610,nome:'Seja o que Deus quiser E.C',nomeLogin:'Lucas Peres Vieira',nomePess:'opcional',anoEnt:2024,logo:logotec465,ClubAtual:brasiliense,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
 let tec466={idCart:25436191,nome:'Footbeer FC',nomeLogin:'Leandro Rodrigues',nomePess:'opcional',anoEnt:2024,logo:logotec466,ClubAtual:londrina,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
 let tec467={idCart:25428676,nome:'GAÚCHO MACHO FC',nomeLogin:'Alexandre Paim',nomePess:'opcional',anoEnt:2024,logo:logotec467,ClubAtual:boaesporte,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
+let tec468={idCart:26554990,nome:'Varadero',nomeLogin:'Salt',nomePess:'opcional',anoEnt:2024,logo:logotec468,ClubAtual:operariopr,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
 
 
 

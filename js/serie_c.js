@@ -474,7 +474,7 @@ let logotec464="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7
 let logotec465="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_214/escudo/dd/57/35/00015026b0-a71c-46d7-8ca0-0e8cf4e1eedd20230411125735' width='100%'>;"
 let logotec466="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_222/escudo/c7/38/31/00195b5a88-1ded-4d9d-8cfa-29b5da00ddc720240318223831' width='100%'>;"
 let logotec467="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_222/escudo/aa/58/03/002bc28beb-c275-4104-b758-ace94c0baeaa20240314115803' width='100%'>;"
-let logotec468="<img src='' width='100%'>;"
+let logotec468="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_224/escudo/26/29/27/002fad8105-34b4-488a-8900-39ab611db72620240408162927' width='100%'>;"
 
 
 
@@ -1417,6 +1417,7 @@ let tec464={idCart:14661641,nome:'É Dmais Team',nomeLogin:'Ribeiro',nomePess:'o
 let tec465={idCart:13979610,nome:'Seja o que Deus quiser E.C',nomeLogin:'Lucas Peres Vieira',nomePess:'opcional',anoEnt:2024,logo:logotec465,ClubAtual:brasiliense,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
 let tec466={idCart:25436191,nome:'Footbeer FC',nomeLogin:'Leandro Rodrigues',nomePess:'opcional',anoEnt:2024,logo:logotec466,ClubAtual:londrina,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
 let tec467={idCart:25428676,nome:'GAÚCHO MACHO FC',nomeLogin:'Alexandre Paim',nomePess:'opcional',anoEnt:2024,logo:logotec467,ClubAtual:boaesporte,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
+let tec468={idCart:26554990,nome:'Varadero',nomeLogin:'Salt',nomePess:'opcional',anoEnt:2024,logo:logotec468,ClubAtual:operariopr,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
 
 
 
