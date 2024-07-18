@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd">
+    <title>Campeonatos Estaduais</title>
+    <link rel="stylesheet" href="css/estilocnn.css">
+</head>
+<body   style="background: rgb(255, 255, 255)">
+
+
+    <div id="barrapreta"> 
+        <div onclick="toggleMenu()" id="sanduiche"><img id="pngsanduiche" src="imagens/menu.png"></div>
+        <div id="titutosite">
+            <div id="titutosite1">Campeonato de Cartola </div>
+            <div id="slogan">A vitória no cartola é o sucesso do seu time!</div>
+        </div>
+        <div id="logosite"><a name="inicio"></a><img  id="pnglogo" src="imagens/novologoesc.png"></div>
+    </div>
+    
+    <div id="titulopag">
+       <p>Copa Libertadores Interligas</p>
+        
+    </div>
+    <br><br>
+    
+    <div id="MENU" class="menu" style="display: none;">
+        <div class="sub_menu"><a class="linksmenu" href="index.html">Principal</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="comojogar.html">Como se joga isso?</a></div>
+    <div class="sub_menu"><a class="linksmenu"  href="regras.html">Regras gerais</a></div>
+    <div class="sub_menu"><a class="linksmenu"  href="premiacoes.html">Premiações</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="planos.html">Ofertas de Emprego</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="serie_a.html">Divisão de Elite</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="serie_b.html">Série B</a></div>
+    <div class="sub_menu"><a class="linksmenu"  href="serie_c.html">Série C</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="serie_d.html">Série D</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="estaduais.html">Campeonatos Estaduais</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="copabrasil.html">Copa do Brasil</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="recopa.html">Recopa Sulamerica</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="sulamericana.html">Copa Sulamericana</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="libertadores.html">Copa Libertadores</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="mundial.html">Mundial de clubes</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="estrangeiros.html">Campeonatos Estrangeiros</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="rankingtec.html">Ranking de Técnicos</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="mural.html">Mural dos Campeões</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="idolos.html">Os ídolos de cada clube</a></div>
+    <div class="sub_menu"><a class="linksmenu" href="contato.html">Nosso Contato</a></div>
+</div>
+
+<div class="menusticky" onclick="toggleMenu()" id="sanduiche"><img id="pngsanduiche" src="imagens/menufixed.png"></div>
+
+<div style="width: 95%;margin-left: 2.5%;margin-bottom: 2%;; flex-direction: row;">
+
+
+    <select class="selectbox" name="estados" id="NomeEstadual" onchange="EstadualEscolhido()" style="width: 85%;">
+        <option value="valor é zero"  selected>Selecione o grupo</option>
+                <option value="Pauli_A">Grupo A</option>
+                <option value="Pauli_B">Grupo B</option>
+                <option value="Cario_A">Grupo C</option>
+                <option value="Cario_B">Grupo D</option>
+                <option value="Gauch_A">Grupo E</option>
+                <option value="Gauch_B">Grupo F</option>
+                <option value="Minei_A">Grupo G</option>
+                <option value="Minei_B">Grupo H</option>
+
+
+             
+                </select>
+
+
+                
+
+</div>                
+
+
+<div style="height: 50px;width: 95%;margin-left: 2.5%;margin-bottom: 6%;; flex-direction: row;">
+
+<select  class="selectbox" name="serieB" id="NumRodada" onchange="EstadualEscolhido()" style="width:25%;">
+                    <option value="0"  selected>rodada:</option>
+                            <option value="1">1ª rodada</option>
+                            <option value="2">2ª rodada</option>
+                            <option value="3">3ª rodada</option>
+                            <option value="4">4ª rodada</option>
+                            <option value="5">5ª rodada</option>
+                            <option value="6">6ª rodada</option>
+
+                            
+                            </select>
+
+                            
+                        </div> 
+                        
+                        
+                        
+
+    
+
+
+
+
+
+<div>
+    <div class="tit_classif">Classificação</div
+
+
+
+
+
+
+        >
+    
+    <div class="div_divplacar" style="margin-left:28.5%; margin-right:3%;"><a class="linkplacar"   href="#placar">Placares/Calendário</a>
+    </div>
+    
+</div>
+
+<div class="sublin_cinza1" style="width: 28%;"></div>
+<div class="sublin_verde1" style="margin-left:27%;"></div>
+
+
+  
+
+</div>
+
+
+
+
+
+<div class="tabpai" style="margin-bottom: 250px;">
+   
+
+    <table  style="position:relative; border-collapse:collapse;margin-left: 20px;margin-right:20px;margin-top: 100px;">
+       
+    <tr class="cab_tabela" style="height: 1%;">
+        <th></th>
+        <th style="color: black;">L</th>
+        <th>Clube Tec.</td>
+        <th>var</th>
+        <th>Pt</th>
+        <th>Vit</th>
+        <th>Emp</th>
+        <th>Der</th>
+        <th>Gp</th>
+        <th>G-</th>
+        <th>Sg</th>
+        <th>Ap%</th>
+        <th scope="col" scope="colgroup" colspan="5">Ultimas 5 do Tec.</th>
+
+    
+    </tr>
+
+    <!--LINHA 1-->
+    <tr id="lintabB1" style="height: 3%;background-image:linear-gradient(180deg, rgb(183, 112, 6),rgb(249, 249, 249))">
+        <td id="posB1" class="pos" style="background-image:linear-gradient(180deg, rgb(183, 112, 6),rgb(249, 249, 249))">1</td>
+        <td id="logB1" class=""></td>
+        <td><div style="display: inline-block;white-space:nowrap;"><div class="nomeclube" id="clubB1" onclick="AbreCardTec1()" ></div><div class="nometecG4" id="tecB1" onclick="AbreCardTec1()" style="color: rgb(146, 117, 11);font-size: 30px;font-weight:bold;font-family: Arial, Helvetica, sans-serif;color:rgb(146, 117, 11)"></div></div></td>
+        <td id="nlB1" class="nivel"></td>
+        <td id="varB1" class="var"></td>
+        <td id="objB1" class="obj"></td>
+        <td id="ptB1" class="pt"></td>
+        <td id="vitB1" class="vit"></td>
+        <td id="empB1" class="emp"></td>
+        <td id="derB1" class="der"></td>
+        <td id="gpB1" class="gp"></td>
+        <td id="gcB1" class="gc"></td>
+        <td id="sgB1" class="sg"></td>
+        <td id="apB1" class="ap"></td>
+        <td id="ultB1" class="ret"></td>
+        <td id="penB1" class="ret"></td>
+        <td id="antB1" class="ret"></td>
+        <td id="qaB1" class="ret"></td>
+        <td id="qiB1" class="ret"></td>
+        <td id="MteB1" class='moral'></td>
+    </tr>
+<!--LINHA 2-->
+<tr id="lintabB2" style="height: 3%;border-bottom: 3px solid rgb(183, 112, 6)">
+<td style="background-image:linear-gradient(90deg, rgb(183, 112, 6),rgb(255, 255, 255))"  id="posB2" class="pos">2</td>
+<td id="logB2" class=""></td>
+<td><div style="display: inline-block;"><div class="nomeclube" id="clubB2" onclick="AbreCardTec2()" style="font-family:'Arial';"></div><div class="nometecG4" id="tecB2" onclick="AbreCardTec2()" style="font-family:'Arial';color:black;"></div></div></td>
+<td id="nlB2" class="nivel"></td>
+<td id="varB2" class="var"></td>
+<td id="objB2" class="obj"></td>
+<td id="ptB2" class="pt"></td>
+<td id="vitB2" class="vit"></td>
+<td id="empB2" class="emp"></td>
+<td id="derB2" class="der"></td>
+<td id="gpB2" class="gp"></td>
+<td id="gcB2" class="gc"></td>
+<td id="sgB2" class="sg"></td>
+<td id="apB2" class="ap"></td>
+<td id="ultB2" class="ret"></td>
+<td id="penB2" class="ret"></td>
+<td id="antB2" class="ret"></td>
+<td id="qaB2" class="ret"></td>
+<td id="qiB2" class="ret"></td>
+<td id="MteB2" class='moral'></td>
+</tr>
+<!--LINHA 3-->
+<tr id="lintabB3" style="height: 3%;" >
+<td   id="posB3" class="posB5">3</td>
+<td id="logB3" class=""></td>
+<td><div style="display: inline-block;"><div class="nomeclube" id="clubB3" onclick="AbreCardTec3()" style="font-family:'Arial';"></div><div class="nometecG4" id="tecB3" onclick="AbreCardTec3()" style="font-family:'Arial';color:black;"></div></div></td>
+<td id="nlB3" class="nivel"></td>
+<td id="varB3" class="var"></td>
+<td id="objB3" class="obj"></td>
+<td id="ptB3" class="pt"></td>
+<td id="vitB3" class="vit"></td>
+<td id="empB3" class="emp"></td>
+<td id="derB3" class="der"></td>
+<td id="gpB3" class="gp"></td>
+<td id="gcB3" class="gc"></td>
+<td id="sgB3" class="sg"></td>
+<td id="apB3" class="ap"></td>
+<td id="ultB3" class="ret"></td>
+<td id="penB3" class="ret"></td>
+<td id="antB3" class="ret"></td>
+<td id="qaB3" class="ret"></td>
+<td id="qiB3" class="ret"></td>
+<td id="MteB3" class='moral'></td>
+</tr>
+<!--LINHA 4-->
+<tr id="lintabB4" style="height: 3%;" >
+<td   id="posB4" class="pos">4</td>
+<td id="logB4" class=""></td>
+<td><div style="display: inline-block;"><div class="nomeclube" id="clubB4" onclick="AbreCardTec4()" style="font-family:'Arial';"></div><div class="nometecG4" id="tecB4" onclick="AbreCardTec4()" style="font-family:'Arial';color:black;"></div></div></td>
+<td id="nlB4" class="nivel"></td>
+<td id="varB4" class="var"></td>
+<td id="objB4" class="obj"></td>
+<td id="ptB4" class="pt"></td>
+<td id="vitB4" class="vit"></td>
+<td id="empB4" class="emp"></td>
+<td id="derB4" class="der"></td>
+<td id="gpB4" class="gp"></td>
+<td id="gcB4" class="gc"></td>
+<td id="sgB4" class="sg"></td>
+<td id="apB4" class="ap"></td>
+<td id="ultB4" class="ret"></td>
+<td id="penB4" class="ret"></td>
+<td id="antB4" class="ret"></td>
+<td id="qaB4" class="ret"></td>
+<td id="qiB4" class="ret"></td>
+<td id="MteB4" class='moral'></td>
+</tr>
+
+
+
+</table>
+</div>
+
+<a name="placar"><p>.</p></a>
+<div style="background: rgb(253, 253, 253);width: 100%;height: 2600px;;margin-top: 10px; display: flex;flex-direction: column;">
+
+    <div class="linCalend" style="background: rgb(254, 254, 254);width: 96%;height:3%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
+
+            <div style="width:37%; align-items: end;justify-content: center;"> <a style="text-decoration: none;color: black;" href="#inicio">Classificação</a></div>
+            <div style="width:15%; align-items: end;"></div>
+            <div style="width:53%; align-items: end;justify-content: center;">Placar Rod/Calendário</div>
+    
+    
+    </div>
+
+
+
+
+
+    <div class="linCalend" style="background: rgb(253, 253, 253);width: 96%;height:0.5%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
+    
+        <div style="background: rgb(209, 209, 209);width:37%; align-items: end;justify-content: center;"></div>
+        <div style="background: rgb(255, 255, 255);width:15%; align-items: end;"></div>
+        <div style="background: rgb(5, 158, 5);width:53%; align-items: end;justify-content: center;"></div>
+    
+    
+    
+    </div>
+
+
+
+
+
+    <div class="linCalend" style="background: rgb(255, 255, 255);width: 96%;height:3%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
+
+        <div style="width:37%; align-items: end;justify-content: center;"> <a href="#inicio"> <img src="imagens/setaup.png" height="62px"></a></div>
+        <div style="width:15%; align-items: end;"> </div>
+        <div style="width:53%;">
+        
+          <!--AQUI DENTRO FICAVA O SELECT DO CALENDÁRIO-->
+        
+
+
+
+
+          <!--FIM DO ESPAÇO DO SELECT DO CALENDÁRIO-->
+        
+        
+        </div>
+
+
+</div>
+
+
+
+
+<div style="background: rgb(211, 211, 211);width: 96%;height:0.2%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;"></div>
+
+
+
+
+
+
+
+<!--DIV PAI JOGO 1-->
+<div class="linCalend" style="background: rgb(253, 253, 253);width: 96%;height:5.5%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
+<!--LINHA LOGOS E PLACAR-->
+    <div style="width:20%; align-items: end;justify-content: center;"> </div>
+    <div id="PlacLog1" style="width:15%; align-items:center;justify-content: end;"></div>
+    <div id="PlacGol1" style="width:10%; align-items: center;justify-content: center;font-family: 'Arial';font-weight: bold;font-size:50px;color: rgb(34, 32, 32);"></div>
+    <div style="width:10%; align-items: center;justify-content: center;font-family: 'Arial';font-weight: bold;font-size:50px;color: rgb(87, 85, 85);">x</div>
+    <div id="PlacGol2" style="width:10%; align-items: center;justify-content: center;font-family: 'Arial';font-weight: bold;font-size:50px;color: rgb(34, 32, 32);"></div>
+    <div  id="PlacLog2"  style="width:15%; align-items:center;justify-content: start;"></div>
+    <div style="width:20%; align-items: end;justify-content: center;"></div>
+
+
+</div>
+<!--LINHA TECNICOS-->
+<div class="linCalend" style="width: 96%;height:1.5%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
+    <div style="width:7%"> </div>
+    <div id="PlacTec1" style="color: rgb(190, 190, 190);width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
+        </div>
+    <div id="PlacTec2"  style="color: rgb(190, 190, 190);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:43%; width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
+        </div>       
+</div>
+<!--PONTUÇÃO-->
+<div class="linCalend" style="width: 96%;height:1.5%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
+    <div style="width:7%"> </div>
+    <div  id="PlacPt1"  style="color: rgb(190, 190, 190);width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
+        </div>
+    <div  id="PlacPt2"  style="color: rgb(190, 190, 190); width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
+        </div>       
+</div>
+
+<!--LINHA CINZA-->
+<div class="linCalend" style="background: rgb(211, 211, 211);width: 96%;height:0.2%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;"></div>
+
+
+
+
+
+<!--DIV PAI JOGO 2-->
+<div class="linCalend" style="background: rgb(253, 253, 253);width: 96%;height:5.5%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
+    <!--LINHA LOGOS E PLACAR-->
+        <div style="width:20%; align-items: end;justify-content: center;"> </div>
+        <div  id="PlacLog3"  style="width:15%; align-items:center;justify-content: end;"></div>
+        <div id="PlacGol3" style="width:10%; align-items: center;justify-content: center;font-family: 'Arial';font-weight: bold;font-size:50px;color: rgb(34, 32, 32);"></div>
+        <div style="width:10%; align-items: center;justify-content: center;font-family: 'Arial';font-weight: bold;font-size:50px;color: rgb(87, 85, 85);">x</div>
+        <div id="PlacGol4" style="width:10%; align-items: center;justify-content: center;font-family: 'Arial';font-weight: bold;font-size:50px;color: rgb(34, 32, 32);"></div>
+        <div  id="PlacLog4"  style="width:15%; align-items:center;justify-content: start;"></div>
+        <div style="width:20%; align-items: end;justify-content: center;"></div>
+    
+    
+    </div>
+    <!--LINHA TECNICOS-->
+    <div class="linCalend" style="width: 96%;height:1.5%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
+        <div style="width:7%"> </div>
+        <div  id="PlacTec3"  style="color: rgb(190, 190, 190);width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
+            </div>
+        <div  id="PlacTec4"  style="color: rgb(190, 190, 190);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:43%; width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
+            </div>       
+    </div>
+    <!--PONTUÇÃO-->
+    <div class="linCalend" style="width: 96%;height:1.5%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
+        <div style="width:7%"> </div>
+        <div  id="PlacPt3"  style="color: rgb(190, 190, 190);width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
+           </div>
+        <div  id="PlacPt4"  style="color: rgb(190, 190, 190); width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
+           </div>       
+    </div>
+    
+    <!--LINHA CINZA-->
+    <div class="linCalend" style="background: rgb(211, 211, 211);width: 96%;height:0.2%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;"></div>
+
+    
+
+
+
+  
+
+
+<!--CARTECNICO1-------------------------------->
+
+<div id="cardtec1" class="cardtec1">
+    <div class="CardNomeTec" id="CardNomeTec1"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo1" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin1" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId1" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde1" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral1" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu1" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos1_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos1_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos1_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos1_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos1_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos1_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos1_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos1_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos1_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos1_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+<!--CARTECNICO2-------------------------------->
+
+<div id="cardtec2" class="cardtec2">
+    <div class="CardNomeTec" id="CardNomeTec2"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo2" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin2" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId2" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde2" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral2" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu2" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos2_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos2_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos2_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos2_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos2_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos2_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos2_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos2_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos2_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos2_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+
+<!--CARTECNICO3-------------------------------->
+
+<div id="cardtec3" class="cardtec3">
+    <div class="CardNomeTec" id="CardNomeTec3"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo3" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin3" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId3" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde3" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral3" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu3" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos3_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos3_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos3_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos3_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos3_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos3_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos3_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos3_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos3_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos3_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+
+<!--CARTECNICO4-------------------------------->
+
+<div id="cardtec4" class="cardtec4">
+    <div class="CardNomeTec" id="CardNomeTec4"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo4" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin4" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId4" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde4" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral4" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu4" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos4_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos4_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos4_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos4_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos4_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos4_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos4_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos4_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos4_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos4_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+
+<!--CARTECNICO5-------------------------------->
+
+<div id="cardtec5" class="cardtec5">
+    <div class="CardNomeTec" id="CardNomeTec5"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo5" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin5" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId5" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde5" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral5" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu5" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos5_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos5_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos5_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos5_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos5_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos5_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos5_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos5_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos5_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos5_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+
+<!--CARTECNICO6-------------------------------->
+
+<div id="cardtec6" class="cardtec6">
+    <div class="CardNomeTec" id="CardNomeTec6"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo6" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin6" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId6" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde6" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral6" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu6" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos6_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos6_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos6_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos6_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos6_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos6_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos6_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos6_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos6_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos6_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+
+<!--CARTECNICO7-------------------------------->
+
+<div id="cardtec7" class="cardtec7">
+    <div class="CardNomeTec" id="CardNomeTec7"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo7" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin7" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId7" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde7" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral7" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu7" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos7_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos7_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos7_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos7_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos7_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos7_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos7_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos7_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos7_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos7_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+<!--CARTECNICO8-------------------------------->
+
+<div id="cardtec8" class="cardtec8">
+    <div class="CardNomeTec" id="CardNomeTec8"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo8" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin8" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId8" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde8" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral8" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu8" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos8_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos8_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos8_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos8_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos8_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos8_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos8_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos8_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos8_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos8_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+<!--CARTECNICO9-------------------------------->
+
+<div id="cardtec9" class="cardtec9">
+    <div class="CardNomeTec" id="CardNomeTec9"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo9" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin9" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId9" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde9" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral9" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu9" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos9_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos9_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos9_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos9_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos9_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos9_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos9_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos9_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos9_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos9_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------->
+<!--CARTECNICO10-------------------------------->
+
+<div id="cardtec10" class="cardtec10">
+    <div class="CardNomeTec" id="CardNomeTec10"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo10" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin10" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId10" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde10" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral10" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu10" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos10_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos10_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos10_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos10_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos10_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos10_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos10_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos10_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos10_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos10_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+
+<!--CARTECNICO11-------------------------------->
+
+<div id="cardtec11" class="cardtec11">
+    <div class="CardNomeTec" id="CardNomeTec11"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo11" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin11" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId11" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde11" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral11" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu11" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos11_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos11_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos11_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos11_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos11_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos11_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos11_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos11_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos11_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos11_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+<!--CARTECNICO12-------------------------------->
+
+<div id="cardtec12" class="cardtec12">
+    <div class="CardNomeTec" id="CardNomeTec12"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo12" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin12" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId12" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde12" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral12" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu12" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos12_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos12_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos12_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos12_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos12_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos12_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos12_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos12_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos12_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos12_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+
+<!--CARTECNICO13-------------------------------->
+
+<div id="cardtec13" class="cardtec13">
+    <div class="CardNomeTec" id="CardNomeTec13"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo13" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin13" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId13" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde13" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral13" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu13" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos13_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos13_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos13_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos13_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos13_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos13_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos13_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos13_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos13_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos13_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+<!--CARTECNICO14-------------------------------->
+
+<div id="cardtec14" class="cardtec14">
+    <div class="CardNomeTec" id="CardNomeTec14"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo14" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin14" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId14" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde14" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral14" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu14" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos14_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos14_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos14_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos14_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos14_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos14_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos14_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos14_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos14_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos14_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+
+<!--CARTECNICO15-------------------------------->
+
+<div id="cardtec15" class="cardtec15">
+    <div class="CardNomeTec" id="CardNomeTec15"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo15" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin15" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId15" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde15" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral15" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu15" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos15_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos15_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos15_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos15_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos15_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos15_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos15_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos15_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos15_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos15_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+<!--CARTECNICO16-------------------------------->
+
+<div id="cardtec16" class="cardtec16">
+    <div class="CardNomeTec" id="CardNomeTec16"></div>
+    <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
+                <div id="CardLogo16" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
+                <div style="flex-direction: column;">
+                            <div id="CardLogin16" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardId16" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
+                            <div id="CardDesde16" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CarMoral16" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
+                            
+                            
+                
+                
+                </div>
+    </div>
+    
+
+    <div id="CardAssumiu16" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardTitulos16_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos16_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos16_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos16_4" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos16_5" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos16_6" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos16_7" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos16_8" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos16_9" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+    <div id="CardTitulos16_10" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
+
+</div>
+<!------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+</div>
+
+
+<script src="js/libertadores.js"></script>
+</body>
+</html>
