@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd">
+    <title>Campeonato de Cartola - News</title>
+    <link rel="stylesheet" href="../css/estilocnn.css">
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+    </style>
+    
+
+</head>
+<body>
+
+
+    <div id="barrapreta" style="margin-bottom: 0%;"> 
+        <div onclick="toggleMenu()" id="sanduiche"><img id="pngsanduiche" src="../imagens/menu.png"></div>
+        <div id="titutosite">
+            <div id="titutosite1">Campeonato de Cartola </div>
+            <div id="slogan">A vitória no cartola é o sucesso do seu time!</div>
+        </div>
+        <div id="logosite"><img  id="pnglogo" src="../imagens/novologoesc.png"></div>
+    </div>
+    
+  
+    <br><br>
+    
+    <div id="MENU" class="menu" style="display: none;">
+        <div class="sub_menu"><a class="linksmenu" href="../../index.html">Principal</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../comojogar.html">Como se joga isso?</a></div>
+        <div class="sub_menu"><a class="linksmenu"  href="../regras.html">Regras gerais</a></div>
+        <div class="sub_menu"><a class="linksmenu"  href="../premiacoes.html">Premiações</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../planos.html">Ofertas de Emprego</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../serie_a.html">Divisão de Elite</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../serie_b.html">Série B</a></div>
+        <div class="sub_menu"><a class="linksmenu"  href="../serie_c.html">Série C</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../serie_d.html">Série D</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../estaduais.html">Campeonatos Estaduais</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../copabrasil.html">Copa do Brasil</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../recopa.html">Recopa Sulamerica</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../sulamericana.html">Copa Sulamericana</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../libertadores.html">Copa Libertadores</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../mundial.html">Mundial de clubes</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../estrangeiros.html">Campeonatos Estrangeiros</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../rankingtec.html">Ranking de Técnicos</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../mural.html">Mural dos Campeões</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../idolos.html">Os ídolos de cada clube</a></div>
+        <div class="sub_menu"><a class="linksmenu" href="../contato.html">Nosso Contato</a></div>
+</div>
+
+<div class="../menusticky" onclick="toggleMenu()" id="sanduiche"><img id="pngsanduiche" src="../imagens/menufixed.png"></div>
+
+
+
+
+
+<div class="index1" style="height: auto;overflow: auto;flex-direction: column;width: 94%;margin-right: 1px; margin-top: 3%; margin-left: 1%;">
+    <img src="data:image/jpeg;base64,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" style="height:500px;width: 99%;padding-left: 1px;">
+<p style="font-family: verdana; font-size: 40px;text-align: justify;color: grey;padding-right: 3%;padding-left:3%;padding-top: 5%;text-indent:15%; line-height: 60px;"></p>
+
+    <p style="font-family: verdana; font-size: 40px;text-align: justify;color: grey;padding-right: 3%;padding-left:3%;text-indent:15%; line-height: 60px;">    
+        Focando na principal meta do clube, que é o retorno à série "B", Figueirense investiu no que havia de melhor e disponível no universo de técnicos treinando clubes da série "C",
+        confirmando acordo com o cartoleiro "Footbeer FC", responsável pela recuperação do Vila Nova nas últimas quatro rodadas, fazendo o clube saltar da 13ª para a 8ª colocação.
+
+
+</p>   
+<p style="font-family: verdana; font-size: 40px;text-align: justify;color: grey;padding-right: 3%;padding-left:3%;text-indent:15%; line-height: 60px;">    
+    Antes do Vila Nova, cartoleiro Leandro Rodrigues teve passagem pelo Londrina, sendo demitido do anilado paranaense na 10ª rodada, na 14ª colocação, com 2 vitórias, 6 empates e 2 derrotas, com 40%
+    aproveitamento.
+</p> 
+
+<p style="font-family: verdana; font-size: 40px;text-align: justify;color: grey;padding-right: 3%;padding-left:3%;text-indent:15%; line-height: 60px;">    
+    Tècnico debutará justamente contra o Londrina. Figueirense é o terceiro colocado da 3ª nacional, com 31 pontos, 3 a menos que os ponteiros Tombense, do "Consultório RM FC" e 
+    Botafogo de Ribeirão Preto, do "Insalubres", ambos com 34 pontos.
+</p> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="../index.html" style="text-align: right;padding-right:3%; font-size: 40px; padding: 5%; font-family: Arial;">VOLTAR</a>
+
+</div>
+
+
+
+
+
+
+<script src="../js/pagsomenu.js" ></script>
+
+</body>
+</html>
