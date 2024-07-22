@@ -52,16 +52,16 @@
 <div style="width: 95%;margin-left: 2.5%;margin-bottom: 2%;; flex-direction: row;">
 
 
-    <select  name="estados" id="NomeEstadual" onchange="EstadualEscolhido()" style="width: 25%; height: 50px; font-size: 25px; background-color: rgb(36, 36, 36);color: rgb(202, 200, 200);color:goldenrod;">
+    <select  name="estados" id="NomeGrupo" onchange="GrupoEscolhido()" style="width: 25%; height: 50px; font-size: 25px; background-color: rgb(36, 36, 36);color: rgb(202, 200, 200);color:goldenrod;">
         <option value="valor é zero"  selected>Selecione o grupo</option>
-                <option value="Pauli_A">Grupo A</option>
-                <option value="Pauli_B">Grupo B</option>
-                <option value="Cario_A">Grupo C</option>
-                <option value="Cario_B">Grupo D</option>
-                <option value="Gauch_A">Grupo E</option>
-                <option value="Gauch_B">Grupo F</option>
-                <option value="Minei_A">Grupo G</option>
-                <option value="Minei_B">Grupo H</option>
+                <option value="Grupo_A">Grupo A</option>
+                <option value="Grupo_B">Grupo B</option>
+                <option value="Grupo_C">Grupo C</option>
+                <option value="Grupo_D">Grupo D</option>
+                <option value="Grupo_E">Grupo E</option>
+                <option value="Grupo_F">Grupo F</option>
+                <option value="Grupo_G">Grupo G</option>
+                <option value="Grupo_H">Grupo H</option>
 
 
              
@@ -102,8 +102,8 @@
 <!--1º LUGAR-->
 
            <div style="height:70px;border-bottom: solid 1px goldenrod; display:flex-row;margin: 10px;color:rgb(145, 142, 142)">
-            <div style="border-radius: 1px; font-size: 40px; align-items: center;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;color:goldenrod;width: 4%;">1</div>
-            <div style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://ssl.gstatic.com/onebox/media/sports/logos/orE554NToSkH6nuwofe7Yg_48x48.png" alt=""></div>
+            <div  style="border-radius: 1px; font-size: 40px; align-items: center;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;color:goldenrod;width: 4%;">1</div>
+            <div id="logclass1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%"></div>
             <div id="club1" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 10px; font-family: Arial; font-weight: bold; font-size: 33px; width: 41%;">Flamengo</div>
             <div id="pt1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 40px;width: 6%;">13</div>
             <div id="vit1" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">4</div>
@@ -112,7 +112,7 @@
             <div id="gp1" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">18</div>
             <div id="gc1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">15</div>
             <div id="sd1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">3</div>
-            <div id="tec1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_224/escudo/f5/19/15/007ef38ef1-090a-42e4-a573-248b576b0bf520240408221915" width="48"></div>
+            <div id="tec1" onclick="AbreCardTec1()"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_224/escudo/f5/19/15/007ef38ef1-090a-42e4-a573-248b576b0bf520240408221915" width="48"></div>
    </div>
 
 
@@ -120,48 +120,48 @@
 
    <div style="height:70px;border-bottom: solid 1px goldenrod; display:flex-row;margin: 10px;color:rgb(145, 142, 142)">
     <div style="border-radius: 1px; font-size: 40px; align-items: center;justify-content: center;font-family: Arial; font-size: 40px;color:rgb(155, 116, 19);width: 4%;">2</div>
-    <div style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://ssl.gstatic.com/onebox/media/sports/logos/jqe29gPx-mxrOrDOSLwcBw_48x48.png" alt=""></div>
-    <div id="club1" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 10px; font-family: Arial; font-weight: bold; font-size: 33px; width: 41%;">Univ. de Chile</div>
-    <div id="pt1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 40px;width: 6%;">10</div>
-    <div id="vit1" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">2</div>
-    <div id="emp1"style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">4</div>
-    <div id="der1" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">0</div>
-    <div id="gp1" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">13</div>
-    <div id="gc1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">12</div>
-    <div id="sd1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">1</div>
-    <div id="tec1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_227/escudo/46/02/12/00316afab6-8a81-412f-942e-0135b1c49a4620240413200212" width="48"></div>
+    <div id="logclass2"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://ssl.gstatic.com/onebox/media/sports/logos/jqe29gPx-mxrOrDOSLwcBw_48x48.png" alt=""></div>
+    <div id="club2" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 10px; font-family: Arial; font-weight: bold; font-size: 33px; width: 41%;">Univ. de Chile</div>
+    <div id="pt2"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 40px;width: 6%;">10</div>
+    <div id="vit2" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">2</div>
+    <div id="emp2"style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">4</div>
+    <div id="der2" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">0</div>
+    <div id="gp2" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">13</div>
+    <div id="gc2"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">12</div>
+    <div id="sd2"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">1</div>
+    <div id="tec2" onclick="AbreCardTec2()"   style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_227/escudo/46/02/12/00316afab6-8a81-412f-942e-0135b1c49a4620240413200212" width="48"></div>
 </div>
 
 <!--3º LUGAR-->
 
 <div style="height:70px;border-bottom: solid 1px rgb(24, 74, 131); display:flex-row;margin: 10px;color:rgb(145, 142, 142)">
     <div style="border-radius: 1px; font-size: 40px; align-items: center;justify-content: center;font-family: Arial; font-size: 40px;color:rgb(24, 74, 131);width: 4%;">3</div>
-    <div style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://ssl.gstatic.com/onebox/media/sports/logos/q_2P3cWhPBE6a_0bB-xLAQ_48x48.png" alt=""></div>
-    <div id="club1" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 10px; font-family: Arial; font-weight: bold; font-size: 33px; width: 41%;">Cerro Porteño</div>
-    <div id="pt1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 40px;width: 6%;">7</div>
-    <div id="vit1" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">2</div>
-    <div id="emp1"style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">1</div>
-    <div id="der1" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">3</div>
-    <div id="gp1" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">10</div>
-    <div id="gc1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">14</div>
-    <div id="sd1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">-4</div>
-    <div id="tec1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_224/escudo/1f/59/33/00fecde411-a2a1-445a-b514-43bebd33c21f20240410165933" width="48"></div>
+    <div id="logclass3"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://ssl.gstatic.com/onebox/media/sports/logos/q_2P3cWhPBE6a_0bB-xLAQ_48x48.png" alt=""></div>
+    <div id="club3" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 10px; font-family: Arial; font-weight: bold; font-size: 33px; width: 41%;">Cerro Porteño</div>
+    <div id="pt3"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 40px;width: 6%;">7</div>
+    <div id="vit3" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">2</div>
+    <div id="emp3"style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">1</div>
+    <div id="der3" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">3</div>
+    <div id="gp3" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">10</div>
+    <div id="gc3"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">14</div>
+    <div id="sd3"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">-4</div>
+    <div id="tec3" onclick="AbreCardTec3()"   style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_224/escudo/1f/59/33/00fecde411-a2a1-445a-b514-43bebd33c21f20240410165933" width="48"></div>
 </div>
 
 <!--4º LUGAR-->
 
 <div style="height:70px; border-bottom: solid 1px rgb(80, 79, 79); display:flex-row;margin: 10px;color:rgb(80, 79, 79)">
     <div style="border-radius: 1px; font-size: 40px; align-items: center;justify-content: center;font-family: Arial; font-size: 40px;color:rgb(80, 79, 79);width: 4%;">4</div>
-    <div style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://ssl.gstatic.com/onebox/media/sports/logos/HdKjN7bWGo0noZ06Gn6Fow_48x48.png" alt=""></div>
-    <div id="club1" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 10px; font-family: Arial; font-weight: bold; font-size: 33px; width: 41%;">Huachipato</div>
-    <div id="pt1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 40px;width: 6%;">3</div>
-    <div id="vit1" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">0</div>
-    <div id="emp1"style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">3</div>
-    <div id="der1" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">3</div>
-    <div id="gp1" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">12</div>
-    <div id="gc1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">4</div>
-    <div id="sd1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">-8</div>
-    <div id="tec1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_200/escudo/ae/35/50/00f2290220-5dde-46ea-b1c4-149af6d90cae20220311223550" width="48"></div>
+    <div id="logclass4"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://ssl.gstatic.com/onebox/media/sports/logos/HdKjN7bWGo0noZ06Gn6Fow_48x48.png" alt=""></div>
+    <div id="club4" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 10px; font-family: Arial; font-weight: bold; font-size: 33px; width: 41%;">Huachipato</div>
+    <div id="pt4"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 40px;width: 6%;">3</div>
+    <div id="vit4" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">0</div>
+    <div id="emp4"style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">3</div>
+    <div id="der4" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">3</div>
+    <div id="gp4" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">12</div>
+    <div id="gc4"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">4</div>
+    <div id="sd4"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">-8</div>
+    <div id="tec4" onclick="AbreCardTec4()"   style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_200/escudo/ae/35/50/00f2290220-5dde-46ea-b1c4-149af6d90cae20220311223550" width="48"></div>
 </div>
 
 
@@ -369,7 +369,7 @@
 <!--CARTECNICO1-------------------------------->
 
 <div id="cardtec1" class="cardtec1">
-    <div class="CardNomeTec" id="CardNomeTec1"></div>
+    <div class="CardNomeTec" id="CardNomeTec1">OLÁ MUNDÃO!</div>
     <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
                 <div id="CardLogo1" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
                 <div style="flex-direction: column;">
