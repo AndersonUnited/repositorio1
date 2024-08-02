@@ -1571,6 +1571,7 @@ let ultimarodada =Rodadas.length-1
 
 //ÚLTIMA RODADA***************************************
 
+document.getElementById("SelectUltimaRodada").innerHTML=ultimarodada+"ª rodada";
 document.getElementById("logB1").innerHTML=Rodadas[ultimarodada][0][1];
 document.getElementById("clubB1").innerHTML=Rodadas[ultimarodada][0][0];
 document.getElementById("tecB1").innerHTML=Rodadas[ultimarodada][16].nome;
