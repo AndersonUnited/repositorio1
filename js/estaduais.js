@@ -2269,9 +2269,7 @@ let Baian_Cal_A14=[logojacuipense,'0',tec259,'54,58',logobahia,'4',tec84,'97,55'
 let Baian_Cal_B14=[logounirb,'4',tec335,'92,63',logocolocoloba,'1',tec331,'64,68',logobahiadefeira,'0',tec330,'0',logograpiuna,'3',tec333,'86,07',logofluminensedefeira,'3',tec332,'82,53',logojuazeiro,'2',tec334,'76,51',logovitoriadaconquista,'3',tec336,'82,53',logojequie,'4',tec186,'92,78'];
   
 
-
-
-
+let rodadaAtual='14';
 
 
 
@@ -2343,6 +2341,357 @@ let Baian_A = ['',Baian_A1,Baian_A2,Baian_A3,Baian_A4,Baian_A5,Baian_A6,Baian_A7
 
 
   
+
+  document.getElementById('SelectNumRodada').innerHTML=rodadaAtual+"ª rodada"
+document.getElementById('logB1').innerHTML=Pauli_A[rodadaAtual][0];
+    document.getElementById('tecB1').innerHTML=Pauli_A[rodadaAtual][2].nome;
+    document.getElementById('clubB1').innerHTML=Pauli_A[rodadaAtual][1][0];
+    document.getElementById('nlB1').innerHTML=Pauli_A[rodadaAtual][1][2];
+    document.getElementById('varB1').innerHTML=Pauli_A[rodadaAtual][3];
+    document.getElementById('objB1').innerHTML=Pauli_A[rodadaAtual][4];
+    document.getElementById('ptB1').innerHTML=Pauli_A[rodadaAtual][5];
+    document.getElementById('vitB1').innerHTML=Pauli_A[rodadaAtual][6];
+    document.getElementById('empB1').innerHTML=Pauli_A[rodadaAtual][7];
+    document.getElementById('derB1').innerHTML=Pauli_A[rodadaAtual][8];
+    document.getElementById('gpB1').innerHTML=Pauli_A[rodadaAtual][9];
+    document.getElementById('gcB1').innerHTML=Pauli_A[rodadaAtual][10];
+    document.getElementById('sgB1').innerHTML=Pauli_A[rodadaAtual][11];
+    document.getElementById('apB1').innerHTML=Pauli_A[rodadaAtual][12];
+    document.getElementById('ultB1').innerHTML=Pauli_A[rodadaAtual][13];
+    document.getElementById('penB1').innerHTML=Pauli_A[rodadaAtual][14];
+    document.getElementById('antB1').innerHTML=Pauli_A[rodadaAtual][15];
+    document.getElementById('qaB1').innerHTML=Pauli_A[rodadaAtual][16];
+    document.getElementById('qiB1').innerHTML=Pauli_A[rodadaAtual][17];
+
+    document.getElementById('logB2').innerHTML=Pauli_A[rodadaAtual][18];
+    document.getElementById('tecB2').innerHTML=Pauli_A[rodadaAtual][20].nome;
+    document.getElementById('clubB2').innerHTML=Pauli_A[rodadaAtual][19][0];
+    document.getElementById('nlB2').innerHTML=Pauli_A[rodadaAtual][19][2];
+    document.getElementById('varB2').innerHTML=Pauli_A[rodadaAtual][21];
+    document.getElementById('objB2').innerHTML=Pauli_A[rodadaAtual][22];
+    document.getElementById('ptB2').innerHTML=Pauli_A[rodadaAtual][23];
+    document.getElementById('vitB2').innerHTML=Pauli_A[rodadaAtual][24];
+    document.getElementById('empB2').innerHTML=Pauli_A[rodadaAtual][25];
+    document.getElementById('derB2').innerHTML=Pauli_A[rodadaAtual][26];
+    document.getElementById('gpB2').innerHTML=Pauli_A[rodadaAtual][27];
+    document.getElementById('gcB2').innerHTML=Pauli_A[rodadaAtual][28];
+    document.getElementById('sgB2').innerHTML=Pauli_A[rodadaAtual][29];
+    document.getElementById('apB2').innerHTML=Pauli_A[rodadaAtual][30];
+    document.getElementById('ultB2').innerHTML=Pauli_A[rodadaAtual][31];
+    document.getElementById('penB2').innerHTML=Pauli_A[rodadaAtual][32];
+    document.getElementById('antB2').innerHTML=Pauli_A[rodadaAtual][33];
+    document.getElementById('qaB2').innerHTML=Pauli_A[rodadaAtual][34];
+    document.getElementById('qiB2').innerHTML=Pauli_A[rodadaAtual][35];
+
+    document.getElementById('logB3').innerHTML=Pauli_A[rodadaAtual][36];
+    document.getElementById('tecB3').innerHTML=Pauli_A[rodadaAtual][38].nome;
+    document.getElementById('clubB3').innerHTML=Pauli_A[rodadaAtual][37][0];
+    document.getElementById('nlB3').innerHTML=Pauli_A[rodadaAtual][37][2];
+    document.getElementById('varB3').innerHTML=Pauli_A[rodadaAtual][39];
+    document.getElementById('objB3').innerHTML=Pauli_A[rodadaAtual][40];
+    document.getElementById('ptB3').innerHTML=Pauli_A[rodadaAtual][41];
+    document.getElementById('vitB3').innerHTML=Pauli_A[rodadaAtual][42];
+    document.getElementById('empB3').innerHTML=Pauli_A[rodadaAtual][43];
+    document.getElementById('derB3').innerHTML=Pauli_A[rodadaAtual][44];
+    document.getElementById('gpB3').innerHTML=Pauli_A[rodadaAtual][45];
+    document.getElementById('gcB3').innerHTML=Pauli_A[rodadaAtual][46];
+    document.getElementById('sgB3').innerHTML=Pauli_A[rodadaAtual][47];
+    document.getElementById('apB3').innerHTML=Pauli_A[rodadaAtual][48];
+    document.getElementById('ultB3').innerHTML=Pauli_A[rodadaAtual][49];
+    document.getElementById('penB3').innerHTML=Pauli_A[rodadaAtual][50];
+    document.getElementById('antB3').innerHTML=Pauli_A[rodadaAtual][51];
+    document.getElementById('qaB3').innerHTML=Pauli_A[rodadaAtual][52];
+    document.getElementById('qiB3').innerHTML=Pauli_A[rodadaAtual][53];
+
+    document.getElementById('logB4').innerHTML=Pauli_A[rodadaAtual][54];
+    document.getElementById('tecB4').innerHTML=Pauli_A[rodadaAtual][56].nome;
+    document.getElementById('clubB4').innerHTML=Pauli_A[rodadaAtual][55][0];
+    document.getElementById('nlB4').innerHTML=Pauli_A[rodadaAtual][55][2];
+    document.getElementById('varB4').innerHTML=Pauli_A[rodadaAtual][57];
+    document.getElementById('objB4').innerHTML=Pauli_A[rodadaAtual][58];
+    document.getElementById('ptB4').innerHTML=Pauli_A[rodadaAtual][59];
+    document.getElementById('vitB4').innerHTML=Pauli_A[rodadaAtual][60];
+    document.getElementById('empB4').innerHTML=Pauli_A[rodadaAtual][61];
+    document.getElementById('derB4').innerHTML=Pauli_A[rodadaAtual][62];
+    document.getElementById('gpB4').innerHTML=Pauli_A[rodadaAtual][63];
+    document.getElementById('gcB4').innerHTML=Pauli_A[rodadaAtual][64];
+    document.getElementById('sgB4').innerHTML=Pauli_A[rodadaAtual][65];
+    document.getElementById('apB4').innerHTML=Pauli_A[rodadaAtual][66];
+    document.getElementById('ultB4').innerHTML=Pauli_A[rodadaAtual][67];
+    document.getElementById('penB4').innerHTML=Pauli_A[rodadaAtual][68];
+    document.getElementById('antB4').innerHTML=Pauli_A[rodadaAtual][69];
+    document.getElementById('qaB4').innerHTML=Pauli_A[rodadaAtual][70];
+    document.getElementById('qiB4').innerHTML=Pauli_A[rodadaAtual][71];
+
+    document.getElementById('logB5').innerHTML=Pauli_A[rodadaAtual][72];
+    document.getElementById('tecB5').innerHTML=Pauli_A[rodadaAtual][74].nome;
+    document.getElementById('clubB5').innerHTML=Pauli_A[rodadaAtual][73][0];
+    document.getElementById('nlB5').innerHTML=Pauli_A[rodadaAtual][73][2];
+    document.getElementById('varB5').innerHTML=Pauli_A[rodadaAtual][75];
+    document.getElementById('objB5').innerHTML=Pauli_A[rodadaAtual][76];
+    document.getElementById('ptB5').innerHTML=Pauli_A[rodadaAtual][77];
+    document.getElementById('vitB5').innerHTML=Pauli_A[rodadaAtual][78];
+    document.getElementById('empB5').innerHTML=Pauli_A[rodadaAtual][79];
+    document.getElementById('derB5').innerHTML=Pauli_A[rodadaAtual][80];
+    document.getElementById('gpB5').innerHTML=Pauli_A[rodadaAtual][81];
+    document.getElementById('gcB5').innerHTML=Pauli_A[rodadaAtual][82];
+    document.getElementById('sgB5').innerHTML=Pauli_A[rodadaAtual][83];
+    document.getElementById('apB5').innerHTML=Pauli_A[rodadaAtual][84];
+    document.getElementById('ultB5').innerHTML=Pauli_A[rodadaAtual][85];
+    document.getElementById('penB5').innerHTML=Pauli_A[rodadaAtual][86];
+    document.getElementById('antB5').innerHTML=Pauli_A[rodadaAtual][87];
+    document.getElementById('qaB5').innerHTML=Pauli_A[rodadaAtual][88];
+    document.getElementById('qiB5').innerHTML=Pauli_A[rodadaAtual][89];
+
+    document.getElementById('logB6').innerHTML=Pauli_A[rodadaAtual][90];
+    document.getElementById('tecB6').innerHTML=Pauli_A[rodadaAtual][92].nome;
+    document.getElementById('clubB6').innerHTML=Pauli_A[rodadaAtual][91][0];
+    document.getElementById('nlB6').innerHTML=Pauli_A[rodadaAtual][91][2];
+    document.getElementById('varB6').innerHTML=Pauli_A[rodadaAtual][93];
+    document.getElementById('objB6').innerHTML=Pauli_A[rodadaAtual][94];
+    document.getElementById('ptB6').innerHTML=Pauli_A[rodadaAtual][95];
+    document.getElementById('vitB6').innerHTML=Pauli_A[rodadaAtual][96];
+    document.getElementById('empB6').innerHTML=Pauli_A[rodadaAtual][97];
+    document.getElementById('derB6').innerHTML=Pauli_A[rodadaAtual][98];
+    document.getElementById('gpB6').innerHTML=Pauli_A[rodadaAtual][99];
+    document.getElementById('gcB6').innerHTML=Pauli_A[rodadaAtual][100];
+    document.getElementById('sgB6').innerHTML=Pauli_A[rodadaAtual][101];
+    document.getElementById('apB6').innerHTML=Pauli_A[rodadaAtual][102];
+    document.getElementById('ultB6').innerHTML=Pauli_A[rodadaAtual][103];
+    document.getElementById('penB6').innerHTML=Pauli_A[rodadaAtual][104];
+    document.getElementById('antB6').innerHTML=Pauli_A[rodadaAtual][105];
+    document.getElementById('qaB6').innerHTML=Pauli_A[rodadaAtual][106];
+    document.getElementById('qiB6').innerHTML=Pauli_A[rodadaAtual][107];
+
+    document.getElementById('logB7').innerHTML=Pauli_A[rodadaAtual][108];
+    document.getElementById('tecB7').innerHTML=Pauli_A[rodadaAtual][110].nome;
+    document.getElementById('clubB7').innerHTML=Pauli_A[rodadaAtual][109][0];
+    document.getElementById('nlB7').innerHTML=Pauli_A[rodadaAtual][109][2];
+    document.getElementById('varB7').innerHTML=Pauli_A[rodadaAtual][111];
+    document.getElementById('objB7').innerHTML=Pauli_A[rodadaAtual][112];
+    document.getElementById('ptB7').innerHTML=Pauli_A[rodadaAtual][113];
+    document.getElementById('vitB7').innerHTML=Pauli_A[rodadaAtual][114];
+    document.getElementById('empB7').innerHTML=Pauli_A[rodadaAtual][115];
+    document.getElementById('derB7').innerHTML=Pauli_A[rodadaAtual][116];
+    document.getElementById('gpB7').innerHTML=Pauli_A[rodadaAtual][117];
+    document.getElementById('gcB7').innerHTML=Pauli_A[rodadaAtual][118];
+    document.getElementById('sgB7').innerHTML=Pauli_A[rodadaAtual][119];
+    document.getElementById('apB7').innerHTML=Pauli_A[rodadaAtual][120];
+    document.getElementById('ultB7').innerHTML=Pauli_A[rodadaAtual][121];
+    document.getElementById('penB7').innerHTML=Pauli_A[rodadaAtual][122];
+    document.getElementById('antB7').innerHTML=Pauli_A[rodadaAtual][123];
+    document.getElementById('qaB7').innerHTML=Pauli_A[rodadaAtual][124];
+    document.getElementById('qiB7').innerHTML=Pauli_A[rodadaAtual][125];
+
+    document.getElementById('logB8').innerHTML=Pauli_A[rodadaAtual][126];
+    document.getElementById('tecB8').innerHTML=Pauli_A[rodadaAtual][128].nome;
+    document.getElementById('clubB8').innerHTML=Pauli_A[rodadaAtual][127][0];
+    document.getElementById('nlB8').innerHTML=Pauli_A[rodadaAtual][127][2];
+    document.getElementById('varB8').innerHTML=Pauli_A[rodadaAtual][129];
+    document.getElementById('objB8').innerHTML=Pauli_A[rodadaAtual][130];
+    document.getElementById('ptB8').innerHTML=Pauli_A[rodadaAtual][131];
+    document.getElementById('vitB8').innerHTML=Pauli_A[rodadaAtual][132];
+    document.getElementById('empB8').innerHTML=Pauli_A[rodadaAtual][133];
+    document.getElementById('derB8').innerHTML=Pauli_A[rodadaAtual][134];
+    document.getElementById('gpB8').innerHTML=Pauli_A[rodadaAtual][135];
+    document.getElementById('gcB8').innerHTML=Pauli_A[rodadaAtual][136];
+    document.getElementById('sgB8').innerHTML=Pauli_A[rodadaAtual][137];
+    document.getElementById('apB8').innerHTML=Pauli_A[rodadaAtual][138];
+    document.getElementById('ultB8').innerHTML=Pauli_A[rodadaAtual][139];
+    document.getElementById('penB8').innerHTML=Pauli_A[rodadaAtual][140];
+    document.getElementById('antB8').innerHTML=Pauli_A[rodadaAtual][141];
+    document.getElementById('qaB8').innerHTML=Pauli_A[rodadaAtual][142];
+    document.getElementById('qiB8').innerHTML=Pauli_A[rodadaAtual][143];
+
+
+    //CARDS DA PÁGNA DE ENTRADA DE CARREGAMENTO*********************
+
+    document.getElementById("CardNomeTec1").innerHTML=Pauli_A[rodadaAtual][2].nome;
+document.getElementById("CardLogo1").innerHTML=Pauli_A[rodadaAtual][2].logo;
+document.getElementById("CardLogin1").innerHTML="Login: "+Pauli_A[rodadaAtual][2].nomeLogin;
+document.getElementById("CardId1").innerHTML="Id: "+Pauli_A[rodadaAtual][2].idCart;
+document.getElementById("CardDesde1").innerHTML="Na liga desde: "+Pauli_A[rodadaAtual][2].anoEnt;
+document.getElementById("CarMoral1").innerHTML='Moral: não aferida';
+document.getElementById("CardAssumiu1").innerHTML="Assumiu o clube na "+Pauli_A[rodadaAtual][2].ClubAtual[64]+"ªrod. de "+Pauli_A[rodadaAtual][2].ClubAtual[65];
+document.getElementById("CardTitulos1_1").innerHTML=Pauli_A[rodadaAtual][2].titulo1;
+document.getElementById("CardTitulos1_2").innerHTML=Pauli_A[rodadaAtual][2].titulo2;
+document.getElementById("CardTitulos1_3").innerHTML=Pauli_A[rodadaAtual][2].titulo3;
+document.getElementById("CardTitulos1_4").innerHTML=Pauli_A[rodadaAtual][2].titulo4;
+document.getElementById("CardTitulos1_5").innerHTML=Pauli_A[rodadaAtual][2].titulo5;
+document.getElementById("CardTitulos1_6").innerHTML=Pauli_A[rodadaAtual][2].titulo6;
+document.getElementById("CardTitulos1_7").innerHTML=Pauli_A[rodadaAtual][2].titulo7;
+document.getElementById("CardTitulos1_8").innerHTML=Pauli_A[rodadaAtual][2].titulo8;
+document.getElementById("CardTitulos1_9").innerHTML=Pauli_A[rodadaAtual][2].titulo9;
+document.getElementById("CardTitulos1_10").innerHTML=Pauli_A[rodadaAtual][2].titulo10;
+
+
+
+document.getElementById("CardNomeTec2").innerHTML=Pauli_A[rodadaAtual][20].nome;
+document.getElementById("CardLogo2").innerHTML=Pauli_A[rodadaAtual][20].logo;
+document.getElementById("CardLogin2").innerHTML="Login: "+Pauli_A[rodadaAtual][20].nomeLogin;
+document.getElementById("CardId2").innerHTML="Id: "+Pauli_A[rodadaAtual][20].idCart;
+document.getElementById("CardDesde2").innerHTML="Na liga desde: "+Pauli_A[rodadaAtual][20].anoEnt;
+document.getElementById("CarMoral2").innerHTML='Moral: não aferida';
+document.getElementById("CardTitulos2_1").innerHTML=Pauli_A[rodadaAtual][20].titulo1;
+document.getElementById("CardTitulos2_2").innerHTML=Pauli_A[rodadaAtual][20].titulo2;
+document.getElementById("CardTitulos2_3").innerHTML=Pauli_A[rodadaAtual][20].titulo3;
+document.getElementById("CardTitulos2_4").innerHTML=Pauli_A[rodadaAtual][20].titulo4;
+document.getElementById("CardTitulos2_5").innerHTML=Pauli_A[rodadaAtual][20].titulo5;
+document.getElementById("CardTitulos2_6").innerHTML=Pauli_A[rodadaAtual][20].titulo6;
+document.getElementById("CardTitulos2_7").innerHTML=Pauli_A[rodadaAtual][20].titulo7;
+document.getElementById("CardTitulos2_8").innerHTML=Pauli_A[rodadaAtual][20].titulo8;
+document.getElementById("CardTitulos2_9").innerHTML=Pauli_A[rodadaAtual][20].titulo9;
+document.getElementById("CardTitulos2_10").innerHTML=Pauli_A[rodadaAtual][20].titulo10;
+
+
+document.getElementById("CardNomeTec3").innerHTML=Pauli_A[rodadaAtual][38].nome;
+document.getElementById("CardLogo3").innerHTML=Pauli_A[rodadaAtual][38].logo;
+document.getElementById("CardLogin3").innerHTML="Login: "+Pauli_A[rodadaAtual][38].nomeLogin;
+document.getElementById("CardId3").innerHTML="Id: "+Pauli_A[rodadaAtual][38].idCart;
+document.getElementById("CardDesde3").innerHTML="Na liga desde: "+Pauli_A[rodadaAtual][38].anoEnt;
+document.getElementById("CarMoral3").innerHTML='Moral: não aferida';
+document.getElementById("CardAssumiu3").innerHTML="Assumiu o clube na "+Pauli_A[rodadaAtual][38].ClubAtual[64]+"ªrod. de "+Pauli_A[rodadaAtual][38].ClubAtual[65];
+document.getElementById("CardTitulos3_1").innerHTML=Pauli_A[rodadaAtual][38].titulo1;
+document.getElementById("CardTitulos3_2").innerHTML=Pauli_A[rodadaAtual][38].titulo2;
+document.getElementById("CardTitulos3_3").innerHTML=Pauli_A[rodadaAtual][38].titulo3;
+document.getElementById("CardTitulos3_4").innerHTML=Pauli_A[rodadaAtual][38].titulo4;
+document.getElementById("CardTitulos3_5").innerHTML=Pauli_A[rodadaAtual][38].titulo5;
+document.getElementById("CardTitulos3_6").innerHTML=Pauli_A[rodadaAtual][38].titulo6;
+document.getElementById("CardTitulos3_7").innerHTML=Pauli_A[rodadaAtual][38].titulo7;
+document.getElementById("CardTitulos3_8").innerHTML=Pauli_A[rodadaAtual][38].titulo8;
+document.getElementById("CardTitulos3_9").innerHTML=Pauli_A[rodadaAtual][38].titulo9;
+document.getElementById("CardTitulos3_10").innerHTML=Pauli_A[rodadaAtual][38].titulo10;
+
+document.getElementById("CardNomeTec4").innerHTML=Pauli_A[rodadaAtual][56].nome;
+document.getElementById("CardLogo4").innerHTML=Pauli_A[rodadaAtual][56].logo;
+document.getElementById("CardLogin4").innerHTML="Login: "+Pauli_A[rodadaAtual][56].nomeLogin;
+document.getElementById("CardId4").innerHTML="Id: "+Pauli_A[rodadaAtual][56].idCart;
+document.getElementById("CardDesde4").innerHTML="Na liga desde: "+Pauli_A[rodadaAtual][56].anoEnt;
+document.getElementById("CarMoral4").innerHTML='Moral: não aferida';
+document.getElementById("CardAssumiu4").innerHTML="Assumiu o clube na "+Pauli_A[rodadaAtual][56].ClubAtual[64]+"ªrod. de "+Pauli_A[rodadaAtual][56].ClubAtual[65];
+document.getElementById("CardTitulos4_1").innerHTML=Pauli_A[rodadaAtual][56].titulo1;
+document.getElementById("CardTitulos4_2").innerHTML=Pauli_A[rodadaAtual][56].titulo2;
+document.getElementById("CardTitulos4_3").innerHTML=Pauli_A[rodadaAtual][56].titulo3;
+document.getElementById("CardTitulos4_4").innerHTML=Pauli_A[rodadaAtual][56].titulo4;
+document.getElementById("CardTitulos4_5").innerHTML=Pauli_A[rodadaAtual][56].titulo5;
+document.getElementById("CardTitulos4_6").innerHTML=Pauli_A[rodadaAtual][56].titulo6;
+document.getElementById("CardTitulos4_7").innerHTML=Pauli_A[rodadaAtual][56].titulo7;
+document.getElementById("CardTitulos4_8").innerHTML=Pauli_A[rodadaAtual][56].titulo8;
+document.getElementById("CardTitulos4_9").innerHTML=Pauli_A[rodadaAtual][56].titulo9;
+document.getElementById("CardTitulos4_10").innerHTML=Pauli_A[rodadaAtual][56].titulo10;
+
+document.getElementById("CardNomeTec5").innerHTML=Pauli_A[rodadaAtual][74].nome;
+document.getElementById("CardLogo5").innerHTML=Pauli_A[rodadaAtual][74].logo;
+document.getElementById("CardLogin5").innerHTML="Login: "+Pauli_A[rodadaAtual][74].nomeLogin;
+document.getElementById("CardId5").innerHTML="Id: "+Pauli_A[rodadaAtual][74].idCart;
+document.getElementById("CardDesde5").innerHTML="Na liga desde: "+Pauli_A[rodadaAtual][74].anoEnt;
+document.getElementById("CarMoral5").innerHTML='Moral: não aferida';
+document.getElementById("CardAssumiu5").innerHTML="Assumiu o clube na "+Pauli_A[rodadaAtual][74].ClubAtual[64]+"ªrod. de "+Pauli_A[rodadaAtual][74].ClubAtual[65];
+document.getElementById("CardTitulos5_1").innerHTML=Pauli_A[rodadaAtual][74].titulo1;
+document.getElementById("CardTitulos5_2").innerHTML=Pauli_A[rodadaAtual][74].titulo2;
+document.getElementById("CardTitulos5_3").innerHTML=Pauli_A[rodadaAtual][74].titulo3;
+document.getElementById("CardTitulos5_4").innerHTML=Pauli_A[rodadaAtual][74].titulo4;
+document.getElementById("CardTitulos5_5").innerHTML=Pauli_A[rodadaAtual][74].titulo5;
+document.getElementById("CardTitulos5_6").innerHTML=Pauli_A[rodadaAtual][74].titulo6;
+document.getElementById("CardTitulos5_7").innerHTML=Pauli_A[rodadaAtual][74].titulo7;
+document.getElementById("CardTitulos5_8").innerHTML=Pauli_A[rodadaAtual][74].titulo8;
+document.getElementById("CardTitulos5_9").innerHTML=Pauli_A[rodadaAtual][74].titulo9;
+document.getElementById("CardTitulos5_10").innerHTML=Pauli_A[rodadaAtual][74].titulo10;
+
+document.getElementById("CardNomeTec6").innerHTML=Pauli_A[rodadaAtual][92].nome;
+document.getElementById("CardLogo6").innerHTML=Pauli_A[rodadaAtual][92].logo;
+document.getElementById("CardLogin6").innerHTML="Login: "+Pauli_A[rodadaAtual][92].nomeLogin;
+document.getElementById("CardId6").innerHTML="Id: "+Pauli_A[rodadaAtual][92].idCart;
+document.getElementById("CardDesde6").innerHTML="Na liga desde: "+Pauli_A[rodadaAtual][92].anoEnt;
+document.getElementById("CarMoral6").innerHTML='Moral: não aferida';
+document.getElementById("CardAssumiu6").innerHTML="Assumiu o clube na "+Pauli_A[rodadaAtual][92].ClubAtual[64]+"ªrod. de "+Pauli_A[rodadaAtual][92].ClubAtual[65];
+document.getElementById("CardTitulos6_1").innerHTML=Pauli_A[rodadaAtual][92].titulo1;
+document.getElementById("CardTitulos6_2").innerHTML=Pauli_A[rodadaAtual][92].titulo2;
+document.getElementById("CardTitulos6_3").innerHTML=Pauli_A[rodadaAtual][92].titulo3;
+document.getElementById("CardTitulos6_4").innerHTML=Pauli_A[rodadaAtual][92].titulo4;
+document.getElementById("CardTitulos6_5").innerHTML=Pauli_A[rodadaAtual][92].titulo5;
+document.getElementById("CardTitulos6_6").innerHTML=Pauli_A[rodadaAtual][92].titulo6;
+document.getElementById("CardTitulos6_7").innerHTML=Pauli_A[rodadaAtual][92].titulo7;
+document.getElementById("CardTitulos6_8").innerHTML=Pauli_A[rodadaAtual][92].titulo8;
+document.getElementById("CardTitulos6_9").innerHTML=Pauli_A[rodadaAtual][92].titulo9;
+document.getElementById("CardTitulos6_10").innerHTML=Pauli_A[rodadaAtual][92].titulo10;
+
+document.getElementById("CardNomeTec7").innerHTML=Pauli_A[rodadaAtual][110].nome;
+document.getElementById("CardLogo7").innerHTML=Pauli_A[rodadaAtual][110].logo;
+document.getElementById("CardLogin7").innerHTML="Login: "+Pauli_A[rodadaAtual][110].nomeLogin;
+document.getElementById("CardId7").innerHTML="Id: "+Pauli_A[rodadaAtual][110].idCart;
+document.getElementById("CardDesde7").innerHTML="Na liga desde: "+Pauli_A[rodadaAtual][110].anoEnt;
+document.getElementById("CarMoral7").innerHTML='Moral: não aferida';
+document.getElementById("CardAssumiu7").innerHTML="Assumiu o clube na "+Pauli_A[rodadaAtual][110].ClubAtual[64]+"ªrod. de "+Pauli_A[rodadaAtual][110].ClubAtual[65];
+document.getElementById("CardTitulos7_1").innerHTML=Pauli_A[rodadaAtual][110].titulo1;
+document.getElementById("CardTitulos7_2").innerHTML=Pauli_A[rodadaAtual][110].titulo2;
+document.getElementById("CardTitulos7_3").innerHTML=Pauli_A[rodadaAtual][110].titulo3;
+document.getElementById("CardTitulos7_4").innerHTML=Pauli_A[rodadaAtual][110].titulo4;
+document.getElementById("CardTitulos7_5").innerHTML=Pauli_A[rodadaAtual][110].titulo5;
+document.getElementById("CardTitulos7_6").innerHTML=Pauli_A[rodadaAtual][110].titulo6;
+document.getElementById("CardTitulos7_7").innerHTML=Pauli_A[rodadaAtual][110].titulo7;
+document.getElementById("CardTitulos7_8").innerHTML=Pauli_A[rodadaAtual][110].titulo8;
+document.getElementById("CardTitulos7_9").innerHTML=Pauli_A[rodadaAtual][110].titulo9;
+document.getElementById("CardTitulos7_10").innerHTML=Pauli_A[rodadaAtual][110].titulo10;
+
+document.getElementById("CardNomeTec8").innerHTML=Pauli_A[rodadaAtual][128].nome;
+document.getElementById("CardLogo8").innerHTML=Pauli_A[rodadaAtual][128].logo;
+document.getElementById("CardLogin8").innerHTML="Login: "+Pauli_A[rodadaAtual][128].nomeLogin;
+document.getElementById("CardId8").innerHTML="Id: "+Pauli_A[rodadaAtual][128].idCart;
+document.getElementById("CardDesde8").innerHTML="Na liga desde: "+Pauli_A[rodadaAtual][128].anoEnt;
+document.getElementById("CarMoral8").innerHTML='Moral: não aferida';
+document.getElementById("CardAssumiu8").innerHTML="Assumiu o clube na "+Pauli_A[rodadaAtual][128].ClubAtual[64]+"ªrod. de "+Pauli_A[rodadaAtual][128].ClubAtual[65];
+document.getElementById("CardTitulos8_1").innerHTML=Pauli_A[rodadaAtual][128].titulo1;
+document.getElementById("CardTitulos8_2").innerHTML=Pauli_A[rodadaAtual][128].titulo2;
+document.getElementById("CardTitulos8_3").innerHTML=Pauli_A[rodadaAtual][128].titulo3;
+document.getElementById("CardTitulos8_4").innerHTML=Pauli_A[rodadaAtual][128].titulo4;
+document.getElementById("CardTitulos8_5").innerHTML=Pauli_A[rodadaAtual][128].titulo5;
+document.getElementById("CardTitulos8_6").innerHTML=Pauli_A[rodadaAtual][128].titulo6;
+document.getElementById("CardTitulos8_7").innerHTML=Pauli_A[rodadaAtual][128].titulo7;
+document.getElementById("CardTitulos8_8").innerHTML=Pauli_A[rodadaAtual][128].titulo8;
+document.getElementById("CardTitulos8_9").innerHTML=Pauli_A[rodadaAtual][128].titulo9;
+document.getElementById("CardTitulos8_10").innerHTML=Pauli_A[rodadaAtual][128].titulo10;
+
+
+// PLACAR DA RODADA ATUAL NA PÁGINA INICIAL (DE CARREGAMENTO)****************************
+
+
+document.getElementById("PlacLog1").innerHTML=Pauli_Cal_A[rodadaAtual][0];
+document.getElementById("PlacGol1").innerHTML=Pauli_Cal_A[rodadaAtual][1];
+document.getElementById("PlacTec1").innerHTML=Pauli_Cal_A[rodadaAtual][2].nome;
+document.getElementById("PlacPt1").innerHTML=Pauli_Cal_A[rodadaAtual][3];
+document.getElementById("PlacLog2").innerHTML=Pauli_Cal_A[rodadaAtual][4];
+document.getElementById("PlacGol2").innerHTML=Pauli_Cal_A[rodadaAtual][5];
+document.getElementById("PlacTec2").innerHTML=Pauli_Cal_A[rodadaAtual][6].nome;
+document.getElementById("PlacPt2").innerHTML=Pauli_Cal_A[rodadaAtual][7];
+
+document.getElementById("PlacLog3").innerHTML=Pauli_Cal_A[rodadaAtual][8];
+document.getElementById("PlacGol3").innerHTML=Pauli_Cal_A[rodadaAtual][9];
+document.getElementById("PlacTec3").innerHTML=Pauli_Cal_A[rodadaAtual][10].nome;
+document.getElementById("PlacPt3").innerHTML=Pauli_Cal_A[rodadaAtual][11];
+document.getElementById("PlacLog4").innerHTML=Pauli_Cal_A[rodadaAtual][12];
+document.getElementById("PlacGol4").innerHTML=Pauli_Cal_A[rodadaAtual][13];
+document.getElementById("PlacTec4").innerHTML=Pauli_Cal_A[rodadaAtual][14].nome;
+document.getElementById("PlacPt4").innerHTML=Pauli_Cal_A[rodadaAtual][15];
+
+document.getElementById("PlacLog5").innerHTML=Pauli_Cal_A[rodadaAtual][16];
+document.getElementById("PlacGol5").innerHTML=Pauli_Cal_A[rodadaAtual][17];
+document.getElementById("PlacTec5").innerHTML=Pauli_Cal_A[rodadaAtual][18].nome;
+document.getElementById("PlacPt5").innerHTML=Pauli_Cal_A[rodadaAtual][19];
+document.getElementById("PlacLog6").innerHTML=Pauli_Cal_A[rodadaAtual][20];
+document.getElementById("PlacGol6").innerHTML=Pauli_Cal_A[rodadaAtual][21];
+document.getElementById("PlacTec6").innerHTML=Pauli_Cal_A[rodadaAtual][22].nome;
+document.getElementById("PlacPt6").innerHTML=Pauli_Cal_A[rodadaAtual][23];
+
+document.getElementById("PlacLog7").innerHTML=Pauli_Cal_A[rodadaAtual][24];
+document.getElementById("PlacGol7").innerHTML=Pauli_Cal_A[rodadaAtual][25];
+document.getElementById("PlacTec7").innerHTML=Pauli_Cal_A[rodadaAtual][26].nome;
+document.getElementById("PlacPt7").innerHTML=Pauli_Cal_A[rodadaAtual][27];
+document.getElementById("PlacLog8").innerHTML=Pauli_Cal_A[rodadaAtual][28];
+document.getElementById("PlacGol8").innerHTML=Pauli_Cal_A[rodadaAtual][29];
+document.getElementById("PlacTec8").innerHTML=Pauli_Cal_A[rodadaAtual][30].nome;
+document.getElementById("PlacPt8").innerHTML=Pauli_Cal_A[rodadaAtual][31];
+
   
 
   function EstadualEscolhido() {

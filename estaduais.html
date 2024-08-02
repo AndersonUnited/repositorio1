@@ -53,8 +53,7 @@
 
 
     <select class="selectbox" name="estados" id="NomeEstadual" onchange="EstadualEscolhido()" style="width: 85%;">
-        <option value="valor é zero"  selected>Selecione o campeonato</option>
-                <option value="Pauli_A">Campeonato Paulista - Elite</option>
+                <option value="Pauli_A"selected>Campeonato Paulista - Elite</option>
                 <option value="Pauli_B">Campeonato Paulista - Acesso</option>
                 <option value="Cario_A">Campeonato Carioca - Elite</option>
                 <option value="Cario_B">Campeonato Carioca - Acesso</option>
@@ -94,7 +93,7 @@
 <div style="height: 50px;width: 95%;margin-left: 2.5%;margin-bottom: 6%;; flex-direction: row;">
 
 <select  class="selectbox" name="serieB" id="NumRodada" onchange="EstadualEscolhido()" style="width:25%;">
-                    <option value="0"  selected>rodada:</option>
+                    <option value="0" id="SelectNumRodada"   selected></option>
                             <option value="1">1ª rodada</option>
                             <option value="2">2ª rodada</option>
                             <option value="3">3ª rodada</option>
@@ -109,7 +108,7 @@
                             <option value="12">12ª rodada</option>
                             <option value="13">13ª rodada</option>
                             <option value="14">14ª rodada</option>
-                            <option value="15">15ª rodada</option>
+                            
                             
                             </select>
 
