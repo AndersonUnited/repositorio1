@@ -1570,8 +1570,9 @@ let ultimarodada =Rodadas.length-1
 
 
 
-//ÚLTIMA RODADA***************************************
+//ÚLTIMA CLASSIFICAÇÃO DA RODADA***************************************
 document.getElementById("SelectUltimaRodada").innerHTML=ultimarodada+"ª rodada";
+document.getElementById("SelectJogosUltimaRodada").innerHTML=ultimarodada+"ª rodada";
 document.getElementById("logB1").innerHTML=Rodadas[ultimarodada][0][1];
 document.getElementById("clubB1").innerHTML=Rodadas[ultimarodada][0][0];
 document.getElementById("tecB1").innerHTML=Rodadas[ultimarodada][16].nome;
@@ -2011,6 +2012,99 @@ document.getElementById("antB20").innerHTML=Rodadas[ultimarodada][335];
 document.getElementById("qaB20").innerHTML=Rodadas[ultimarodada][336];
 document.getElementById("qiB20").innerHTML=Rodadas[ultimarodada][337];
 document.getElementById("MteB20").innerHTML=Rodadas[ultimarodada][338]+"%";
+
+
+//JOGOS DA ÚLTIMA RODADA-----------------------------------------------------
+document.getElementById("PlacLog1").innerHTML=Calendarios[ultimarodada][0];
+document.getElementById("PlacGol1").innerHTML=Calendarios[ultimarodada][1];
+document.getElementById("PlacTec1").innerHTML=Calendarios[ultimarodada][2].nome;
+document.getElementById("PlacPt1").innerHTML=Calendarios[ultimarodada][3];
+document.getElementById("PlacLog2").innerHTML=Calendarios[ultimarodada][4];
+document.getElementById("PlacGol2").innerHTML=Calendarios[ultimarodada][5];
+document.getElementById("PlacTec2").innerHTML=Calendarios[ultimarodada][6].nome;
+document.getElementById("PlacPt2").innerHTML=Calendarios[ultimarodada][7];
+
+document.getElementById("PlacLog3").innerHTML=Calendarios[ultimarodada][8];
+document.getElementById("PlacGol3").innerHTML=Calendarios[ultimarodada][9];
+document.getElementById("PlacTec3").innerHTML=Calendarios[ultimarodada][10].nome;
+document.getElementById("PlacPt3").innerHTML=Calendarios[ultimarodada][11];
+document.getElementById("PlacLog4").innerHTML=Calendarios[ultimarodada][12];
+document.getElementById("PlacGol4").innerHTML=Calendarios[ultimarodada][13];
+document.getElementById("PlacTec4").innerHTML=Calendarios[ultimarodada][14].nome;
+document.getElementById("PlacPt4").innerHTML=Calendarios[ultimarodada][15];
+
+document.getElementById("PlacLog5").innerHTML=Calendarios[ultimarodada][16];
+document.getElementById("PlacGol5").innerHTML=Calendarios[ultimarodada][17];
+document.getElementById("PlacTec5").innerHTML=Calendarios[ultimarodada][18].nome;
+document.getElementById("PlacPt5").innerHTML=Calendarios[ultimarodada][19];
+document.getElementById("PlacLog6").innerHTML=Calendarios[ultimarodada][20];
+document.getElementById("PlacGol6").innerHTML=Calendarios[ultimarodada][21];
+document.getElementById("PlacTec6").innerHTML=Calendarios[ultimarodada][22].nome;
+document.getElementById("PlacPt6").innerHTML=Calendarios[ultimarodada][23];
+
+document.getElementById("PlacLog7").innerHTML=Calendarios[ultimarodada][24];
+document.getElementById("PlacGol7").innerHTML=Calendarios[ultimarodada][25];
+document.getElementById("PlacTec7").innerHTML=Calendarios[ultimarodada][26].nome;
+document.getElementById("PlacPt7").innerHTML=Calendarios[ultimarodada][27];
+document.getElementById("PlacLog8").innerHTML=Calendarios[ultimarodada][28];
+document.getElementById("PlacGol8").innerHTML=Calendarios[ultimarodada][29];
+document.getElementById("PlacTec8").innerHTML=Calendarios[ultimarodada][30].nome;
+document.getElementById("PlacPt8").innerHTML=Calendarios[ultimarodada][31];
+
+document.getElementById("PlacLog9").innerHTML=Calendarios[ultimarodada][32];
+document.getElementById("PlacGol9").innerHTML=Calendarios[ultimarodada][33];
+document.getElementById("PlacTec9").innerHTML=Calendarios[ultimarodada][34].nome;
+document.getElementById("PlacPt9").innerHTML=Calendarios[ultimarodada][35];
+document.getElementById("PlacLog10").innerHTML=Calendarios[ultimarodada][36];
+document.getElementById("PlacGol10").innerHTML=Calendarios[ultimarodada][37];
+document.getElementById("PlacTec10").innerHTML=Calendarios[ultimarodada][38].nome;
+document.getElementById("PlacPt10").innerHTML=Calendarios[ultimarodada][39];
+
+document.getElementById("PlacLog11").innerHTML=Calendarios[ultimarodada][40];
+document.getElementById("PlacGol11").innerHTML=Calendarios[ultimarodada][41];
+document.getElementById("PlacTec11").innerHTML=Calendarios[ultimarodada][42].nome;
+document.getElementById("PlacPt11").innerHTML=Calendarios[ultimarodada][43];
+document.getElementById("PlacLog12").innerHTML=Calendarios[ultimarodada][44];
+document.getElementById("PlacGol12").innerHTML=Calendarios[ultimarodada][45];
+document.getElementById("PlacTec12").innerHTML=Calendarios[ultimarodada][46].nome;
+document.getElementById("PlacPt12").innerHTML=Calendarios[ultimarodada][47];
+
+document.getElementById("PlacLog13").innerHTML=Calendarios[ultimarodada][48];
+document.getElementById("PlacGol13").innerHTML=Calendarios[ultimarodada][49];
+document.getElementById("PlacTec13").innerHTML=Calendarios[ultimarodada][50].nome;
+document.getElementById("PlacPt13").innerHTML=Calendarios[ultimarodada][51];
+document.getElementById("PlacLog14").innerHTML=Calendarios[ultimarodada][52];
+document.getElementById("PlacGol14").innerHTML=Calendarios[ultimarodada][53];
+document.getElementById("PlacTec14").innerHTML=Calendarios[ultimarodada][54].nome;
+document.getElementById("PlacPt14").innerHTML=Calendarios[ultimarodada][55];
+
+document.getElementById("PlacLog15").innerHTML=Calendarios[ultimarodada][56];
+document.getElementById("PlacGol15").innerHTML=Calendarios[ultimarodada][57];
+document.getElementById("PlacTec15").innerHTML=Calendarios[ultimarodada][58].nome;
+document.getElementById("PlacPt15").innerHTML=Calendarios[ultimarodada][59];
+document.getElementById("PlacLog16").innerHTML=Calendarios[ultimarodada][60];
+document.getElementById("PlacGol16").innerHTML=Calendarios[ultimarodada][61];
+document.getElementById("PlacTec16").innerHTML=Calendarios[ultimarodada][62].nome;
+document.getElementById("PlacPt16").innerHTML=Calendarios[ultimarodada][63];
+
+document.getElementById("PlacLog17").innerHTML=Calendarios[ultimarodada][64];
+document.getElementById("PlacGol17").innerHTML=Calendarios[ultimarodada][65];
+document.getElementById("PlacTec17").innerHTML=Calendarios[ultimarodada][66].nome;
+document.getElementById("PlacPt17").innerHTML=Calendarios[ultimarodada][67];
+document.getElementById("PlacLog18").innerHTML=Calendarios[ultimarodada][68];
+document.getElementById("PlacGol18").innerHTML=Calendarios[ultimarodada][69];
+document.getElementById("PlacTec18").innerHTML=Calendarios[ultimarodada][70].nome;
+document.getElementById("PlacPt18").innerHTML=Calendarios[ultimarodada][71];
+
+document.getElementById("PlacLog19").innerHTML=Calendarios[ultimarodada][72];
+document.getElementById("PlacGol19").innerHTML=Calendarios[ultimarodada][73];
+document.getElementById("PlacTec19").innerHTML=Calendarios[ultimarodada][74].nome;
+document.getElementById("PlacPt19").innerHTML=Calendarios[ultimarodada][75];
+document.getElementById("PlacLog20").innerHTML=Calendarios[ultimarodada][76];
+document.getElementById("PlacGol20").innerHTML=Calendarios[ultimarodada][77];
+document.getElementById("PlacTec20").innerHTML=Calendarios[ultimarodada][78].nome;
+document.getElementById("PlacPt20").innerHTML=Calendarios[ultimarodada][79];
+
 
 //CARD DOS TÉCNICOS----------------------------------------------------------------
 
