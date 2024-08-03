@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="widtd=device-widtd">
-    <title>Campeonatos Estaduais</title>
+    <title>Champions League</title>
     <link rel="stylesheet" href="css/estilocnn.css">
 </head>
-<body   style="background: rgb(255, 255, 255)">
+<body   style="background: rgb(20, 28, 53);box-sizing:border-box;
+    margin:0; ">
 
 
     <div id="barrapreta"> 
@@ -18,10 +19,10 @@
         <div id="logosite"><a name="inicio"></a><img  id="pnglogo" src="imagens/novologoesc.png"></div>
     </div>
     
-    <div id="titulopag">
-       <p>Copa Libertadores Interligas</p>
         
-    </div>
+<div ><img src="imagens/champions_grupos.jpg" style="margin-left: 0; padding-left: 0;"  alt="Escudo da Champions do Cartola de Clubes" width="100%" ></div>
+
+        
     <br><br>
     
     <div id="MENU" class="menu" style="display: none;">
@@ -49,20 +50,22 @@
 
 <div class="menusticky" onclick="toggleMenu()" id="sanduiche"><img id="pngsanduiche" src="imagens/menufixed.png"></div>
 
+
+
 <div style="width: 95%;margin-left: 2.5%;margin-bottom: 2%;; flex-direction: row;">
 
 
-    <select class="selectbox" name="estados" id="NomeEstadual" onchange="EstadualEscolhido()" style="width: 85%;">
-        <option value="valor é zero"  selected>Selecione o grupo</option>
-                <option value="Pauli_A">Grupo A</option>
-                <option value="Pauli_B">Grupo B</option>
-                <option value="Cario_A">Grupo C</option>
-                <option value="Cario_B">Grupo D</option>
-                <option value="Gauch_A">Grupo E</option>
-                <option value="Gauch_B">Grupo F</option>
-                <option value="Minei_A">Grupo G</option>
-                <option value="Minei_B">Grupo H</option>
-
+    <select  name="estados" id="NomeGrupo" onchange="GrupoEscolhido()" style="width: 25%; height: 50px; font-size: 30px; background-color: rgb(35, 68, 95);color: rgb(202, 200, 200);color:rgb(255, 255, 255);">
+        
+                <option value="Grupo_A">Grupo A</option>
+                <option value="Grupo_B">Grupo B</option>
+                <option value="Grupo_C">Grupo C</option>
+                <option value="Grupo_D">Grupo D</option>
+             <!--  <option value="Grupo_E">Grupo E</option>
+                <option value="Grupo_F">Grupo F</option>
+                <option value="Grupo_G">Grupo G</option>
+                <option value="Grupo_H">Grupo H</option>
+--> 
 
              
                 </select>
@@ -73,328 +76,309 @@
 </div>                
 
 
-<div style="height: 50px;width: 95%;margin-left: 2.5%;margin-bottom: 6%;; flex-direction: row;">
+<div style="height: 50px;width: 95%;margin-left: 2.5%;margin-bottom: 1.5%;; flex-direction: row;">
 
-<select  class="selectbox" name="serieB" id="NumRodada" onchange="EstadualEscolhido()" style="width:25%;">
-                    <option value="0"  selected>rodada:</option>
-                            <option value="1">1ª rodada</option>
-                            <option value="2">2ª rodada</option>
-                            <option value="3">3ª rodada</option>
-                            <option value="4">4ª rodada</option>
-                            <option value="5">5ª rodada</option>
-                            <option value="6">6ª rodada</option>
 
-                            
-                            </select>
 
                             
                         </div> 
                         
-                        
-                        
+         
+<!--CABEÇALHO TABELA--> 
 
-    
+           <div style="height:50px; display:flex-row;margin: 10px;color:rgb(143,143,143);margin-bottom: 50px;">
+                    <div style=" font-size: 40px; align-items: center;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 52%;background: rgb(20, 28, 53)"></div>
+                    
+
+                    <div style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Verdana; font-size: 30px;width: 5%;">Pt</div>
+                    <div style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Verdana; font-size: 30px;width: 5%;">V</div>
+                    <div style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Verdana; font-size: 30px;width: 5%;">E</div>
+                    <div style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Verdana; font-size: 30px;width: 5%;">D</div>
+                    <div style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Verdana; font-size: 30px;width: 5%;">Gp</div>
+                    <div style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Verdana; font-size: 30px;width: 5%;">Gc</div>
+                    <div style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Verdana; font-size: 30px;width: 5%;">Sd</div>
+                    <div style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Verdana; font-size: 30px;width: 5%;">Tec.</div>
+                    
+                    
+           </div> 
+
+<!--1º LUGAR-->
+
+           <div style="height:70px;border-bottom: solid 2px rgb(168, 124, 13); display:flex-row;margin: 10px;color:rgb(2, 94, 170)">
+            <div  style="border-radius: 1px; font-size: 40px; align-items: center;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;color:rgb(32, 97, 218);width: 4%;">1</div>
+            <div id="logclass1"  style="filter: brightness(75%) ;border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%"></div>
+            <div id="club1" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 10px; font-family: Arial; font-weight: bold; font-size: 33px; width: 41%;">Flamengo</div>
+            <div id="pt1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 40px;width: 6%;">13</div>
+            <div id="vit1" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">4</div>
+            <div id="emp1"style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">1</div>
+            <div id="der1" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">2</div>
+            <div id="gp1" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">18</div>
+            <div id="gc1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">15</div>
+            <div id="sd1"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">3</div>
+            <div id="tec1" onclick="AbreCardTec1()"  style="filter: brightness(75%) ;border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_224/escudo/f5/19/15/007ef38ef1-090a-42e4-a573-248b576b0bf520240408221915" width="48"></div>
+   </div>
 
 
+<!--2º LUGAR-->
 
-
-
-<div>
-    <div class="tit_classif">Classificação</div
-
-
-
-
-
-
-        >
-    
-    <div class="div_divplacar" style="margin-left:28.5%; margin-right:3%;"><a class="linkplacar"   href="#placar">Placares/Calendário</a>
-    </div>
-    
+   <div style="height:70px;border-bottom: solid 2px rgb(0, 84, 153); display:flex-row;margin: 10px;color:rgb(2, 94, 170)">
+    <div style="border-radius: 1px; font-size: 40px; align-items: center;justify-content: center;font-family: Arial; font-size: 40px;color:rgb(32, 97, 218);width: 4%;">2</div>
+    <div id="logclass2"  style="filter: brightness(75%) ;border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://ssl.gstatic.com/onebox/media/sports/logos/jqe29gPx-mxrOrDOSLwcBw_48x48.png" alt=""></div>
+    <div id="club2" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 10px; font-family: Arial; font-weight: bold; font-size: 33px; width: 41%;">Univ. de Chile</div>
+    <div id="pt2"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 40px;width: 6%;">10</div>
+    <div id="vit2" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">2</div>
+    <div id="emp2"style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">4</div>
+    <div id="der2" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">0</div>
+    <div id="gp2" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">13</div>
+    <div id="gc2"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">12</div>
+    <div id="sd2"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">1</div>
+    <div id="tec2" onclick="AbreCardTec2()"   style="filter: brightness(75%) ;border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_227/escudo/46/02/12/00316afab6-8a81-412f-942e-0135b1c49a4620240413200212" width="48"></div>
 </div>
 
-<div class="sublin_cinza1" style="width: 28%;"></div>
-<div class="sublin_verde1" style="margin-left:27%;"></div>
+<!--3º LUGAR-->
 
+<div style="height:70px;border-bottom: solid 1px rgb(130, 131, 131); display:flex-row;margin: 10px;color:rgb(130, 131, 131)">
+    <div style="border-radius: 1px; font-size: 40px; align-items: center;justify-content: center;font-family: Arial; font-size: 40px;color:rgb(24, 74, 131);width: 4%;">3</div>
+    <div id="logclass3"  style="filter: brightness(75%) ;border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://ssl.gstatic.com/onebox/media/sports/logos/q_2P3cWhPBE6a_0bB-xLAQ_48x48.png" alt=""></div>
+    <div id="club3" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 10px; font-family: Arial; font-weight: bold; font-size: 33px; width: 41%;">Cerro Porteño</div>
+    <div id="pt3"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 40px;width: 6%;">7</div>
+    <div id="vit3" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">2</div>
+    <div id="emp3"style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">1</div>
+    <div id="der3" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">3</div>
+    <div id="gp3" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">10</div>
+    <div id="gc3"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">14</div>
+    <div id="sd3"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">-4</div>
+    <div id="tec3" onclick="AbreCardTec3()"   style="filter: brightness(75%) ;border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_224/escudo/1f/59/33/00fecde411-a2a1-445a-b514-43bebd33c21f20240410165933" width="48"></div>
+</div>
 
-  
+<!--4º LUGAR-->
 
+<div style="height:70px; border-bottom: solid 1px rgb(130, 131, 131); display:flex-row;margin: 10px;color:rgb(130, 131, 131)">
+    <div style="border-radius: 1px; font-size: 40px; align-items: center;justify-content: center;font-family: Arial; font-size: 40px;color:rgb(143,143,143);width: 4%;">4</div>
+    <div id="logclass4"  style="filter: brightness(75%) ;border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="https://ssl.gstatic.com/onebox/media/sports/logos/HdKjN7bWGo0noZ06Gn6Fow_48x48.png" alt=""></div>
+    <div id="club4" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 10px; font-family: Arial; font-weight: bold; font-size: 33px; width: 41%;">Huachipato</div>
+    <div id="pt4"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 40px;width: 6%;">3</div>
+    <div id="vit4" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">0</div>
+    <div id="emp4"style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">3</div>
+    <div id="der4" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">3</div>
+    <div id="gp4" style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">12</div>
+    <div id="gc4"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">4</div>
+    <div id="sd4"  style="border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-size: 30px;width: 5%;">-8</div>
+    <div id="tec4" onclick="AbreCardTec4()"   style="filter: brightness(75%) ;border-radius: 1px; font-size: 40px; align-items: center;;margin-left: 10px;justify-content: center;font-family: Arial; font-weight: bold; font-size: 50px;width: 6%;"><img src="imagens/tec0.png" width="48"></div>
 </div>
 
 
 
 
+<!--CALENDÁRIO DE JOGOS-->
+<div style="font-family:Montserrat; margin-top: 50px;margin-bottom: 60px;color:rgb(9, 84, 150); font-family: verdana; font-size: 32px; font-weight: bold; justify-content: center;">CALENDÁRIO DE JOGOS</div>
 
-<div class="tabpai" style="margin-bottom: 250px;">
-   
+<!--1ª RODADA-->
+<div style="height:1px;background: rgb(48, 46, 46); justify-content: center; display: flex;"></div>
+<div style="display: inline-block;width: 43%;"></div>
+<p style="font-family: verdana; font-size: 30px; font-weight: bold;color: rgb(159, 202, 219);display:inline-block;background: rgb(16, 47, 68);">1ª rod.</p>
+    <div style="height:60px;display:flex;margin-left: 2%;margin-right: 2%;color:rgb(143, 143, 143)">
 
-    <table  style="position:relative; border-collapse:collapse;margin-left: 20px;margin-right:20px;margin-top: 100px;">
-       
-    <tr class="cab_tabela" style="height: 1%;">
-        <th></th>
-        <th style="color: black;">L</th>
-        <th>Clube Tec.</td>
-        <th>var</th>
-        <th>Pt</th>
-        <th>Vit</th>
-        <th>Emp</th>
-        <th>Der</th>
-        <th>Gp</th>
-        <th>G-</th>
-        <th>Sg</th>
-        <th>Ap%</th>
-        <th scope="col" scope="colgroup" colspan="5">Ultimas 5 do Tec.</th>
-
-    
-    </tr>
-
-    <!--LINHA 1-->
-    <tr id="lintabB1" style="height: 3%;background-image:linear-gradient(180deg, rgb(173, 137, 36),rgb(249, 249, 249))">
-        <td id="posB1" class="pos" style="background-image:linear-gradient(180deg, rgb(4, 10, 65),rgb(249, 249, 249))">1</td>
-        <td id="logB1" class=""></td>
-        <td><div style="display: inline-block;white-space:nowrap;"><div class="nomeclube" id="clubB1" onclick="AbreCardTec1()" ></div><div class="nometecG4" id="tecB1" onclick="AbreCardTec1()" style="color: rgb(146, 117, 11);font-size: 30px;font-weight:bold;font-family: Arial, Helvetica, sans-serif;color:rgb(146, 117, 11)"></div></div></td>
-        <td id="nlB1" class="nivel"></td>
-        <td id="varB1" class="var"></td>
-        <td id="objB1" class="obj"></td>
-        <td id="ptB1" class="pt"></td>
-        <td id="vitB1" class="vit"></td>
-        <td id="empB1" class="emp"></td>
-        <td id="derB1" class="der"></td>
-        <td id="gpB1" class="gp"></td>
-        <td id="gcB1" class="gc"></td>
-        <td id="sgB1" class="sg"></td>
-        <td id="apB1" class="ap"></td>
-        <td id="ultB1" class="ret"></td>
-        <td id="penB1" class="ret"></td>
-        <td id="antB1" class="ret"></td>
-        <td id="qaB1" class="ret"></td>
-        <td id="qiB1" class="ret"></td>
-        <td id="MteB1" class='moral'></td>
-    </tr>
-<!--LINHA 2-->
-<tr id="lintabB2"style="height: 3%;background-image:linear-gradient(180deg, rgb(173, 137, 36),rgb(249, 249, 249))">
-<td style="background-image:linear-gradient(90deg, rgb(183, 112, 6),rgb(255, 255, 255))"  id="posB2" class="pos">2</td>
-<td id="logB2" class=""></td>
-<td><div style="display: inline-block;"><div class="nomeclube" id="clubB2" onclick="AbreCardTec2()" style="font-family:'Arial';"></div><div class="nometecG4" id="tecB2" onclick="AbreCardTec2()" style="font-family:'Arial';color:black;"></div></div></td>
-<td id="nlB2" class="nivel"></td>
-<td id="varB2" class="var"></td>
-<td id="objB2" class="obj"></td>
-<td id="ptB2" class="pt"></td>
-<td id="vitB2" class="vit"></td>
-<td id="empB2" class="emp"></td>
-<td id="derB2" class="der"></td>
-<td id="gpB2" class="gp"></td>
-<td id="gcB2" class="gc"></td>
-<td id="sgB2" class="sg"></td>
-<td id="apB2" class="ap"></td>
-<td id="ultB2" class="ret"></td>
-<td id="penB2" class="ret"></td>
-<td id="antB2" class="ret"></td>
-<td id="qaB2" class="ret"></td>
-<td id="qiB2" class="ret"></td>
-<td id="MteB2" class='moral'></td>
-</tr>
-<!--LINHA 3-->
-<tr id="lintabB3" style="height: 3%;" >
-<td   id="posB3" class="posB5">3</td>
-<td id="logB3" class=""></td>
-<td><div style="display: inline-block;"><div class="nomeclube" id="clubB3" onclick="AbreCardTec3()" style="font-family:'Arial';"></div><div class="nometecG4" id="tecB3" onclick="AbreCardTec3()" style="font-family:'Arial';color:black;"></div></div></td>
-<td id="nlB3" class="nivel"></td>
-<td id="varB3" class="var"></td>
-<td id="objB3" class="obj"></td>
-<td id="ptB3" class="pt"></td>
-<td id="vitB3" class="vit"></td>
-<td id="empB3" class="emp"></td>
-<td id="derB3" class="der"></td>
-<td id="gpB3" class="gp"></td>
-<td id="gcB3" class="gc"></td>
-<td id="sgB3" class="sg"></td>
-<td id="apB3" class="ap"></td>
-<td id="ultB3" class="ret"></td>
-<td id="penB3" class="ret"></td>
-<td id="antB3" class="ret"></td>
-<td id="qaB3" class="ret"></td>
-<td id="qiB3" class="ret"></td>
-<td id="MteB3" class='moral'></td>
-</tr>
-<!--LINHA 4-->
-<tr id="lintabB4" style="height: 3%;" >
-<td   id="posB4" class="pos">4</td>
-<td id="logB4" class=""></td>
-<td><div style="display: inline-block;"><div class="nomeclube" id="clubB4" onclick="AbreCardTec4()" style="font-family:'Arial';"></div><div class="nometecG4" id="tecB4" onclick="AbreCardTec4()" style="font-family:'Arial';color:black;"></div></div></td>
-<td id="nlB4" class="nivel"></td>
-<td id="varB4" class="var"></td>
-<td id="objB4" class="obj"></td>
-<td id="ptB4" class="pt"></td>
-<td id="vitB4" class="vit"></td>
-<td id="empB4" class="emp"></td>
-<td id="derB4" class="der"></td>
-<td id="gpB4" class="gp"></td>
-<td id="gcB4" class="gc"></td>
-<td id="sgB4" class="sg"></td>
-<td id="apB4" class="ap"></td>
-<td id="ultB4" class="ret"></td>
-<td id="penB4" class="ret"></td>
-<td id="antB4" class="ret"></td>
-<td id="qaB4" class="ret"></td>
-<td id="qiB4" class="ret"></td>
-<td id="MteB4" class='moral'></td>
-</tr>
-
-
-
-</table>
-</div>
-
-<a name="placar"><p>.</p></a>
-<div style="background: rgb(253, 253, 253);width: 100%;height: 2600px;;margin-top: 10px; display: flex;flex-direction: column;">
-
-    <div class="linCalend" style="background: rgb(254, 254, 254);width: 96%;height:3%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
-
-            <div style="width:37%; align-items: end;justify-content: center;"> <a style="text-decoration: none;color: black;" href="#inicio">Classificação</a></div>
-            <div style="width:15%; align-items: end;"></div>
-            <div style="width:53%; align-items: end;justify-content: center;">Placar Rod/Calendário</div>
-    
-    
-    </div>
-
-
-
-
-
-    <div class="linCalend" style="background: rgb(253, 253, 253);width: 96%;height:0.5%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
-    
-        <div style="background: rgb(209, 209, 209);width:37%; align-items: end;justify-content: center;"></div>
-        <div style="background: rgb(255, 255, 255);width:15%; align-items: end;"></div>
-        <div style="background: rgb(5, 158, 5);width:53%; align-items: end;justify-content: center;"></div>
-    
-    
-    
-    </div>
-
-
-
-
-
-    <div class="linCalend" style="background: rgb(255, 255, 255);width: 96%;height:3%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
-
-        <div style="width:37%; align-items: end;justify-content: center;"> <a href="#inicio"> <img src="imagens/setaup.png" height="62px"></a></div>
-        <div style="width:15%; align-items: end;"> </div>
-        <div style="width:53%;">
-        
-          <!--AQUI DENTRO FICAVA O SELECT DO CALENDÁRIO-->
-        
-
-
-
-
-          <!--FIM DO ESPAÇO DO SELECT DO CALENDÁRIO-->
-        
-        
+            
+            <div id="logtime1"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/orE554NToSkH6nuwofe7Yg_48x48.png" height="40px"></div> 
+            <div id="nometime1" style="border-radius: 1px; align-items: center; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%; justify-content: center;">Flamengo</div>
+            <div id="pntstime1" style="font-size: 15px;border-radius: 1px; align-items: center;margin-left: 2%;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;justify-content: center;">(0,00)</div>
+            <div id="golstime1" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 1%;;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;justify-content: center;">-</div>
+            <div  style="border-radius: 1px; font-size: 20px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 30px;width: 1%;justify-content: center;">x</div>
+            <div id="golstime2"style="border-radius: 1px; font-size: 40px; align-items: center;margin-right: 1%;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;justify-content: center;">-</div>
+            <div id="pntstime2" style="font-size: 15px;border-radius: 1px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;justify-content: center;">(0,00)</div>
+            <div id="nometime2" style="border-radius: 1px; align-items: center;margin-left: 2%; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Univ. de Chile</div>
+            <div id="logtime2" style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/jqe29gPx-mxrOrDOSLwcBw_48x48.png" height="40px"></div> 
         </div>
 
-
-</div>
-
-
-
-
-<div style="background: rgb(211, 211, 211);width: 96%;height:0.2%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;"></div>
-
-
-
-
-
-
-
-<!--DIV PAI JOGO 1-->
-<div class="linCalend" style="background: rgb(253, 253, 253);width: 96%;height:5.5%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
-<!--LINHA LOGOS E PLACAR-->
-    <div style="width:20%; align-items: end;justify-content: center;"> </div>
-    <div id="PlacLog1" style="width:15%; align-items:center;justify-content: end;"></div>
-    <div id="PlacGol1" style="width:10%; align-items: center;justify-content: center;font-family: 'Arial';font-weight: bold;font-size:50px;color: rgb(34, 32, 32);"></div>
-    <div style="width:10%; align-items: center;justify-content: center;font-family: 'Arial';font-weight: bold;font-size:50px;color: rgb(87, 85, 85);">x</div>
-    <div id="PlacGol2" style="width:10%; align-items: center;justify-content: center;font-family: 'Arial';font-weight: bold;font-size:50px;color: rgb(34, 32, 32);"></div>
-    <div  id="PlacLog2"  style="width:15%; align-items:center;justify-content: start;"></div>
-    <div style="width:20%; align-items: end;justify-content: center;"></div>
-
-
-</div>
-<!--LINHA TECNICOS-->
-<div class="linCalend" style="width: 96%;height:1.5%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
-    <div style="width:7%"> </div>
-    <div id="PlacTec1" style="color: rgb(190, 190, 190);width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
+        <div style="height:60px;display:flex;margin-left: 2%;margin-right: 2%;color:rgb(143,143,143)">
+            <div id="logtime3"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/q_2P3cWhPBE6a_0bB-xLAQ_48x48.png" height="40px"></div> 
+            <div id="nometime3" style="border-radius: 1px; align-items: center; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Cerro Porteño</div>
+            <div id="pntstime3" style="font-size: 15px;border-radius: 1px; align-items: center;margin-left: 2%;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;">(0,00)</div>
+            <div id="golstime3" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 1%;;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;">-</div>
+            <div  style="border-radius: 1px; font-size: 20px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 30px;width: 1%;">x</div>
+            <div id="golstime4"style="border-radius: 1px; font-size: 40px; align-items: center;margin-right: 1%;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;">-</div>
+            <div id="pntstime4" style="font-size: 15px;border-radius: 1px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;">(0,00)</div>
+            <div id="nometime4" style="border-radius: 1px; align-items: center;margin-left: 2%; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Huachipato</div>
+            <div id="logtime4"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/HdKjN7bWGo0noZ06Gn6Fow_48x48.png" height="40px"></div> 
         </div>
-    <div id="PlacTec2"  style="color: rgb(190, 190, 190);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:43%; width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
-        </div>       
-</div>
-<!--PONTUÇÃO-->
-<div class="linCalend" style="width: 96%;height:1.5%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
-    <div style="width:7%"> </div>
-    <div  id="PlacPt1"  style="color: rgb(190, 190, 190);width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
+    </div>
+
+    <!--2ª RODADA-->
+<div style="height:1px;background: rgb(48, 46, 46); justify-content: center; display: flex;"></div>
+<div style="display: inline-block;width: 43%;"></div>
+<p style="font-family: verdana; font-size: 30px; font-weight: bold;color: rgb(159, 202, 219);display:inline-block;background: rgb(16,47,68);">2ª rod.</p>
+    <div style="height:60px;display:flex;margin-left: 2%;margin-right: 2%;color:rgb(143,143,143)">
+
+            
+            <div id="logtime5"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/orE554NToSkH6nuwofe7Yg_48x48.png" height="40px"></div> 
+            <div id="nometime5" style="border-radius: 1px; align-items: center; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%; justify-content: center;">Flamengo</div>
+            <div id="pntstime5" style="font-size: 15px;border-radius: 1px; align-items: center;margin-left: 2%;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;justify-content: center;">(0,00)</div>
+            <div id="golstime5" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 1%;;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;justify-content: center;">-</div>
+            <div  style="border-radius: 1px; font-size: 20px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 30px;width: 1%;justify-content: center;">x</div>
+            <div id="golstime6"style="border-radius: 1px; font-size: 40px; align-items: center;margin-right: 1%;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;justify-content: center;">-</div>
+            <div id="pntstime6" style="font-size: 15px;border-radius: 1px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;justify-content: center;">(0,00)</div>
+            <div id="nometime6" style="border-radius: 1px; align-items: center;margin-left: 2%; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Univ. de Chile</div>
+            <div id="logtime6"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/jqe29gPx-mxrOrDOSLwcBw_48x48.png" height="40px"></div> 
         </div>
-    <div  id="PlacPt2"  style="color: rgb(190, 190, 190); width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
-        </div>       
-</div>
 
-<!--LINHA CINZA-->
-<div class="linCalend" style="background: rgb(211, 211, 211);width: 96%;height:0.2%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;"></div>
-
-
-
-
-
-<!--DIV PAI JOGO 2-->
-<div class="linCalend" style="background: rgb(253, 253, 253);width: 96%;height:5.5%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
-    <!--LINHA LOGOS E PLACAR-->
-        <div style="width:20%; align-items: end;justify-content: center;"> </div>
-        <div  id="PlacLog3"  style="width:15%; align-items:center;justify-content: end;"></div>
-        <div id="PlacGol3" style="width:10%; align-items: center;justify-content: center;font-family: 'Arial';font-weight: bold;font-size:50px;color: rgb(34, 32, 32);"></div>
-        <div style="width:10%; align-items: center;justify-content: center;font-family: 'Arial';font-weight: bold;font-size:50px;color: rgb(87, 85, 85);">x</div>
-        <div id="PlacGol4" style="width:10%; align-items: center;justify-content: center;font-family: 'Arial';font-weight: bold;font-size:50px;color: rgb(34, 32, 32);"></div>
-        <div  id="PlacLog4"  style="width:15%; align-items:center;justify-content: start;"></div>
-        <div style="width:20%; align-items: end;justify-content: center;"></div>
-    
-    
+        <div style="height:60px;display:flex;margin-left: 2%;margin-right: 2%;color:rgb(143,143,143)">
+            <div id="logtime7" style="filter: brightness(75%) ;"><img src="https://ssl.gstatic.com/onebox/media/sports/logos/q_2P3cWhPBE6a_0bB-xLAQ_48x48.png" height="40px"></div> 
+            <div id="nometime7" style="border-radius: 1px; align-items: center; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Cerro Porteño</div>
+            <div id="pntstime7" style="font-size: 15px;border-radius: 1px; align-items: center;margin-left: 2%;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;">(0,00)</div>
+            <div id="golstime7" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 1%;;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;">-</div>
+            <div  style="border-radius: 1px; font-size: 20px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 30px;width: 1%;">x</div>
+            <div id="golstime8"style="border-radius: 1px; font-size: 40px; align-items: center;margin-right: 1%;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;">-</div>
+            <div id="pntstime8" style="font-size: 15px;border-radius: 1px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;">(0,00)</div>
+            <div id="nometime8" style="border-radius: 1px; align-items: center;margin-left: 2%; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Huachipato</div>
+            <div id="logtime8"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/HdKjN7bWGo0noZ06Gn6Fow_48x48.png" height="40px"></div> 
+        </div>
     </div>
-    <!--LINHA TECNICOS-->
-    <div class="linCalend" style="width: 96%;height:1.5%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
-        <div style="width:7%"> </div>
-        <div  id="PlacTec3"  style="color: rgb(190, 190, 190);width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
-            </div>
-        <div  id="PlacTec4"  style="color: rgb(190, 190, 190);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:43%; width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
-            </div>       
+        <!--3ª RODADA-->
+<div style="height:1px;background: rgb(48, 46, 46); justify-content: center; display: flex;"></div>
+<div style="display: inline-block;width: 43%;"></div>
+<p style="font-family: verdana; font-size: 30px; font-weight: bold;color: rgb(159, 202, 219);display:inline-block;background: rgb(16,47,68);">3ª rod.</p>
+    <div style="height:60px;display:flex;margin-left: 2%;margin-right: 2%;color:rgb(143,143,143)">
+
+            
+            <div id="logtime9"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/orE554NToSkH6nuwofe7Yg_48x48.png" height="40px"></div> 
+            <div id="nometime9" style="border-radius: 1px; align-items: center; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%; justify-content: center;">Flamengo</div>
+            <div id="pntstime9" style="font-size: 15px;border-radius: 1px; align-items: center;margin-left: 2%;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;justify-content: center;">(0,00)</div>
+            <div id="golstime9" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 1%;;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;justify-content: center;">-</div>
+            <div  style="border-radius: 1px; font-size: 20px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 30px;width: 1%;justify-content: center;">x</div>
+            <div id="golstime10"style="border-radius: 1px; font-size: 40px; align-items: center;margin-right: 1%;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;justify-content: center;">-</div>
+            <div id="pntstime10" style="font-size: 15px;border-radius: 1px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;justify-content: center;">(0,00)</div>
+            <div id="nometime10" style="border-radius: 1px; align-items: center;margin-left: 2%; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Univ. de Chile</div>
+            <div id="logtime10"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/jqe29gPx-mxrOrDOSLwcBw_48x48.png" height="40px"></div> 
+        </div>
+
+        <div style="height:60px;display:flex;margin-left: 2%;margin-right: 2%;color:rgb(143,143,143)">
+            <div id="logtime11"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/q_2P3cWhPBE6a_0bB-xLAQ_48x48.png" height="40px"></div> 
+            <div id="nometime11" style="border-radius: 1px; align-items: center; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Cerro Porteño</div>
+            <div id="pntstime11" style="font-size: 15px;border-radius: 1px; align-items: center;margin-left: 2%;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;">(0,00)</div>
+            <div id="golstime11" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 1%;;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;">-</div>
+            <div  style="border-radius: 1px; font-size: 20px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 30px;width: 1%;">x</div>
+            <div id="golstime12"style="border-radius: 1px; font-size: 40px; align-items: center;margin-right: 1%;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;">-</div>
+            <div id="pntstime12" style="font-size: 15px;border-radius: 1px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;">(0,00)</div>
+            <div id="nometime12" style="border-radius: 1px; align-items: center;margin-left: 2%; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Huachipato</div>
+            <div id="logtime12"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/HdKjN7bWGo0noZ06Gn6Fow_48x48.png" height="40px"></div> 
+        </div>
     </div>
-    <!--PONTUÇÃO-->
-    <div class="linCalend" style="width: 96%;height:1.5%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;">
-        <div style="width:7%"> </div>
-        <div  id="PlacPt3"  style="color: rgb(190, 190, 190);width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
-           </div>
-        <div  id="PlacPt4"  style="color: rgb(190, 190, 190); width:43%; font-family: Arial, Helvetica, sans-serif;font-size:30px;align-items: center;justify-content: center;">
-           </div>       
+
+
+        <!--4ª RODADA-->
+<div style="height:1px;background: rgb(48, 46, 46); justify-content: center; display: flex;"></div>
+<div style="display: inline-block;width: 43%;"></div>
+<p style="font-family: verdana; font-size: 30px; font-weight: bold;color: rgb(159, 202, 219);display:inline-block;background: rgb(16,47,68);">4ª rod.</p>
+    <div style="height:60px;display:flex;margin-left: 2%;margin-right: 2%;color:rgb(143,143,143)">
+
+            
+            <div id="logtime13"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/orE554NToSkH6nuwofe7Yg_48x48.png" height="40px"></div> 
+            <div id="nometime13" style="border-radius: 1px; align-items: center; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%; justify-content: center;">Flamengo</div>
+            <div id="pntstime13" style="font-size: 15px;border-radius: 1px; align-items: center;margin-left: 2%;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;justify-content: center;">(0,00)</div>
+            <div id="golstime13" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 1%;;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;justify-content: center;">-</div>
+            <div  style="border-radius: 1px; font-size: 20px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 30px;width: 1%;justify-content: center;">x</div>
+            <div id="golstime14"style="border-radius: 1px; font-size: 40px; align-items: center;margin-right: 1%;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;justify-content: center;">-</div>
+            <div id="pntstime14" style="font-size: 15px;border-radius: 1px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;justify-content: center;">(0,00)</div>
+            <div id="nometime14" style="border-radius: 1px; align-items: center;margin-left: 2%; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Univ. de Chile</div>
+            <div id="logtime14"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/jqe29gPx-mxrOrDOSLwcBw_48x48.png" height="40px"></div> 
+        </div>
+
+        <div style="height:60px;display:flex;margin-left: 2%;margin-right: 2%;color:rgb(143,143,143)">
+            <div id="logtime15"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/q_2P3cWhPBE6a_0bB-xLAQ_48x48.png" height="40px"></div> 
+            <div id="nometime15" style="border-radius: 1px; align-items: center; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Cerro Porteño</div>
+            <div id="pntstime15" style="font-size: 15px;border-radius: 1px; align-items: center;margin-left: 2%;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;">(0,00)</div>
+            <div id="golstime15" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 1%;;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;">-</div>
+            <div  style="border-radius: 1px; font-size: 20px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 30px;width: 1%;">x</div>
+            <div id="golstime16"style="border-radius: 1px; font-size: 40px; align-items: center;margin-right: 1%;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;">-</div>
+            <div id="pntstime16" style="font-size: 15px;border-radius: 1px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;">(0,00)</div>
+            <div id="nometime16" style="border-radius: 1px; align-items: center;margin-left: 2%; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Huachipato</div>
+            <div id="logtime16" style="filter: brightness(75%) ;"><img src="https://ssl.gstatic.com/onebox/media/sports/logos/jqe29gPx-mxrOrDOSLwcBw_48x48.png" height="40px"></div> 
+        </div>
+    </div>
+
+        <!--5ª RODADA-->
+<div style="height:1px;background: rgb(48, 46, 46); justify-content: center; display: flex;"></div>
+<div style="display: inline-block;width: 43%;"></div>
+<p style="font-family: verdana; font-size: 30px; font-weight: bold;color: rgb(159, 202, 219);display:inline-block;background: rgb(16,47,68);">5ª rod.</p>
+    <div style="height:60px;display:flex;margin-left: 2%;margin-right: 2%;color:rgb(143,143,143)">
+
+            
+            <div id="logtime17"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/orE554NToSkH6nuwofe7Yg_48x48.png" height="40px"></div> 
+            <div id="nometime17" style="border-radius: 1px; align-items: center; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%; justify-content: center;">Flamengo</div>
+            <div id="pntstime17" style="font-size: 15px;border-radius: 1px; align-items: center;margin-left: 2%;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;justify-content: center;">(0,00)</div>
+            <div id="golstime17" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 1%;;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;justify-content: center;">-</div>
+            <div  style="border-radius: 1px; font-size: 20px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 30px;width: 1%;justify-content: center;">x</div>
+            <div id="golstime18"style="border-radius: 1px; font-size: 40px; align-items: center;margin-right: 1%;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;justify-content: center;">-</div>
+            <div id="pntstime18" style="font-size: 15px;border-radius: 1px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;justify-content: center;">(0,00)</div>
+            <div id="nometime18" style="border-radius: 1px; align-items: center;margin-left: 2%; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Univ. de Chile</div>
+            <div id="logtime18"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/jqe29gPx-mxrOrDOSLwcBw_48x48.png" height="40px"></div> 
+        </div>
+
+        <div style="height:60px;display:flex;margin-left: 2%;margin-right: 2%;color:rgb(143,143,143)">
+            <div id="logtime19"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/q_2P3cWhPBE6a_0bB-xLAQ_48x48.png" height="40px"></div> 
+            <div id="nometime19" style="border-radius: 1px; align-items: center; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Cerro Porteño</div>
+            <div id="pntstime19" style="font-size: 15px;border-radius: 1px; align-items: center;margin-left: 2%;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;">(0,00)</div>
+            <div id="golstime19" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 1%;;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;">-</div>
+            <div  style="border-radius: 1px; font-size: 20px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 30px;width: 1%;">x</div>
+            <div id="golstime20"style="border-radius: 1px; font-size: 40px; align-items: center;margin-right: 1%;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;">-</div>
+            <div id="pntstime20" style="font-size: 15px;border-radius: 1px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;">(0,00)</div>
+            <div id="nometime20" style="border-radius: 1px; align-items: center;margin-left: 2%; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Huachipato</div>
+            <div id="logtime20" style="filter: brightness(75%) ;"><img src="https://ssl.gstatic.com/onebox/media/sports/logos/HdKjN7bWGo0noZ06Gn6Fow_48x48.png" height="40px"></div> 
+        </div>
+    </div>
+
+        <!--6ª RODADA-->
+<div style="height:1px;background: rgb(48, 46, 46); justify-content: center; display: flex;"></div>
+<div style="display: inline-block;width: 43%;"></div>
+<p style="font-family: verdana; font-size: 30px; font-weight: bold;color: rgb(159, 202, 219);display:inline-block;background: rgb(16,47,68);">6ª rod.</p>
+    <div style="height:60px;display:flex;margin-left: 2%;margin-right: 2%;color:rgb(143,143,143)">
+
+            
+            <div id="logtime21"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/orE554NToSkH6nuwofe7Yg_48x48.png" height="40px"></div> 
+            <div id="nometime21" style="border-radius: 1px; align-items: center; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%; justify-content: center;">Flamengo</div>
+            <div id="pntstime21" style="font-size: 15px;border-radius: 1px; align-items: center;margin-left: 2%;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;justify-content: center;">(0,00)</div>
+            <div id="golstime21" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 1%;;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;justify-content: center;">-</div>
+            <div  style="border-radius: 1px; font-size: 20px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 30px;width: 1%;justify-content: center;">x</div>
+            <div id="golstime22"style="border-radius: 1px; font-size: 40px; align-items: center;margin-right: 1%;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;justify-content: center;">-</div>
+            <div id="pntstime22" style="font-size: 15px;border-radius: 1px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;justify-content: center;">(0,00)</div>
+            <div id="nometime22" style="border-radius: 1px; align-items: center;margin-left: 2%; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Univ. de Chile</div>
+            <div id="logtime22" style="filter: brightness(75%) ;"><img src="https://ssl.gstatic.com/onebox/media/sports/logos/jqe29gPx-mxrOrDOSLwcBw_48x48.png" height="40px"></div> 
+        </div>
+
+        <div style="height:60px;display:flex;margin-left: 2%;margin-right: 2%;color:rgb(143,143,143)">
+            <div id="logtime23"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/q_2P3cWhPBE6a_0bB-xLAQ_48x48.png" height="40px"></div> 
+            <div id="nometime23" style="border-radius: 1px; align-items: center; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Cerro Porteño</div>
+            <div id="pntstime23" style="font-size: 15px;border-radius: 1px; align-items: center;margin-left: 2%;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;">(0,00)</div>
+            <div id="golstime23" style="border-radius: 1px; font-size: 40px; align-items: center;margin-left: 1%;;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;">-</div>
+            <div  style="border-radius: 1px; font-size: 20px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 30px;width: 1%;">x</div>
+            <div id="golstime24"style="border-radius: 1px; font-size: 40px; align-items: center;margin-right: 1%;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 33px;width: 2%;font-weight: bold;">-</div>
+            <div id="pntstime24" style="font-size: 15px;border-radius: 1px; align-items: center;;margin-left: 3px;justify-content: center;font-family: Arial; font-size: 23px;width: 8%;">(0,00)</div>
+            <div id="nometime24" style="border-radius: 1px; align-items: center;margin-left: 2%; font-family: Arial; font-weight: bold; font-size: 25px; width: 35%;justify-content: center;">Huachipato</div>
+            <div id="logtime24"style="filter: brightness(75%) ;" ><img src="https://ssl.gstatic.com/onebox/media/sports/logos/HdKjN7bWGo0noZ06Gn6Fow_48x48.png" height="40px"></div> 
+        </div>
     </div>
     
-    <!--LINHA CINZA-->
-    <div class="linCalend" style="background: rgb(211, 211, 211);width: 96%;height:0.2%;flex-direction: row;margin-left:2%;font-family: 'Montserrat';font-size: 40px;"></div>
+        
 
-    
+    <!--2ª FASE-->
+
+    <div style="height:1px;background: rgb(48, 46, 46); justify-content: center; display: flex;">.</div>
+<div style="font-family:Montserrat; margin-top: 50px;margin-bottom: 60px;color:rgb(9, 84, 150);; font-family: verdana; font-size: 32px; font-weight: bold; justify-content: center;">SEGUNDA FASE:</div>
 
 
-
-  
 
 
 <!--CARTECNICO1-------------------------------->
 
 <div id="cardtec1" class="cardtec1">
-    <div class="CardNomeTec" id="CardNomeTec1"></div>
+    <div class="CardNomeTec" id="CardNomeTec1">OLÁ MUNDÃO!</div>
     <div style="background: rgb(211, 211, 211);height: 25%;width: 100%;flex-direction: row;">
                 <div id="CardLogo1" style="height: 100%;;width: 35%;"><img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_213/escudo/14/46/27/005094eec9-1628-489a-be6b-4e8d1fb4571420230406144627' width='100%'></div>
                 <div style="flex-direction: column;">
                             <div id="CardLogin1" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId1" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde1" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde1" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral1" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
 
@@ -403,7 +387,7 @@
     
 
     <div id="CardAssumiu1" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos1_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos1_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos1_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -426,7 +410,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin2" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId2" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde2" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde2" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral2" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -437,7 +421,7 @@
     
 
     <div id="CardAssumiu2" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos2_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos2_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos2_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -461,7 +445,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin3" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId3" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde3" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde3" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral3" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -471,8 +455,8 @@
     </div>
     
 
-    <div id="CardAssumiu3" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div id="CardAssumiu3" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;"></div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos3_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos3_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos3_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -496,7 +480,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin4" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId4" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde4" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde4" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral4" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -507,7 +491,7 @@
     
 
     <div id="CardAssumiu4" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos4_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos4_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos4_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -531,7 +515,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin5" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId5" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde5" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde5" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral5" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -542,7 +526,7 @@
     
 
     <div id="CardAssumiu5" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos5_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos5_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos5_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -566,7 +550,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin6" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId6" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde6" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde6" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral6" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -577,7 +561,7 @@
     
 
     <div id="CardAssumiu6" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos6_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos6_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos6_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -601,7 +585,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin7" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId7" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde7" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde7" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral7" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -612,7 +596,7 @@
     
 
     <div id="CardAssumiu7" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos7_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos7_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos7_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -635,7 +619,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin8" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId8" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde8" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde8" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral8" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -646,7 +630,7 @@
     
 
     <div id="CardAssumiu8" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos8_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos8_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos8_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -669,7 +653,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin9" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId9" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde9" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde9" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral9" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -680,7 +664,7 @@
     
 
     <div id="CardAssumiu9" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos9_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos9_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos9_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -704,7 +688,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin10" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId10" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde10" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde10" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral10" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -715,7 +699,7 @@
     
 
     <div id="CardAssumiu10" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos10_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos10_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos10_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -739,7 +723,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin11" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId11" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde11" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde11" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral11" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -750,7 +734,7 @@
     
 
     <div id="CardAssumiu11" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos11_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos11_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos11_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -773,7 +757,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin12" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId12" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde12" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde12" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral12" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -784,7 +768,7 @@
     
 
     <div id="CardAssumiu12" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos12_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos12_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos12_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -808,7 +792,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin13" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId13" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde13" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde13" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral13" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -819,7 +803,7 @@
     
 
     <div id="CardAssumiu13" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos13_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos13_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos13_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -842,7 +826,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin14" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId14" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde14" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde14" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral14" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -853,7 +837,7 @@
     
 
     <div id="CardAssumiu14" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos14_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos14_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos14_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -877,7 +861,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin15" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId15" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde15" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde15" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral15" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -888,7 +872,7 @@
     
 
     <div id="CardAssumiu15" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos15_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos15_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos15_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -911,7 +895,7 @@
                 <div style="flex-direction: column;">
                             <div id="CardLogin16" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
                             <div id="CardId16" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">NOME LOGIN FC</div>
-                            <div id="CardDesde16" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Na liga desde: 1900</div>
+                            <div id="CardDesde16" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Liga Representante: 1900</div>
                             <div id="CarMoral16" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40); justify-items: center;">Moral: 100%</div>
                             
                             
@@ -922,7 +906,7 @@
     
 
     <div id="CardAssumiu16" style="font-family: Arial, Helvetica, sans-serif; font-size: 28px; color: rgb(42, 40, 40);font-weight: bold; justify-content: center;">Assumiu na 00ª/1900</div>
-    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">TÍTULOS:</div>
+    <div style="background: grey;font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: rgb(42, 40, 40);padding:3%;font-weight: bold; justify-content: center;">HISTÓRICO:</div>
     <div id="CardTitulos16_1" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos16_2" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
     <div id="CardTitulos16_3" style="font-family: 'Arial'; font-size: 28px; color: rgb(42, 40, 40); justify-content: center;"></div>
@@ -943,6 +927,6 @@
 </div>
 
 
-<script src="js/libertadores.js"></script>
+<script src="js/champions.js"></script>
 </body>
 </html>
