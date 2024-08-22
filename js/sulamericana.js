@@ -549,6 +549,7 @@ let logotec536="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7
 let logotec537="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/dc/21/50/0083644c0f-305e-4b1e-9d94-342ec35522dc20180324202150' width='100%'>";
 let logotec542="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_222/escudo/02/15/57/00b84ab441-7ed5-4688-99bd-1b3f77775b0220240314231557' width='100%'>";
 let logotec543="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_222/escudo/4d/08/10/007164443f-3662-4b27-a1f7-6a719ad60f4d20240318170810' width='100%'>";
+let logotec541="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_224/escudo/60/10/51/00133fe341-8d29-4ff8-ba92-fc754ed1526020240409221051' width='100%'>;"
 let logotec544="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_223/escudo/5b/10/24/00e7c5975b-9560-4d5a-802e-c0b1b9b3ce5b20240329121024' width='100%'>";
 let logotec545="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_199/escudo/0f/48/37/003a84abc2-872d-4657-a233-29437291890f20220310214837' width='100%'>";
 let logotec546="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_231/escudo/79/57/48/00abcabdc9-1219-4bcf-9668-c4efe959fe7920240427145748' width='100%'>";
@@ -564,6 +565,15 @@ let logotec555="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7
 let logotec556="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_224/escudo/3b/55/22/00296934f2-0c71-43b4-836d-d7ed93c1e03b20240410185522' width='100%'>";
 let logotec557="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_222/escudo/3d/48/33/0079552a6f-d53b-4eb2-b3bd-8df36a03b63d20240315204833' width='100%'>";
 let logotec558="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_222/escudo/88/49/01/008f01131e-8d75-4911-bef5-f876e9c5838820240314164901' width='100%'>";
+let logotec559="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_226/escudo/89/23/43/002eda4ac9-9cb1-47c1-b8cd-0d933abf468920240413132343' width='100%'>;"
+let logotec560="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/02/22/36/00d015c91a-b95f-4faf-84cd-07341a40300220180323092236' width='100%'>;"
+let logotec561="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_210/escudo/62/53/11/0095f3948a-bfcf-4a9b-931b-22cb19f2416220230316125311' width='100%'>;"
+let logotec562="<img src='' width='100%'>;"
+let logotec563="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_223/escudo/b9/50/49/00319c86ea-179a-4613-b973-fa381334fbb920240403115049' width='100%'>;"
+let logotec564="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_105/escudo/2b/49/58/005a6ef62d-fa78-4855-8152-5efb0acd112b20180406194958' width='100%'>;"
+let logotec565="<img src='' width='100%'>;"
+let logotec566="<img src='https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_211/escudo/23/31/22/00f3e68cdc-d860-49fd-b81f-b9c049b8da2320230317213122' width='100%'>;"
+let logotec567="<img src='' width='100%'>;"
 
   
   
@@ -1686,6 +1696,9 @@ let tec535={idCart:141615,nome:'Tremendãojf FC',nomeLogin:'Tremendão',nomePess
 let tec536={idCart:44565875,nome:'Cartola do Menegassi Taxista',nomeLogin:'CESAR MENEGASSI',nomePess:'opcional',anoEnt:2024,logo:logotec536,ClubAtual:riverplate,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
 let tec537={idCart:947934,nome:'AMERICA DO MEX S.A',nomeLogin:'Juliano Bueno',nomePess:'opcional',anoEnt:2024,logo:logotec537,ClubAtual:rosariocentral,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
 let tec543={idCart:25370187,nome:'Toniollo',nomeLogin:'Rafael Gassen',nomePess:'opcional',anoEnt:2024,logo:logotec543,ClubAtual:banfield,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
+let tec541={idCart:917297,nome:'mas q bons  f.c',nomeLogin:'matheus vinicius',nomePess:'opcional',anoEnt:2024,logo:logotec541,ClubAtual:atleticonacional,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
+let tec542={idCart:100756,nome:'Palestra Fox ',nomeLogin:'Paulo Abreu',nomePess:'opcional',anoEnt:2024,logo:logotec542,ClubAtual:americadecali,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
+
 let tec544={idCart:22602986,nome:'Colchonero BH',nomeLogin:'Paulo Abreu',nomePess:'opcional',anoEnt:2024,logo:logotec544,ClubAtual:barcelonasc,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
 let tec545={idCart:13945234,nome:'Psycos F.C',nomeLogin:'Gerllan Ferreira',nomePess:'opcional',anoEnt:2024,logo:logotec545,ClubAtual:danubio,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
 let tec546={idCart:49695507,nome:'Zeca Pagordinho23',nomeLogin:'Júlio David',nomePess:'opcional',anoEnt:2024,logo:logotec546,ClubAtual:amazonas,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
@@ -1701,32 +1714,44 @@ let tec555={idCart:8219014,nome:'Macundu RF17',nomeLogin:'Rodrigo Faria',nomePes
 let tec556={idCart:47734862,nome:'Tsinopoli',nomeLogin:'Thiago Sinopoli',nomePess:'opcional',anoEnt:2024,logo:logotec556,ClubAtual:quilmes,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
 let tec557={idCart:16353113,nome:'Master Flafc',nomeLogin:'valdeci',nomePess:'opcional',anoEnt:2024,logo:logotec557,ClubAtual:santafe,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
 let tec558={idCart:17428680,nome:'Mitou!La ele',nomeLogin:'Heberton',nomePess:'opcional',anoEnt:2024,logo:logotec558,ClubAtual:sportingcristal,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
+let tec559={idCart:3719194,nome:'Chucrismo Puro F. C.',nomeLogin:'Bagualíssimo',nomePess:'opcional',anoEnt:2018,logo:logotec559,ClubAtual:semclube,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
+let tec560={idCart:5308111,nome:'Rflores FC',nomeLogin:'Marcos Flores',nomePess:'opcional',anoEnt:2018,logo:logotec560,ClubAtual:semclube,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
+let tec561={idCart:57181,nome:'Bafulinos FC',nomeLogin:'Bebeto de Freitas',nomePess:'opcional',anoEnt:2018,logo:logotec561,ClubAtual:semclube,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
+let tec562={idCart:0,nome:'Alvirubro FC SM',nomeLogin:'0',nomePess:'opcional',anoEnt:2018,logo:logotec562,ClubAtual:semclube,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
+let tec563={idCart:2821100,nome:'Cruzeiro 7697',nomeLogin:'Douglascd',nomePess:'opcional',anoEnt:2021,logo:logotec563,ClubAtual:semclube,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
+let tec564={idCart:591313,nome:'JOSE LAURO FC',nomeLogin:'José Lauro',nomePess:'opcional',anoEnt:2019,logo:logotec564,ClubAtual:semclube,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
+let tec565={idCart:0,nome:'DECORPEÇAS FC',nomeLogin:'0',nomePess:'opcional',anoEnt:2021,logo:logotec565,ClubAtual:semclube,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
+let tec566={idCart:13909491,nome:'HANNOVER-1987 F.C',nomeLogin:'Eduardo Paulista',nomePess:'opcional',anoEnt:2021,logo:logotec566,ClubAtual:semclube,titulo1:'',titulo2:'',titulo3:'',titulo4:'',titulo5:'',titulo6:'',titulo7:'',titulo8:'',titulo9:'',titulo10:'',titulo11:'',titulo12:'',titulo13:'',titulo14:'',titulo15:'',titulo16:'',titulo17:'',titulo18:'',titulo19:'',titulo20:''};
 
 
   
-let Grupo_A=[logoargentinosjrs,argentinosjrs,'4','1','1','0','3','1',tec523,logoathletico,athletico,'2','0','2','0','0','0',tec4,logodepcali,depcali,'2','0','2','0','0','0',tec547,logonacionalpotosi,nacionalpotosi,'1','0','1','1','1','3',tec554];
-let jogos_A=[logoargentinosjrs,'Argentinos Jrs','(33,51)','0','0','(36,81)','Athletico',logoathletico,logodepcali,'Deportivo Cali','(46,21)','0','0','(45,02)','Nacional Potosí',logonacionalpotosi,logoathletico,'Athletico','(53,32)','0','0','(56,45)','Deportivo Cali',logodepcali,logonacionalpotosi,'Nacional Potosí','(69,77)','1','3','(81,2)','Argentinos Jrs',logoargentinosjrs,logoathletico,'Athletico','(0)','-','-','(0)','Nacional Potosí',logonacionalpotosi,logoargentinosjrs,'Argentinos Jrs','(0)','-','-','(0)','Deportivo Cali',logodepcali,logonacionalpotosi,'Nacional Potosí','(0)','-','-','(0)','Athletico',logoathletico,logodepcali,'Deportivo Cali','(0)','-','-','(0)','Argentinos Jrs',logoargentinosjrs,logodepcali,'Deportivo Cali','(0)','-','-','(0)','Athletico',logoathletico,logoargentinosjrs,'Argentinos Jrs','(0)','-','-','(0)','Nacional Potosí',logonacionalpotosi,logoathletico,'Athletico','(0)','-','-','(0)','Argentinos Jrs',logoargentinosjrs,logonacionalpotosi,'Nacional Potosí','(0)','-','-','(0)','Deportivo Cali',logodepcali,];
+let Grupo_A=[logoargentinosjrs,argentinosjrs,'7','2','1','0','4','1',tec523,logoathletico,athletico,'3','0','3','0','0','0',tec4,logodepcali,depcali,'2','0','2','1','0','1',tec547,logonacionalpotosi,nacionalpotosi,'2','0','2','1','1','3',tec554];
+let jogos_A=[logoargentinosjrs,'Argentinos Jrs','(33,51)','0','0','(36,81)','Athletico',logoathletico,logodepcali,'Deportivo Cali','(46,21)','0','0','(45,02)','Nacional Potosí',logonacionalpotosi,logoathletico,'Athletico','(53,32)','0','0','(56,45)','Deportivo Cali',logodepcali,logonacionalpotosi,'Nacional Potosí','(69,77)','1','3','(81,2)','Argentinos Jrs',logoargentinosjrs,logoathletico,'Athletico','(38,48274)','0','0','(39,23264)','Nacional Potosí',logonacionalpotosi,logoargentinosjrs,'Argentinos Jrs','(47,58173)','1','0','(20,92464)','Deportivo Cali',logodepcali,logonacionalpotosi,'Nacional Potosí','(0)','-','-','(0)','Athletico',logoathletico,logodepcali,'Deportivo Cali','(0)','-','-','(0)','Argentinos Jrs',logoargentinosjrs,logodepcali,'Deportivo Cali','(0)','-','-','(0)','Athletico',logoathletico,logoargentinosjrs,'Argentinos Jrs','(0)','-','-','(0)','Nacional Potosí',logonacionalpotosi,logoathletico,'Athletico','(0)','-','-','(0)','Argentinos Jrs',logoargentinosjrs,logonacionalpotosi,'Nacional Potosí','(0)','-','-','(0)','Deportivo Cali',logodepcali,];
 
-let Grupo_B=[logooncecaldas,oncecaldas,'4','1','1','0','3','1',tec555,logoemelec,emelec,'4','1','1','0','2','1',tec548,logobanfield,banfield,'3','1','0','1','2','3',tec543,logobahia,bahia,'0','0','0','2','1','3',tec84];
-let jogos_B=[logobanfield,'Banfield','(49,91)','1','0','(31,91)','Bahia',logobahia,logoemelec,'Emelec','(40,81)','0','0','(46,55)','Once Caldas',logooncecaldas,logobahia,'Bahia','(68,4)','1','2','(70,27)','Emelec',logoemelec,logooncecaldas,'Once Caldas','(84,77)','3','1','(65,27)','Banfield',logobanfield,logobahia,'Bahia','(0)','-','-','(0)','Once Caldas',logooncecaldas,logobanfield,'Banfield','(0)','-','-','(0)','Emelec',logoemelec,logooncecaldas,'Once Caldas','(0)','-','-','(0)','Bahia',logobahia,logoemelec,'Emelec','(0)','-','-','(0)','Banfield',logobanfield,logoemelec,'Emelec','(0)','-','-','(0)','Bahia',logobahia,logobanfield,'Banfield','(0)','-','-','(0)','Once Caldas',logooncecaldas,logobahia,'Bahia','(0)','-','-','(0)','Banfield',logobanfield,logooncecaldas,'Once Caldas','(0)','-','-','(0)','Emelec',logoemelec,];
+let Grupo_B=[logobanfield,banfield,'6','2','0','1','3','3',tec543,logooncecaldas,oncecaldas,'5','1','2','0','3','1',tec555,logoemelec,emelec,'4','1','1','1','2','2',tec548,logobahia,bahia,'1','0','1','2','1','3',tec84];
+let jogos_B=[logobanfield,'Banfield','(49,91)','1','0','(31,91)','Bahia',logobahia,logoemelec,'Emelec','(40,81)','0','0','(46,55)','Once Caldas',logooncecaldas,logobahia,'Bahia','(68,4)','1','2','(70,27)','Emelec',logoemelec,logooncecaldas,'Once Caldas','(84,77)','3','1','(65,27)','Banfield',logobanfield,logobahia,'Bahia','(52,38119)','0','0','(54,50107)','Once Caldas',logooncecaldas,logobanfield,'Banfield','(45,38194)','1','0','(28,48383)','Emelec',logoemelec,logooncecaldas,'Once Caldas','(0)','-','-','(0)','Bahia',logobahia,logoemelec,'Emelec','(0)','-','-','(0)','Banfield',logobanfield,logoemelec,'Emelec','(0)','-','-','(0)','Bahia',logobahia,logobanfield,'Banfield','(0)','-','-','(0)','Once Caldas',logooncecaldas,logobahia,'Bahia','(0)','-','-','(0)','Banfield',logobanfield,logooncecaldas,'Once Caldas','(0)','-','-','(0)','Emelec',logoemelec,];
 
-let Grupo_C=[logobragantino,bragantino,'4','1','1','0','3','2',tec168,logoquilmes,quilmes,'4','1','1','0','3','2',tec556,logobarcelonasc,barcelonasc,'1','0','1','1','2','3',tec544,logoguaranipar,guaranipar,'1','0','1','1','2','3',tec549];
-let jogos_C=[logobarcelonasc,'Barcelona SC','(37,75)','0','0','(45,02)','Bragantino',logobragantino,logoguaranipar,'Guarani-PAR','(51,07)','0','0','(47,76)','Quilmes',logoquilmes,logobragantino,'Bragantino','(81,77)','3','2','(70,55)','Guarani-PAR',logoguaranipar,logoquilmes,'Quilmes','(81,82)','3','2','(72,57)','Barcelona SC',logobarcelonasc,logobragantino,'Bragantino','(0)','-','-','(0)','Quilmes',logoquilmes,logobarcelonasc,'Barcelona SC','(0)','-','-','(0)','Guarani-PAR',logoguaranipar,logoquilmes,'Quilmes','(0)','-','-','(0)','Bragantino',logobragantino,logoguaranipar,'Guarani-PAR','(0)','-','-','(0)','Barcelona SC',logobarcelonasc,logoguaranipar,'Guarani-PAR','(0)','-','-','(0)','Bragantino',logobragantino,logobarcelonasc,'Barcelona SC','(0)','-','-','(0)','Quilmes',logoquilmes,logobragantino,'Bragantino','(0)','-','-','(0)','Barcelona SC',logobarcelonasc,logoquilmes,'Quilmes','(0)','-','-','(0)','Guarani-PAR',logoguaranipar,];
+let Grupo_C=[logobragantino,bragantino,'7','2','1','0','4','2',tec168,logoquilmes,quilmes,'4','1','1','1','3','3',tec556,logobarcelonasc,barcelonasc,'2','0','2','1','2','3',tec544,logoguaranipar,guaranipar,'2','0','2','1','2','3',tec549];
+let jogos_C=[logobarcelonasc,'Barcelona SC','(37,75)','0','0','(45,02)','Bragantino',logobragantino,logoguaranipar,'Guarani-PAR','(51,07)','0','0','(47,76)','Quilmes',logoquilmes,logobragantino,'Bragantino','(81,77)','3','2','(70,55)','Guarani-PAR',logoguaranipar,logoquilmes,'Quilmes','(81,82)','3','2','(72,57)','Barcelona SC',logobarcelonasc,logobragantino,'Bragantino','(59,90051)','1','0','(49,44151)','Quilmes',logoquilmes,logobarcelonasc,'Barcelona SC','(49,10154)','0','0','(42,46233)','Guarani-PAR',logoguaranipar,logoquilmes,'Quilmes','(0)','-','-','(0)','Bragantino',logobragantino,logoguaranipar,'Guarani-PAR','(0)','-','-','(0)','Barcelona SC',logobarcelonasc,logoguaranipar,'Guarani-PAR','(0)','-','-','(0)','Bragantino',logobragantino,logobarcelonasc,'Barcelona SC','(0)','-','-','(0)','Quilmes',logoquilmes,logobragantino,'Bragantino','(0)','-','-','(0)','Barcelona SC',logobarcelonasc,logoquilmes,'Quilmes','(0)','-','-','(0)','Guarani-PAR',logoguaranipar,];
 
-let Grupo_D=[logochapecoense,chapecoense,'4','1','1','0','2','0',tec172,logobelgrano,belgrano,'4','1','1','0','1','0',tec170,logoliverpool,liverpool,'1','0','1','1','0','1',tec553,logohuachipato,huachipato,'1','0','1','1','0','2',tec550];
-let jogos_D=[logobelgrano,'Belgrano','(42,21)','0','0','(39,81)','Chapecoense',logochapecoense,logohuachipato,'Huachipato','(46,6)','0','0','(41,3)','Liverpool',logoliverpool,logochapecoense,'Chapecoense','(76,62)','2','0','(54,77)','Huachipato',logohuachipato,logoliverpool,'Liverpool','(52,42)','0','1','(69,77)','Belgrano',logobelgrano,logochapecoense,'Chapecoense','(0)','-','-','(0)','Liverpool',logoliverpool,logobelgrano,'Belgrano','(0)','-','-','(0)','Huachipato',logohuachipato,logoliverpool,'Liverpool','(0)','-','-','(0)','Chapecoense',logochapecoense,logohuachipato,'Huachipato','(0)','-','-','(0)','Belgrano',logobelgrano,logohuachipato,'Huachipato','(0)','-','-','(0)','Chapecoense',logochapecoense,logobelgrano,'Belgrano','(0)','-','-','(0)','Liverpool',logoliverpool,logochapecoense,'Chapecoense','(0)','-','-','(0)','Belgrano',logobelgrano,logoliverpool,'Liverpool','(0)','-','-','(0)','Huachipato',logohuachipato,];
+let Grupo_D=[logochapecoense,chapecoense,'7','2','1','0','3','0',tec172,logobelgrano,belgrano,'7','2','1','0','2','0',tec170,logoliverpool,liverpool,'1','0','1','2','0','2',tec553,logohuachipato,huachipato,'1','0','1','2','0','3',tec550];
+let jogos_D=[logobelgrano,'Belgrano','(42,21)','0','0','(39,81)','Chapecoense',logochapecoense,logohuachipato,'Huachipato','(46,6)','0','0','(41,3)','Liverpool',logoliverpool,logochapecoense,'Chapecoense','(76,62)','2','0','(54,77)','Huachipato',logohuachipato,logoliverpool,'Liverpool','(52,42)','0','1','(69,77)','Belgrano',logobelgrano,logochapecoense,'Chapecoense','(59,63055)','1','0','(35,23311)','Liverpool',logoliverpool,logobelgrano,'Belgrano','(55,98082)','1','0','(40,28251)','Huachipato',logohuachipato,logoliverpool,'Liverpool','(0)','-','-','(0)','Chapecoense',logochapecoense,logohuachipato,'Huachipato','(0)','-','-','(0)','Belgrano',logobelgrano,logohuachipato,'Huachipato','(0)','-','-','(0)','Chapecoense',logochapecoense,logobelgrano,'Belgrano','(0)','-','-','(0)','Liverpool',logoliverpool,logochapecoense,'Chapecoense','(0)','-','-','(0)','Belgrano',logobelgrano,logoliverpool,'Liverpool','(0)','-','-','(0)','Huachipato',logohuachipato,];
 
-let Grupo_E=[logomillonarios,millonarios,'4','1','1','0','2','0',tec445,logohuracan,huracan,'4','1','1','0','1','0',tec490,logofluminense,fluminense,'3','1','0','1','1','1',tec87,logocobresal,cobresal,'0','0','0','2','0','3',tec461];
-let jogos_E=[logocobresal,'Cobresal','(27,27)','0','1','(42,52)','Fluminense',logofluminense,logohuracan,'Huracan','(49,85)','0','0','(47,46)','Millonarios',logomillonarios,logofluminense,'Fluminense','(53,37)','0','1','(62,82)','Huracan',logohuracan,logomillonarios,'Millonarios','(72,02)','2','0','(58,4)','Cobresal',logocobresal,logofluminense,'Fluminense','(0)','-','-','(0)','Millonarios',logomillonarios,logocobresal,'Cobresal','(0)','-','-','(0)','Huracan',logohuracan,logomillonarios,'Millonarios','(0)','-','-','(0)','Fluminense',logofluminense,logohuracan,'Huracan','(0)','-','-','(0)','Cobresal',logocobresal,logohuracan,'Huracan','(0)','-','-','(0)','Fluminense',logofluminense,logocobresal,'Cobresal','(0)','-','-','(0)','Millonarios',logomillonarios,logofluminense,'Fluminense','(0)','-','-','(0)','Cobresal',logocobresal,logomillonarios,'Millonarios','(0)','-','-','(0)','Huracan',logohuracan,];
+let Grupo_E=[logohuracan,huracan,'7','2','1','0','3','0',tec490,logofluminense,fluminense,'6','2','0','1','2','1',tec87,logomillonarios,millonarios,'4','1','1','1','2','1',tec445,logocobresal,cobresal,'0','0','0','3','0','5',tec461];
+let jogos_E=[logocobresal,'Cobresal','(27,27)','0','1','(42,52)','Fluminense',logofluminense,logohuracan,'Huracan','(49,85)','0','0','(47,46)','Millonarios',logomillonarios,logofluminense,'Fluminense','(53,37)','0','1','(62,82)','Huracan',logohuracan,logomillonarios,'Millonarios','(72,02)','2','0','(58,4)','Cobresal',logocobresal,logofluminense,'Fluminense','(52,78117)','1','0','(28,38387)','Millonarios',logomillonarios,logocobresal,'Cobresal','(42,29236)','0','2','(71,23009)','Huracan',logohuracan,logomillonarios,'Millonarios','(0)','-','-','(0)','Fluminense',logofluminense,logohuracan,'Huracan','(0)','-','-','(0)','Cobresal',logocobresal,logohuracan,'Huracan','(0)','-','-','(0)','Fluminense',logofluminense,logocobresal,'Cobresal','(0)','-','-','(0)','Millonarios',logomillonarios,logofluminense,'Fluminense','(0)','-','-','(0)','Cobresal',logocobresal,logomillonarios,'Millonarios','(0)','-','-','(0)','Huracan',logohuracan,];
 
-let Grupo_F=[logogremio,gremio,'6','2','0','0','3','1',tec124,logosportingcristal,sportingcristal,'4','1','1','0','3','1',tec558,logoindmedellín,indmedellín,'1','0','1','1','1','2',tec551,logocolon,colon,'0','0','0','2','1','4',tec513];
-let jogos_F=[logocolon,'Colón','(31,45)','0','1','(42,77)','Grêmio',logogremio,logoindmedellín,'Ind. Medellín','(41,16)','0','0','(36,36)','Sporting Cristal',logosportingcristal,logogremio,'Grêmio','(72,05)','2','1','(65,65)','Ind. Medellín',logoindmedellín,logosportingcristal,'Sporting Cristal','(86,37)','3','1','(66,82)','Colón',logocolon,logogremio,'Grêmio','(0)','-','-','(0)','Sporting Cristal',logosportingcristal,logocolon,'Colón','(0)','-','-','(0)','Ind. Medellín',logoindmedellín,logosportingcristal,'Sporting Cristal','(0)','-','-','(0)','Grêmio',logogremio,logoindmedellín,'Ind. Medellín','(0)','-','-','(0)','Colón',logocolon,logoindmedellín,'Ind. Medellín','(0)','-','-','(0)','Grêmio',logogremio,logocolon,'Colón','(0)','-','-','(0)','Sporting Cristal',logosportingcristal,logogremio,'Grêmio','(0)','-','-','(0)','Colón',logocolon,logosportingcristal,'Sporting Cristal','(0)','-','-','(0)','Ind. Medellín',logoindmedellín,];
+let Grupo_F=[logogremio,gremio,'7','2','1','0','3','1',tec124,logosportingcristal,sportingcristal,'5','1','2','0','3','1',tec558,logoindmedellín,indmedellín,'2','0','2','1','1','2',tec551,logocolon,colon,'1','0','1','2','1','4',tec513];
+let jogos_F=[logocolon,'Colón','(31,45)','0','1','(42,77)','Grêmio',logogremio,logoindmedellín,'Ind. Medellín','(41,16)','0','0','(36,36)','Sporting Cristal',logosportingcristal,logogremio,'Grêmio','(72,05)','2','1','(65,65)','Ind. Medellín',logoindmedellín,logosportingcristal,'Sporting Cristal','(86,37)','3','1','(66,82)','Colón',logocolon,logogremio,'Grêmio','(29,79372)','0','0','(39,18265)','Sporting Cristal',logosportingcristal,logocolon,'Colón','(28,14389)','0','0','(35,32307)','Ind. Medellín',logoindmedellín,logosportingcristal,'Sporting Cristal','(0)','-','-','(0)','Grêmio',logogremio,logoindmedellín,'Ind. Medellín','(0)','-','-','(0)','Colón',logocolon,logoindmedellín,'Ind. Medellín','(0)','-','-','(0)','Grêmio',logogremio,logocolon,'Colón','(0)','-','-','(0)','Sporting Cristal',logosportingcristal,logogremio,'Grêmio','(0)','-','-','(0)','Colón',logocolon,logosportingcristal,'Sporting Cristal','(0)','-','-','(0)','Ind. Medellín',logoindmedellín,];
 
-let Grupo_G=[logodanubio,danubio,'6','2','0','0','3','1',tec545,logolanus,lanus,'2','0','2','0','2','2',tec552,logopalmeiras,palmeiras,'1','0','1','1','2','3',tec7,logosantafe,santafe,'1','0','1','1','1','2',tec557];
-let jogos_G=[logodanubio,'Danubio','(48,11)','1','0','(32,51)','Palmeiras',logopalmeiras,logolanus,'Lanus','(32,62)','0','0','(40,25)','Santa Fé',logosantafe,logopalmeiras,'Palmeiras','(71,32)','2','2','(71,85)','Lanus',logolanus,logosantafe,'Santa Fé','(66,17)','1','2','(76,22)','Danubio',logodanubio,logopalmeiras,'Palmeiras','(0)','-','-','(0)','Santa Fé',logosantafe,logodanubio,'Danubio','(0)','-','-','(0)','Lanus',logolanus,logosantafe,'Santa Fé','(0)','-','-','(0)','Palmeiras',logopalmeiras,logolanus,'Lanus','(0)','-','-','(0)','Danubio',logodanubio,logolanus,'Lanus','(0)','-','-','(0)','Palmeiras',logopalmeiras,logodanubio,'Danubio','(0)','-','-','(0)','Santa Fé',logosantafe,logopalmeiras,'Palmeiras','(0)','-','-','(0)','Danubio',logodanubio,logosantafe,'Santa Fé','(0)','-','-','(0)','Lanus',logolanus,];
+let Grupo_G=[logodanubio,danubio,'7','2','1','0','3','1',tec545,logosantafe,santafe,'4','1','1','1','2','2',tec557,logolanus,lanus,'3','0','3','0','2','2',tec552,logopalmeiras,palmeiras,'1','0','1','2','2','4',tec7];
+let jogos_G=[logodanubio,'Danubio','(48,11)','1','0','(32,51)','Palmeiras',logopalmeiras,logolanus,'Lanus','(32,62)','0','0','(40,25)','Santa Fé',logosantafe,logopalmeiras,'Palmeiras','(71,32)','2','2','(71,85)','Lanus',logolanus,logosantafe,'Santa Fé','(66,17)','1','2','(76,22)','Danubio',logodanubio,logopalmeiras,'Palmeiras','(21,73454)','0','1','(33,38323)','Santa Fé',logosantafe,logodanubio,'Danubio','(37,45284)','0','0','(33,17327)','Lanus',logolanus,logosantafe,'Santa Fé','(0)','-','-','(0)','Palmeiras',logopalmeiras,logolanus,'Lanus','(0)','-','-','(0)','Danubio',logodanubio,logolanus,'Lanus','(0)','-','-','(0)','Palmeiras',logopalmeiras,logodanubio,'Danubio','(0)','-','-','(0)','Santa Fé',logosantafe,logopalmeiras,'Palmeiras','(0)','-','-','(0)','Danubio',logodanubio,logosantafe,'Santa Fé','(0)','-','-','(0)','Lanus',logolanus,];
 
-let Grupo_H=[logolibertadpar,libertadpar,'4','1','1','0','4','0',tec183,logodeportestolima,deportestolima,'4','1','1','0','3','0',tec480,logotalleres,talleres,'1','0','1','1','0','3',tec507,logopaulista,paulista,'1','0','1','1','0','4',tec25];
-let jogos_H=[logodeportestolima,'Deportes Tolima','(40,56)','0','0','(42,21)','Paulista',logopaulista,logolibertadpar,'Libertad','(35,92)','0','0','(27,07)','Talleres',logotalleres,logopaulista,'Paulista','(58,22)','0','4','(90,82)','Libertad',logolibertadpar,logotalleres,'Talleres','(47,25)','0','3','(85,62)','Deportes Tolima',logodeportestolima,logopaulista,'Paulista','(0)','-','-','(0)','Talleres',logotalleres,logodeportestolima,'Deportes Tolima','(0)','-','-','(0)','Libertad',logolibertadpar,logotalleres,'Talleres','(0)','-','-','(0)','Paulista',logopaulista,logolibertadpar,'Libertad','(0)','-','-','(0)','Deportes Tolima',logodeportestolima,logolibertadpar,'Libertad','(0)','-','-','(0)','Paulista',logopaulista,logodeportestolima,'Deportes Tolima','(0)','-','-','(0)','Talleres',logotalleres,logopaulista,'Paulista','(0)','-','-','(0)','Deportes Tolima',logodeportestolima,logotalleres,'Talleres','(0)','-','-','(0)','Libertad',logolibertadpar,];
+let Grupo_H=[logolibertadpar,libertadpar,'7','2','1','0','5','0',tec183,logodeportestolima,deportestolima,'4','1','1','1','3','1',tec480,logotalleres,talleres,'2','0','2','1','0','3',tec507,logopaulista,paulista,'2','0','2','1','0','4',tec25];
+let jogos_H=[logodeportestolima,'Deportes Tolima','(40,56)','0','0','(42,21)','Paulista',logopaulista,logolibertadpar,'Libertad','(35,92)','0','0','(27,07)','Talleres',logotalleres,logopaulista,'Paulista','(58,22)','0','4','(90,82)','Libertad',logolibertadpar,logotalleres,'Talleres','(47,25)','0','3','(85,62)','Deportes Tolima',logodeportestolima,logopaulista,'Paulista','(30,48362)','0','0','(24,67426)','Talleres',logotalleres,logodeportestolima,'Deportes Tolima','(30,08368)','0','1','(47,69172)','Libertad',logolibertadpar,logotalleres,'Talleres','(0)','-','-','(0)','Paulista',logopaulista,logolibertadpar,'Libertad','(0)','-','-','(0)','Deportes Tolima',logodeportestolima,logolibertadpar,'Libertad','(0)','-','-','(0)','Paulista',logopaulista,logodeportestolima,'Deportes Tolima','(0)','-','-','(0)','Talleres',logotalleres,logopaulista,'Paulista','(0)','-','-','(0)','Deportes Tolima',logodeportestolima,logotalleres,'Talleres','(0)','-','-','(0)','Libertad',logolibertadpar,];
+
+let MelhoresPrimeiros=[logolibertadpar,libertadpar,'7','2','1','0','5','0',tec183,logoargentinosjrs,argentinosjrs,'7','2','1','0','4','1',tec523,logochapecoense,chapecoense,'7','2','1','0','3','0',tec172,logohuracan,huracan,'7','2','1','0','3','0',tec490,bragantino,bragantino,'7','2','1','0','4','2',tec168,danubio,danubio,'7','2','1','0','3','1',tec545,gremio,gremio,'7','2','1','0','3','1',tec124,banfield,banfield,'6','2','0','1','3','3',tec543,];
+let MelhoresTerceiros=[logothestrongest,thestrongest,'4','1','1','1','3','3',tec479,logodeptachira,deptachira,'4','1','1','1','2','3',tec456,logorosariocentral,rosariocentral,'3','1','0','2','2','2',tec537,logoinddelvalle,inddelvalle,'3','1','0','2','1','2',tec530,atleticonacional,atleticonacional,'3','1','0','2','2','4',tec541,independiente,independiente,'3','0','3','0','2','2',tec481,velezsarsfield,velezsarsfield,'3','0','3','0','1','1',tec73,estudiantesdelaplata,estudiantesdelaplata,'1','0','1','2','1','3',tec77,];
+let playoffs=[logolibertadpar,'Libertad',tec183,logoestudiantesdelaplata,'Estudiantes LP',tec77,logobanfield,'Banfield',tec543,logothestrongest,'The Strongest',tec479,logodanubio,'Danubio',tec545,logorosariocentral,'Rosario Central',tec537,logohuracan,'Huracan',tec490,logoatleticonacional,'Atlético Nacional',tec541,logochapecoense,'Chapecoense',tec172,logoindependiente,'Independiente',tec481,logogremio,'Grêmio',tec124,logodeptachira,'Dep. Tachira',tec456,logoargentinosjrs,'Argentinos Jrs',tec523,logovelezsarsfield,'Velez Sarsfield',tec73];
 
   
   
@@ -1891,6 +1916,98 @@ let jogos_H=[logodeportestolima,'Deportes Tolima','(40,56)','0','0','(42,21)','P
   document.getElementById('pntstime24').innerHTML=jogos_A[93];
   document.getElementById('nometime24').innerHTML=jogos_A[94];
   document.getElementById('logtime24').innerHTML=jogos_A[95];
+
+
+    /**CLASSIFICAÇO GERAL*/
+
+    document.getElementById("logcamp1").innerHTML=MelhoresPrimeiros[0];
+    document.getElementById("clubcamp1").innerHTML=MelhoresPrimeiros[1][0];
+    document.getElementById("ptscamp1").innerHTML=MelhoresPrimeiros[2];
+    document.getElementById("vitcamp1").innerHTML=MelhoresPrimeiros[3];
+    document.getElementById("empcamp1").innerHTML=MelhoresPrimeiros[4];
+    document.getElementById("dercamp1").innerHTML=MelhoresPrimeiros[5];
+    document.getElementById("gpcamp1").innerHTML=MelhoresPrimeiros[6];
+    document.getElementById("gccamp1").innerHTML=MelhoresPrimeiros[7]
+    document.getElementById("sgcamp1").innerHTML=MelhoresPrimeiros[8];
+    document.getElementById("grupcamp1").innerHTML=MelhoresPrimeiros[9];
+  
+    document.getElementById("logcamp2").innerHTML=MelhoresPrimeiros[11];
+    document.getElementById("clubcamp2").innerHTML=MelhoresPrimeiros[12][0];
+    document.getElementById("ptscamp2").innerHTML=MelhoresPrimeiros[13];
+    document.getElementById("vitcamp2").innerHTML=MelhoresPrimeiros[14];
+    document.getElementById("empcamp2").innerHTML=MelhoresPrimeiros[15];
+    document.getElementById("dercamp2").innerHTML=MelhoresPrimeiros[16];
+    document.getElementById("gpcamp2").innerHTML=MelhoresPrimeiros[17];
+    document.getElementById("gccamp2").innerHTML=MelhoresPrimeiros[18]
+    document.getElementById("sgcamp2").innerHTML=MelhoresPrimeiros[19];
+    document.getElementById("grupcamp2").innerHTML=MelhoresPrimeiros[20];
+  
+    document.getElementById("logcamp3").innerHTML=MelhoresPrimeiros[22];
+    document.getElementById("clubcamp3").innerHTML=MelhoresPrimeiros[23][0];
+    document.getElementById("ptscamp3").innerHTML=MelhoresPrimeiros[24];
+    document.getElementById("vitcamp3").innerHTML=MelhoresPrimeiros[25];
+    document.getElementById("empcamp3").innerHTML=MelhoresPrimeiros[26];
+    document.getElementById("dercamp3").innerHTML=MelhoresPrimeiros[27];
+    document.getElementById("gpcamp3").innerHTML=MelhoresPrimeiros[28];
+    document.getElementById("gccamp3").innerHTML=MelhoresPrimeiros[29]
+    document.getElementById("sgcamp3").innerHTML=MelhoresPrimeiros[30];
+    document.getElementById("grupcamp3").innerHTML=MelhoresPrimeiros[31];
+  
+    document.getElementById("logcamp4").innerHTML=MelhoresPrimeiros[33];
+    document.getElementById("clubcamp4").innerHTML=MelhoresPrimeiros[34][0];
+    document.getElementById("ptscamp4").innerHTML=MelhoresPrimeiros[35];
+    document.getElementById("vitcamp4").innerHTML=MelhoresPrimeiros[36];
+    document.getElementById("empcamp4").innerHTML=MelhoresPrimeiros[37];
+    document.getElementById("dercamp4").innerHTML=MelhoresPrimeiros[38];
+    document.getElementById("gpcamp4").innerHTML=MelhoresPrimeiros[39];
+    document.getElementById("gccamp4").innerHTML=MelhoresPrimeiros[40]
+    document.getElementById("sgcamp4").innerHTML=MelhoresPrimeiros[41];
+    document.getElementById("grupcamp4").innerHTML=MelhoresPrimeiros[42];
+  
+    document.getElementById("logcamp5").innerHTML=MelhoresPrimeiros[44];
+    document.getElementById("clubcamp5").innerHTML=MelhoresPrimeiros[45][0];
+    document.getElementById("ptscamp5").innerHTML=MelhoresPrimeiros[46];
+    document.getElementById("vitcamp5").innerHTML=MelhoresPrimeiros[47];
+    document.getElementById("empcamp5").innerHTML=MelhoresPrimeiros[48];
+    document.getElementById("dercamp5").innerHTML=MelhoresPrimeiros[49];
+    document.getElementById("gpcamp5").innerHTML=MelhoresPrimeiros[50];
+    document.getElementById("gccamp5").innerHTML=MelhoresPrimeiros[51]
+    document.getElementById("sgcamp5").innerHTML=MelhoresPrimeiros[52];
+    document.getElementById("grupcamp5").innerHTML=MelhoresPrimeiros[53];
+  
+    document.getElementById("logcamp6").innerHTML=MelhoresPrimeiros[55];
+    document.getElementById("clubcamp6").innerHTML=MelhoresPrimeiros[56][0];
+    document.getElementById("ptscamp6").innerHTML=MelhoresPrimeiros[57];
+    document.getElementById("vitcamp6").innerHTML=MelhoresPrimeiros[58];
+    document.getElementById("empcamp6").innerHTML=MelhoresPrimeiros[59];
+    document.getElementById("dercamp6").innerHTML=MelhoresPrimeiros[60];
+    document.getElementById("gpcamp6").innerHTML=MelhoresPrimeiros[61];
+    document.getElementById("gccamp6").innerHTML=MelhoresPrimeiros[62]
+    document.getElementById("sgcamp6").innerHTML=MelhoresPrimeiros[63];
+    document.getElementById("grupcamp6").innerHTML=MelhoresPrimeiros[64];
+  
+    document.getElementById("logcamp7").innerHTML=MelhoresPrimeiros[66];
+    document.getElementById("clubcamp7").innerHTML=MelhoresPrimeiros[67][0];
+    document.getElementById("ptscamp7").innerHTML=MelhoresPrimeiros[68];
+    document.getElementById("vitcamp7").innerHTML=MelhoresPrimeiros[69];
+    document.getElementById("empcamp7").innerHTML=MelhoresPrimeiros[70];
+    document.getElementById("dercamp7").innerHTML=MelhoresPrimeiros[71];
+    document.getElementById("gpcamp7").innerHTML=MelhoresPrimeiros[72];
+    document.getElementById("gccamp7").innerHTML=MelhoresPrimeiros[73]
+    document.getElementById("sgcamp7").innerHTML=MelhoresPrimeiros[74];
+    document.getElementById("grupcamp7").innerHTML=MelhoresPrimeiros[75];
+  
+    document.getElementById("logcamp8").innerHTML=MelhoresPrimeiros[77];
+    document.getElementById("clubcamp8").innerHTML=MelhoresPrimeiros[78][0];
+    document.getElementById("ptscamp8").innerHTML=MelhoresPrimeiros[79];
+    document.getElementById("vitcamp8").innerHTML=MelhoresPrimeiros[80];
+    document.getElementById("empcamp8").innerHTML=MelhoresPrimeiros[81];
+    document.getElementById("dercamp8").innerHTML=MelhoresPrimeiros[82];
+    document.getElementById("gpcamp8").innerHTML=MelhoresPrimeiros[83];
+    document.getElementById("gccamp8").innerHTML=MelhoresPrimeiros[84]
+    document.getElementById("sgcamp8").innerHTML=MelhoresPrimeiros[85];
+    document.getElementById("grupcamp8").innerHTML=MelhoresPrimeiros[86];
+  
 
 
 /**CARD DO TÉCNICOS */
