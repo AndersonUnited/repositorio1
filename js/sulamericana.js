@@ -1749,9 +1749,12 @@ let jogos_G=[logodanubio,'Danubio','(48,11)','1','0','(32,51)','Palmeiras',logop
 let Grupo_H=[logolibertadpar,libertadpar,'7','2','1','0','5','0',tec183,logodeportestolima,deportestolima,'4','1','1','1','3','1',tec480,logotalleres,talleres,'2','0','2','1','0','3',tec507,logopaulista,paulista,'2','0','2','1','0','4',tec25];
 let jogos_H=[logodeportestolima,'Deportes Tolima','(40,56)','0','0','(42,21)','Paulista',logopaulista,logolibertadpar,'Libertad','(35,92)','0','0','(27,07)','Talleres',logotalleres,logopaulista,'Paulista','(58,22)','0','4','(90,82)','Libertad',logolibertadpar,logotalleres,'Talleres','(47,25)','0','3','(85,62)','Deportes Tolima',logodeportestolima,logopaulista,'Paulista','(30,48362)','0','0','(24,67426)','Talleres',logotalleres,logodeportestolima,'Deportes Tolima','(30,08368)','0','1','(47,69172)','Libertad',logolibertadpar,logotalleres,'Talleres','(0)','-','-','(0)','Paulista',logopaulista,logolibertadpar,'Libertad','(0)','-','-','(0)','Deportes Tolima',logodeportestolima,logolibertadpar,'Libertad','(0)','-','-','(0)','Paulista',logopaulista,logodeportestolima,'Deportes Tolima','(0)','-','-','(0)','Talleres',logotalleres,logopaulista,'Paulista','(0)','-','-','(0)','Deportes Tolima',logodeportestolima,logotalleres,'Talleres','(0)','-','-','(0)','Libertad',logolibertadpar,];
 
-let MelhoresPrimeiros=[logolibertadpar,libertadpar,'7','2','1','0','5','0',tec183,logoargentinosjrs,argentinosjrs,'7','2','1','0','4','1',tec523,logochapecoense,chapecoense,'7','2','1','0','3','0',tec172,logohuracan,huracan,'7','2','1','0','3','0',tec490,bragantino,bragantino,'7','2','1','0','4','2',tec168,danubio,danubio,'7','2','1','0','3','1',tec545,gremio,gremio,'7','2','1','0','3','1',tec124,banfield,banfield,'6','2','0','1','3','3',tec543,];
-let MelhoresTerceiros=[logothestrongest,thestrongest,'4','1','1','1','3','3',tec479,logodeptachira,deptachira,'4','1','1','1','2','3',tec456,logorosariocentral,rosariocentral,'3','1','0','2','2','2',tec537,logoinddelvalle,inddelvalle,'3','1','0','2','1','2',tec530,atleticonacional,atleticonacional,'3','1','0','2','2','4',tec541,independiente,independiente,'3','0','3','0','2','2',tec481,velezsarsfield,velezsarsfield,'3','0','3','0','1','1',tec73,estudiantesdelaplata,estudiantesdelaplata,'1','0','1','2','1','3',tec77,];
+let MelhoresPrimeiros=[logolibertadpar,libertadpar,'7','2','1','0','5','0','5','H',logoargentinosjrs,argentinosjrs,'7','2','1','0','4','1','3','A',logochapecoense,chapecoense,'7','2','1','0','3','0','3','D',logohuracan,huracan,'7','2','1','0','3','0','3','E',logobragantino,bragantino,'7','2','1','0','4','2','2','C',logodanubio,danubio,'7','2','1','0','3','1','2','G',logogremio,gremio,'7','2','1','0','3','1','2','F',logobanfield,banfield,'6','2','0','1','3','3','0','B'];
+
+let MelhoresTerceiros=[logothestrongest,thestrongest,'4','1','1','1','3','3','0','E',logodeptachira,deptachira,'4','1','1','1','2','3','-1','A',logorosariocentral,rosariocentral,'3','1','0','2','2','2','0','D',logoinddelvalle,inddelvalle,'3','1','0','2','1','2','-1','H',logoatleticonacional,atleticonacional,'3','1','0','2','2','4','-2','G',logoindependiente,independiente,'3','0','3','0','2','2','0','B',logovelezsarsfield,velezsarsfield,'3','0','3','0','1','1','0','F',logoestudiantesdelaplata,estudiantesdelaplata,'1','0','1','2','1','3','-2','C'];
+
 let playoffs=[logolibertadpar,'Libertad',tec183,logoestudiantesdelaplata,'Estudiantes LP',tec77,logobanfield,'Banfield',tec543,logothestrongest,'The Strongest',tec479,logodanubio,'Danubio',tec545,logorosariocentral,'Rosario Central',tec537,logohuracan,'Huracan',tec490,logoatleticonacional,'Atlético Nacional',tec541,logochapecoense,'Chapecoense',tec172,logoindependiente,'Independiente',tec481,logogremio,'Grêmio',tec124,logodeptachira,'Dep. Tachira',tec456,logoargentinosjrs,'Argentinos Jrs',tec523,logovelezsarsfield,'Velez Sarsfield',tec73];
+
 
   
   
@@ -1919,7 +1922,7 @@ let playoffs=[logolibertadpar,'Libertad',tec183,logoestudiantesdelaplata,'Estudi
 
 
     /**CLASSIFICAÇO GERAL*/
-
+   
     document.getElementById("logcamp1").innerHTML=MelhoresPrimeiros[0];
     document.getElementById("clubcamp1").innerHTML=MelhoresPrimeiros[1][0];
     document.getElementById("ptscamp1").innerHTML=MelhoresPrimeiros[2];
@@ -1931,82 +1934,212 @@ let playoffs=[logolibertadpar,'Libertad',tec183,logoestudiantesdelaplata,'Estudi
     document.getElementById("sgcamp1").innerHTML=MelhoresPrimeiros[8];
     document.getElementById("grupcamp1").innerHTML=MelhoresPrimeiros[9];
   
-    document.getElementById("logcamp2").innerHTML=MelhoresPrimeiros[11];
-    document.getElementById("clubcamp2").innerHTML=MelhoresPrimeiros[12][0];
-    document.getElementById("ptscamp2").innerHTML=MelhoresPrimeiros[13];
-    document.getElementById("vitcamp2").innerHTML=MelhoresPrimeiros[14];
-    document.getElementById("empcamp2").innerHTML=MelhoresPrimeiros[15];
-    document.getElementById("dercamp2").innerHTML=MelhoresPrimeiros[16];
-    document.getElementById("gpcamp2").innerHTML=MelhoresPrimeiros[17];
-    document.getElementById("gccamp2").innerHTML=MelhoresPrimeiros[18]
-    document.getElementById("sgcamp2").innerHTML=MelhoresPrimeiros[19];
-    document.getElementById("grupcamp2").innerHTML=MelhoresPrimeiros[20];
+    document.getElementById("logcamp2").innerHTML=MelhoresPrimeiros[10];
+    document.getElementById("clubcamp2").innerHTML=MelhoresPrimeiros[11][0];
+    document.getElementById("ptscamp2").innerHTML=MelhoresPrimeiros[12];
+    document.getElementById("vitcamp2").innerHTML=MelhoresPrimeiros[13];
+    document.getElementById("empcamp2").innerHTML=MelhoresPrimeiros[14];
+    document.getElementById("dercamp2").innerHTML=MelhoresPrimeiros[15];
+    document.getElementById("gpcamp2").innerHTML=MelhoresPrimeiros[16];
+    document.getElementById("gccamp2").innerHTML=MelhoresPrimeiros[17]
+    document.getElementById("sgcamp2").innerHTML=MelhoresPrimeiros[18];
+    document.getElementById("grupcamp2").innerHTML=MelhoresPrimeiros[19];
   
-    document.getElementById("logcamp3").innerHTML=MelhoresPrimeiros[22];
-    document.getElementById("clubcamp3").innerHTML=MelhoresPrimeiros[23][0];
-    document.getElementById("ptscamp3").innerHTML=MelhoresPrimeiros[24];
-    document.getElementById("vitcamp3").innerHTML=MelhoresPrimeiros[25];
-    document.getElementById("empcamp3").innerHTML=MelhoresPrimeiros[26];
-    document.getElementById("dercamp3").innerHTML=MelhoresPrimeiros[27];
-    document.getElementById("gpcamp3").innerHTML=MelhoresPrimeiros[28];
-    document.getElementById("gccamp3").innerHTML=MelhoresPrimeiros[29]
-    document.getElementById("sgcamp3").innerHTML=MelhoresPrimeiros[30];
-    document.getElementById("grupcamp3").innerHTML=MelhoresPrimeiros[31];
+    document.getElementById("logcamp3").innerHTML=MelhoresPrimeiros[20];
+    document.getElementById("clubcamp3").innerHTML=MelhoresPrimeiros[21][0];
+    document.getElementById("ptscamp3").innerHTML=MelhoresPrimeiros[22];
+    document.getElementById("vitcamp3").innerHTML=MelhoresPrimeiros[23];
+    document.getElementById("empcamp3").innerHTML=MelhoresPrimeiros[24];
+    document.getElementById("dercamp3").innerHTML=MelhoresPrimeiros[25];
+    document.getElementById("gpcamp3").innerHTML=MelhoresPrimeiros[26];
+    document.getElementById("gccamp3").innerHTML=MelhoresPrimeiros[27]
+    document.getElementById("sgcamp3").innerHTML=MelhoresPrimeiros[28];
+    document.getElementById("grupcamp3").innerHTML=MelhoresPrimeiros[29];
   
-    document.getElementById("logcamp4").innerHTML=MelhoresPrimeiros[33];
-    document.getElementById("clubcamp4").innerHTML=MelhoresPrimeiros[34][0];
-    document.getElementById("ptscamp4").innerHTML=MelhoresPrimeiros[35];
-    document.getElementById("vitcamp4").innerHTML=MelhoresPrimeiros[36];
-    document.getElementById("empcamp4").innerHTML=MelhoresPrimeiros[37];
-    document.getElementById("dercamp4").innerHTML=MelhoresPrimeiros[38];
-    document.getElementById("gpcamp4").innerHTML=MelhoresPrimeiros[39];
-    document.getElementById("gccamp4").innerHTML=MelhoresPrimeiros[40]
-    document.getElementById("sgcamp4").innerHTML=MelhoresPrimeiros[41];
-    document.getElementById("grupcamp4").innerHTML=MelhoresPrimeiros[42];
+    document.getElementById("logcamp4").innerHTML=MelhoresPrimeiros[30];
+    document.getElementById("clubcamp4").innerHTML=MelhoresPrimeiros[31][0];
+    document.getElementById("ptscamp4").innerHTML=MelhoresPrimeiros[32];
+    document.getElementById("vitcamp4").innerHTML=MelhoresPrimeiros[33];
+    document.getElementById("empcamp4").innerHTML=MelhoresPrimeiros[34];
+    document.getElementById("dercamp4").innerHTML=MelhoresPrimeiros[35];
+    document.getElementById("gpcamp4").innerHTML=MelhoresPrimeiros[36];
+    document.getElementById("gccamp4").innerHTML=MelhoresPrimeiros[37]
+    document.getElementById("sgcamp4").innerHTML=MelhoresPrimeiros[38];
+    document.getElementById("grupcamp4").innerHTML=MelhoresPrimeiros[39];
   
-    document.getElementById("logcamp5").innerHTML=MelhoresPrimeiros[44];
-    document.getElementById("clubcamp5").innerHTML=MelhoresPrimeiros[45][0];
-    document.getElementById("ptscamp5").innerHTML=MelhoresPrimeiros[46];
-    document.getElementById("vitcamp5").innerHTML=MelhoresPrimeiros[47];
-    document.getElementById("empcamp5").innerHTML=MelhoresPrimeiros[48];
-    document.getElementById("dercamp5").innerHTML=MelhoresPrimeiros[49];
-    document.getElementById("gpcamp5").innerHTML=MelhoresPrimeiros[50];
-    document.getElementById("gccamp5").innerHTML=MelhoresPrimeiros[51]
-    document.getElementById("sgcamp5").innerHTML=MelhoresPrimeiros[52];
-    document.getElementById("grupcamp5").innerHTML=MelhoresPrimeiros[53];
+    document.getElementById("logcamp5").innerHTML=MelhoresPrimeiros[40];
+    document.getElementById("clubcamp5").innerHTML=MelhoresPrimeiros[41][0];
+    document.getElementById("ptscamp5").innerHTML=MelhoresPrimeiros[42];
+    document.getElementById("vitcamp5").innerHTML=MelhoresPrimeiros[43];
+    document.getElementById("empcamp5").innerHTML=MelhoresPrimeiros[44];
+    document.getElementById("dercamp5").innerHTML=MelhoresPrimeiros[45];
+    document.getElementById("gpcamp5").innerHTML=MelhoresPrimeiros[46];
+    document.getElementById("gccamp5").innerHTML=MelhoresPrimeiros[47]
+    document.getElementById("sgcamp5").innerHTML=MelhoresPrimeiros[48];
+    document.getElementById("grupcamp5").innerHTML=MelhoresPrimeiros[49];
   
-    document.getElementById("logcamp6").innerHTML=MelhoresPrimeiros[55];
-    document.getElementById("clubcamp6").innerHTML=MelhoresPrimeiros[56][0];
-    document.getElementById("ptscamp6").innerHTML=MelhoresPrimeiros[57];
-    document.getElementById("vitcamp6").innerHTML=MelhoresPrimeiros[58];
-    document.getElementById("empcamp6").innerHTML=MelhoresPrimeiros[59];
-    document.getElementById("dercamp6").innerHTML=MelhoresPrimeiros[60];
-    document.getElementById("gpcamp6").innerHTML=MelhoresPrimeiros[61];
-    document.getElementById("gccamp6").innerHTML=MelhoresPrimeiros[62]
-    document.getElementById("sgcamp6").innerHTML=MelhoresPrimeiros[63];
-    document.getElementById("grupcamp6").innerHTML=MelhoresPrimeiros[64];
+    document.getElementById("logcamp6").innerHTML=MelhoresPrimeiros[50];
+    document.getElementById("clubcamp6").innerHTML=MelhoresPrimeiros[51][0];
+    document.getElementById("ptscamp6").innerHTML=MelhoresPrimeiros[52];
+    document.getElementById("vitcamp6").innerHTML=MelhoresPrimeiros[53];
+    document.getElementById("empcamp6").innerHTML=MelhoresPrimeiros[54];
+    document.getElementById("dercamp6").innerHTML=MelhoresPrimeiros[55];
+    document.getElementById("gpcamp6").innerHTML=MelhoresPrimeiros[56];
+    document.getElementById("gccamp6").innerHTML=MelhoresPrimeiros[57];
+    document.getElementById("sgcamp6").innerHTML=MelhoresPrimeiros[58];
+    document.getElementById("grupcamp6").innerHTML=MelhoresPrimeiros[59];
   
-    document.getElementById("logcamp7").innerHTML=MelhoresPrimeiros[66];
-    document.getElementById("clubcamp7").innerHTML=MelhoresPrimeiros[67][0];
-    document.getElementById("ptscamp7").innerHTML=MelhoresPrimeiros[68];
-    document.getElementById("vitcamp7").innerHTML=MelhoresPrimeiros[69];
-    document.getElementById("empcamp7").innerHTML=MelhoresPrimeiros[70];
-    document.getElementById("dercamp7").innerHTML=MelhoresPrimeiros[71];
-    document.getElementById("gpcamp7").innerHTML=MelhoresPrimeiros[72];
-    document.getElementById("gccamp7").innerHTML=MelhoresPrimeiros[73]
-    document.getElementById("sgcamp7").innerHTML=MelhoresPrimeiros[74];
-    document.getElementById("grupcamp7").innerHTML=MelhoresPrimeiros[75];
+    document.getElementById("logcamp7").innerHTML=MelhoresPrimeiros[60];
+    document.getElementById("clubcamp7").innerHTML=MelhoresPrimeiros[61][0];
+    document.getElementById("ptscamp7").innerHTML=MelhoresPrimeiros[62];
+    document.getElementById("vitcamp7").innerHTML=MelhoresPrimeiros[63];
+    document.getElementById("empcamp7").innerHTML=MelhoresPrimeiros[64];
+    document.getElementById("dercamp7").innerHTML=MelhoresPrimeiros[65];
+    document.getElementById("gpcamp7").innerHTML=MelhoresPrimeiros[66];
+    document.getElementById("gccamp7").innerHTML=MelhoresPrimeiros[67]
+    document.getElementById("sgcamp7").innerHTML=MelhoresPrimeiros[68];
+    document.getElementById("grupcamp7").innerHTML=MelhoresPrimeiros[69];
   
-    document.getElementById("logcamp8").innerHTML=MelhoresPrimeiros[77];
-    document.getElementById("clubcamp8").innerHTML=MelhoresPrimeiros[78][0];
-    document.getElementById("ptscamp8").innerHTML=MelhoresPrimeiros[79];
-    document.getElementById("vitcamp8").innerHTML=MelhoresPrimeiros[80];
-    document.getElementById("empcamp8").innerHTML=MelhoresPrimeiros[81];
-    document.getElementById("dercamp8").innerHTML=MelhoresPrimeiros[82];
-    document.getElementById("gpcamp8").innerHTML=MelhoresPrimeiros[83];
-    document.getElementById("gccamp8").innerHTML=MelhoresPrimeiros[84]
-    document.getElementById("sgcamp8").innerHTML=MelhoresPrimeiros[85];
-    document.getElementById("grupcamp8").innerHTML=MelhoresPrimeiros[86];
+    document.getElementById("logcamp8").innerHTML=MelhoresPrimeiros[70];
+    document.getElementById("clubcamp8").innerHTML=MelhoresPrimeiros[71][0];
+    document.getElementById("ptscamp8").innerHTML=MelhoresPrimeiros[72];
+    document.getElementById("vitcamp8").innerHTML=MelhoresPrimeiros[73];
+    document.getElementById("empcamp8").innerHTML=MelhoresPrimeiros[74];
+    document.getElementById("dercamp8").innerHTML=MelhoresPrimeiros[75];
+    document.getElementById("gpcamp8").innerHTML=MelhoresPrimeiros[76];
+    document.getElementById("gccamp8").innerHTML=MelhoresPrimeiros[77]
+    document.getElementById("sgcamp8").innerHTML=MelhoresPrimeiros[78];
+    document.getElementById("grupcamp8").innerHTML=MelhoresPrimeiros[79];
+
+
+    document.getElementById("logsegun1").innerHTML=MelhoresTerceiros[0];
+    document.getElementById("clubsegun1").innerHTML=MelhoresTerceiros[1][0];
+    document.getElementById("ptssegun1").innerHTML=MelhoresTerceiros[2];
+    document.getElementById("vitsegun1").innerHTML=MelhoresTerceiros[3];
+    document.getElementById("empsegun1").innerHTML=MelhoresTerceiros[4];
+    document.getElementById("dersegun1").innerHTML=MelhoresTerceiros[5];
+    document.getElementById("gpsegun1").innerHTML=MelhoresTerceiros[6];
+    document.getElementById("gcsegun1").innerHTML=MelhoresTerceiros[7]
+    document.getElementById("sgsegun1").innerHTML=MelhoresTerceiros[8];
+    document.getElementById("grupsegun1").innerHTML=MelhoresTerceiros[9];
+  
+    document.getElementById("logsegun2").innerHTML=MelhoresTerceiros[10];
+    document.getElementById("clubsegun2").innerHTML=MelhoresTerceiros[11][0];
+    document.getElementById("ptssegun2").innerHTML=MelhoresTerceiros[12];
+    document.getElementById("vitsegun2").innerHTML=MelhoresTerceiros[13];
+    document.getElementById("empsegun2").innerHTML=MelhoresTerceiros[14];
+    document.getElementById("dersegun2").innerHTML=MelhoresTerceiros[15];
+    document.getElementById("gpsegun2").innerHTML=MelhoresTerceiros[16];
+    document.getElementById("gcsegun2").innerHTML=MelhoresTerceiros[17]
+    document.getElementById("sgsegun2").innerHTML=MelhoresTerceiros[18];
+    document.getElementById("grupsegun2").innerHTML=MelhoresTerceiros[19];
+  
+    document.getElementById("logsegun3").innerHTML=MelhoresTerceiros[20];
+    document.getElementById("clubsegun3").innerHTML=MelhoresTerceiros[21][0];
+    document.getElementById("ptssegun3").innerHTML=MelhoresTerceiros[22];
+    document.getElementById("vitsegun3").innerHTML=MelhoresTerceiros[23];
+    document.getElementById("empsegun3").innerHTML=MelhoresTerceiros[24];
+    document.getElementById("dersegun3").innerHTML=MelhoresTerceiros[25];
+    document.getElementById("gpsegun3").innerHTML=MelhoresTerceiros[26];
+    document.getElementById("gcsegun3").innerHTML=MelhoresTerceiros[27]
+    document.getElementById("sgsegun3").innerHTML=MelhoresTerceiros[28];
+    document.getElementById("grupsegun3").innerHTML=MelhoresTerceiros[29];
+  
+    document.getElementById("logsegun4").innerHTML=MelhoresTerceiros[30];
+    document.getElementById("clubsegun4").innerHTML=MelhoresTerceiros[31][0];
+    document.getElementById("ptssegun4").innerHTML=MelhoresTerceiros[32];
+    document.getElementById("vitsegun4").innerHTML=MelhoresTerceiros[33];
+    document.getElementById("empsegun4").innerHTML=MelhoresTerceiros[34];
+    document.getElementById("dersegun4").innerHTML=MelhoresTerceiros[35];
+    document.getElementById("gpsegun4").innerHTML=MelhoresTerceiros[36];
+    document.getElementById("gcsegun4").innerHTML=MelhoresTerceiros[37]
+    document.getElementById("sgsegun4").innerHTML=MelhoresTerceiros[38];
+    document.getElementById("grupsegun4").innerHTML=MelhoresTerceiros[39];
+  
+    document.getElementById("logsegun5").innerHTML=MelhoresTerceiros[40];
+    document.getElementById("clubsegun5").innerHTML=MelhoresTerceiros[41][0];
+    document.getElementById("ptssegun5").innerHTML=MelhoresTerceiros[42];
+    document.getElementById("vitsegun5").innerHTML=MelhoresTerceiros[43];
+    document.getElementById("empsegun5").innerHTML=MelhoresTerceiros[44];
+    document.getElementById("dersegun5").innerHTML=MelhoresTerceiros[45];
+    document.getElementById("gpsegun5").innerHTML=MelhoresTerceiros[46];
+    document.getElementById("gcsegun5").innerHTML=MelhoresTerceiros[47]
+    document.getElementById("sgsegun5").innerHTML=MelhoresTerceiros[48];
+    document.getElementById("grupsegun5").innerHTML=MelhoresTerceiros[49];
+  
+    document.getElementById("logsegun6").innerHTML=MelhoresTerceiros[50];
+    document.getElementById("clubsegun6").innerHTML=MelhoresTerceiros[51][0];
+    document.getElementById("ptssegun6").innerHTML=MelhoresTerceiros[52];
+    document.getElementById("vitsegun6").innerHTML=MelhoresTerceiros[53];
+    document.getElementById("empsegun6").innerHTML=MelhoresTerceiros[54];
+    document.getElementById("dersegun6").innerHTML=MelhoresTerceiros[55];
+    document.getElementById("gpsegun6").innerHTML=MelhoresTerceiros[56];
+    document.getElementById("gcsegun6").innerHTML=MelhoresTerceiros[57];
+    document.getElementById("sgsegun6").innerHTML=MelhoresTerceiros[58];
+    document.getElementById("grupsegun6").innerHTML=MelhoresTerceiros[59];
+  
+    document.getElementById("logsegun7").innerHTML=MelhoresTerceiros[60];
+    document.getElementById("clubsegun7").innerHTML=MelhoresTerceiros[61][0];
+    document.getElementById("ptssegun7").innerHTML=MelhoresTerceiros[62];
+    document.getElementById("vitsegun7").innerHTML=MelhoresTerceiros[63];
+    document.getElementById("empsegun7").innerHTML=MelhoresTerceiros[64];
+    document.getElementById("dersegun7").innerHTML=MelhoresTerceiros[65];
+    document.getElementById("gpsegun7").innerHTML=MelhoresTerceiros[66];
+    document.getElementById("gcsegun7").innerHTML=MelhoresTerceiros[67]
+    document.getElementById("sgsegun7").innerHTML=MelhoresTerceiros[68];
+    document.getElementById("grupsegun7").innerHTML=MelhoresTerceiros[69];
+  
+    document.getElementById("logsegun8").innerHTML=MelhoresTerceiros[70];
+    document.getElementById("clubsegun8").innerHTML=MelhoresTerceiros[71][0];
+    document.getElementById("ptssegun8").innerHTML=MelhoresTerceiros[72];
+    document.getElementById("vitsegun8").innerHTML=MelhoresTerceiros[73];
+    document.getElementById("empsegun8").innerHTML=MelhoresTerceiros[74];
+    document.getElementById("dersegun8").innerHTML=MelhoresTerceiros[75];
+    document.getElementById("gpsegun8").innerHTML=MelhoresTerceiros[76];
+    document.getElementById("gcsegun8").innerHTML=MelhoresTerceiros[77]
+    document.getElementById("sgsegun8").innerHTML=MelhoresTerceiros[78];
+    document.getElementById("grupsegun8").innerHTML=MelhoresTerceiros[79];
+
+
+     document.getElementById("oitavaslog1").innerHTML=playoffs[0];
+  document.getElementById("oitavasclub1").innerHTML=playoffs[1];
+  document.getElementById("oitavaslog2").innerHTML=playoffs[3];
+  document.getElementById("oitavasclub2").innerHTML=playoffs[4];
+
+  document.getElementById("oitavaslog3").innerHTML=playoffs[6];
+  document.getElementById("oitavasclub3").innerHTML=playoffs[7];
+  document.getElementById("oitavaslog4").innerHTML=playoffs[9];
+  document.getElementById("oitavasclub4").innerHTML=playoffs[10];
+
+  document.getElementById("oitavaslog5").innerHTML=playoffs[12];
+  document.getElementById("oitavasclub5").innerHTML=playoffs[13];
+  document.getElementById("oitavaslog6").innerHTML=playoffs[15];
+  document.getElementById("oitavasclub6").innerHTML=playoffs[16];
+
+  document.getElementById("oitavaslog7").innerHTML=playoffs[18];
+  document.getElementById("oitavasclub7").innerHTML=playoffs[19];
+  document.getElementById("oitavaslog8").innerHTML=playoffs[21];
+  document.getElementById("oitavasclub8").innerHTML=playoffs[22];
+
+  document.getElementById("oitavaslog9").innerHTML=playoffs[24];
+  document.getElementById("oitavasclub9").innerHTML=playoffs[25];
+  document.getElementById("oitavaslog10").innerHTML=playoffs[27];
+  document.getElementById("oitavasclub10").innerHTML=playoffs[28];
+
+  document.getElementById("oitavaslog11").innerHTML=playoffs[30];
+  document.getElementById("oitavasclub11").innerHTML=playoffs[31];
+  document.getElementById("oitavaslog12").innerHTML=playoffs[33];
+  document.getElementById("oitavasclub12").innerHTML=playoffs[34];
+ 
+  document.getElementById("oitavaslog13").innerHTML=playoffs[36];
+  document.getElementById("oitavasclub13").innerHTML=playoffs[37];
+  document.getElementById("oitavaslog14").innerHTML=playoffs[39];
+  document.getElementById("oitavasclub14").innerHTML=playoffs[40];
+
+  document.getElementById("oitavaslog15").innerHTML=playoffs[42];
+  document.getElementById("oitavasclub15").innerHTML=playoffs[43];
+  document.getElementById("oitavaslog16").innerHTML=playoffs[45];
+  document.getElementById("oitavasclub16").innerHTML=playoffs[46];
   
 
 
