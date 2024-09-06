@@ -53,7 +53,7 @@ function toggleMenu() {
   let logoarsenal="<img src='https://ssl.gstatic.com/onebox/media/sports/logos/4us2nCgl6kgZc0t3hpW75Q_96x96.png' width='100%'>";
   let logoatleticomadrid="<img src='https://ssl.gstatic.com/onebox/media/sports/logos/srAAE0bOnCppUrlbJpFiHQ_96x96.png' width='100%'>";
   let logobarcelona="<img src='https://ssl.gstatic.com/onebox/media/sports/logos/paYnEE8hcrP96neHRNofhQ_96x96.png' width='100%'>";
-  let logobayernmunich="<img src='https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_96x96.png' width='100%'>";
+  let logobayernmunich="<img src='https://ssl.gstatic.com/onebox/media/sports/logos/-_cmntP5q_pHL7g5LfkRiw_96x96.png' width='100%'>";
   let logoborrusiadortmund="<img src='https://ssl.gstatic.com/onebox/media/sports/logos/FZnTSH2rbHFos4BnlWAItw_96x96.png' width='100%'>";
   let logochelsea="<img src='https://ssl.gstatic.com/onebox/media/sports/logos/fhBITrIlbQxhVB6IjxUO6Q_96x96.png' width='100%'>";
   let logointermilan="<img src='https://ssl.gstatic.com/onebox/media/sports/logos/l2-icwsMhIvsbRw8AwC1yg_96x96.png' width='100%'>";
