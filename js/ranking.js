@@ -1169,7 +1169,7 @@ let bolainativo='1';
 let bolaativo='2;'
 
 
-let ranking1=[logotec73,bolaativo,'Flunáticos Club','Lattino','920pts','189052','Série C 2019 ','Camp. Paranaense 2020 ','Sulamericana 2021 ','Copa do Brasil 2021 ','Nacional 2021 ','Copa do Brasil 2022 ','Camp. Nordestino 2022 ','4º do Nacional 2022 ','','',''];
+let ranking1=[logotec73,bolaativo,'Flunáticos Club','Lattino','1070pts','189052','Série C 2019 ','Camp. Paranaense 2020 ','Sulamericana 2021 ','Copa do Brasil 2021 ','Nacional 2021 ','Copa do Brasil 2022 ','Camp. Nordestino 2022 ','4º do Nacional 2022 ','Copa do Brasil 2024 (Corinthians)','',''];
 let ranking2=[logotec87,bolaativo,'GUARDA POPULAR LAJEADO','Marlon J. Noro','550pts','25276380','Nacional 2019 ','Mundial 2020 ','Vice-Nacional 2020 ','','','','','','','',''];
 let ranking3=[logotec4,bolaativo,'AEGB Bravo','Anderson Gomes Bravo','400pts','14264','Nacional 2020 ','Camp. Baiano 2020 ','3º do Nacional 2022 ','','','','','','','',''];
 let ranking4=[logotec78,bolaativo,'Gardena Show','Alexandre Bizarro','400pts','3279605','Vice-Nacional 2022 ','Nacional 2023 (Sport)','','','','','','','','',''];
