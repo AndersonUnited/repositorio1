@@ -1704,7 +1704,7 @@ document.getElementById("7fDivclub3").innerHTML="E";document.getElementById("7fL
 
 
 //final*******************
-document.getElementById("8fDivclub1").innerHTML="E";document.getElementById("8fLogoclub1").innerHTML=logothestrongest;document.getElementById("8fNomeclub1").innerHTML="The Strongest";document.getElementById("8fgolj2club1").innerHTML="";document.getElementById("8fgolj1club1").innerHTML="";document.getElementById("8fNivelclub1").innerHTML="4º";document.getElementById("8fTecclub1").innerHTML=tec479.nome;document.getElementById("8fDivclub2").innerHTML="F";document.getElementById("8fLogoclub2").innerHTML=logoamericadecali;document.getElementById("8fNomeclub2").innerHTML="América de Cali";document.getElementById("8fgolj1club2").innerHTML="";document.getElementById("8fgolj2club2").innerHTML="";document.getElementById("8fNivelclub2").innerHTML="7º";document.getElementById("8fTecclub2").innerHTML=tec542.nome;
+document.getElementById("8fDivclub1").innerHTML="E";document.getElementById("8fLogoclub1").innerHTML=logothestrongest;document.getElementById("8fNomeclub1").innerHTML="The Strongest";document.getElementById("8fgolj2club1").innerHTML="";document.getElementById("8fgolj1club1").innerHTML="2";document.getElementById("8fNivelclub1").innerHTML="4º";document.getElementById("8fTecclub1").innerHTML=tec479.nome;document.getElementById("8fDivclub2").innerHTML="F";document.getElementById("8fLogoclub2").innerHTML=logoamericadecali;document.getElementById("8fNomeclub2").innerHTML="América de Cali";document.getElementById("8fgolj1club2").innerHTML="2";document.getElementById("8fgolj2club2").innerHTML="";document.getElementById("8fNivelclub2").innerHTML="7º";document.getElementById("8fTecclub2").innerHTML=tec542.nome;
 
 
 
